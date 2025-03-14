@@ -17,3 +17,8 @@ A simple Streamlit app showing the GDP of different countries in the world.
    ```
    $ streamlit run streamlit_app.py
    ```
+
+
+Local URL: http://localhost:8501
+Network URL: http://10.0.4.173:8501
+External URL: http://172.191.151.56:8501
