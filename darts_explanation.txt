@@ -9,6 +9,6 @@ functions as the board's double for the outer bull.
 The bullseye with it's 50 points is the highest scoring field for a single throw, while the triple 20 with it's 180 points is the highest score you can throw with all three darts in a round.
 
 A match is made up of several legs, which can vary in number. The player with more legs won, wins the match. Players start with a score of 501 and aim to reduce it to exactly zero, finishing
-with a double or a "check-out". Thas makes competitors have to calculate their best scoring options to check out efficiently. After a player reaches 170 points ...
+with a double or a "check-out". A player can reach this check-out as soon as he is at 170 points. This conzept makes competitors have to calculate their best scoring options to check out efficiently.
 
-
+Over the course of a match, the average points a player throws with one dart is calculated. 
