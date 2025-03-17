@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # CSV-Datei einlesen
-df = pd.read_csv('Data/question 7/question7_table.csv', index_col=0)
+df = pd.read_csv('Visualization/question 7/question7_table.csv', index_col=0)
 
 # Überprüfen der Struktur
 print(df.head())

@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # CSV-Datei laden
-file = 'data/question5.csv'
+file = 'data/question 5/question5.csv'
 df = pd.read_csv(file)
 st.write(df.head())  # Gibt die ersten Zeilen der CSV in Streamlit aus
 

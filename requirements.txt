@@ -3,3 +3,7 @@ pandas
 plotly
 matplotlib
 re
+pycountry
+scipy
+seaborn
+geopy
