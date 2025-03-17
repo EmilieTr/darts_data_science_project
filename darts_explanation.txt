@@ -8,7 +8,16 @@ functions as the board's double for the outer bull.
 
 The bullseye with it's 50 points is the highest scoring field for a single throw, while the triple 20 with it's 180 points is the highest score you can throw with all three darts in a round.
 
-A match is made up of several legs, which can vary in number. The player with more legs won, wins the match. Players start with a score of 501 and aim to reduce it to exactly zero, finishing
-with a double or a "check-out". A player can reach this check-out as soon as he is at 170 points. This conzept makes competitors have to calculate their best scoring options to check out efficiently.
+Matches are structured in different ways depending on the event. The leg-format lets players compete to win a predetermined number of legs e.g. best of 11 legs, meaning the first to six wins.
+In the sets-format on the other hand, the players must win a certain number of sets, with each set consisting of a specific number of legs e.g. best of five sets, each set being first to three
+legs. Players start with a score of 501 and aim to reduce it to exactly zero, finishing with a double or a "check-out". A player can reach this check-out as soon as he is at 170 points. This
+conzept makes competitors have to calculate their best scoring options to check out efficiently.
 
-Over the course of a match, the average points a player throws with one dart is calculated. 
+Over the course of a match, the average points a player throws with one dart is calculated. Averages are one of the most critical statistics in darts. The primary metric used is the three-dart
+average, which is calculated by dividing a player's total points scored by the number of darts thrown, then multiplying by three. This gives an indication of a player’s overall scoring
+efficiency and consistency. A high three-dart average is a strong indicator of skill, as it reflects a player's ability to hit high-scoring targets consistently while maintaining accuracy.
+Professional players often maintain averages above 90, with the elite players frequently surpassing 100.
+
+Darts players earn rankings through their performances in various tournaments, accumulating points based on results. The most prestigious rankings include:
+PDC Order of Merit: Determined by prize money earned over two years in ranking events.
+WDF Rankings: Used in the World Darts Federation system for qualification in their major events.
