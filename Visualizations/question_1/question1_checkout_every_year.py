@@ -11,13 +11,11 @@ def plot_checkout_every_year():
             surname = surname.capitalize()  # Only the first letter of surname is capitalized
             return f"{first_name} {surname}"
         return name 
-
-
+    
 
     # Load averages
     file_averages = 'Data/Darts_Orakel_Stats/Checkout Pcnt.csv'
     df_averages = pd.read_csv(file_averages)
-
 
     averages_stat = {}
     for year in range(2009, 2025):
@@ -29,7 +27,7 @@ def plot_checkout_every_year():
 
         list_best_players = [convert_name(name) for name in df['Name'].head(10)]
         df_averages_year = df_averages[(df_averages['Year'] == year) & (df_averages['Player'].isin(list_best_players))]
-        print(df_averages_year.head())
+        
         if not df_averages_year.empty:
             df_averages_year['Stat'] = df_averages_year['Stat'].str.rstrip('%').astype(float) / 100
             for val in df_averages_year['Stat']:
