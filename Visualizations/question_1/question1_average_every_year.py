@@ -12,12 +12,9 @@ def plot_average_every_year():
             return f"{first_name} {surname}"
         return name 
 
-
-
     # Load averages
     file_averages = 'Data/Darts_Orakel_Stats/Averages.csv'
     df_averages = pd.read_csv(file_averages)
-
 
     averages_stat = {}
     for year in range(2009, 2025):
@@ -37,9 +34,6 @@ def plot_average_every_year():
                 count += 1
             sum = round((sum / count))
             averages_stat[year] = sum
-
-
-
 
     # create bar chart 
     fig = go.Figure()
@@ -66,4 +60,4 @@ def plot_average_every_year():
 
 # Diagramm anzeigen
 fig = plot_average_every_year()
-fig.show()
+#fig.show()

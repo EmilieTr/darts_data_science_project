@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from Visualizations.question_1 import question_1
+from Visualizations.question_1 import plot_checkout_every_year, plot_average_2009_2024, plot_average_every_year, plot_checkout_2012_2024
 from Visualizations.question_2 import question_2
 from Visualizations.question_4 import question_4
 from Visualizations.question_5 import question_5
@@ -47,8 +47,21 @@ elif page == "Players":
     
     if subpage == "Averages of Best Players":
         st.title("Participants Over the Years")
-        fig = question_1()
+        fig = plot_average_2009_2024()
         st.plotly_chart(fig)
+        
+        st.title("Participants Over the Years")
+        fig = plot_average_every_year()
+        st.plotly_chart(fig)
+        
+        st.title("Participants Over the Years")
+        fig = plot_checkout_2012_2024()
+        st.plotly_chart(fig)
+        
+        st.title("Participants Over the Years")
+        fig = plot_checkout_every_year()
+        st.plotly_chart(fig)
+        
     elif subpage == "Rankings vs Properties":
         st.title("Participants Over the Years")
         fig = question_6()
