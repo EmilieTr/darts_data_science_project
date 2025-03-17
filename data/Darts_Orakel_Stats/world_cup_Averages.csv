@@ -1,0 +1,811 @@
+Rank,Player,Country,Stat,Stat Category,Year
+1,Danny Noppert,NED,106.89,Averages,2012
+2,Netherlands,,100.96,Averages,2012
+3,Madars Razma,LTV,100.93,Averages,2012
+4,Hugo Leung Man Lok,HKG,99.45,Averages,2012
+5,Luke Humphries,ENG,99.34,Averages,2012
+6,Josh Rock,NIR,97.79,Averages,2012
+7,Michael van Gerwen,NED,96.38,Averages,2012
+8,Keane Barry,IRL,96.20,Averages,2012
+9,England,,95.74,Averages,2012
+10,Gary Anderson,SCO,95.28,Averages,2012
+11,Jonny Clayton,WAL,95.11,Averages,2012
+12,Dimitri Van den Bergh,BEL,94.52,Averages,2012
+13,Jeffrey de Graaf,SWE,93.92,Averages,2012
+14,Lu An-Sheng,TPE,93.79,Averages,2012
+15,Ben Robb,NZL,92.93,Averages,2012
+16,Michael Smith,ENG,92.77,Averages,2012
+17,Bruno Stockli,SUI,92.62,Averages,2012
+18,Martin Schindler,GER,91.82,Averages,2012
+19,Wales,,91.69,Averages,2012
+20,Romeo Grbavac,CRO,91.08,Averages,2012
+21,Croatia,,90.91,Averages,2012
+22,Boris Krčmar,CRO,90.77,Averages,2012
+23,Mensur Suljović,AUT,90.74,Averages,2012
+24,Simon Whitlock,AUS,90.64,Averages,2012
+25,Ireland,,90.45,Averages,2012
+26,New Zealand,,90.35,Averages,2012
+27,Sterling Brown,JPN,89.57,Averages,2012
+28,Scotland,,89.41,Averages,2012
+29,Belgium,,89.20,Averages,2012
+30,Germany,,89.17,Averages,2012
+31,Latvia,,88.95,Averages,2012
+32,Austria,,88.36,Averages,2012
+33,Chinese Taipei,,88.34,Averages,2012
+34,Northern Ireland,,88.06,Averages,2012
+35,Haupai Puha,NZL,87.88,Averages,2012
+36,Jim Williams,WAL,87.61,Averages,2012
+37,Hong Kong,,87.00,Averages,2012
+38,Sweden,,86.77,Averages,2012
+39,Krzysztof Ratajski,POL,86.65,Averages,2012
+40,Thibault Tricole,FRA,86.06,Averages,2012
+41,Gabriel Clemens,GER,85.98,Averages,2012
+42,Michele Turetta,ITA,85.51,Averages,2012
+43,Rowby-John Rodriguez,AUT,85.38,Averages,2012
+44,Japan,,85.29,Averages,2012
+45,Switzerland,,85.23,Averages,2012
+46,Jose De Sousa,POR,84.95,Averages,2012
+47,Australia,,84.80,Averages,2012
+48,William O'Connor,IRL,84.59,Averages,2012
+49,Peter Wright,SCO,84.56,Averages,2012
+50,Mindaugas Barauskas,LTH,84.48,Averages,2012
+101,Justin Hewitt,GIB,72.23,Averages,2012
+102,Malaysia,,72.03,Averages,2012
+103,Singapore,,71.64,Averages,2012
+104,Christian Perez,PHI,70.70,Averages,2012
+105,Gabor Jagicza,HUN,70.67,Averages,2012
+106,Norman Madhoo,GUY,69.63,Averages,2012
+107,Jules Van Dongen,USA,68.50,Averages,2012
+108,Guyana,,68.31,Averages,2012
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2012
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2012
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2012
+112,Liu Chengan,CHN,66.54,Averages,2012
+113,Basem Mahmood,BHR,65.98,Averages,2012
+114,Iceland,,64.38,Averages,2012
+115,Siik Hwang Wong,MLY,63.82,Averages,2012
+116,David Gomes,POR,62.29,Averages,2012
+117,Harith Lim,SNG,62.15,Averages,2012
+118,Arngrimur Olafsson,ISL,61.76,Averages,2012
+119,Bahrain,,61.13,Averages,2012
+120,Duda Durra,BHR,59.38,Averages,2012
+101,Justin Hewitt,GIB,72.23,Averages,2012
+102,Malaysia,,72.03,Averages,2012
+103,Singapore,,71.64,Averages,2012
+104,Christian Perez,PHI,70.70,Averages,2012
+105,Gabor Jagicza,HUN,70.67,Averages,2012
+106,Norman Madhoo,GUY,69.63,Averages,2012
+107,Jules Van Dongen,USA,68.50,Averages,2012
+108,Guyana,,68.31,Averages,2012
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2012
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2012
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2012
+112,Liu Chengan,CHN,66.54,Averages,2012
+113,Basem Mahmood,BHR,65.98,Averages,2012
+114,Iceland,,64.38,Averages,2012
+115,Siik Hwang Wong,MLY,63.82,Averages,2012
+116,David Gomes,POR,62.29,Averages,2012
+117,Harith Lim,SNG,62.15,Averages,2012
+118,Arngrimur Olafsson,ISL,61.76,Averages,2012
+119,Bahrain,,61.13,Averages,2012
+120,Duda Durra,BHR,59.38,Averages,2012
+101,Justin Hewitt,GIB,72.23,Averages,2013
+102,Malaysia,,72.03,Averages,2013
+103,Singapore,,71.64,Averages,2013
+104,Christian Perez,PHI,70.70,Averages,2013
+105,Gabor Jagicza,HUN,70.67,Averages,2013
+106,Norman Madhoo,GUY,69.63,Averages,2013
+107,Jules Van Dongen,USA,68.50,Averages,2013
+108,Guyana,,68.31,Averages,2013
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2013
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2013
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2013
+112,Liu Chengan,CHN,66.54,Averages,2013
+113,Basem Mahmood,BHR,65.98,Averages,2013
+114,Iceland,,64.38,Averages,2013
+115,Siik Hwang Wong,MLY,63.82,Averages,2013
+116,David Gomes,POR,62.29,Averages,2013
+117,Harith Lim,SNG,62.15,Averages,2013
+118,Arngrimur Olafsson,ISL,61.76,Averages,2013
+119,Bahrain,,61.13,Averages,2013
+120,Duda Durra,BHR,59.38,Averages,2013
+101,Justin Hewitt,GIB,72.23,Averages,2013
+102,Malaysia,,72.03,Averages,2013
+103,Singapore,,71.64,Averages,2013
+104,Christian Perez,PHI,70.70,Averages,2013
+105,Gabor Jagicza,HUN,70.67,Averages,2013
+106,Norman Madhoo,GUY,69.63,Averages,2013
+107,Jules Van Dongen,USA,68.50,Averages,2013
+108,Guyana,,68.31,Averages,2013
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2013
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2013
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2013
+112,Liu Chengan,CHN,66.54,Averages,2013
+113,Basem Mahmood,BHR,65.98,Averages,2013
+114,Iceland,,64.38,Averages,2013
+115,Siik Hwang Wong,MLY,63.82,Averages,2013
+116,David Gomes,POR,62.29,Averages,2013
+117,Harith Lim,SNG,62.15,Averages,2013
+118,Arngrimur Olafsson,ISL,61.76,Averages,2013
+119,Bahrain,,61.13,Averages,2013
+120,Duda Durra,BHR,59.38,Averages,2013
+101,Justin Hewitt,GIB,72.23,Averages,2013
+102,Malaysia,,72.03,Averages,2013
+103,Singapore,,71.64,Averages,2013
+104,Christian Perez,PHI,70.70,Averages,2013
+105,Gabor Jagicza,HUN,70.67,Averages,2013
+106,Norman Madhoo,GUY,69.63,Averages,2013
+107,Jules Van Dongen,USA,68.50,Averages,2013
+108,Guyana,,68.31,Averages,2013
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2013
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2013
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2013
+112,Liu Chengan,CHN,66.54,Averages,2013
+113,Basem Mahmood,BHR,65.98,Averages,2013
+114,Iceland,,64.38,Averages,2013
+115,Siik Hwang Wong,MLY,63.82,Averages,2013
+116,David Gomes,POR,62.29,Averages,2013
+117,Harith Lim,SNG,62.15,Averages,2013
+118,Arngrimur Olafsson,ISL,61.76,Averages,2013
+119,Bahrain,,61.13,Averages,2013
+120,Duda Durra,BHR,59.38,Averages,2013
+101,Justin Hewitt,GIB,72.23,Averages,2014
+102,Malaysia,,72.03,Averages,2014
+103,Singapore,,71.64,Averages,2014
+104,Christian Perez,PHI,70.70,Averages,2014
+105,Gabor Jagicza,HUN,70.67,Averages,2014
+106,Norman Madhoo,GUY,69.63,Averages,2014
+107,Jules Van Dongen,USA,68.50,Averages,2014
+108,Guyana,,68.31,Averages,2014
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2014
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2014
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2014
+112,Liu Chengan,CHN,66.54,Averages,2014
+113,Basem Mahmood,BHR,65.98,Averages,2014
+114,Iceland,,64.38,Averages,2014
+115,Siik Hwang Wong,MLY,63.82,Averages,2014
+116,David Gomes,POR,62.29,Averages,2014
+117,Harith Lim,SNG,62.15,Averages,2014
+118,Arngrimur Olafsson,ISL,61.76,Averages,2014
+119,Bahrain,,61.13,Averages,2014
+120,Duda Durra,BHR,59.38,Averages,2014
+101,Justin Hewitt,GIB,72.23,Averages,2014
+102,Malaysia,,72.03,Averages,2014
+103,Singapore,,71.64,Averages,2014
+104,Christian Perez,PHI,70.70,Averages,2014
+105,Gabor Jagicza,HUN,70.67,Averages,2014
+106,Norman Madhoo,GUY,69.63,Averages,2014
+107,Jules Van Dongen,USA,68.50,Averages,2014
+108,Guyana,,68.31,Averages,2014
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2014
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2014
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2014
+112,Liu Chengan,CHN,66.54,Averages,2014
+113,Basem Mahmood,BHR,65.98,Averages,2014
+114,Iceland,,64.38,Averages,2014
+115,Siik Hwang Wong,MLY,63.82,Averages,2014
+116,David Gomes,POR,62.29,Averages,2014
+117,Harith Lim,SNG,62.15,Averages,2014
+118,Arngrimur Olafsson,ISL,61.76,Averages,2014
+119,Bahrain,,61.13,Averages,2014
+120,Duda Durra,BHR,59.38,Averages,2014
+101,Justin Hewitt,GIB,72.23,Averages,2014
+102,Malaysia,,72.03,Averages,2014
+103,Singapore,,71.64,Averages,2014
+104,Christian Perez,PHI,70.70,Averages,2014
+105,Gabor Jagicza,HUN,70.67,Averages,2014
+106,Norman Madhoo,GUY,69.63,Averages,2014
+107,Jules Van Dongen,USA,68.50,Averages,2014
+108,Guyana,,68.31,Averages,2014
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2014
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2014
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2014
+112,Liu Chengan,CHN,66.54,Averages,2014
+113,Basem Mahmood,BHR,65.98,Averages,2014
+114,Iceland,,64.38,Averages,2014
+115,Siik Hwang Wong,MLY,63.82,Averages,2014
+116,David Gomes,POR,62.29,Averages,2014
+117,Harith Lim,SNG,62.15,Averages,2014
+118,Arngrimur Olafsson,ISL,61.76,Averages,2014
+119,Bahrain,,61.13,Averages,2014
+120,Duda Durra,BHR,59.38,Averages,2014
+101,Justin Hewitt,GIB,72.23,Averages,2015
+102,Malaysia,,72.03,Averages,2015
+103,Singapore,,71.64,Averages,2015
+104,Christian Perez,PHI,70.70,Averages,2015
+105,Gabor Jagicza,HUN,70.67,Averages,2015
+106,Norman Madhoo,GUY,69.63,Averages,2015
+107,Jules Van Dongen,USA,68.50,Averages,2015
+108,Guyana,,68.31,Averages,2015
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2015
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2015
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2015
+112,Liu Chengan,CHN,66.54,Averages,2015
+113,Basem Mahmood,BHR,65.98,Averages,2015
+114,Iceland,,64.38,Averages,2015
+115,Siik Hwang Wong,MLY,63.82,Averages,2015
+116,David Gomes,POR,62.29,Averages,2015
+117,Harith Lim,SNG,62.15,Averages,2015
+118,Arngrimur Olafsson,ISL,61.76,Averages,2015
+119,Bahrain,,61.13,Averages,2015
+120,Duda Durra,BHR,59.38,Averages,2015
+101,Justin Hewitt,GIB,72.23,Averages,2015
+102,Malaysia,,72.03,Averages,2015
+103,Singapore,,71.64,Averages,2015
+104,Christian Perez,PHI,70.70,Averages,2015
+105,Gabor Jagicza,HUN,70.67,Averages,2015
+106,Norman Madhoo,GUY,69.63,Averages,2015
+107,Jules Van Dongen,USA,68.50,Averages,2015
+108,Guyana,,68.31,Averages,2015
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2015
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2015
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2015
+112,Liu Chengan,CHN,66.54,Averages,2015
+113,Basem Mahmood,BHR,65.98,Averages,2015
+114,Iceland,,64.38,Averages,2015
+115,Siik Hwang Wong,MLY,63.82,Averages,2015
+116,David Gomes,POR,62.29,Averages,2015
+117,Harith Lim,SNG,62.15,Averages,2015
+118,Arngrimur Olafsson,ISL,61.76,Averages,2015
+119,Bahrain,,61.13,Averages,2015
+120,Duda Durra,BHR,59.38,Averages,2015
+101,Justin Hewitt,GIB,72.23,Averages,2015
+102,Malaysia,,72.03,Averages,2015
+103,Singapore,,71.64,Averages,2015
+104,Christian Perez,PHI,70.70,Averages,2015
+105,Gabor Jagicza,HUN,70.67,Averages,2015
+106,Norman Madhoo,GUY,69.63,Averages,2015
+107,Jules Van Dongen,USA,68.50,Averages,2015
+108,Guyana,,68.31,Averages,2015
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2015
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2015
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2015
+112,Liu Chengan,CHN,66.54,Averages,2015
+113,Basem Mahmood,BHR,65.98,Averages,2015
+114,Iceland,,64.38,Averages,2015
+115,Siik Hwang Wong,MLY,63.82,Averages,2015
+116,David Gomes,POR,62.29,Averages,2015
+117,Harith Lim,SNG,62.15,Averages,2015
+118,Arngrimur Olafsson,ISL,61.76,Averages,2015
+119,Bahrain,,61.13,Averages,2015
+120,Duda Durra,BHR,59.38,Averages,2015
+101,Justin Hewitt,GIB,72.23,Averages,2016
+102,Malaysia,,72.03,Averages,2016
+103,Singapore,,71.64,Averages,2016
+104,Christian Perez,PHI,70.70,Averages,2016
+105,Gabor Jagicza,HUN,70.67,Averages,2016
+106,Norman Madhoo,GUY,69.63,Averages,2016
+107,Jules Van Dongen,USA,68.50,Averages,2016
+108,Guyana,,68.31,Averages,2016
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2016
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2016
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2016
+112,Liu Chengan,CHN,66.54,Averages,2016
+113,Basem Mahmood,BHR,65.98,Averages,2016
+114,Iceland,,64.38,Averages,2016
+115,Siik Hwang Wong,MLY,63.82,Averages,2016
+116,David Gomes,POR,62.29,Averages,2016
+117,Harith Lim,SNG,62.15,Averages,2016
+118,Arngrimur Olafsson,ISL,61.76,Averages,2016
+119,Bahrain,,61.13,Averages,2016
+120,Duda Durra,BHR,59.38,Averages,2016
+101,Justin Hewitt,GIB,72.23,Averages,2016
+102,Malaysia,,72.03,Averages,2016
+103,Singapore,,71.64,Averages,2016
+104,Christian Perez,PHI,70.70,Averages,2016
+105,Gabor Jagicza,HUN,70.67,Averages,2016
+106,Norman Madhoo,GUY,69.63,Averages,2016
+107,Jules Van Dongen,USA,68.50,Averages,2016
+108,Guyana,,68.31,Averages,2016
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2016
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2016
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2016
+112,Liu Chengan,CHN,66.54,Averages,2016
+113,Basem Mahmood,BHR,65.98,Averages,2016
+114,Iceland,,64.38,Averages,2016
+115,Siik Hwang Wong,MLY,63.82,Averages,2016
+116,David Gomes,POR,62.29,Averages,2016
+117,Harith Lim,SNG,62.15,Averages,2016
+118,Arngrimur Olafsson,ISL,61.76,Averages,2016
+119,Bahrain,,61.13,Averages,2016
+120,Duda Durra,BHR,59.38,Averages,2016
+101,Justin Hewitt,GIB,72.23,Averages,2016
+102,Malaysia,,72.03,Averages,2016
+103,Singapore,,71.64,Averages,2016
+104,Christian Perez,PHI,70.70,Averages,2016
+105,Gabor Jagicza,HUN,70.67,Averages,2016
+106,Norman Madhoo,GUY,69.63,Averages,2016
+107,Jules Van Dongen,USA,68.50,Averages,2016
+108,Guyana,,68.31,Averages,2016
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2016
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2016
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2016
+112,Liu Chengan,CHN,66.54,Averages,2016
+113,Basem Mahmood,BHR,65.98,Averages,2016
+114,Iceland,,64.38,Averages,2016
+115,Siik Hwang Wong,MLY,63.82,Averages,2016
+116,David Gomes,POR,62.29,Averages,2016
+117,Harith Lim,SNG,62.15,Averages,2016
+118,Arngrimur Olafsson,ISL,61.76,Averages,2016
+119,Bahrain,,61.13,Averages,2016
+120,Duda Durra,BHR,59.38,Averages,2016
+101,Justin Hewitt,GIB,72.23,Averages,2017
+102,Malaysia,,72.03,Averages,2017
+103,Singapore,,71.64,Averages,2017
+104,Christian Perez,PHI,70.70,Averages,2017
+105,Gabor Jagicza,HUN,70.67,Averages,2017
+106,Norman Madhoo,GUY,69.63,Averages,2017
+107,Jules Van Dongen,USA,68.50,Averages,2017
+108,Guyana,,68.31,Averages,2017
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2017
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2017
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2017
+112,Liu Chengan,CHN,66.54,Averages,2017
+113,Basem Mahmood,BHR,65.98,Averages,2017
+114,Iceland,,64.38,Averages,2017
+115,Siik Hwang Wong,MLY,63.82,Averages,2017
+116,David Gomes,POR,62.29,Averages,2017
+117,Harith Lim,SNG,62.15,Averages,2017
+118,Arngrimur Olafsson,ISL,61.76,Averages,2017
+119,Bahrain,,61.13,Averages,2017
+120,Duda Durra,BHR,59.38,Averages,2017
+101,Justin Hewitt,GIB,72.23,Averages,2017
+102,Malaysia,,72.03,Averages,2017
+103,Singapore,,71.64,Averages,2017
+104,Christian Perez,PHI,70.70,Averages,2017
+105,Gabor Jagicza,HUN,70.67,Averages,2017
+106,Norman Madhoo,GUY,69.63,Averages,2017
+107,Jules Van Dongen,USA,68.50,Averages,2017
+108,Guyana,,68.31,Averages,2017
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2017
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2017
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2017
+112,Liu Chengan,CHN,66.54,Averages,2017
+113,Basem Mahmood,BHR,65.98,Averages,2017
+114,Iceland,,64.38,Averages,2017
+115,Siik Hwang Wong,MLY,63.82,Averages,2017
+116,David Gomes,POR,62.29,Averages,2017
+117,Harith Lim,SNG,62.15,Averages,2017
+118,Arngrimur Olafsson,ISL,61.76,Averages,2017
+119,Bahrain,,61.13,Averages,2017
+120,Duda Durra,BHR,59.38,Averages,2017
+101,Justin Hewitt,GIB,72.23,Averages,2017
+102,Malaysia,,72.03,Averages,2017
+103,Singapore,,71.64,Averages,2017
+104,Christian Perez,PHI,70.70,Averages,2017
+105,Gabor Jagicza,HUN,70.67,Averages,2017
+106,Norman Madhoo,GUY,69.63,Averages,2017
+107,Jules Van Dongen,USA,68.50,Averages,2017
+108,Guyana,,68.31,Averages,2017
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2017
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2017
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2017
+112,Liu Chengan,CHN,66.54,Averages,2017
+113,Basem Mahmood,BHR,65.98,Averages,2017
+114,Iceland,,64.38,Averages,2017
+115,Siik Hwang Wong,MLY,63.82,Averages,2017
+116,David Gomes,POR,62.29,Averages,2017
+117,Harith Lim,SNG,62.15,Averages,2017
+118,Arngrimur Olafsson,ISL,61.76,Averages,2017
+119,Bahrain,,61.13,Averages,2017
+120,Duda Durra,BHR,59.38,Averages,2017
+101,Justin Hewitt,GIB,72.23,Averages,2018
+102,Malaysia,,72.03,Averages,2018
+103,Singapore,,71.64,Averages,2018
+104,Christian Perez,PHI,70.70,Averages,2018
+105,Gabor Jagicza,HUN,70.67,Averages,2018
+106,Norman Madhoo,GUY,69.63,Averages,2018
+107,Jules Van Dongen,USA,68.50,Averages,2018
+108,Guyana,,68.31,Averages,2018
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2018
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2018
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2018
+112,Liu Chengan,CHN,66.54,Averages,2018
+113,Basem Mahmood,BHR,65.98,Averages,2018
+114,Iceland,,64.38,Averages,2018
+115,Siik Hwang Wong,MLY,63.82,Averages,2018
+116,David Gomes,POR,62.29,Averages,2018
+117,Harith Lim,SNG,62.15,Averages,2018
+118,Arngrimur Olafsson,ISL,61.76,Averages,2018
+119,Bahrain,,61.13,Averages,2018
+120,Duda Durra,BHR,59.38,Averages,2018
+101,Justin Hewitt,GIB,72.23,Averages,2018
+102,Malaysia,,72.03,Averages,2018
+103,Singapore,,71.64,Averages,2018
+104,Christian Perez,PHI,70.70,Averages,2018
+105,Gabor Jagicza,HUN,70.67,Averages,2018
+106,Norman Madhoo,GUY,69.63,Averages,2018
+107,Jules Van Dongen,USA,68.50,Averages,2018
+108,Guyana,,68.31,Averages,2018
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2018
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2018
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2018
+112,Liu Chengan,CHN,66.54,Averages,2018
+113,Basem Mahmood,BHR,65.98,Averages,2018
+114,Iceland,,64.38,Averages,2018
+115,Siik Hwang Wong,MLY,63.82,Averages,2018
+116,David Gomes,POR,62.29,Averages,2018
+117,Harith Lim,SNG,62.15,Averages,2018
+118,Arngrimur Olafsson,ISL,61.76,Averages,2018
+119,Bahrain,,61.13,Averages,2018
+120,Duda Durra,BHR,59.38,Averages,2018
+101,Justin Hewitt,GIB,72.23,Averages,2018
+102,Malaysia,,72.03,Averages,2018
+103,Singapore,,71.64,Averages,2018
+104,Christian Perez,PHI,70.70,Averages,2018
+105,Gabor Jagicza,HUN,70.67,Averages,2018
+106,Norman Madhoo,GUY,69.63,Averages,2018
+107,Jules Van Dongen,USA,68.50,Averages,2018
+108,Guyana,,68.31,Averages,2018
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2018
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2018
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2018
+112,Liu Chengan,CHN,66.54,Averages,2018
+113,Basem Mahmood,BHR,65.98,Averages,2018
+114,Iceland,,64.38,Averages,2018
+115,Siik Hwang Wong,MLY,63.82,Averages,2018
+116,David Gomes,POR,62.29,Averages,2018
+117,Harith Lim,SNG,62.15,Averages,2018
+118,Arngrimur Olafsson,ISL,61.76,Averages,2018
+119,Bahrain,,61.13,Averages,2018
+120,Duda Durra,BHR,59.38,Averages,2018
+101,Justin Hewitt,GIB,72.23,Averages,2019
+102,Malaysia,,72.03,Averages,2019
+103,Singapore,,71.64,Averages,2019
+104,Christian Perez,PHI,70.70,Averages,2019
+105,Gabor Jagicza,HUN,70.67,Averages,2019
+106,Norman Madhoo,GUY,69.63,Averages,2019
+107,Jules Van Dongen,USA,68.50,Averages,2019
+108,Guyana,,68.31,Averages,2019
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2019
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2019
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2019
+112,Liu Chengan,CHN,66.54,Averages,2019
+113,Basem Mahmood,BHR,65.98,Averages,2019
+114,Iceland,,64.38,Averages,2019
+115,Siik Hwang Wong,MLY,63.82,Averages,2019
+116,David Gomes,POR,62.29,Averages,2019
+117,Harith Lim,SNG,62.15,Averages,2019
+118,Arngrimur Olafsson,ISL,61.76,Averages,2019
+119,Bahrain,,61.13,Averages,2019
+120,Duda Durra,BHR,59.38,Averages,2019
+101,Justin Hewitt,GIB,72.23,Averages,2019
+102,Malaysia,,72.03,Averages,2019
+103,Singapore,,71.64,Averages,2019
+104,Christian Perez,PHI,70.70,Averages,2019
+105,Gabor Jagicza,HUN,70.67,Averages,2019
+106,Norman Madhoo,GUY,69.63,Averages,2019
+107,Jules Van Dongen,USA,68.50,Averages,2019
+108,Guyana,,68.31,Averages,2019
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2019
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2019
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2019
+112,Liu Chengan,CHN,66.54,Averages,2019
+113,Basem Mahmood,BHR,65.98,Averages,2019
+114,Iceland,,64.38,Averages,2019
+115,Siik Hwang Wong,MLY,63.82,Averages,2019
+116,David Gomes,POR,62.29,Averages,2019
+117,Harith Lim,SNG,62.15,Averages,2019
+118,Arngrimur Olafsson,ISL,61.76,Averages,2019
+119,Bahrain,,61.13,Averages,2019
+120,Duda Durra,BHR,59.38,Averages,2019
+101,Justin Hewitt,GIB,72.23,Averages,2019
+102,Malaysia,,72.03,Averages,2019
+103,Singapore,,71.64,Averages,2019
+104,Christian Perez,PHI,70.70,Averages,2019
+105,Gabor Jagicza,HUN,70.67,Averages,2019
+106,Norman Madhoo,GUY,69.63,Averages,2019
+107,Jules Van Dongen,USA,68.50,Averages,2019
+108,Guyana,,68.31,Averages,2019
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2019
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2019
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2019
+112,Liu Chengan,CHN,66.54,Averages,2019
+113,Basem Mahmood,BHR,65.98,Averages,2019
+114,Iceland,,64.38,Averages,2019
+115,Siik Hwang Wong,MLY,63.82,Averages,2019
+116,David Gomes,POR,62.29,Averages,2019
+117,Harith Lim,SNG,62.15,Averages,2019
+118,Arngrimur Olafsson,ISL,61.76,Averages,2019
+119,Bahrain,,61.13,Averages,2019
+120,Duda Durra,BHR,59.38,Averages,2019
+101,Justin Hewitt,GIB,72.23,Averages,2020
+102,Malaysia,,72.03,Averages,2020
+103,Singapore,,71.64,Averages,2020
+104,Christian Perez,PHI,70.70,Averages,2020
+105,Gabor Jagicza,HUN,70.67,Averages,2020
+106,Norman Madhoo,GUY,69.63,Averages,2020
+107,Jules Van Dongen,USA,68.50,Averages,2020
+108,Guyana,,68.31,Averages,2020
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2020
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2020
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2020
+112,Liu Chengan,CHN,66.54,Averages,2020
+113,Basem Mahmood,BHR,65.98,Averages,2020
+114,Iceland,,64.38,Averages,2020
+115,Siik Hwang Wong,MLY,63.82,Averages,2020
+116,David Gomes,POR,62.29,Averages,2020
+117,Harith Lim,SNG,62.15,Averages,2020
+118,Arngrimur Olafsson,ISL,61.76,Averages,2020
+119,Bahrain,,61.13,Averages,2020
+120,Duda Durra,BHR,59.38,Averages,2020
+101,Justin Hewitt,GIB,72.23,Averages,2020
+102,Malaysia,,72.03,Averages,2020
+103,Singapore,,71.64,Averages,2020
+104,Christian Perez,PHI,70.70,Averages,2020
+105,Gabor Jagicza,HUN,70.67,Averages,2020
+106,Norman Madhoo,GUY,69.63,Averages,2020
+107,Jules Van Dongen,USA,68.50,Averages,2020
+108,Guyana,,68.31,Averages,2020
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2020
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2020
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2020
+112,Liu Chengan,CHN,66.54,Averages,2020
+113,Basem Mahmood,BHR,65.98,Averages,2020
+114,Iceland,,64.38,Averages,2020
+115,Siik Hwang Wong,MLY,63.82,Averages,2020
+116,David Gomes,POR,62.29,Averages,2020
+117,Harith Lim,SNG,62.15,Averages,2020
+118,Arngrimur Olafsson,ISL,61.76,Averages,2020
+119,Bahrain,,61.13,Averages,2020
+120,Duda Durra,BHR,59.38,Averages,2020
+101,Justin Hewitt,GIB,72.23,Averages,2020
+102,Malaysia,,72.03,Averages,2020
+103,Singapore,,71.64,Averages,2020
+104,Christian Perez,PHI,70.70,Averages,2020
+105,Gabor Jagicza,HUN,70.67,Averages,2020
+106,Norman Madhoo,GUY,69.63,Averages,2020
+107,Jules Van Dongen,USA,68.50,Averages,2020
+108,Guyana,,68.31,Averages,2020
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2020
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2020
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2020
+112,Liu Chengan,CHN,66.54,Averages,2020
+113,Basem Mahmood,BHR,65.98,Averages,2020
+114,Iceland,,64.38,Averages,2020
+115,Siik Hwang Wong,MLY,63.82,Averages,2020
+116,David Gomes,POR,62.29,Averages,2020
+117,Harith Lim,SNG,62.15,Averages,2020
+118,Arngrimur Olafsson,ISL,61.76,Averages,2020
+119,Bahrain,,61.13,Averages,2020
+120,Duda Durra,BHR,59.38,Averages,2020
+101,Justin Hewitt,GIB,72.23,Averages,2021
+102,Malaysia,,72.03,Averages,2021
+103,Singapore,,71.64,Averages,2021
+104,Christian Perez,PHI,70.70,Averages,2021
+105,Gabor Jagicza,HUN,70.67,Averages,2021
+106,Norman Madhoo,GUY,69.63,Averages,2021
+107,Jules Van Dongen,USA,68.50,Averages,2021
+108,Guyana,,68.31,Averages,2021
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2021
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2021
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2021
+112,Liu Chengan,CHN,66.54,Averages,2021
+113,Basem Mahmood,BHR,65.98,Averages,2021
+114,Iceland,,64.38,Averages,2021
+115,Siik Hwang Wong,MLY,63.82,Averages,2021
+116,David Gomes,POR,62.29,Averages,2021
+117,Harith Lim,SNG,62.15,Averages,2021
+118,Arngrimur Olafsson,ISL,61.76,Averages,2021
+119,Bahrain,,61.13,Averages,2021
+120,Duda Durra,BHR,59.38,Averages,2021
+101,Justin Hewitt,GIB,72.23,Averages,2021
+102,Malaysia,,72.03,Averages,2021
+103,Singapore,,71.64,Averages,2021
+104,Christian Perez,PHI,70.70,Averages,2021
+105,Gabor Jagicza,HUN,70.67,Averages,2021
+106,Norman Madhoo,GUY,69.63,Averages,2021
+107,Jules Van Dongen,USA,68.50,Averages,2021
+108,Guyana,,68.31,Averages,2021
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2021
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2021
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2021
+112,Liu Chengan,CHN,66.54,Averages,2021
+113,Basem Mahmood,BHR,65.98,Averages,2021
+114,Iceland,,64.38,Averages,2021
+115,Siik Hwang Wong,MLY,63.82,Averages,2021
+116,David Gomes,POR,62.29,Averages,2021
+117,Harith Lim,SNG,62.15,Averages,2021
+118,Arngrimur Olafsson,ISL,61.76,Averages,2021
+119,Bahrain,,61.13,Averages,2021
+120,Duda Durra,BHR,59.38,Averages,2021
+101,Justin Hewitt,GIB,72.23,Averages,2021
+102,Malaysia,,72.03,Averages,2021
+103,Singapore,,71.64,Averages,2021
+104,Christian Perez,PHI,70.70,Averages,2021
+105,Gabor Jagicza,HUN,70.67,Averages,2021
+106,Norman Madhoo,GUY,69.63,Averages,2021
+107,Jules Van Dongen,USA,68.50,Averages,2021
+108,Guyana,,68.31,Averages,2021
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2021
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2021
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2021
+112,Liu Chengan,CHN,66.54,Averages,2021
+113,Basem Mahmood,BHR,65.98,Averages,2021
+114,Iceland,,64.38,Averages,2021
+115,Siik Hwang Wong,MLY,63.82,Averages,2021
+116,David Gomes,POR,62.29,Averages,2021
+117,Harith Lim,SNG,62.15,Averages,2021
+118,Arngrimur Olafsson,ISL,61.76,Averages,2021
+119,Bahrain,,61.13,Averages,2021
+120,Duda Durra,BHR,59.38,Averages,2021
+101,Justin Hewitt,GIB,72.23,Averages,2022
+102,Malaysia,,72.03,Averages,2022
+103,Singapore,,71.64,Averages,2022
+104,Christian Perez,PHI,70.70,Averages,2022
+105,Gabor Jagicza,HUN,70.67,Averages,2022
+106,Norman Madhoo,GUY,69.63,Averages,2022
+107,Jules Van Dongen,USA,68.50,Averages,2022
+108,Guyana,,68.31,Averages,2022
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2022
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2022
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2022
+112,Liu Chengan,CHN,66.54,Averages,2022
+113,Basem Mahmood,BHR,65.98,Averages,2022
+114,Iceland,,64.38,Averages,2022
+115,Siik Hwang Wong,MLY,63.82,Averages,2022
+116,David Gomes,POR,62.29,Averages,2022
+117,Harith Lim,SNG,62.15,Averages,2022
+118,Arngrimur Olafsson,ISL,61.76,Averages,2022
+119,Bahrain,,61.13,Averages,2022
+120,Duda Durra,BHR,59.38,Averages,2022
+101,Justin Hewitt,GIB,72.23,Averages,2022
+102,Malaysia,,72.03,Averages,2022
+103,Singapore,,71.64,Averages,2022
+104,Christian Perez,PHI,70.70,Averages,2022
+105,Gabor Jagicza,HUN,70.67,Averages,2022
+106,Norman Madhoo,GUY,69.63,Averages,2022
+107,Jules Van Dongen,USA,68.50,Averages,2022
+108,Guyana,,68.31,Averages,2022
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2022
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2022
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2022
+112,Liu Chengan,CHN,66.54,Averages,2022
+113,Basem Mahmood,BHR,65.98,Averages,2022
+114,Iceland,,64.38,Averages,2022
+115,Siik Hwang Wong,MLY,63.82,Averages,2022
+116,David Gomes,POR,62.29,Averages,2022
+117,Harith Lim,SNG,62.15,Averages,2022
+118,Arngrimur Olafsson,ISL,61.76,Averages,2022
+119,Bahrain,,61.13,Averages,2022
+120,Duda Durra,BHR,59.38,Averages,2022
+101,Justin Hewitt,GIB,72.23,Averages,2022
+102,Malaysia,,72.03,Averages,2022
+103,Singapore,,71.64,Averages,2022
+104,Christian Perez,PHI,70.70,Averages,2022
+105,Gabor Jagicza,HUN,70.67,Averages,2022
+106,Norman Madhoo,GUY,69.63,Averages,2022
+107,Jules Van Dongen,USA,68.50,Averages,2022
+108,Guyana,,68.31,Averages,2022
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2022
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2022
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2022
+112,Liu Chengan,CHN,66.54,Averages,2022
+113,Basem Mahmood,BHR,65.98,Averages,2022
+114,Iceland,,64.38,Averages,2022
+115,Siik Hwang Wong,MLY,63.82,Averages,2022
+116,David Gomes,POR,62.29,Averages,2022
+117,Harith Lim,SNG,62.15,Averages,2022
+118,Arngrimur Olafsson,ISL,61.76,Averages,2022
+119,Bahrain,,61.13,Averages,2022
+120,Duda Durra,BHR,59.38,Averages,2022
+101,Justin Hewitt,GIB,72.23,Averages,2023
+102,Malaysia,,72.03,Averages,2023
+103,Singapore,,71.64,Averages,2023
+104,Christian Perez,PHI,70.70,Averages,2023
+105,Gabor Jagicza,HUN,70.67,Averages,2023
+106,Norman Madhoo,GUY,69.63,Averages,2023
+107,Jules Van Dongen,USA,68.50,Averages,2023
+108,Guyana,,68.31,Averages,2023
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2023
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2023
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2023
+112,Liu Chengan,CHN,66.54,Averages,2023
+113,Basem Mahmood,BHR,65.98,Averages,2023
+114,Iceland,,64.38,Averages,2023
+115,Siik Hwang Wong,MLY,63.82,Averages,2023
+116,David Gomes,POR,62.29,Averages,2023
+117,Harith Lim,SNG,62.15,Averages,2023
+118,Arngrimur Olafsson,ISL,61.76,Averages,2023
+119,Bahrain,,61.13,Averages,2023
+120,Duda Durra,BHR,59.38,Averages,2023
+101,Justin Hewitt,GIB,72.23,Averages,2023
+102,Malaysia,,72.03,Averages,2023
+103,Singapore,,71.64,Averages,2023
+104,Christian Perez,PHI,70.70,Averages,2023
+105,Gabor Jagicza,HUN,70.67,Averages,2023
+106,Norman Madhoo,GUY,69.63,Averages,2023
+107,Jules Van Dongen,USA,68.50,Averages,2023
+108,Guyana,,68.31,Averages,2023
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2023
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2023
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2023
+112,Liu Chengan,CHN,66.54,Averages,2023
+113,Basem Mahmood,BHR,65.98,Averages,2023
+114,Iceland,,64.38,Averages,2023
+115,Siik Hwang Wong,MLY,63.82,Averages,2023
+116,David Gomes,POR,62.29,Averages,2023
+117,Harith Lim,SNG,62.15,Averages,2023
+118,Arngrimur Olafsson,ISL,61.76,Averages,2023
+119,Bahrain,,61.13,Averages,2023
+120,Duda Durra,BHR,59.38,Averages,2023
+101,Justin Hewitt,GIB,72.23,Averages,2023
+102,Malaysia,,72.03,Averages,2023
+103,Singapore,,71.64,Averages,2023
+104,Christian Perez,PHI,70.70,Averages,2023
+105,Gabor Jagicza,HUN,70.67,Averages,2023
+106,Norman Madhoo,GUY,69.63,Averages,2023
+107,Jules Van Dongen,USA,68.50,Averages,2023
+108,Guyana,,68.31,Averages,2023
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2023
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2023
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2023
+112,Liu Chengan,CHN,66.54,Averages,2023
+113,Basem Mahmood,BHR,65.98,Averages,2023
+114,Iceland,,64.38,Averages,2023
+115,Siik Hwang Wong,MLY,63.82,Averages,2023
+116,David Gomes,POR,62.29,Averages,2023
+117,Harith Lim,SNG,62.15,Averages,2023
+118,Arngrimur Olafsson,ISL,61.76,Averages,2023
+119,Bahrain,,61.13,Averages,2023
+120,Duda Durra,BHR,59.38,Averages,2023
+101,Justin Hewitt,GIB,72.23,Averages,2024
+102,Malaysia,,72.03,Averages,2024
+103,Singapore,,71.64,Averages,2024
+104,Christian Perez,PHI,70.70,Averages,2024
+105,Gabor Jagicza,HUN,70.67,Averages,2024
+106,Norman Madhoo,GUY,69.63,Averages,2024
+107,Jules Van Dongen,USA,68.50,Averages,2024
+108,Guyana,,68.31,Averages,2024
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2024
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2024
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2024
+112,Liu Chengan,CHN,66.54,Averages,2024
+113,Basem Mahmood,BHR,65.98,Averages,2024
+114,Iceland,,64.38,Averages,2024
+115,Siik Hwang Wong,MLY,63.82,Averages,2024
+116,David Gomes,POR,62.29,Averages,2024
+117,Harith Lim,SNG,62.15,Averages,2024
+118,Arngrimur Olafsson,ISL,61.76,Averages,2024
+119,Bahrain,,61.13,Averages,2024
+120,Duda Durra,BHR,59.38,Averages,2024
+101,Justin Hewitt,GIB,72.23,Averages,2024
+102,Malaysia,,72.03,Averages,2024
+103,Singapore,,71.64,Averages,2024
+104,Christian Perez,PHI,70.70,Averages,2024
+105,Gabor Jagicza,HUN,70.67,Averages,2024
+106,Norman Madhoo,GUY,69.63,Averages,2024
+107,Jules Van Dongen,USA,68.50,Averages,2024
+108,Guyana,,68.31,Averages,2024
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2024
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2024
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2024
+112,Liu Chengan,CHN,66.54,Averages,2024
+113,Basem Mahmood,BHR,65.98,Averages,2024
+114,Iceland,,64.38,Averages,2024
+115,Siik Hwang Wong,MLY,63.82,Averages,2024
+116,David Gomes,POR,62.29,Averages,2024
+117,Harith Lim,SNG,62.15,Averages,2024
+118,Arngrimur Olafsson,ISL,61.76,Averages,2024
+119,Bahrain,,61.13,Averages,2024
+120,Duda Durra,BHR,59.38,Averages,2024
+101,Justin Hewitt,GIB,72.23,Averages,2024
+102,Malaysia,,72.03,Averages,2024
+103,Singapore,,71.64,Averages,2024
+104,Christian Perez,PHI,70.70,Averages,2024
+105,Gabor Jagicza,HUN,70.67,Averages,2024
+106,Norman Madhoo,GUY,69.63,Averages,2024
+107,Jules Van Dongen,USA,68.50,Averages,2024
+108,Guyana,,68.31,Averages,2024
+109,Petur Rudrik Gudmundsson,ISL,67.39,Averages,2024
+110,Sudesh Fitzgerald,GUY,67.19,Averages,2024
+111,Claus Bendix Nielsen,DEN,66.74,Averages,2024
+112,Liu Chengan,CHN,66.54,Averages,2024
+113,Basem Mahmood,BHR,65.98,Averages,2024
+114,Iceland,,64.38,Averages,2024
+115,Siik Hwang Wong,MLY,63.82,Averages,2024
+116,David Gomes,POR,62.29,Averages,2024
+117,Harith Lim,SNG,62.15,Averages,2024
+118,Arngrimur Olafsson,ISL,61.76,Averages,2024
+119,Bahrain,,61.13,Averages,2024
+120,Duda Durra,BHR,59.38,Averages,2024

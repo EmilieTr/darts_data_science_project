@@ -1,0 +1,94 @@
+(This document is an organised overview over the information commented in the issue "Data 
+Scouting Darts")
+
+*	Development of tournaments
+
+2.	How do the (average) winning scorings of tournaments/matches vary over the years? (line chart)
+   Sources:
+https://app.dartsorakel.com/ 
+https://de.wikipedia.org/wiki/PDC_World_Darts_Championship 
+https://www.skysports.com/darts/news/12288/13271474/world-darts-championship-
+statistics-tournament-average-180s-highest-checkouts-and-doubles
+
+Visualization: line graph over matches and overall avg. of winning scores (y) / over time (x)
+
+5.	How does the price money and the amount of participants of tournaments vary over the years? (rewrite)
+
+Visualization: line graph over placements and overall price money (y) / over time (x)
+Visualization: stacked bar chart (placements on top of each other) and overall price money (y) / over time (x) (with an overlapping line chart of participants)
+Visualization: bar chart over participant amount (y) / over time (x)
+Visualization: line graph over placements and overall price money (y) / over time (x) with a second y-/x-axe for participants
+
+*	Strategies and tactics
+
+7.	In which countries are tournaments held and how does it influence singular participants if at all?
+Sources: 
+https://de.wikipedia.org/wiki/Professional_Darts_Corporation (Überblick)
+
+Visualization: table of winner nationality and country of match held, absolute numbers of winners in cell
+-> Visualization: table of winner nationality and country of match held, conditional likeliness and manually assess for correlation
+
+8.	How do team matches compare to single matches in their scores? (does it imply teammates dragging each other down or raising each other up?)
+
+(files: person data, team match (world cup) check out scorings, single match check out scorings)
+Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, averages
+Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, check out percentage
+
+9.	How likely is it to throw 180 points after there was another 180 points thrown?
+
+Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), filter out situations where a 180 isn't able to be thrown
+
+10.	How likely are participants to win a leg after throwing 180 points as first throw?
+
+Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website)
+
+- 11.	Is it more likely to win a match if the participants scoring or check-out quota is better 
+than the opponents?
+
+- Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), BIG CALCULATIONS
+
+4.	What are the most popular double fields and what is the percentage to check them? (doubles are normally not thrown)
+
+Visualization: line graph over top 5 check out scorings (several lines) and overall check out scoring (y) / over time (x) //
+               line graph over top 5 check out scorings (several lines) and overall check out percentage (y) / over time (x)
+Visualization: bar chart over check out percent (y) / check out scoring (x)
+Visualization: pie chart over participant percentage, which check out scorings they "prefer"
+Visualization: line graph over amount of check out scorings (y) thrown over the years (x)
+
+13.	How likely is the participant to lose after throwing a 9 darter?
+
+Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), check how many 9 darter are actually in our data
+
+*	Players
+
+1.	How do the 5/10/15 best player change from 2000/1995 to now? (averages vs. check-out quota)
+
+Visualizations: bar chart average / bar chart check out quota over the top 5 players 1995/2014 (x)
+
+- 6.	How do the rankings vary over age, nationality and left/right handed people of participants?
+
+- Visualization: three point charts with rankings (y) age / nationality / left/right handeddness (x), think on this
+
+Data Sources:
+
+https://app.dartsorakel.com/
+*	feature attributes: 
+*	answered questions: 2
+ 
+https://www.darts1.de/statistiken/PDC-Statistiken.php
+*	feature attributes: 
+*	answered questions: 
+ 
+https://www.darts1.de/ranglisten/ranglisten.php
+*	feature attributes: 
+*	answered questions: 
+
+
+https://www.dartsrankings.com/
+*	feature attributes: 
+*	answered questions: 
+
+https://mastercaller.com/tournaments/world-championship-men/1978
+*	feature attributes: price money per world championship
+*	answered questions: 
+

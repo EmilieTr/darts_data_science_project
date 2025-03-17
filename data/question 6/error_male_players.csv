@@ -1,0 +1,20 @@
+player,error
+"['Toni', 'Alcinas', 'Toni Alcinas']",{404}
+"['Martin', 'C', 'Atkins', 'Martin C. Atkins']",{404}
+"['Alberto', 'Mario', 'Bezijan', 'Alberto Mario Bezijan']",{404}
+"['Willard', 'Bruguier', 'Jr', 'Willard Bruguier Jr.']",{404}
+"['Ho', 'Tung', 'Ching', 'Ho Tung Ching']",{404}
+"['Peter', 'Evison', '-', 'Peter Evison -\xa0']",{404}
+"['Matthias', 'Oern', 'Fridriksson', 'Matthias Örn Fridriksson']",{404}
+"['Corne', 'Groneveld', 'Corné Groneveld']",{404}
+"['Gyoergy', 'Jehirzski', 'György Jehirzski']",{404}
+"['Jose', 'Justicia', 'Perales', 'José Justicia Perales']",{404}
+"['Andreas', 'Kroeckel', 'Andreas Kröckel']",{404}
+"['Danny', 'Lauby', 'Jnr', 'Danny Lauby Jnr.']",{500}
+"['RobertMarijanovic', 'Robert\xa0Marijanovic']",{404}
+"['Daniel', 'Markosvky', 'Daniel Markosvky']",{404}
+"['Jesús', 'Noguera', 'Jesús Noguera']",{404}
+"['Juan', 'Francisco', 'Rodriguez', 'Bernabe', 'Juan Francisco Rodríguez Bernabé']",{404}
+"['Edward', 'Shoji', 'Foulkes', 'Edward Shoji Foulkes']",{404}
+"['Brian', 'Sorensen', 'Brian Sørensen']",{404}
+"['Stefan', 'Tafener', 'Stefan Tafener']",{404}

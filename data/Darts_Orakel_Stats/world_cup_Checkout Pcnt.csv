@@ -1,0 +1,899 @@
+Rank,Player,Country,Stat,Stat Category,Year
+1,Sweden,,46.15%,Checkout Pcnt,2013
+2,Ireland,,42.86%,Checkout Pcnt,2013
+3,Canada,,41.67%,Checkout Pcnt,2013
+4,Australia,,39.29%,Checkout Pcnt,2013
+5,Austria,,37.5%,Checkout Pcnt,2013
+6,England,,36.59%,Checkout Pcnt,2013
+7,Belgium,,36.36%,Checkout Pcnt,2013
+8,Scotland,,35.9%,Checkout Pcnt,2013
+9,Spain,,34.29%,Checkout Pcnt,2013
+10,Wales,,32.61%,Checkout Pcnt,2013
+11,Netherlands,,31.71%,Checkout Pcnt,2013
+12,Germany,,31.25%,Checkout Pcnt,2013
+13,Finland,,30.23%,Checkout Pcnt,2013
+14,Croatia,,28.21%,Checkout Pcnt,2013
+15,South Africa,,27.66%,Checkout Pcnt,2013
+16,United States,,26.92%,Checkout Pcnt,2013
+17,Northern Ireland,,26.42%,Checkout Pcnt,2013
+18,New Zealand,,26.32%,Checkout Pcnt,2013
+19,Poland,,25%,Checkout Pcnt,2013
+20,Japan,,23.81%,Checkout Pcnt,2013
+21,Italy,,23.08%,Checkout Pcnt,2013
+22,Denmark,,17.24%,Checkout Pcnt,2013
+23,Hungary,,14.29%,Checkout Pcnt,2013
+24,Gibraltar,,9.09%,Checkout Pcnt,2013
+1,William O'Connor,IRL,66.67%,Checkout Pcnt,2016
+2,Cody Harris,NZL,66.67%,Checkout Pcnt,2016
+3,Denmark,,62.5%,Checkout Pcnt,2016
+4,Kim Huybrechts,BEL,58.33%,Checkout Pcnt,2016
+5,Robert Thornton,SCO,50%,Checkout Pcnt,2016
+6,Gerwyn Price,WAL,50%,Checkout Pcnt,2016
+7,Haruki Muramatsu,JPN,50%,Checkout Pcnt,2016
+8,John Michael,GRE,50%,Checkout Pcnt,2016
+9,Ioannis Selachoglou,,50%,Checkout Pcnt,2016
+10,Phil Taylor,ENG,50%,Checkout Pcnt,2016
+11,Kim Viljanen,FIN,50%,Checkout Pcnt,2016
+12,Paul Lim,SNG,50%,Checkout Pcnt,2016
+13,Pavel Drtil,CZE,50%,Checkout Pcnt,2016
+14,Scott MacKenzie,,50%,Checkout Pcnt,2016
+15,Michal Kocik,,50%,Checkout Pcnt,2016
+16,Czechia,,50%,Checkout Pcnt,2016
+17,Greece,,50%,Checkout Pcnt,2016
+18,Harith Lim,SNG,50%,Checkout Pcnt,2016
+19,England,,50%,Checkout Pcnt,2016
+20,Mariusz Paul,,50%,Checkout Pcnt,2016
+21,Gilbert Ulang,,50%,Checkout Pcnt,2016
+22,Singapore,,45.45%,Checkout Pcnt,2016
+23,Netherlands,,44.83%,Checkout Pcnt,2016
+24,Hong Kong,,44.44%,Checkout Pcnt,2016
+25,Raymond van Barneveld,NED,44.44%,Checkout Pcnt,2016
+26,John Part,CAN,43.48%,Checkout Pcnt,2016
+27,Ireland,,41.67%,Checkout Pcnt,2016
+28,Simon Whitlock,AUS,41.18%,Checkout Pcnt,2016
+29,Wales,,41.18%,Checkout Pcnt,2016
+30,Canada,,40.91%,Checkout Pcnt,2016
+31,Daniel Jensen,DEN,40%,Checkout Pcnt,2016
+32,Mensur Suljović,AUT,40%,Checkout Pcnt,2016
+33,Max Hopp,GER,40%,Checkout Pcnt,2016
+34,Cristo Reyes,ESP,40%,Checkout Pcnt,2016
+35,Toni Alcinas,ESP,40%,Checkout Pcnt,2016
+36,Per Laursen,DEN,40%,Checkout Pcnt,2016
+37,Spain,,40%,Checkout Pcnt,2016
+38,Adrian Lewis,ENG,39.13%,Checkout Pcnt,2016
+39,Australia,,38.71%,Checkout Pcnt,2016
+40,New Zealand,,37.5%,Checkout Pcnt,2016
+41,Nándor Bezzeg,HUN,36.36%,Checkout Pcnt,2016
+42,Belgium,,35.71%,Checkout Pcnt,2016
+43,Cor Dekker,NOR,34.78%,Checkout Pcnt,2016
+44,Daryl Gurney,NIR,33.33%,Checkout Pcnt,2016
+45,Boris Koltsov,RUS,33.33%,Checkout Pcnt,2016
+46,Austria,,33.33%,Checkout Pcnt,2016
+47,Russia,,33.33%,Checkout Pcnt,2016
+48,Mick McGowan,,33.33%,Checkout Pcnt,2016
+49,Scotland,,33.33%,Checkout Pcnt,2016
+50,Michael van Gerwen,NED,31.34%,Checkout Pcnt,2016
+1,William O'Connor,IRL,66.67%,Checkout Pcnt,2016
+2,Cody Harris,NZL,66.67%,Checkout Pcnt,2016
+3,Denmark,,62.5%,Checkout Pcnt,2016
+4,Kim Huybrechts,BEL,58.33%,Checkout Pcnt,2016
+5,Robert Thornton,SCO,50%,Checkout Pcnt,2016
+6,Gerwyn Price,WAL,50%,Checkout Pcnt,2016
+7,Haruki Muramatsu,JPN,50%,Checkout Pcnt,2016
+8,John Michael,GRE,50%,Checkout Pcnt,2016
+9,Ioannis Selachoglou,,50%,Checkout Pcnt,2016
+10,Phil Taylor,ENG,50%,Checkout Pcnt,2016
+11,Kim Viljanen,FIN,50%,Checkout Pcnt,2016
+12,Paul Lim,SNG,50%,Checkout Pcnt,2016
+13,Pavel Drtil,CZE,50%,Checkout Pcnt,2016
+14,Scott MacKenzie,,50%,Checkout Pcnt,2016
+15,Michal Kocik,,50%,Checkout Pcnt,2016
+16,Czechia,,50%,Checkout Pcnt,2016
+17,Greece,,50%,Checkout Pcnt,2016
+18,Harith Lim,SNG,50%,Checkout Pcnt,2016
+19,England,,50%,Checkout Pcnt,2016
+20,Mariusz Paul,,50%,Checkout Pcnt,2016
+21,Gilbert Ulang,,50%,Checkout Pcnt,2016
+22,Singapore,,45.45%,Checkout Pcnt,2016
+23,Netherlands,,44.83%,Checkout Pcnt,2016
+24,Hong Kong,,44.44%,Checkout Pcnt,2016
+25,Raymond van Barneveld,NED,44.44%,Checkout Pcnt,2016
+26,John Part,CAN,43.48%,Checkout Pcnt,2016
+27,Ireland,,41.67%,Checkout Pcnt,2016
+28,Simon Whitlock,AUS,41.18%,Checkout Pcnt,2016
+29,Wales,,41.18%,Checkout Pcnt,2016
+30,Canada,,40.91%,Checkout Pcnt,2016
+31,Daniel Jensen,DEN,40%,Checkout Pcnt,2016
+32,Mensur Suljović,AUT,40%,Checkout Pcnt,2016
+33,Max Hopp,GER,40%,Checkout Pcnt,2016
+34,Cristo Reyes,ESP,40%,Checkout Pcnt,2016
+35,Toni Alcinas,ESP,40%,Checkout Pcnt,2016
+36,Per Laursen,DEN,40%,Checkout Pcnt,2016
+37,Spain,,40%,Checkout Pcnt,2016
+38,Adrian Lewis,ENG,39.13%,Checkout Pcnt,2016
+39,Australia,,38.71%,Checkout Pcnt,2016
+40,New Zealand,,37.5%,Checkout Pcnt,2016
+41,Nándor Bezzeg,HUN,36.36%,Checkout Pcnt,2016
+42,Belgium,,35.71%,Checkout Pcnt,2016
+43,Cor Dekker,NOR,34.78%,Checkout Pcnt,2016
+44,Daryl Gurney,NIR,33.33%,Checkout Pcnt,2016
+45,Boris Koltsov,RUS,33.33%,Checkout Pcnt,2016
+46,Austria,,33.33%,Checkout Pcnt,2016
+47,Russia,,33.33%,Checkout Pcnt,2016
+48,Mick McGowan,,33.33%,Checkout Pcnt,2016
+49,Scotland,,33.33%,Checkout Pcnt,2016
+50,Michael van Gerwen,NED,31.34%,Checkout Pcnt,2016
+1,František Humpula,,100%,Checkout Pcnt,2017
+2,Tytus Kanik,POL,100%,Checkout Pcnt,2017
+3,Czechia,,100%,Checkout Pcnt,2017
+4,Marko Kantele,FIN,66.67%,Checkout Pcnt,2017
+5,Wales,,66.67%,Checkout Pcnt,2017
+6,Poland,,60%,Checkout Pcnt,2017
+7,Larry Butler,USA,60%,Checkout Pcnt,2017
+8,Finland,,57.14%,Checkout Pcnt,2017
+9,Daryl Gurney,NIR,57.14%,Checkout Pcnt,2017
+10,Patrick Rey,SUI,57.14%,Checkout Pcnt,2017
+11,Australia,,55.56%,Checkout Pcnt,2017
+12,Mark Webster,WAL,52.78%,Checkout Pcnt,2017
+13,Netherlands,,51.52%,Checkout Pcnt,2017
+14,Kim Viljanen,FIN,50%,Checkout Pcnt,2017
+15,Adrian Lewis,ENG,50%,Checkout Pcnt,2017
+16,Krzysztof Ratajski,POL,50%,Checkout Pcnt,2017
+17,Per Laursen,DEN,50%,Checkout Pcnt,2017
+18,Kyle Anderson,AUS,46.15%,Checkout Pcnt,2017
+19,John Michael,GRE,45.45%,Checkout Pcnt,2017
+20,Boris Koltsov,RUS,45.45%,Checkout Pcnt,2017
+21,Northern Ireland,,44.44%,Checkout Pcnt,2017
+22,Dave Chisnall,ENG,43.24%,Checkout Pcnt,2017
+23,Rowby-John Rodriguez,AUT,42.86%,Checkout Pcnt,2017
+24,Russia,,42.86%,Checkout Pcnt,2017
+25,Raymond van Barneveld,NED,42.11%,Checkout Pcnt,2017
+26,Mensur Suljović,AUT,41.94%,Checkout Pcnt,2017
+27,United States,,41.67%,Checkout Pcnt,2017
+28,Michael van Gerwen,NED,41.18%,Checkout Pcnt,2017
+29,England,,40.91%,Checkout Pcnt,2017
+30,Leung Kai Fan,HKG,40%,Checkout Pcnt,2017
+31,Ronny Huybrechts,BEL,40%,Checkout Pcnt,2017
+32,John Part,CAN,40%,Checkout Pcnt,2017
+33,Max Hopp,GER,37.14%,Checkout Pcnt,2017
+34,Austria,,36.84%,Checkout Pcnt,2017
+35,Belgium,,36%,Checkout Pcnt,2017
+36,South Africa,,35.71%,Checkout Pcnt,2017
+37,Singapore,,35.48%,Checkout Pcnt,2017
+38,William O'Connor,IRL,35.29%,Checkout Pcnt,2017
+39,Harith Lim,SNG,35%,Checkout Pcnt,2017
+40,Gerwyn Price,WAL,33.96%,Checkout Pcnt,2017
+41,Simon Whitlock,AUS,33.33%,Checkout Pcnt,2017
+42,Cristo Reyes,ESP,33.33%,Checkout Pcnt,2017
+43,Cody Harris,NZL,33.33%,Checkout Pcnt,2017
+44,Daniele Petri,ITA,33.33%,Checkout Pcnt,2017
+45,Aleksandr Oreshkin,RUS,33.33%,Checkout Pcnt,2017
+46,Paul Lim,SNG,33.33%,Checkout Pcnt,2017
+47,Darin Young,USA,33.33%,Checkout Pcnt,2017
+48,Switzerland,,33.33%,Checkout Pcnt,2017
+49,Zoltán Mester,,33.33%,Checkout Pcnt,2017
+50,Kim Huybrechts,BEL,32.69%,Checkout Pcnt,2017
+1,František Humpula,,100%,Checkout Pcnt,2017
+2,Tytus Kanik,POL,100%,Checkout Pcnt,2017
+3,Czechia,,100%,Checkout Pcnt,2017
+4,Marko Kantele,FIN,66.67%,Checkout Pcnt,2017
+5,Wales,,66.67%,Checkout Pcnt,2017
+6,Poland,,60%,Checkout Pcnt,2017
+7,Larry Butler,USA,60%,Checkout Pcnt,2017
+8,Finland,,57.14%,Checkout Pcnt,2017
+9,Daryl Gurney,NIR,57.14%,Checkout Pcnt,2017
+10,Patrick Rey,SUI,57.14%,Checkout Pcnt,2017
+11,Australia,,55.56%,Checkout Pcnt,2017
+12,Mark Webster,WAL,52.78%,Checkout Pcnt,2017
+13,Netherlands,,51.52%,Checkout Pcnt,2017
+14,Kim Viljanen,FIN,50%,Checkout Pcnt,2017
+15,Adrian Lewis,ENG,50%,Checkout Pcnt,2017
+16,Krzysztof Ratajski,POL,50%,Checkout Pcnt,2017
+17,Per Laursen,DEN,50%,Checkout Pcnt,2017
+18,Kyle Anderson,AUS,46.15%,Checkout Pcnt,2017
+19,John Michael,GRE,45.45%,Checkout Pcnt,2017
+20,Boris Koltsov,RUS,45.45%,Checkout Pcnt,2017
+21,Northern Ireland,,44.44%,Checkout Pcnt,2017
+22,Dave Chisnall,ENG,43.24%,Checkout Pcnt,2017
+23,Rowby-John Rodriguez,AUT,42.86%,Checkout Pcnt,2017
+24,Russia,,42.86%,Checkout Pcnt,2017
+25,Raymond van Barneveld,NED,42.11%,Checkout Pcnt,2017
+26,Mensur Suljović,AUT,41.94%,Checkout Pcnt,2017
+27,United States,,41.67%,Checkout Pcnt,2017
+28,Michael van Gerwen,NED,41.18%,Checkout Pcnt,2017
+29,England,,40.91%,Checkout Pcnt,2017
+30,Leung Kai Fan,HKG,40%,Checkout Pcnt,2017
+31,Ronny Huybrechts,BEL,40%,Checkout Pcnt,2017
+32,John Part,CAN,40%,Checkout Pcnt,2017
+33,Max Hopp,GER,37.14%,Checkout Pcnt,2017
+34,Austria,,36.84%,Checkout Pcnt,2017
+35,Belgium,,36%,Checkout Pcnt,2017
+36,South Africa,,35.71%,Checkout Pcnt,2017
+37,Singapore,,35.48%,Checkout Pcnt,2017
+38,William O'Connor,IRL,35.29%,Checkout Pcnt,2017
+39,Harith Lim,SNG,35%,Checkout Pcnt,2017
+40,Gerwyn Price,WAL,33.96%,Checkout Pcnt,2017
+41,Simon Whitlock,AUS,33.33%,Checkout Pcnt,2017
+42,Cristo Reyes,ESP,33.33%,Checkout Pcnt,2017
+43,Cody Harris,NZL,33.33%,Checkout Pcnt,2017
+44,Daniele Petri,ITA,33.33%,Checkout Pcnt,2017
+45,Aleksandr Oreshkin,RUS,33.33%,Checkout Pcnt,2017
+46,Paul Lim,SNG,33.33%,Checkout Pcnt,2017
+47,Darin Young,USA,33.33%,Checkout Pcnt,2017
+48,Switzerland,,33.33%,Checkout Pcnt,2017
+49,Zoltán Mester,,33.33%,Checkout Pcnt,2017
+50,Kim Huybrechts,BEL,32.69%,Checkout Pcnt,2017
+1,Daniel Larsson,SWE,100%,Checkout Pcnt,2018
+2,Dennis Nilsson,SWE,100%,Checkout Pcnt,2018
+3,Sweden,,100%,Checkout Pcnt,2018
+4,Attapol Eupakaree,THA,100%,Checkout Pcnt,2018
+5,Mensur Suljović,AUT,80%,Checkout Pcnt,2018
+6,Thailand,,60%,Checkout Pcnt,2018
+7,Kim Huybrechts,BEL,55.56%,Checkout Pcnt,2018
+8,Cody Harris,NZL,50%,Checkout Pcnt,2018
+9,Krzysztof Ratajski,POL,50%,Checkout Pcnt,2018
+10,Karel Sedláček,CZE,50%,Checkout Pcnt,2018
+11,Czechia,,50%,Checkout Pcnt,2018
+12,John Part,CAN,50%,Checkout Pcnt,2018
+13,Roman Benecky,CZE,50%,Checkout Pcnt,2018
+14,Michael van Gerwen,NED,48.15%,Checkout Pcnt,2018
+15,Daryl Gurney,NIR,47.62%,Checkout Pcnt,2018
+16,Raymond van Barneveld,NED,47.62%,Checkout Pcnt,2018
+17,Netherlands,,47.37%,Checkout Pcnt,2018
+18,Germany,,45%,Checkout Pcnt,2018
+19,Simon Whitlock,AUS,43.18%,Checkout Pcnt,2018
+20,Boris Koltsov,RUS,42.86%,Checkout Pcnt,2018
+21,Brazil,,41.67%,Checkout Pcnt,2018
+22,Belgium,,40.91%,Checkout Pcnt,2018
+23,Poland,,40%,Checkout Pcnt,2018
+24,Max Hopp,GER,40%,Checkout Pcnt,2018
+25,Peter Wright,SCO,39.66%,Checkout Pcnt,2018
+26,Cristo Reyes,ESP,38.89%,Checkout Pcnt,2018
+27,Finland,,38.46%,Checkout Pcnt,2018
+28,Scotland,,38.46%,Checkout Pcnt,2018
+29,New Zealand,,37.5%,Checkout Pcnt,2018
+30,Liam O Brien,IRL,37.5%,Checkout Pcnt,2018
+31,Australia,,37.21%,Checkout Pcnt,2018
+32,Toni Alcinas,ESP,36%,Checkout Pcnt,2018
+33,Japan,,35.71%,Checkout Pcnt,2018
+34,Brendan Dolan,NIR,35.29%,Checkout Pcnt,2018
+35,Gerwyn Price,WAL,34.48%,Checkout Pcnt,2018
+36,Gary Anderson,SCO,34.43%,Checkout Pcnt,2018
+37,Jonny Clayton,WAL,33.33%,Checkout Pcnt,2018
+38,Steve Lennon,IRL,33.33%,Checkout Pcnt,2018
+39,William O'Connor,IRL,33.33%,Checkout Pcnt,2018
+40,Ireland,,33.33%,Checkout Pcnt,2018
+41,Russia,,33.33%,Checkout Pcnt,2018
+42,Warren Parry,NZL,33.33%,Checkout Pcnt,2018
+43,Larry Butler,USA,33.33%,Checkout Pcnt,2018
+44,Thanawat Gaweenuntavong,THA,33.33%,Checkout Pcnt,2018
+45,Benny Simeonidis,GRE,33.33%,Checkout Pcnt,2018
+46,Northern Ireland,,33.33%,Checkout Pcnt,2018
+47,Paul Lim,SNG,32.14%,Checkout Pcnt,2018
+48,Spain,,32%,Checkout Pcnt,2018
+49,Rob Cross,ENG,31.91%,Checkout Pcnt,2018
+50,Switzerland,,31.58%,Checkout Pcnt,2018
+1,Daniel Larsson,SWE,100%,Checkout Pcnt,2018
+2,Dennis Nilsson,SWE,100%,Checkout Pcnt,2018
+3,Sweden,,100%,Checkout Pcnt,2018
+4,Attapol Eupakaree,THA,100%,Checkout Pcnt,2018
+5,Mensur Suljović,AUT,80%,Checkout Pcnt,2018
+6,Thailand,,60%,Checkout Pcnt,2018
+7,Kim Huybrechts,BEL,55.56%,Checkout Pcnt,2018
+8,Cody Harris,NZL,50%,Checkout Pcnt,2018
+9,Krzysztof Ratajski,POL,50%,Checkout Pcnt,2018
+10,Karel Sedláček,CZE,50%,Checkout Pcnt,2018
+11,Czechia,,50%,Checkout Pcnt,2018
+12,John Part,CAN,50%,Checkout Pcnt,2018
+13,Roman Benecky,CZE,50%,Checkout Pcnt,2018
+14,Michael van Gerwen,NED,48.15%,Checkout Pcnt,2018
+15,Daryl Gurney,NIR,47.62%,Checkout Pcnt,2018
+16,Raymond van Barneveld,NED,47.62%,Checkout Pcnt,2018
+17,Netherlands,,47.37%,Checkout Pcnt,2018
+18,Germany,,45%,Checkout Pcnt,2018
+19,Simon Whitlock,AUS,43.18%,Checkout Pcnt,2018
+20,Boris Koltsov,RUS,42.86%,Checkout Pcnt,2018
+21,Brazil,,41.67%,Checkout Pcnt,2018
+22,Belgium,,40.91%,Checkout Pcnt,2018
+23,Poland,,40%,Checkout Pcnt,2018
+24,Max Hopp,GER,40%,Checkout Pcnt,2018
+25,Peter Wright,SCO,39.66%,Checkout Pcnt,2018
+26,Cristo Reyes,ESP,38.89%,Checkout Pcnt,2018
+27,Finland,,38.46%,Checkout Pcnt,2018
+28,Scotland,,38.46%,Checkout Pcnt,2018
+29,New Zealand,,37.5%,Checkout Pcnt,2018
+30,Liam O Brien,IRL,37.5%,Checkout Pcnt,2018
+31,Australia,,37.21%,Checkout Pcnt,2018
+32,Toni Alcinas,ESP,36%,Checkout Pcnt,2018
+33,Japan,,35.71%,Checkout Pcnt,2018
+34,Brendan Dolan,NIR,35.29%,Checkout Pcnt,2018
+35,Gerwyn Price,WAL,34.48%,Checkout Pcnt,2018
+36,Gary Anderson,SCO,34.43%,Checkout Pcnt,2018
+37,Jonny Clayton,WAL,33.33%,Checkout Pcnt,2018
+38,Steve Lennon,IRL,33.33%,Checkout Pcnt,2018
+39,William O'Connor,IRL,33.33%,Checkout Pcnt,2018
+40,Ireland,,33.33%,Checkout Pcnt,2018
+41,Russia,,33.33%,Checkout Pcnt,2018
+42,Warren Parry,NZL,33.33%,Checkout Pcnt,2018
+43,Larry Butler,USA,33.33%,Checkout Pcnt,2018
+44,Thanawat Gaweenuntavong,THA,33.33%,Checkout Pcnt,2018
+45,Benny Simeonidis,GRE,33.33%,Checkout Pcnt,2018
+46,Northern Ireland,,33.33%,Checkout Pcnt,2018
+47,Paul Lim,SNG,32.14%,Checkout Pcnt,2018
+48,Spain,,32%,Checkout Pcnt,2018
+49,Rob Cross,ENG,31.91%,Checkout Pcnt,2018
+50,Switzerland,,31.58%,Checkout Pcnt,2018
+1,Pavel Jirkal,CZE,100%,Checkout Pcnt,2019
+2,Diogo Portela,BRA,100%,Checkout Pcnt,2019
+3,Aleksei Kadochnikov,,100%,Checkout Pcnt,2019
+4,Marko Kantele,FIN,75%,Checkout Pcnt,2019
+5,Magnus Caris,,66.67%,Checkout Pcnt,2019
+6,Czechia,,66.67%,Checkout Pcnt,2019
+7,Gary Anderson,SCO,62.96%,Checkout Pcnt,2019
+8,Belgium,,62.5%,Checkout Pcnt,2019
+9,Scotland,,60%,Checkout Pcnt,2019
+10,Antony Lopez,,57.14%,Checkout Pcnt,2019
+11,Poland,,55.56%,Checkout Pcnt,2019
+12,Peter Wright,SCO,53.7%,Checkout Pcnt,2019
+13,Dimitri Van den Bergh,BEL,50%,Checkout Pcnt,2019
+14,Karel Sedláček,CZE,50%,Checkout Pcnt,2019
+15,Italy,,50%,Checkout Pcnt,2019
+16,Stefano Tomassetti,ITA,50%,Checkout Pcnt,2019
+17,Andrea Micheletti,ITA,50%,Checkout Pcnt,2019
+18,Lourence Ilagan,PHI,50%,Checkout Pcnt,2019
+19,England,,50%,Checkout Pcnt,2019
+20,Netherlands,,47.37%,Checkout Pcnt,2019
+21,Jermaine Wattimena,NED,44.83%,Checkout Pcnt,2019
+22,Mensur Suljović,AUT,43.48%,Checkout Pcnt,2019
+23,Sweden,,41.67%,Checkout Pcnt,2019
+24,Michael Smith,ENG,41.18%,Checkout Pcnt,2019
+25,Brendan Dolan,NIR,40%,Checkout Pcnt,2019
+26,Paul Lim,SNG,40%,Checkout Pcnt,2019
+27,Finland,,40%,Checkout Pcnt,2019
+28,Cody Harris,NZL,38.89%,Checkout Pcnt,2019
+29,William O'Connor,IRL,38.71%,Checkout Pcnt,2019
+30,Simon Whitlock,AUS,38.46%,Checkout Pcnt,2019
+31,Ireland,,38.24%,Checkout Pcnt,2019
+32,Jim Long,CAN,37.93%,Checkout Pcnt,2019
+33,Martin Schindler,GER,37.5%,Checkout Pcnt,2019
+34,Northern Ireland,,36.36%,Checkout Pcnt,2019
+35,Australia,,35.71%,Checkout Pcnt,2019
+36,Krzysztof Ratajski,POL,35.71%,Checkout Pcnt,2019
+37,United States,,35.71%,Checkout Pcnt,2019
+38,New Zealand,,34.62%,Checkout Pcnt,2019
+39,Steve Lennon,IRL,34.48%,Checkout Pcnt,2019
+40,Devon Petersen,RSA,34.38%,Checkout Pcnt,2019
+41,Michael van Gerwen,NED,33.96%,Checkout Pcnt,2019
+42,Daryl Gurney,NIR,33.33%,Checkout Pcnt,2019
+43,Canada,,33.33%,Checkout Pcnt,2019
+44,Austria,,33.33%,Checkout Pcnt,2019
+45,Veniamin Symeonidis,GRE,33.33%,Checkout Pcnt,2019
+46,János Végső,HUN,33.33%,Checkout Pcnt,2019
+47,Haruki Muramatsu,JPN,33.33%,Checkout Pcnt,2019
+48,Dawson Murschell,CAN,33.33%,Checkout Pcnt,2019
+49,Germany,,33.33%,Checkout Pcnt,2019
+50,Benny Simeonidis,GRE,33.33%,Checkout Pcnt,2019
+1,Pavel Jirkal,CZE,100%,Checkout Pcnt,2019
+2,Diogo Portela,BRA,100%,Checkout Pcnt,2019
+3,Aleksei Kadochnikov,,100%,Checkout Pcnt,2019
+4,Marko Kantele,FIN,75%,Checkout Pcnt,2019
+5,Magnus Caris,,66.67%,Checkout Pcnt,2019
+6,Czechia,,66.67%,Checkout Pcnt,2019
+7,Gary Anderson,SCO,62.96%,Checkout Pcnt,2019
+8,Belgium,,62.5%,Checkout Pcnt,2019
+9,Scotland,,60%,Checkout Pcnt,2019
+10,Antony Lopez,,57.14%,Checkout Pcnt,2019
+11,Poland,,55.56%,Checkout Pcnt,2019
+12,Peter Wright,SCO,53.7%,Checkout Pcnt,2019
+13,Dimitri Van den Bergh,BEL,50%,Checkout Pcnt,2019
+14,Karel Sedláček,CZE,50%,Checkout Pcnt,2019
+15,Italy,,50%,Checkout Pcnt,2019
+16,Stefano Tomassetti,ITA,50%,Checkout Pcnt,2019
+17,Andrea Micheletti,ITA,50%,Checkout Pcnt,2019
+18,Lourence Ilagan,PHI,50%,Checkout Pcnt,2019
+19,England,,50%,Checkout Pcnt,2019
+20,Netherlands,,47.37%,Checkout Pcnt,2019
+21,Jermaine Wattimena,NED,44.83%,Checkout Pcnt,2019
+22,Mensur Suljović,AUT,43.48%,Checkout Pcnt,2019
+23,Sweden,,41.67%,Checkout Pcnt,2019
+24,Michael Smith,ENG,41.18%,Checkout Pcnt,2019
+25,Brendan Dolan,NIR,40%,Checkout Pcnt,2019
+26,Paul Lim,SNG,40%,Checkout Pcnt,2019
+27,Finland,,40%,Checkout Pcnt,2019
+28,Cody Harris,NZL,38.89%,Checkout Pcnt,2019
+29,William O'Connor,IRL,38.71%,Checkout Pcnt,2019
+30,Simon Whitlock,AUS,38.46%,Checkout Pcnt,2019
+31,Ireland,,38.24%,Checkout Pcnt,2019
+32,Jim Long,CAN,37.93%,Checkout Pcnt,2019
+33,Martin Schindler,GER,37.5%,Checkout Pcnt,2019
+34,Northern Ireland,,36.36%,Checkout Pcnt,2019
+35,Australia,,35.71%,Checkout Pcnt,2019
+36,Krzysztof Ratajski,POL,35.71%,Checkout Pcnt,2019
+37,United States,,35.71%,Checkout Pcnt,2019
+38,New Zealand,,34.62%,Checkout Pcnt,2019
+39,Steve Lennon,IRL,34.48%,Checkout Pcnt,2019
+40,Devon Petersen,RSA,34.38%,Checkout Pcnt,2019
+41,Michael van Gerwen,NED,33.96%,Checkout Pcnt,2019
+42,Daryl Gurney,NIR,33.33%,Checkout Pcnt,2019
+43,Canada,,33.33%,Checkout Pcnt,2019
+44,Austria,,33.33%,Checkout Pcnt,2019
+45,Veniamin Symeonidis,GRE,33.33%,Checkout Pcnt,2019
+46,János Végső,HUN,33.33%,Checkout Pcnt,2019
+47,Haruki Muramatsu,JPN,33.33%,Checkout Pcnt,2019
+48,Dawson Murschell,CAN,33.33%,Checkout Pcnt,2019
+49,Germany,,33.33%,Checkout Pcnt,2019
+50,Benny Simeonidis,GRE,33.33%,Checkout Pcnt,2019
+1,Brendan Dolan,NIR,100%,Checkout Pcnt,2020
+2,Seigo Asada,JPN,100%,Checkout Pcnt,2020
+3,Chuck Puleo,USA,100%,Checkout Pcnt,2020
+4,Bruno Rangel,BRA,100%,Checkout Pcnt,2020
+5,Northern Ireland,,66.67%,Checkout Pcnt,2020
+6,William O'Connor,IRL,66.67%,Checkout Pcnt,2020
+7,Greece,,62.5%,Checkout Pcnt,2020
+8,Japan,,60%,Checkout Pcnt,2020
+9,Krzysztof Ratajski,POL,53.85%,Checkout Pcnt,2020
+10,Damon Heta,AUS,50%,Checkout Pcnt,2020
+11,Daryl Gurney,NIR,50%,Checkout Pcnt,2020
+12,Krzysztof Kciuk,POL,50%,Checkout Pcnt,2020
+13,Poland,,50%,Checkout Pcnt,2020
+14,Brazil,,50%,Checkout Pcnt,2020
+15,Yuki Yamada,JPN,50%,Checkout Pcnt,2020
+16,Craig Galliano,GIB,50%,Checkout Pcnt,2020
+17,Lourence Ilagan,PHI,50%,Checkout Pcnt,2020
+18,Philippines,,50%,Checkout Pcnt,2020
+19,Portugal,,45.45%,Checkout Pcnt,2020
+20,New Zealand,,45.45%,Checkout Pcnt,2020
+21,Gabriel Clemens,GER,45.45%,Checkout Pcnt,2020
+22,Jeff Smith,CAN,45%,Checkout Pcnt,2020
+23,Karel Sedláček,CZE,44.44%,Checkout Pcnt,2020
+24,Haupai Puha,NZL,42.86%,Checkout Pcnt,2020
+25,Daniele Petri,ITA,42.86%,Checkout Pcnt,2020
+26,Kim Huybrechts,BEL,42.5%,Checkout Pcnt,2020
+27,Gerwyn Price,WAL,40.98%,Checkout Pcnt,2020
+28,Rowby-John Rodriguez,AUT,40.74%,Checkout Pcnt,2020
+29,Mindaugas Barauskas,LTH,40%,Checkout Pcnt,2020
+30,United States,,40%,Checkout Pcnt,2020
+31,Netherlands,,38.89%,Checkout Pcnt,2020
+32,Danny Noppert,NED,38.71%,Checkout Pcnt,2020
+33,Matt Campbell,CAN,38.46%,Checkout Pcnt,2020
+34,Austria,,38.1%,Checkout Pcnt,2020
+35,Michael Smith,ENG,37.93%,Checkout Pcnt,2020
+36,Leung Kai Fan,HKG,37.5%,Checkout Pcnt,2020
+37,Belgium,,37.5%,Checkout Pcnt,2020
+38,Germany,,37.5%,Checkout Pcnt,2020
+39,Gibraltar,,37.5%,Checkout Pcnt,2020
+40,Michael van Gerwen,NED,37.04%,Checkout Pcnt,2020
+41,Jonny Clayton,WAL,37.04%,Checkout Pcnt,2020
+42,Mensur Suljović,AUT,36.36%,Checkout Pcnt,2020
+43,Italy,,36.36%,Checkout Pcnt,2020
+44,Wales,,36.36%,Checkout Pcnt,2020
+45,Lithuania,,35.71%,Checkout Pcnt,2020
+46,Simon Whitlock,AUS,35.48%,Checkout Pcnt,2020
+47,Justin Hewitt,GIB,33.33%,Checkout Pcnt,2020
+48,Ireland,,33.33%,Checkout Pcnt,2020
+49,Canada,,33.33%,Checkout Pcnt,2020
+50,José Marquês,POR,33.33%,Checkout Pcnt,2020
+1,Brendan Dolan,NIR,100%,Checkout Pcnt,2020
+2,Seigo Asada,JPN,100%,Checkout Pcnt,2020
+3,Chuck Puleo,USA,100%,Checkout Pcnt,2020
+4,Bruno Rangel,BRA,100%,Checkout Pcnt,2020
+5,Northern Ireland,,66.67%,Checkout Pcnt,2020
+6,William O'Connor,IRL,66.67%,Checkout Pcnt,2020
+7,Greece,,62.5%,Checkout Pcnt,2020
+8,Japan,,60%,Checkout Pcnt,2020
+9,Krzysztof Ratajski,POL,53.85%,Checkout Pcnt,2020
+10,Damon Heta,AUS,50%,Checkout Pcnt,2020
+11,Daryl Gurney,NIR,50%,Checkout Pcnt,2020
+12,Krzysztof Kciuk,POL,50%,Checkout Pcnt,2020
+13,Poland,,50%,Checkout Pcnt,2020
+14,Brazil,,50%,Checkout Pcnt,2020
+15,Yuki Yamada,JPN,50%,Checkout Pcnt,2020
+16,Craig Galliano,GIB,50%,Checkout Pcnt,2020
+17,Lourence Ilagan,PHI,50%,Checkout Pcnt,2020
+18,Philippines,,50%,Checkout Pcnt,2020
+19,Portugal,,45.45%,Checkout Pcnt,2020
+20,New Zealand,,45.45%,Checkout Pcnt,2020
+21,Gabriel Clemens,GER,45.45%,Checkout Pcnt,2020
+22,Jeff Smith,CAN,45%,Checkout Pcnt,2020
+23,Karel Sedláček,CZE,44.44%,Checkout Pcnt,2020
+24,Haupai Puha,NZL,42.86%,Checkout Pcnt,2020
+25,Daniele Petri,ITA,42.86%,Checkout Pcnt,2020
+26,Kim Huybrechts,BEL,42.5%,Checkout Pcnt,2020
+27,Gerwyn Price,WAL,40.98%,Checkout Pcnt,2020
+28,Rowby-John Rodriguez,AUT,40.74%,Checkout Pcnt,2020
+29,Mindaugas Barauskas,LTH,40%,Checkout Pcnt,2020
+30,United States,,40%,Checkout Pcnt,2020
+31,Netherlands,,38.89%,Checkout Pcnt,2020
+32,Danny Noppert,NED,38.71%,Checkout Pcnt,2020
+33,Matt Campbell,CAN,38.46%,Checkout Pcnt,2020
+34,Austria,,38.1%,Checkout Pcnt,2020
+35,Michael Smith,ENG,37.93%,Checkout Pcnt,2020
+36,Leung Kai Fan,HKG,37.5%,Checkout Pcnt,2020
+37,Belgium,,37.5%,Checkout Pcnt,2020
+38,Germany,,37.5%,Checkout Pcnt,2020
+39,Gibraltar,,37.5%,Checkout Pcnt,2020
+40,Michael van Gerwen,NED,37.04%,Checkout Pcnt,2020
+41,Jonny Clayton,WAL,37.04%,Checkout Pcnt,2020
+42,Mensur Suljović,AUT,36.36%,Checkout Pcnt,2020
+43,Italy,,36.36%,Checkout Pcnt,2020
+44,Wales,,36.36%,Checkout Pcnt,2020
+45,Lithuania,,35.71%,Checkout Pcnt,2020
+46,Simon Whitlock,AUS,35.48%,Checkout Pcnt,2020
+47,Justin Hewitt,GIB,33.33%,Checkout Pcnt,2020
+48,Ireland,,33.33%,Checkout Pcnt,2020
+49,Canada,,33.33%,Checkout Pcnt,2020
+50,José Marquês,POR,33.33%,Checkout Pcnt,2020
+1,Karel Sedláček,CZE,100%,Checkout Pcnt,2021
+2,Daniel Larsson,SWE,100%,Checkout Pcnt,2021
+3,Adam Gawlas,CZE,100%,Checkout Pcnt,2021
+4,Lourence Ilagan,PHI,100%,Checkout Pcnt,2021
+5,Czechia,,100%,Checkout Pcnt,2021
+6,Philippines,,100%,Checkout Pcnt,2021
+7,Sean Negrette,GIB,66.67%,Checkout Pcnt,2021
+8,Darius Labanauskas,LTH,57.89%,Checkout Pcnt,2021
+9,Kim Huybrechts,BEL,55.56%,Checkout Pcnt,2021
+10,Poland,,55.56%,Checkout Pcnt,2021
+11,Australia,,55.56%,Checkout Pcnt,2021
+12,Hugo Leung Man Lok,HKG,50%,Checkout Pcnt,2021
+13,Michael van Gerwen,NED,50%,Checkout Pcnt,2021
+14,Devon Petersen,RSA,50%,Checkout Pcnt,2021
+15,Portugal,,50%,Checkout Pcnt,2021
+16,Mensur Suljović,AUT,49.12%,Checkout Pcnt,2021
+17,James Wade,ENG,48.15%,Checkout Pcnt,2021
+18,Daniel Lauby Jr.,USA,46.15%,Checkout Pcnt,2021
+19,Jose De Sousa,POR,44.44%,Checkout Pcnt,2021
+20,Austria,,44.44%,Checkout Pcnt,2021
+21,Gibraltar,,44.44%,Checkout Pcnt,2021
+22,Wales,,41.38%,Checkout Pcnt,2021
+23,Gerwyn Price,WAL,40.43%,Checkout Pcnt,2021
+24,János Végső,HUN,40%,Checkout Pcnt,2021
+25,Simon Whitlock,AUS,39.13%,Checkout Pcnt,2021
+26,Scotland,,38.64%,Checkout Pcnt,2021
+27,United States,,38.46%,Checkout Pcnt,2021
+28,Netherlands,,38.1%,Checkout Pcnt,2021
+29,Brendan Dolan,NIR,36.84%,Checkout Pcnt,2021
+30,Dave Chisnall,ENG,36.36%,Checkout Pcnt,2021
+31,Chuck Puleo,USA,36.36%,Checkout Pcnt,2021
+32,Belgium,,35.71%,Checkout Pcnt,2021
+33,John Henderson,SCO,35.71%,Checkout Pcnt,2021
+34,South Africa,,35.71%,Checkout Pcnt,2021
+35,Peter Wright,SCO,34.25%,Checkout Pcnt,2021
+36,Jonny Clayton,WAL,34.21%,Checkout Pcnt,2021
+37,John Michael,GRE,33.33%,Checkout Pcnt,2021
+38,Krzysztof Kciuk,POL,33.33%,Checkout Pcnt,2021
+39,Marko Kantele,FIN,33.33%,Checkout Pcnt,2021
+40,Brazil,,33.33%,Checkout Pcnt,2021
+41,Artur Valle,BRA,33.33%,Checkout Pcnt,2021
+42,Finland,,33.33%,Checkout Pcnt,2021
+43,Niels Heinsøe,DEN,33.33%,Checkout Pcnt,2021
+44,Justin Hewitt,GIB,33.33%,Checkout Pcnt,2021
+45,Boris Koltsov,RUS,33.33%,Checkout Pcnt,2021
+46,Diogo Portela,BRA,33.33%,Checkout Pcnt,2021
+47,José Justicia,ESP,33.33%,Checkout Pcnt,2021
+48,Denmark,,33.33%,Checkout Pcnt,2021
+49,Rowby-John Rodriguez,AUT,31.91%,Checkout Pcnt,2021
+50,Hong Kong,,30.77%,Checkout Pcnt,2021
+1,Karel Sedláček,CZE,100%,Checkout Pcnt,2021
+2,Daniel Larsson,SWE,100%,Checkout Pcnt,2021
+3,Adam Gawlas,CZE,100%,Checkout Pcnt,2021
+4,Lourence Ilagan,PHI,100%,Checkout Pcnt,2021
+5,Czechia,,100%,Checkout Pcnt,2021
+6,Philippines,,100%,Checkout Pcnt,2021
+7,Sean Negrette,GIB,66.67%,Checkout Pcnt,2021
+8,Darius Labanauskas,LTH,57.89%,Checkout Pcnt,2021
+9,Kim Huybrechts,BEL,55.56%,Checkout Pcnt,2021
+10,Poland,,55.56%,Checkout Pcnt,2021
+11,Australia,,55.56%,Checkout Pcnt,2021
+12,Hugo Leung Man Lok,HKG,50%,Checkout Pcnt,2021
+13,Michael van Gerwen,NED,50%,Checkout Pcnt,2021
+14,Devon Petersen,RSA,50%,Checkout Pcnt,2021
+15,Portugal,,50%,Checkout Pcnt,2021
+16,Mensur Suljović,AUT,49.12%,Checkout Pcnt,2021
+17,James Wade,ENG,48.15%,Checkout Pcnt,2021
+18,Daniel Lauby Jr.,USA,46.15%,Checkout Pcnt,2021
+19,Jose De Sousa,POR,44.44%,Checkout Pcnt,2021
+20,Austria,,44.44%,Checkout Pcnt,2021
+21,Gibraltar,,44.44%,Checkout Pcnt,2021
+22,Wales,,41.38%,Checkout Pcnt,2021
+23,Gerwyn Price,WAL,40.43%,Checkout Pcnt,2021
+24,János Végső,HUN,40%,Checkout Pcnt,2021
+25,Simon Whitlock,AUS,39.13%,Checkout Pcnt,2021
+26,Scotland,,38.64%,Checkout Pcnt,2021
+27,United States,,38.46%,Checkout Pcnt,2021
+28,Netherlands,,38.1%,Checkout Pcnt,2021
+29,Brendan Dolan,NIR,36.84%,Checkout Pcnt,2021
+30,Dave Chisnall,ENG,36.36%,Checkout Pcnt,2021
+31,Chuck Puleo,USA,36.36%,Checkout Pcnt,2021
+32,Belgium,,35.71%,Checkout Pcnt,2021
+33,John Henderson,SCO,35.71%,Checkout Pcnt,2021
+34,South Africa,,35.71%,Checkout Pcnt,2021
+35,Peter Wright,SCO,34.25%,Checkout Pcnt,2021
+36,Jonny Clayton,WAL,34.21%,Checkout Pcnt,2021
+37,John Michael,GRE,33.33%,Checkout Pcnt,2021
+38,Krzysztof Kciuk,POL,33.33%,Checkout Pcnt,2021
+39,Marko Kantele,FIN,33.33%,Checkout Pcnt,2021
+40,Brazil,,33.33%,Checkout Pcnt,2021
+41,Artur Valle,BRA,33.33%,Checkout Pcnt,2021
+42,Finland,,33.33%,Checkout Pcnt,2021
+43,Niels Heinsøe,DEN,33.33%,Checkout Pcnt,2021
+44,Justin Hewitt,GIB,33.33%,Checkout Pcnt,2021
+45,Boris Koltsov,RUS,33.33%,Checkout Pcnt,2021
+46,Diogo Portela,BRA,33.33%,Checkout Pcnt,2021
+47,José Justicia,ESP,33.33%,Checkout Pcnt,2021
+48,Denmark,,33.33%,Checkout Pcnt,2021
+49,Rowby-John Rodriguez,AUT,31.91%,Checkout Pcnt,2021
+50,Hong Kong,,30.77%,Checkout Pcnt,2021
+1,Japan,,66.67%,Checkout Pcnt,2022
+2,Harith Lim,SNG,66.67%,Checkout Pcnt,2022
+3,Tomoya Goto,JPN,66.67%,Checkout Pcnt,2022
+4,Latvia,,63.64%,Checkout Pcnt,2022
+5,Northern Ireland,,62.5%,Checkout Pcnt,2022
+6,Steve Lennon,IRL,57.14%,Checkout Pcnt,2022
+7,Adam Gawlas,CZE,50%,Checkout Pcnt,2022
+8,Hungary,,50%,Checkout Pcnt,2022
+9,Australia,,50%,Checkout Pcnt,2022
+10,Johan Engstrom,SWE,50%,Checkout Pcnt,2022
+11,Nandor Pres,HUN,50%,Checkout Pcnt,2022
+12,Aki Paavilainen,FIN,50%,Checkout Pcnt,2022
+13,Nauris Gleglu,LTV,50%,Checkout Pcnt,2022
+14,Singapore,,50%,Checkout Pcnt,2022
+15,Gerwyn Price,WAL,48.57%,Checkout Pcnt,2022
+16,Brendan Dolan,NIR,47.83%,Checkout Pcnt,2022
+17,Michael Smith,ENG,47.22%,Checkout Pcnt,2022
+18,Daryl Gurney,NIR,43.75%,Checkout Pcnt,2022
+19,John Henderson,SCO,42.31%,Checkout Pcnt,2022
+20,Ireland,,41.67%,Checkout Pcnt,2022
+21,Daniel Larsson,SWE,41.18%,Checkout Pcnt,2022
+22,England,,40.91%,Checkout Pcnt,2022
+23,RJ Escaros,PHI,40%,Checkout Pcnt,2022
+24,Damon Heta,AUS,40%,Checkout Pcnt,2022
+25,Ben Robb,NZL,40%,Checkout Pcnt,2022
+26,Wales,,39.39%,Checkout Pcnt,2022
+27,Scotland,,39.13%,Checkout Pcnt,2022
+28,Mensur Suljović,AUT,39.13%,Checkout Pcnt,2022
+29,Gabriel Clemens,GER,39.13%,Checkout Pcnt,2022
+30,Madars Razma,LTV,39.13%,Checkout Pcnt,2022
+31,James Wade,ENG,38.46%,Checkout Pcnt,2022
+32,Dimitri Van den Bergh,BEL,37.93%,Checkout Pcnt,2022
+33,Craig Galliano,GIB,37.5%,Checkout Pcnt,2022
+34,Dirk van Duijvenbode,NED,36.67%,Checkout Pcnt,2022
+35,Kim Huybrechts,BEL,36%,Checkout Pcnt,2022
+36,Denmark,,35.71%,Checkout Pcnt,2022
+37,Netherlands,,35.71%,Checkout Pcnt,2022
+38,Simon Whitlock,AUS,35.29%,Checkout Pcnt,2022
+39,Jonny Clayton,WAL,33.96%,Checkout Pcnt,2022
+40,Danny Noppert,NED,33.33%,Checkout Pcnt,2022
+41,Jeff Smith,CAN,33.33%,Checkout Pcnt,2022
+42,Matt Campbell,CAN,33.33%,Checkout Pcnt,2022
+43,Canada,,33.33%,Checkout Pcnt,2022
+44,Czechia,,33.33%,Checkout Pcnt,2022
+45,Sweden,,33.33%,Checkout Pcnt,2022
+46,Gibraltar,,33.33%,Checkout Pcnt,2022
+47,Austria,,30.77%,Checkout Pcnt,2022
+48,Finland,,30%,Checkout Pcnt,2022
+49,Danny Baggish,USA,30%,Checkout Pcnt,2022
+50,Jose De Sousa,POR,30%,Checkout Pcnt,2022
+1,Japan,,66.67%,Checkout Pcnt,2022
+2,Harith Lim,SNG,66.67%,Checkout Pcnt,2022
+3,Tomoya Goto,JPN,66.67%,Checkout Pcnt,2022
+4,Latvia,,63.64%,Checkout Pcnt,2022
+5,Northern Ireland,,62.5%,Checkout Pcnt,2022
+6,Steve Lennon,IRL,57.14%,Checkout Pcnt,2022
+7,Adam Gawlas,CZE,50%,Checkout Pcnt,2022
+8,Hungary,,50%,Checkout Pcnt,2022
+9,Australia,,50%,Checkout Pcnt,2022
+10,Johan Engstrom,SWE,50%,Checkout Pcnt,2022
+11,Nandor Pres,HUN,50%,Checkout Pcnt,2022
+12,Aki Paavilainen,FIN,50%,Checkout Pcnt,2022
+13,Nauris Gleglu,LTV,50%,Checkout Pcnt,2022
+14,Singapore,,50%,Checkout Pcnt,2022
+15,Gerwyn Price,WAL,48.57%,Checkout Pcnt,2022
+16,Brendan Dolan,NIR,47.83%,Checkout Pcnt,2022
+17,Michael Smith,ENG,47.22%,Checkout Pcnt,2022
+18,Daryl Gurney,NIR,43.75%,Checkout Pcnt,2022
+19,John Henderson,SCO,42.31%,Checkout Pcnt,2022
+20,Ireland,,41.67%,Checkout Pcnt,2022
+21,Daniel Larsson,SWE,41.18%,Checkout Pcnt,2022
+22,England,,40.91%,Checkout Pcnt,2022
+23,RJ Escaros,PHI,40%,Checkout Pcnt,2022
+24,Damon Heta,AUS,40%,Checkout Pcnt,2022
+25,Ben Robb,NZL,40%,Checkout Pcnt,2022
+26,Wales,,39.39%,Checkout Pcnt,2022
+27,Scotland,,39.13%,Checkout Pcnt,2022
+28,Mensur Suljović,AUT,39.13%,Checkout Pcnt,2022
+29,Gabriel Clemens,GER,39.13%,Checkout Pcnt,2022
+30,Madars Razma,LTV,39.13%,Checkout Pcnt,2022
+31,James Wade,ENG,38.46%,Checkout Pcnt,2022
+32,Dimitri Van den Bergh,BEL,37.93%,Checkout Pcnt,2022
+33,Craig Galliano,GIB,37.5%,Checkout Pcnt,2022
+34,Dirk van Duijvenbode,NED,36.67%,Checkout Pcnt,2022
+35,Kim Huybrechts,BEL,36%,Checkout Pcnt,2022
+36,Denmark,,35.71%,Checkout Pcnt,2022
+37,Netherlands,,35.71%,Checkout Pcnt,2022
+38,Simon Whitlock,AUS,35.29%,Checkout Pcnt,2022
+39,Jonny Clayton,WAL,33.96%,Checkout Pcnt,2022
+40,Danny Noppert,NED,33.33%,Checkout Pcnt,2022
+41,Jeff Smith,CAN,33.33%,Checkout Pcnt,2022
+42,Matt Campbell,CAN,33.33%,Checkout Pcnt,2022
+43,Canada,,33.33%,Checkout Pcnt,2022
+44,Czechia,,33.33%,Checkout Pcnt,2022
+45,Sweden,,33.33%,Checkout Pcnt,2022
+46,Gibraltar,,33.33%,Checkout Pcnt,2022
+47,Austria,,30.77%,Checkout Pcnt,2022
+48,Finland,,30%,Checkout Pcnt,2022
+49,Danny Baggish,USA,30%,Checkout Pcnt,2022
+50,Jose De Sousa,POR,30%,Checkout Pcnt,2022
+1,Mindaugas Barauskas,LTH,100%,Checkout Pcnt,2023
+2,Bassim Mahmood,,100%,Checkout Pcnt,2023
+3,Hugo Leung Man Lok,HKG,75%,Checkout Pcnt,2023
+4,Prakash Jiwa,IND,66.67%,Checkout Pcnt,2023
+5,Michele Turetta,ITA,66.67%,Checkout Pcnt,2023
+6,Madars Razma,LTV,66.67%,Checkout Pcnt,2023
+7,Tomoya Goto,JPN,66.67%,Checkout Pcnt,2023
+8,Bahrain,,60%,Checkout Pcnt,2023
+9,Lithuania,,55.56%,Checkout Pcnt,2023
+10,Dirk van Duijvenbode,NED,55.56%,Checkout Pcnt,2023
+11,Gary Anderson,SCO,54.55%,Checkout Pcnt,2023
+12,Italy,,53.85%,Checkout Pcnt,2023
+13,Dennis Nilsson,SWE,53.33%,Checkout Pcnt,2023
+14,Craig Galliano,GIB,50%,Checkout Pcnt,2023
+15,José Justicia,ESP,50%,Checkout Pcnt,2023
+16,Gerwyn Price,WAL,50%,Checkout Pcnt,2023
+17,Brendan Dolan,NIR,50%,Checkout Pcnt,2023
+18,Rob Cross,ENG,50%,Checkout Pcnt,2023
+19,Darius Labanauskas,LTH,50%,Checkout Pcnt,2023
+20,Benjamin Drue Reus,DEN,50%,Checkout Pcnt,2023
+21,Latvia,,50%,Checkout Pcnt,2023
+22,Jun Matsuda,JPN,50%,Checkout Pcnt,2023
+23,Paavo Myller,FIN,50%,Checkout Pcnt,2023
+24,Krzysztof Ratajski,POL,47.37%,Checkout Pcnt,2023
+25,Dimitri Van den Bergh,BEL,47.06%,Checkout Pcnt,2023
+26,Scotland,,45.61%,Checkout Pcnt,2023
+27,Wales,,44.74%,Checkout Pcnt,2023
+28,Michael Smith,ENG,44.44%,Checkout Pcnt,2023
+29,Netherlands,,43.75%,Checkout Pcnt,2023
+30,Sweden,,42.86%,Checkout Pcnt,2023
+31,Massimo Dante,ITA,42.86%,Checkout Pcnt,2023
+32,Luis Ameixa,,42.86%,Checkout Pcnt,2023
+33,Mensur Suljović,AUT,42.86%,Checkout Pcnt,2023
+34,Jonny Clayton,WAL,42.86%,Checkout Pcnt,2023
+35,Patrick Kovacs,HUN,42.86%,Checkout Pcnt,2023
+36,Kim Huybrechts,BEL,42.11%,Checkout Pcnt,2023
+37,Belgium,,41.89%,Checkout Pcnt,2023
+38,Hungary,,41.67%,Checkout Pcnt,2023
+39,Simon Whitlock,AUS,41.67%,Checkout Pcnt,2023
+40,Devon Petersen,RSA,41.18%,Checkout Pcnt,2023
+41,Christian Perez,PHI,41.18%,Checkout Pcnt,2023
+42,Denmark,,40.91%,Checkout Pcnt,2023
+43,England,,40.74%,Checkout Pcnt,2023
+44,Japan,,40%,Checkout Pcnt,2023
+45,Adam Gawlas,CZE,40%,Checkout Pcnt,2023
+46,Martin Schindler,GER,40%,Checkout Pcnt,2023
+47,Northern Ireland,,38.46%,Checkout Pcnt,2023
+48,Jeff Smith,CAN,36.84%,Checkout Pcnt,2023
+49,Finland,,36.36%,Checkout Pcnt,2023
+50,Philippines,,36.11%,Checkout Pcnt,2023
+101,Karel Sedláček,CZE,14.29%,Checkout Pcnt,2023
+102,Stefan Bellmont,SUI,12.5%,Checkout Pcnt,2023
+103,Thanawat Gaweenuntavong,THA,12.5%,Checkout Pcnt,2023
+104,Justin Hewitt,GIB,11.11%,Checkout Pcnt,2023
+105,Jose De Sousa,POR,11.11%,Checkout Pcnt,2023
+106,Ben Robb,NZL,11.11%,Checkout Pcnt,2023
+107,Guyana,,8.33%,Checkout Pcnt,2023
+108,Ukraine,,0%,Checkout Pcnt,2023
+109,Sudesh Fitzgerald,GUY,0%,Checkout Pcnt,2023
+110,Jules Van Dongen,USA,0%,Checkout Pcnt,2023
+111,Amit Gilitwala,IND,0%,Checkout Pcnt,2023
+112,Zong Xiaochen,CHN,0%,Checkout Pcnt,2023
+113,Lok Yin Lee,HKG,0%,Checkout Pcnt,2023
+114,Hallgrimur Egilsson,ISL,0%,Checkout Pcnt,2023
+115,Wen Lihao,,0%,Checkout Pcnt,2023
+116,Daryl Gurney,NIR,0%,Checkout Pcnt,2023
+117,Rowby-John Rodriguez,AUT,0%,Checkout Pcnt,2023
+101,Karel Sedláček,CZE,14.29%,Checkout Pcnt,2023
+102,Stefan Bellmont,SUI,12.5%,Checkout Pcnt,2023
+103,Thanawat Gaweenuntavong,THA,12.5%,Checkout Pcnt,2023
+104,Justin Hewitt,GIB,11.11%,Checkout Pcnt,2023
+105,Jose De Sousa,POR,11.11%,Checkout Pcnt,2023
+106,Ben Robb,NZL,11.11%,Checkout Pcnt,2023
+107,Guyana,,8.33%,Checkout Pcnt,2023
+108,Ukraine,,0%,Checkout Pcnt,2023
+109,Sudesh Fitzgerald,GUY,0%,Checkout Pcnt,2023
+110,Jules Van Dongen,USA,0%,Checkout Pcnt,2023
+111,Amit Gilitwala,IND,0%,Checkout Pcnt,2023
+112,Zong Xiaochen,CHN,0%,Checkout Pcnt,2023
+113,Lok Yin Lee,HKG,0%,Checkout Pcnt,2023
+114,Hallgrimur Egilsson,ISL,0%,Checkout Pcnt,2023
+115,Wen Lihao,,0%,Checkout Pcnt,2023
+116,Daryl Gurney,NIR,0%,Checkout Pcnt,2023
+117,Rowby-John Rodriguez,AUT,0%,Checkout Pcnt,2023
+1,Marko Kantele,FIN,100%,Checkout Pcnt,2024
+2,Arngrimur Olafsson,ISL,75%,Checkout Pcnt,2024
+3,Valters Melderis,LTV,66.67%,Checkout Pcnt,2024
+4,Basem Mahmood,BHR,66.67%,Checkout Pcnt,2024
+5,Luke Humphries,ENG,58.82%,Checkout Pcnt,2024
+6,Latvia,,55.56%,Checkout Pcnt,2024
+7,Gary Anderson,SCO,51.85%,Checkout Pcnt,2024
+8,Jose De Sousa,POR,50%,Checkout Pcnt,2024
+9,Stefan Bellmont,SUI,50%,Checkout Pcnt,2024
+10,Ben Robb,NZL,50%,Checkout Pcnt,2024
+11,Cameron Carolissen,RSA,50%,Checkout Pcnt,2024
+12,Zong Xiaochen,CHN,50%,Checkout Pcnt,2024
+13,Benjamin Drue Reus,DEN,50%,Checkout Pcnt,2024
+14,Finland,,50%,Checkout Pcnt,2024
+15,Duda Durra,BHR,50%,Checkout Pcnt,2024
+16,Lu An-Sheng,TPE,50%,Checkout Pcnt,2024
+17,Chinese Taipei,,48%,Checkout Pcnt,2024
+18,England,,47.89%,Checkout Pcnt,2024
+19,Jeffrey de Graaf,SWE,47.62%,Checkout Pcnt,2024
+20,Pupo Teng Lieh,TPE,46.67%,Checkout Pcnt,2024
+21,Dimitri Van den Bergh,BEL,44.83%,Checkout Pcnt,2024
+22,Rowby-John Rodriguez,AUT,44.44%,Checkout Pcnt,2024
+23,China,,44.44%,Checkout Pcnt,2024
+24,Austria,,43.68%,Checkout Pcnt,2024
+25,Thibault Tricole,FRA,42.86%,Checkout Pcnt,2024
+26,Keane Barry,IRL,42.86%,Checkout Pcnt,2024
+27,Mensur Suljović,AUT,42.86%,Checkout Pcnt,2024
+28,Bahrain,,42.86%,Checkout Pcnt,2024
+29,Switzerland,,41.67%,Checkout Pcnt,2024
+30,Jonny Clayton,WAL,41.67%,Checkout Pcnt,2024
+31,New Zealand,,41.18%,Checkout Pcnt,2024
+32,Sweden,,40.35%,Checkout Pcnt,2024
+33,Scotland,,40%,Checkout Pcnt,2024
+34,Mohammad Nasr Bin Jantan,MLY,40%,Checkout Pcnt,2024
+35,Belgium,,39.13%,Checkout Pcnt,2024
+36,Boris Krčmar,CRO,38.89%,Checkout Pcnt,2024
+37,Denmark,,38.46%,Checkout Pcnt,2024
+38,South Africa,,38.46%,Checkout Pcnt,2024
+39,Michael Smith,ENG,37.84%,Checkout Pcnt,2024
+40,Hugo Leung Man Lok,HKG,37.5%,Checkout Pcnt,2024
+41,Ireland,,36.84%,Checkout Pcnt,2024
+42,Croatia,,36.51%,Checkout Pcnt,2024
+43,Craig Galliano,GIB,36.36%,Checkout Pcnt,2024
+44,Paul Lim,SNG,36.36%,Checkout Pcnt,2024
+45,Oskar Lukasiak,SWE,36.11%,Checkout Pcnt,2024
+46,Haupai Puha,NZL,35.71%,Checkout Pcnt,2024
+47,Krzysztof Ratajski,POL,35.71%,Checkout Pcnt,2024
+48,Josh Rock,NIR,35.71%,Checkout Pcnt,2024
+49,Kim Huybrechts,BEL,35%,Checkout Pcnt,2024
+50,Northern Ireland,,33.9%,Checkout Pcnt,2024
+101,Norman Madhoo,GUY,20%,Checkout Pcnt,2024
+102,Dave Cameron,CAN,20%,Checkout Pcnt,2024
+103,Damon Heta,AUS,18.75%,Checkout Pcnt,2024
+104,Singapore,,18.75%,Checkout Pcnt,2024
+105,Lok Yin Lee,HKG,17.65%,Checkout Pcnt,2024
+106,Alexis Toylo,PHI,16.67%,Checkout Pcnt,2024
+107,José Justicia,ESP,16.67%,Checkout Pcnt,2024
+108,Danny Noppert,NED,16.67%,Checkout Pcnt,2024
+109,Justin Hewitt,GIB,16.67%,Checkout Pcnt,2024
+110,David Gomes,POR,16.67%,Checkout Pcnt,2024
+111,Netherlands,,14.29%,Checkout Pcnt,2024
+112,Harith Lim,SNG,14.29%,Checkout Pcnt,2024
+113,Mindaugas Barauskas,LTH,14.29%,Checkout Pcnt,2024
+114,Michael van Gerwen,NED,12.5%,Checkout Pcnt,2024
+115,Daniel Lauby Jr.,USA,12.5%,Checkout Pcnt,2024
+116,Petur Rudrik Gudmundsson,ISL,11.11%,Checkout Pcnt,2024
+117,Jim Williams,WAL,10%,Checkout Pcnt,2024
+118,Nandor Major,HUN,10%,Checkout Pcnt,2024
+119,Madars Razma,LTV,0%,Checkout Pcnt,2024
+120,Teemu Harju,FIN,0%,Checkout Pcnt,2024
+101,Norman Madhoo,GUY,20%,Checkout Pcnt,2024
+102,Dave Cameron,CAN,20%,Checkout Pcnt,2024
+103,Damon Heta,AUS,18.75%,Checkout Pcnt,2024
+104,Singapore,,18.75%,Checkout Pcnt,2024
+105,Lok Yin Lee,HKG,17.65%,Checkout Pcnt,2024
+106,Alexis Toylo,PHI,16.67%,Checkout Pcnt,2024
+107,José Justicia,ESP,16.67%,Checkout Pcnt,2024
+108,Danny Noppert,NED,16.67%,Checkout Pcnt,2024
+109,Justin Hewitt,GIB,16.67%,Checkout Pcnt,2024
+110,David Gomes,POR,16.67%,Checkout Pcnt,2024
+111,Netherlands,,14.29%,Checkout Pcnt,2024
+112,Harith Lim,SNG,14.29%,Checkout Pcnt,2024
+113,Mindaugas Barauskas,LTH,14.29%,Checkout Pcnt,2024
+114,Michael van Gerwen,NED,12.5%,Checkout Pcnt,2024
+115,Daniel Lauby Jr.,USA,12.5%,Checkout Pcnt,2024
+116,Petur Rudrik Gudmundsson,ISL,11.11%,Checkout Pcnt,2024
+117,Jim Williams,WAL,10%,Checkout Pcnt,2024
+118,Nandor Major,HUN,10%,Checkout Pcnt,2024
+119,Madars Razma,LTV,0%,Checkout Pcnt,2024
+120,Teemu Harju,FIN,0%,Checkout Pcnt,2024

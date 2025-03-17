@@ -1,0 +1,697 @@
+Leg,Leg Value,Throw-in,Value Home,Value Away,Throw Home,Throw Away,Player Home,Player Away
+0,1-0,,376,501,125,0,Humphries L.,Clayton J.
+1,1-0,,376,441,0,60,Humphries L.,Clayton J.
+2,1-0,,276,441,100,0,Humphries L.,Clayton J.
+3,1-0,,276,396,0,45,Humphries L.,Clayton J.
+4,1-0,,161,396,115,0,Humphries L.,Clayton J.
+5,1-0,,161,296,0,100,Humphries L.,Clayton J.
+6,1-0,,56,296,105,0,Humphries L.,Clayton J.
+7,1-0,,56,236,0,60,Humphries L.,Clayton J.
+8,1-0,,40,236,16,0,Humphries L.,Clayton J.
+9,1-0,,40,154,0,82,Humphries L.,Clayton J.
+0,1-1,,501,401,0,100,Humphries L.,Clayton J.
+1,1-1,,406,401,95,0,Humphries L.,Clayton J.
+2,1-1,,406,261,0,140,Humphries L.,Clayton J.
+3,1-1,,266,261,140,0,Humphries L.,Clayton J.
+4,1-1,,266,161,0,100,Humphries L.,Clayton J.
+5,1-1,,167,161,99,0,Humphries L.,Clayton J.
+6,1-1,,167,25,0,136,Humphries L.,Clayton J.
+7,1-1,,74,25,93,0,Humphries L.,Clayton J.
+0,1-2,VERLORENER ANWURF Home,441,501,60,0,Humphries L.,Clayton J.
+1,1-2,VERLORENER ANWURF Home,441,441,0,60,Humphries L.,Clayton J.
+2,1-2,VERLORENER ANWURF Home,301,441,140,0,Humphries L.,Clayton J.
+3,1-2,VERLORENER ANWURF Home,301,301,0,140,Humphries L.,Clayton J.
+4,1-2,VERLORENER ANWURF Home,243,301,58,0,Humphries L.,Clayton J.
+5,1-2,VERLORENER ANWURF Home,243,201,0,100,Humphries L.,Clayton J.
+6,1-2,VERLORENER ANWURF Home,147,201,96,0,Humphries L.,Clayton J.
+7,1-2,VERLORENER ANWURF Home,147,24,0,177,Humphries L.,Clayton J.
+8,1-2,VERLORENER ANWURF Home,24,24,123,0,Humphries L.,Clayton J.
+0,1-0,VERLORENER ANWURF Away,501,460,0,41,Clayton J.,Van den Bergh D.
+1,1-0,VERLORENER ANWURF Away,361,460,140,0,Clayton J.,Van den Bergh D.
+2,1-0,VERLORENER ANWURF Away,361,364,0,96,Clayton J.,Van den Bergh D.
+3,1-0,VERLORENER ANWURF Away,316,364,45,0,Clayton J.,Van den Bergh D.
+4,1-0,VERLORENER ANWURF Away,316,264,0,100,Clayton J.,Van den Bergh D.
+5,1-0,VERLORENER ANWURF Away,232,264,84,0,Clayton J.,Van den Bergh D.
+6,1-0,VERLORENER ANWURF Away,232,124,0,140,Clayton J.,Van den Bergh D.
+7,1-0,VERLORENER ANWURF Away,177,124,55,0,Clayton J.,Van den Bergh D.
+8,1-0,VERLORENER ANWURF Away,177,64,0,60,Clayton J.,Van den Bergh D.
+9,1-0,VERLORENER ANWURF Away,40,64,137,0,Clayton J.,Van den Bergh D.
+10,1-0,VERLORENER ANWURF Away,40,16,0,48,Clayton J.,Van den Bergh D.
+0,2-0,,406,501,95,0,Clayton J.,Van den Bergh D.
+1,2-0,,406,429,0,72,Clayton J.,Van den Bergh D.
+2,2-0,,309,429,97,0,Clayton J.,Van den Bergh D.
+3,2-0,,309,290,0,139,Clayton J.,Van den Bergh D.
+4,2-0,,170,290,139,0,Clayton J.,Van den Bergh D.
+5,2-0,,170,232,0,58,Clayton J.,Van den Bergh D.
+6,2-0,,110,232,60,0,Clayton J.,Van den Bergh D.
+7,2-0,,110,92,0,140,Clayton J.,Van den Bergh D.
+8,2-0,,16,92,94,0,Clayton J.,Van den Bergh D.
+9,2-0,,16,25,0,67,Clayton J.,Van den Bergh D.
+0,0-1,VERLORENER ANWURF Home,401,501,100,0,Humphries L.,Noppert D.
+1,0-1,VERLORENER ANWURF Home,401,441,0,60,Humphries L.,Noppert D.
+2,0-1,VERLORENER ANWURF Home,301,441,100,0,Humphries L.,Noppert D.
+3,0-1,VERLORENER ANWURF Home,301,301,0,140,Humphries L.,Noppert D.
+4,0-1,VERLORENER ANWURF Home,204,301,97,0,Humphries L.,Noppert D.
+5,0-1,VERLORENER ANWURF Home,204,121,0,180,Humphries L.,Noppert D.
+6,0-1,VERLORENER ANWURF Home,108,121,96,0,Humphries L.,Noppert D.
+7,0-1,VERLORENER ANWURF Home,108,68,0,53,Humphries L.,Noppert D.
+8,0-1,VERLORENER ANWURF Home,32,68,76,0,Humphries L.,Noppert D.
+9,0-1,VERLORENER ANWURF Home,32,4,0,64,Humphries L.,Noppert D.
+10,0-1,VERLORENER ANWURF Home,8,4,24,0,Humphries L.,Noppert D.
+0,0-2,,501,401,0,100,Humphries L.,Noppert D.
+1,0-2,,366,401,135,0,Humphries L.,Noppert D.
+2,0-2,,366,341,0,60,Humphries L.,Noppert D.
+3,0-2,,306,341,60,0,Humphries L.,Noppert D.
+4,0-2,,306,241,0,100,Humphries L.,Noppert D.
+5,0-2,,210,241,96,0,Humphries L.,Noppert D.
+6,0-2,,210,101,0,140,Humphries L.,Noppert D.
+7,0-2,,70,101,140,0,Humphries L.,Noppert D.
+0,1-0,,476,501,25,0,Van den Bergh D.,Aspinall N.
+1,1-0,,476,441,0,60,Van den Bergh D.,Aspinall N.
+2,1-0,,361,441,115,0,Van den Bergh D.,Aspinall N.
+3,1-0,,361,341,0,100,Van den Bergh D.,Aspinall N.
+4,1-0,,301,341,60,0,Van den Bergh D.,Aspinall N.
+5,1-0,,301,207,0,134,Van den Bergh D.,Aspinall N.
+6,1-0,,201,207,100,0,Van den Bergh D.,Aspinall N.
+7,1-0,,201,112,0,95,Van den Bergh D.,Aspinall N.
+8,1-0,,68,112,133,0,Van den Bergh D.,Aspinall N.
+9,1-0,,68,70,0,42,Van den Bergh D.,Aspinall N.
+10,1-0,,16,70,52,0,Van den Bergh D.,Aspinall N.
+11,1-0,,16,16,0,54,Van den Bergh D.,Aspinall N.
+0,2-0,VERLORENER ANWURF Away,501,420,0,81,Van den Bergh D.,Aspinall N.
+1,2-0,VERLORENER ANWURF Away,321,420,180,0,Van den Bergh D.,Aspinall N.
+2,2-0,VERLORENER ANWURF Away,321,320,0,100,Van den Bergh D.,Aspinall N.
+3,2-0,VERLORENER ANWURF Away,221,320,100,0,Van den Bergh D.,Aspinall N.
+4,2-0,VERLORENER ANWURF Away,221,238,0,82,Van den Bergh D.,Aspinall N.
+5,2-0,VERLORENER ANWURF Away,121,238,100,0,Van den Bergh D.,Aspinall N.
+6,2-0,VERLORENER ANWURF Away,121,138,0,100,Van den Bergh D.,Aspinall N.
+0,0-1,VERLORENER ANWURF Home,401,501,100,0,Littler L.,Clayton J.
+1,0-1,VERLORENER ANWURF Home,401,442,0,59,Littler L.,Clayton J.
+2,0-1,VERLORENER ANWURF Home,344,442,57,0,Littler L.,Clayton J.
+3,0-1,VERLORENER ANWURF Home,344,262,0,180,Littler L.,Clayton J.
+4,0-1,VERLORENER ANWURF Home,204,262,140,0,Littler L.,Clayton J.
+5,0-1,VERLORENER ANWURF Home,204,128,0,134,Littler L.,Clayton J.
+6,0-1,VERLORENER ANWURF Home,70,128,134,0,Littler L.,Clayton J.
+0,1-1,VERLORENER ANWURF Away,501,416,0,85,Littler L.,Clayton J.
+1,1-1,VERLORENER ANWURF Away,367,416,134,0,Littler L.,Clayton J.
+2,1-1,VERLORENER ANWURF Away,367,356,0,60,Littler L.,Clayton J.
+3,1-1,VERLORENER ANWURF Away,187,356,180,0,Littler L.,Clayton J.
+4,1-1,VERLORENER ANWURF Away,187,297,0,59,Littler L.,Clayton J.
+5,1-1,VERLORENER ANWURF Away,47,297,140,0,Littler L.,Clayton J.
+6,1-1,VERLORENER ANWURF Away,47,160,0,137,Littler L.,Clayton J.
+7,1-1,VERLORENER ANWURF Away,20,160,27,0,Littler L.,Clayton J.
+8,1-1,VERLORENER ANWURF Away,20,100,0,60,Littler L.,Clayton J.
+9,1-1,VERLORENER ANWURF Away,20,100,0,0,Littler L.,Clayton J.
+10,1-1,VERLORENER ANWURF Away,20,40,0,60,Littler L.,Clayton J.
+0,1-2,VERLORENER ANWURF Home,361,501,140,0,Littler L.,Clayton J.
+1,1-2,VERLORENER ANWURF Home,361,361,0,140,Littler L.,Clayton J.
+2,1-2,VERLORENER ANWURF Home,303,361,58,0,Littler L.,Clayton J.
+3,1-2,VERLORENER ANWURF Home,303,278,0,83,Littler L.,Clayton J.
+4,1-2,VERLORENER ANWURF Home,207,278,96,0,Littler L.,Clayton J.
+5,1-2,VERLORENER ANWURF Home,207,138,0,140,Littler L.,Clayton J.
+6,1-2,VERLORENER ANWURF Home,27,138,180,0,Littler L.,Clayton J.
+0,1-0,,441,501,60,0,Noppert D.,Bunting S.
+1,1-0,,441,361,0,140,Noppert D.,Bunting S.
+2,1-0,,261,361,180,0,Noppert D.,Bunting S.
+3,1-0,,261,301,0,60,Noppert D.,Bunting S.
+4,1-0,,130,301,131,0,Noppert D.,Bunting S.
+5,1-0,,130,161,0,140,Noppert D.,Bunting S.
+6,1-0,,40,161,90,0,Noppert D.,Bunting S.
+7,1-0,,40,62,0,99,Noppert D.,Bunting S.
+0,1-1,,501,401,0,100,Noppert D.,Bunting S.
+1,1-1,,401,401,100,0,Noppert D.,Bunting S.
+2,1-1,,401,341,0,60,Noppert D.,Bunting S.
+3,1-1,,324,341,77,0,Noppert D.,Bunting S.
+4,1-1,,324,241,0,100,Noppert D.,Bunting S.
+5,1-1,,228,241,96,0,Noppert D.,Bunting S.
+6,1-1,,228,145,0,96,Noppert D.,Bunting S.
+7,1-1,,184,145,44,0,Noppert D.,Bunting S.
+8,1-1,,184,80,0,65,Noppert D.,Bunting S.
+9,1-1,,84,80,100,0,Noppert D.,Bunting S.
+10,1-1,,84,20,0,60,Noppert D.,Bunting S.
+11,1-1,,25,20,59,0,Noppert D.,Bunting S.
+0,1-2,VERLORENER ANWURF Home,367,501,134,0,Noppert D.,Bunting S.
+1,1-2,VERLORENER ANWURF Home,367,361,0,140,Noppert D.,Bunting S.
+2,1-2,VERLORENER ANWURF Home,233,361,134,0,Noppert D.,Bunting S.
+3,1-2,VERLORENER ANWURF Home,233,181,0,180,Noppert D.,Bunting S.
+4,1-2,VERLORENER ANWURF Home,53,181,180,0,Noppert D.,Bunting S.
+5,1-2,VERLORENER ANWURF Home,53,36,0,145,Noppert D.,Bunting S.
+6,1-2,VERLORENER ANWURF Home,10,36,43,0,Noppert D.,Bunting S.
+0,0-1,VERLORENER ANWURF Home,401,501,100,0,Humphries L.,Heta D.
+1,0-1,VERLORENER ANWURF Home,401,424,0,77,Humphries L.,Heta D.
+2,0-1,VERLORENER ANWURF Home,302,424,99,0,Humphries L.,Heta D.
+3,0-1,VERLORENER ANWURF Home,302,324,0,100,Humphries L.,Heta D.
+4,0-1,VERLORENER ANWURF Home,204,324,98,0,Humphries L.,Heta D.
+5,0-1,VERLORENER ANWURF Home,204,224,0,100,Humphries L.,Heta D.
+6,0-1,VERLORENER ANWURF Home,144,224,60,0,Humphries L.,Heta D.
+7,0-1,VERLORENER ANWURF Home,144,84,0,140,Humphries L.,Heta D.
+8,0-1,VERLORENER ANWURF Home,86,84,58,0,Humphries L.,Heta D.
+0,1-1,VERLORENER ANWURF Away,501,404,0,97,Humphries L.,Heta D.
+1,1-1,VERLORENER ANWURF Away,361,404,140,0,Humphries L.,Heta D.
+2,1-1,VERLORENER ANWURF Away,361,264,0,140,Humphries L.,Heta D.
+3,1-1,VERLORENER ANWURF Away,261,264,100,0,Humphries L.,Heta D.
+4,1-1,VERLORENER ANWURF Away,261,164,0,100,Humphries L.,Heta D.
+5,1-1,VERLORENER ANWURF Away,81,164,180,0,Humphries L.,Heta D.
+6,1-1,VERLORENER ANWURF Away,81,25,0,139,Humphries L.,Heta D.
+0,2-1,,401,501,100,0,Humphries L.,Heta D.
+1,2-1,,401,401,0,100,Humphries L.,Heta D.
+2,2-1,,261,401,140,0,Humphries L.,Heta D.
+3,2-1,,261,261,0,140,Humphries L.,Heta D.
+4,2-1,,206,261,55,0,Humphries L.,Heta D.
+5,2-1,,206,164,0,97,Humphries L.,Heta D.
+6,2-1,,106,164,100,0,Humphries L.,Heta D.
+7,2-1,,106,46,0,118,Humphries L.,Heta D.
+0,1-0,,401,501,100,0,van Gerwen M.,Van den Bergh D.
+1,1-0,,401,443,0,58,van Gerwen M.,Van den Bergh D.
+2,1-0,,267,443,134,0,van Gerwen M.,Van den Bergh D.
+3,1-0,,267,420,0,23,van Gerwen M.,Van den Bergh D.
+4,1-0,,132,420,135,0,van Gerwen M.,Van den Bergh D.
+5,1-0,,132,285,0,135,van Gerwen M.,Van den Bergh D.
+0,2-0,VERLORENER ANWURF Away,501,444,0,57,van Gerwen M.,Van den Bergh D.
+1,2-0,VERLORENER ANWURF Away,406,444,95,0,van Gerwen M.,Van den Bergh D.
+2,2-0,VERLORENER ANWURF Away,406,362,0,82,van Gerwen M.,Van den Bergh D.
+3,2-0,VERLORENER ANWURF Away,266,362,140,0,van Gerwen M.,Van den Bergh D.
+4,2-0,VERLORENER ANWURF Away,266,308,0,54,van Gerwen M.,Van den Bergh D.
+5,2-0,VERLORENER ANWURF Away,167,308,99,0,van Gerwen M.,Van den Bergh D.
+6,2-0,VERLORENER ANWURF Away,167,170,0,138,van Gerwen M.,Van den Bergh D.
+7,2-0,VERLORENER ANWURF Away,32,170,135,0,van Gerwen M.,Van den Bergh D.
+8,2-0,VERLORENER ANWURF Away,32,36,0,134,van Gerwen M.,Van den Bergh D.
+0,1-0,,365,501,136,0,Littler L.,Wade J.
+1,1-0,,365,420,0,81,Littler L.,Wade J.
+2,1-0,,232,420,133,0,Littler L.,Wade J.
+3,1-0,,232,320,0,100,Littler L.,Wade J.
+4,1-0,,142,320,90,0,Littler L.,Wade J.
+5,1-0,,142,220,0,100,Littler L.,Wade J.
+6,1-0,,30,220,112,0,Littler L.,Wade J.
+7,1-0,,30,160,0,60,Littler L.,Wade J.
+8,1-0,,20,160,10,0,Littler L.,Wade J.
+9,1-0,,20,60,0,100,Littler L.,Wade J.
+0,2-0,VERLORENER ANWURF Away,501,361,0,140,Littler L.,Wade J.
+1,2-0,VERLORENER ANWURF Away,370,361,131,0,Littler L.,Wade J.
+2,2-0,VERLORENER ANWURF Away,370,261,0,100,Littler L.,Wade J.
+3,2-0,VERLORENER ANWURF Away,230,261,140,0,Littler L.,Wade J.
+4,2-0,VERLORENER ANWURF Away,230,121,0,140,Littler L.,Wade J.
+5,2-0,VERLORENER ANWURF Away,90,121,140,0,Littler L.,Wade J.
+6,2-0,VERLORENER ANWURF Away,90,64,0,57,Littler L.,Wade J.
+0,1-0,,460,501,41,0,Menzies C.,Aspinall N.
+1,1-0,,460,416,0,85,Menzies C.,Aspinall N.
+2,1-0,,418,416,42,0,Menzies C.,Aspinall N.
+3,1-0,,418,316,0,100,Menzies C.,Aspinall N.
+4,1-0,,278,316,140,0,Menzies C.,Aspinall N.
+5,1-0,,278,266,0,50,Menzies C.,Aspinall N.
+6,1-0,,233,266,45,0,Menzies C.,Aspinall N.
+7,1-0,,233,208,0,58,Menzies C.,Aspinall N.
+8,1-0,,148,208,85,0,Menzies C.,Aspinall N.
+9,1-0,,148,108,0,100,Menzies C.,Aspinall N.
+10,1-0,,20,108,128,0,Menzies C.,Aspinall N.
+11,1-0,,20,32,0,76,Menzies C.,Aspinall N.
+0,1-1,,501,361,0,140,Menzies C.,Aspinall N.
+1,1-1,,441,361,60,0,Menzies C.,Aspinall N.
+2,1-1,,441,261,0,100,Menzies C.,Aspinall N.
+3,1-1,,341,261,100,0,Menzies C.,Aspinall N.
+4,1-1,,341,202,0,59,Menzies C.,Aspinall N.
+5,1-1,,204,202,137,0,Menzies C.,Aspinall N.
+6,1-1,,204,143,0,59,Menzies C.,Aspinall N.
+7,1-1,,150,143,54,0,Menzies C.,Aspinall N.
+0,2-1,,401,501,100,0,Menzies C.,Aspinall N.
+1,2-1,,401,401,0,100,Menzies C.,Aspinall N.
+2,2-1,,261,401,140,0,Menzies C.,Aspinall N.
+3,2-1,,261,221,0,180,Menzies C.,Aspinall N.
+4,2-1,,170,221,91,0,Menzies C.,Aspinall N.
+5,2-1,,170,161,0,60,Menzies C.,Aspinall N.
+6,2-1,,110,161,60,0,Menzies C.,Aspinall N.
+7,2-1,,110,65,0,96,Menzies C.,Aspinall N.
+0,1-0,VERLORENER ANWURF Away,501,401,0,100,Clayton J.,Searle R.
+1,1-0,VERLORENER ANWURF Away,405,401,96,0,Clayton J.,Searle R.
+2,1-0,VERLORENER ANWURF Away,405,320,0,81,Clayton J.,Searle R.
+3,1-0,VERLORENER ANWURF Away,360,320,45,0,Clayton J.,Searle R.
+4,1-0,VERLORENER ANWURF Away,360,220,0,100,Clayton J.,Searle R.
+5,1-0,VERLORENER ANWURF Away,263,220,97,0,Clayton J.,Searle R.
+6,1-0,VERLORENER ANWURF Away,263,120,0,100,Clayton J.,Searle R.
+7,1-0,VERLORENER ANWURF Away,204,120,59,0,Clayton J.,Searle R.
+8,1-0,VERLORENER ANWURF Away,204,40,0,80,Clayton J.,Searle R.
+9,1-0,VERLORENER ANWURF Away,144,40,60,0,Clayton J.,Searle R.
+10,1-0,VERLORENER ANWURF Away,144,40,0,0,Clayton J.,Searle R.
+0,2-0,,441,501,60,0,Clayton J.,Searle R.
+1,2-0,,441,444,0,57,Clayton J.,Searle R.
+2,2-0,,301,444,140,0,Clayton J.,Searle R.
+3,2-0,,301,321,0,123,Clayton J.,Searle R.
+4,2-0,,220,321,81,0,Clayton J.,Searle R.
+5,2-0,,220,261,0,60,Clayton J.,Searle R.
+6,2-0,,120,261,100,0,Clayton J.,Searle R.
+7,2-0,,120,121,0,140,Clayton J.,Searle R.
+8,2-0,,20,121,100,0,Clayton J.,Searle R.
+9,2-0,,20,34,0,87,Clayton J.,Searle R.
+0,0-1,,501,441,0,60,Humphries L.,Rock J.
+1,0-1,,416,441,85,0,Humphries L.,Rock J.
+2,0-1,,416,301,0,140,Humphries L.,Rock J.
+3,0-1,,236,301,180,0,Humphries L.,Rock J.
+4,0-1,,236,161,0,140,Humphries L.,Rock J.
+5,0-1,,136,161,100,0,Humphries L.,Rock J.
+6,0-1,,136,36,0,125,Humphries L.,Rock J.
+7,0-1,,76,36,60,0,Humphries L.,Rock J.
+0,1-1,,442,501,59,0,Humphries L.,Rock J.
+1,1-1,,442,361,0,140,Humphries L.,Rock J.
+2,1-1,,342,361,100,0,Humphries L.,Rock J.
+3,1-1,,342,301,0,60,Humphries L.,Rock J.
+4,1-1,,242,301,100,0,Humphries L.,Rock J.
+5,1-1,,242,241,0,60,Humphries L.,Rock J.
+6,1-1,,184,241,58,0,Humphries L.,Rock J.
+7,1-1,,184,198,0,43,Humphries L.,Rock J.
+8,1-1,,143,198,41,0,Humphries L.,Rock J.
+9,1-1,,143,115,0,83,Humphries L.,Rock J.
+10,1-1,,16,115,127,0,Humphries L.,Rock J.
+11,1-1,,16,19,0,96,Humphries L.,Rock J.
+0,2-1,VERLORENER ANWURF Away,501,361,0,140,Humphries L.,Rock J.
+1,2-1,VERLORENER ANWURF Away,321,361,180,0,Humphries L.,Rock J.
+2,2-1,VERLORENER ANWURF Away,321,265,0,96,Humphries L.,Rock J.
+3,2-1,VERLORENER ANWURF Away,221,265,100,0,Humphries L.,Rock J.
+4,2-1,VERLORENER ANWURF Away,221,206,0,59,Humphries L.,Rock J.
+5,2-1,VERLORENER ANWURF Away,161,206,60,0,Humphries L.,Rock J.
+6,2-1,VERLORENER ANWURF Away,161,146,0,60,Humphries L.,Rock J.
+7,2-1,VERLORENER ANWURF Away,57,146,104,0,Humphries L.,Rock J.
+8,2-1,VERLORENER ANWURF Away,57,64,0,82,Humphries L.,Rock J.
+0,1-0,VERLORENER ANWURF Away,501,441,0,60,Bunting S.,Wright P.
+1,1-0,VERLORENER ANWURF Away,361,441,140,0,Bunting S.,Wright P.
+2,1-0,VERLORENER ANWURF Away,361,381,0,60,Bunting S.,Wright P.
+3,1-0,VERLORENER ANWURF Away,321,381,40,0,Bunting S.,Wright P.
+4,1-0,VERLORENER ANWURF Away,321,241,0,140,Bunting S.,Wright P.
+5,1-0,VERLORENER ANWURF Away,181,241,140,0,Bunting S.,Wright P.
+6,1-0,VERLORENER ANWURF Away,181,181,0,60,Bunting S.,Wright P.
+7,1-0,VERLORENER ANWURF Away,36,181,145,0,Bunting S.,Wright P.
+8,1-0,VERLORENER ANWURF Away,36,81,0,100,Bunting S.,Wright P.
+9,1-0,VERLORENER ANWURF Away,36,81,0,0,Bunting S.,Wright P.
+10,1-0,VERLORENER ANWURF Away,36,18,0,63,Bunting S.,Wright P.
+0,2-0,,443,501,58,0,Bunting S.,Wright P.
+1,2-0,,443,441,0,60,Bunting S.,Wright P.
+2,2-0,,309,441,134,0,Bunting S.,Wright P.
+3,2-0,,309,397,0,44,Bunting S.,Wright P.
+4,2-0,,250,397,59,0,Bunting S.,Wright P.
+5,2-0,,250,337,0,60,Bunting S.,Wright P.
+6,2-0,,70,337,180,0,Bunting S.,Wright P.
+7,2-0,,70,157,0,180,Bunting S.,Wright P.
+0,1-0,,370,501,131,0,Heta D.,Price G.
+1,1-0,,370,405,0,96,Heta D.,Price G.
+2,1-0,,277,405,93,0,Heta D.,Price G.
+3,1-0,,277,325,0,80,Heta D.,Price G.
+4,1-0,,217,325,60,0,Heta D.,Price G.
+5,1-0,,217,186,0,139,Heta D.,Price G.
+6,1-0,,124,186,93,0,Heta D.,Price G.
+7,1-0,,124,130,0,56,Heta D.,Price G.
+0,2-0,VERLORENER ANWURF Away,501,460,0,41,Heta D.,Price G.
+1,2-0,VERLORENER ANWURF Away,416,460,85,0,Heta D.,Price G.
+2,2-0,VERLORENER ANWURF Away,416,320,0,140,Heta D.,Price G.
+3,2-0,VERLORENER ANWURF Away,279,320,137,0,Heta D.,Price G.
+4,2-0,VERLORENER ANWURF Away,279,185,0,135,Heta D.,Price G.
+5,2-0,VERLORENER ANWURF Away,223,185,56,0,Heta D.,Price G.
+6,2-0,VERLORENER ANWURF Away,223,120,0,65,Heta D.,Price G.
+7,2-0,VERLORENER ANWURF Away,89,120,134,0,Heta D.,Price G.
+8,2-0,VERLORENER ANWURF Away,89,20,0,100,Heta D.,Price G.
+0,0-1,,501,361,0,140,O'Connor W.,Noppert D.
+1,0-1,,444,361,57,0,O'Connor W.,Noppert D.
+2,0-1,,444,236,0,125,O'Connor W.,Noppert D.
+3,0-1,,304,236,140,0,O'Connor W.,Noppert D.
+4,0-1,,304,181,0,55,O'Connor W.,Noppert D.
+5,0-1,,209,181,95,0,O'Connor W.,Noppert D.
+6,0-1,,209,41,0,140,O'Connor W.,Noppert D.
+7,0-1,,109,41,100,0,O'Connor W.,Noppert D.
+8,0-1,,109,20,0,21,O'Connor W.,Noppert D.
+9,0-1,,52,20,57,0,O'Connor W.,Noppert D.
+0,1-1,,465,501,36,0,O'Connor W.,Noppert D.
+1,1-1,,465,405,0,96,O'Connor W.,Noppert D.
+2,1-1,,325,405,140,0,O'Connor W.,Noppert D.
+3,1-1,,325,320,0,85,O'Connor W.,Noppert D.
+4,1-1,,267,320,58,0,O'Connor W.,Noppert D.
+5,1-1,,267,278,0,42,O'Connor W.,Noppert D.
+6,1-1,,174,278,93,0,O'Connor W.,Noppert D.
+7,1-1,,174,182,0,96,O'Connor W.,Noppert D.
+8,1-1,,40,182,134,0,O'Connor W.,Noppert D.
+9,1-1,,40,2,0,180,O'Connor W.,Noppert D.
+0,1-2,,501,370,0,131,O'Connor W.,Noppert D.
+1,1-2,,443,370,58,0,O'Connor W.,Noppert D.
+2,1-2,,443,190,0,180,O'Connor W.,Noppert D.
+3,1-2,,347,190,96,0,O'Connor W.,Noppert D.
+4,1-2,,347,109,0,81,O'Connor W.,Noppert D.
+5,1-2,,176,109,171,0,O'Connor W.,Noppert D.
+6,1-2,,176,36,0,73,O'Connor W.,Noppert D.
+7,1-2,,40,36,136,0,O'Connor W.,Noppert D.
+0,1-0,VERLORENER ANWURF Away,501,441,0,60,Anderson G.,Van den Bergh D.
+1,1-0,VERLORENER ANWURF Away,460,441,41,0,Anderson G.,Van den Bergh D.
+2,1-0,VERLORENER ANWURF Away,460,261,0,180,Anderson G.,Van den Bergh D.
+3,1-0,VERLORENER ANWURF Away,320,261,140,0,Anderson G.,Van den Bergh D.
+4,1-0,VERLORENER ANWURF Away,320,121,0,140,Anderson G.,Van den Bergh D.
+5,1-0,VERLORENER ANWURF Away,140,121,180,0,Anderson G.,Van den Bergh D.
+6,1-0,VERLORENER ANWURF Away,140,76,0,45,Anderson G.,Van den Bergh D.
+7,1-0,VERLORENER ANWURF Away,40,76,100,0,Anderson G.,Van den Bergh D.
+8,1-0,VERLORENER ANWURF Away,40,76,0,0,Anderson G.,Van den Bergh D.
+0,2-0,,381,501,120,0,Anderson G.,Van den Bergh D.
+1,2-0,,381,401,0,100,Anderson G.,Van den Bergh D.
+2,2-0,,241,401,140,0,Anderson G.,Van den Bergh D.
+3,2-0,,241,301,0,100,Anderson G.,Van den Bergh D.
+4,2-0,,181,301,60,0,Anderson G.,Van den Bergh D.
+5,2-0,,181,201,0,100,Anderson G.,Van den Bergh D.
+6,2-0,,41,201,140,0,Anderson G.,Van den Bergh D.
+7,2-0,,41,142,0,59,Anderson G.,Van den Bergh D.
+0,1-0,VERLORENER ANWURF Away,501,361,0,140,van Gerwen M.,Brooks B.
+1,1-0,VERLORENER ANWURF Away,402,361,99,0,van Gerwen M.,Brooks B.
+2,1-0,VERLORENER ANWURF Away,402,264,0,97,van Gerwen M.,Brooks B.
+3,1-0,VERLORENER ANWURF Away,268,264,134,0,van Gerwen M.,Brooks B.
+4,1-0,VERLORENER ANWURF Away,268,204,0,60,van Gerwen M.,Brooks B.
+5,1-0,VERLORENER ANWURF Away,88,204,180,0,van Gerwen M.,Brooks B.
+6,1-0,VERLORENER ANWURF Away,88,104,0,100,van Gerwen M.,Brooks B.
+0,2-0,,404,501,97,0,van Gerwen M.,Brooks B.
+1,2-0,,404,461,0,40,van Gerwen M.,Brooks B.
+2,2-0,,345,461,59,0,van Gerwen M.,Brooks B.
+3,2-0,,345,404,0,57,van Gerwen M.,Brooks B.
+4,2-0,,245,404,100,0,van Gerwen M.,Brooks B.
+5,2-0,,245,344,0,60,van Gerwen M.,Brooks B.
+6,2-0,,111,344,134,0,van Gerwen M.,Brooks B.
+7,2-0,,111,285,0,59,van Gerwen M.,Brooks B.
+8,2-0,,40,285,71,0,van Gerwen M.,Brooks B.
+9,2-0,,40,195,0,90,van Gerwen M.,Brooks B.
+10,2-0,,40,195,0,0,van Gerwen M.,Brooks B.
+11,2-0,,40,146,0,49,van Gerwen M.,Brooks B.
+0,1-0,,321,501,180,0,Littler L.,Baetens A.
+1,1-0,,321,401,0,100,Littler L.,Baetens A.
+2,1-0,,261,401,60,0,Littler L.,Baetens A.
+3,1-0,,261,302,0,99,Littler L.,Baetens A.
+4,1-0,,205,302,56,0,Littler L.,Baetens A.
+5,1-0,,205,257,0,45,Littler L.,Baetens A.
+6,1-0,,25,257,180,0,Littler L.,Baetens A.
+7,1-0,,25,117,0,140,Littler L.,Baetens A.
+0,1-1,,501,401,0,100,Littler L.,Baetens A.
+1,1-1,,418,401,83,0,Littler L.,Baetens A.
+2,1-1,,418,261,0,140,Littler L.,Baetens A.
+3,1-1,,293,261,125,0,Littler L.,Baetens A.
+4,1-1,,293,161,0,100,Littler L.,Baetens A.
+5,1-1,,198,161,95,0,Littler L.,Baetens A.
+6,1-1,,198,76,0,85,Littler L.,Baetens A.
+7,1-1,,64,76,134,0,Littler L.,Baetens A.
+0,2-1,,367,501,134,0,Littler L.,Baetens A.
+1,2-1,,367,402,0,99,Littler L.,Baetens A.
+2,2-1,,244,402,123,0,Littler L.,Baetens A.
+3,2-1,,244,277,0,125,Littler L.,Baetens A.
+4,2-1,,186,277,58,0,Littler L.,Baetens A.
+5,2-1,,186,217,0,60,Littler L.,Baetens A.
+6,2-1,,24,217,162,0,Littler L.,Baetens A.
+7,2-1,,24,78,0,139,Littler L.,Baetens A.
+0,0-1,,501,401,0,100,Dobey C.,Searle R.
+1,0-1,,380,401,121,0,Dobey C.,Searle R.
+2,0-1,,380,301,0,100,Dobey C.,Searle R.
+3,0-1,,280,301,100,0,Dobey C.,Searle R.
+4,0-1,,280,161,0,140,Dobey C.,Searle R.
+5,0-1,,202,161,78,0,Dobey C.,Searle R.
+6,0-1,,202,80,0,81,Dobey C.,Searle R.
+7,0-1,,144,80,58,0,Dobey C.,Searle R.
+8,0-1,,144,40,0,40,Dobey C.,Searle R.
+9,0-1,,84,40,60,0,Dobey C.,Searle R.
+0,1-1,,370,501,131,0,Dobey C.,Searle R.
+1,1-1,,370,455,0,46,Dobey C.,Searle R.
+2,1-1,,270,455,100,0,Dobey C.,Searle R.
+3,1-1,,270,355,0,100,Dobey C.,Searle R.
+4,1-1,,210,355,60,0,Dobey C.,Searle R.
+5,1-1,,210,255,0,100,Dobey C.,Searle R.
+6,1-1,,110,255,100,0,Dobey C.,Searle R.
+7,1-1,,110,214,0,41,Dobey C.,Searle R.
+0,1-2,,501,321,0,180,Dobey C.,Searle R.
+1,1-2,,401,321,100,0,Dobey C.,Searle R.
+2,1-2,,401,261,0,60,Dobey C.,Searle R.
+3,1-2,,261,261,140,0,Dobey C.,Searle R.
+4,1-2,,261,170,0,91,Dobey C.,Searle R.
+5,1-2,,161,170,100,0,Dobey C.,Searle R.
+6,1-2,,161,25,0,145,Dobey C.,Searle R.
+7,1-2,,97,25,64,0,Dobey C.,Searle R.
+8,1-2,,97,16,0,9,Dobey C.,Searle R.
+9,1-2,,24,16,73,0,Dobey C.,Searle R.
+0,1-0,VERLORENER ANWURF Away,501,440,0,61,Aspinall N.,Gilding A.
+1,1-0,VERLORENER ANWURF Away,441,440,60,0,Aspinall N.,Gilding A.
+2,1-0,VERLORENER ANWURF Away,441,340,0,100,Aspinall N.,Gilding A.
+3,1-0,VERLORENER ANWURF Away,301,340,140,0,Aspinall N.,Gilding A.
+4,1-0,VERLORENER ANWURF Away,301,240,0,100,Aspinall N.,Gilding A.
+5,1-0,VERLORENER ANWURF Away,161,240,140,0,Aspinall N.,Gilding A.
+6,1-0,VERLORENER ANWURF Away,161,60,0,180,Aspinall N.,Gilding A.
+0,2-0,,443,501,58,0,Aspinall N.,Gilding A.
+1,2-0,,443,458,0,43,Aspinall N.,Gilding A.
+2,2-0,,347,458,96,0,Aspinall N.,Gilding A.
+3,2-0,,347,318,0,140,Aspinall N.,Gilding A.
+4,2-0,,247,318,100,0,Aspinall N.,Gilding A.
+5,2-0,,247,138,0,180,Aspinall N.,Gilding A.
+6,2-0,,107,138,140,0,Aspinall N.,Gilding A.
+7,2-0,,107,38,0,100,Aspinall N.,Gilding A.
+8,2-0,,60,38,47,0,Aspinall N.,Gilding A.
+9,2-0,,60,8,0,30,Aspinall N.,Gilding A.
+0,1-0,,321,501,180,0,Clayton J.,Schindler M.
+1,1-0,,321,419,0,82,Clayton J.,Schindler M.
+2,1-0,,181,419,140,0,Clayton J.,Schindler M.
+3,1-0,,181,279,0,140,Clayton J.,Schindler M.
+4,1-0,,41,279,140,0,Clayton J.,Schindler M.
+5,1-0,,41,220,0,59,Clayton J.,Schindler M.
+0,1-1,,501,321,0,180,Clayton J.,Schindler M.
+1,1-1,,361,321,140,0,Clayton J.,Schindler M.
+2,1-1,,361,224,0,97,Clayton J.,Schindler M.
+3,1-1,,221,224,140,0,Clayton J.,Schindler M.
+4,1-1,,221,131,0,93,Clayton J.,Schindler M.
+5,1-1,,81,131,140,0,Clayton J.,Schindler M.
+6,1-1,,81,40,0,91,Clayton J.,Schindler M.
+7,1-1,,31,40,50,0,Clayton J.,Schindler M.
+0,2-1,,361,501,140,0,Clayton J.,Schindler M.
+1,2-1,,361,444,0,57,Clayton J.,Schindler M.
+2,2-1,,264,444,97,0,Clayton J.,Schindler M.
+3,2-1,,264,304,0,140,Clayton J.,Schindler M.
+4,2-1,,164,304,100,0,Clayton J.,Schindler M.
+5,2-1,,164,244,0,60,Clayton J.,Schindler M.
+6,2-1,,64,244,100,0,Clayton J.,Schindler M.
+7,2-1,,64,186,0,58,Clayton J.,Schindler M.
+8,2-1,,32,186,32,0,Clayton J.,Schindler M.
+9,2-1,,32,86,0,100,Clayton J.,Schindler M.
+0,0-1,,501,401,0,100,Chisnall D.,Menzies C.
+1,0-1,,420,401,81,0,Chisnall D.,Menzies C.
+2,0-1,,420,341,0,60,Chisnall D.,Menzies C.
+3,0-1,,337,341,83,0,Chisnall D.,Menzies C.
+4,0-1,,337,257,0,84,Chisnall D.,Menzies C.
+5,0-1,,237,257,100,0,Chisnall D.,Menzies C.
+6,0-1,,237,157,0,100,Chisnall D.,Menzies C.
+7,0-1,,177,157,60,0,Chisnall D.,Menzies C.
+8,0-1,,177,66,0,91,Chisnall D.,Menzies C.
+9,0-1,,78,66,99,0,Chisnall D.,Menzies C.
+0,1-1,,441,501,60,0,Chisnall D.,Menzies C.
+1,1-1,,441,442,0,59,Chisnall D.,Menzies C.
+2,1-1,,383,442,58,0,Chisnall D.,Menzies C.
+3,1-1,,383,317,0,125,Chisnall D.,Menzies C.
+4,1-1,,203,317,180,0,Chisnall D.,Menzies C.
+5,1-1,,203,275,0,42,Chisnall D.,Menzies C.
+6,1-1,,69,275,134,0,Chisnall D.,Menzies C.
+7,1-1,,69,145,0,130,Chisnall D.,Menzies C.
+8,1-1,,40,145,29,0,Chisnall D.,Menzies C.
+9,1-1,,40,10,0,135,Chisnall D.,Menzies C.
+0,1-2,,501,458,0,43,Chisnall D.,Menzies C.
+1,1-2,,416,458,85,0,Chisnall D.,Menzies C.
+2,1-2,,416,358,0,100,Chisnall D.,Menzies C.
+3,1-2,,335,358,81,0,Chisnall D.,Menzies C.
+4,1-2,,335,264,0,94,Chisnall D.,Menzies C.
+5,1-2,,195,264,140,0,Chisnall D.,Menzies C.
+6,1-2,,195,164,0,100,Chisnall D.,Menzies C.
+7,1-2,,55,164,140,0,Chisnall D.,Menzies C.
+8,1-2,,55,70,0,94,Chisnall D.,Menzies C.
+9,1-2,,40,70,15,0,Chisnall D.,Menzies C.
+0,1-0,,401,501,100,0,Wade J.,De Decker M.
+1,1-0,,401,361,0,140,Wade J.,De Decker M.
+2,1-0,,301,361,100,0,Wade J.,De Decker M.
+3,1-0,,301,304,0,57,Wade J.,De Decker M.
+4,1-0,,161,304,140,0,Wade J.,De Decker M.
+5,1-0,,161,204,0,100,Wade J.,De Decker M.
+6,1-0,,76,204,85,0,Wade J.,De Decker M.
+7,1-0,,76,108,0,96,Wade J.,De Decker M.
+0,2-0,VERLORENER ANWURF Away,501,405,0,96,Wade J.,De Decker M.
+1,2-0,VERLORENER ANWURF Away,417,405,84,0,Wade J.,De Decker M.
+2,2-0,VERLORENER ANWURF Away,417,347,0,58,Wade J.,De Decker M.
+3,2-0,VERLORENER ANWURF Away,283,347,134,0,Wade J.,De Decker M.
+4,2-0,VERLORENER ANWURF Away,283,248,0,99,Wade J.,De Decker M.
+5,2-0,VERLORENER ANWURF Away,238,248,45,0,Wade J.,De Decker M.
+6,2-0,VERLORENER ANWURF Away,238,167,0,81,Wade J.,De Decker M.
+7,2-0,VERLORENER ANWURF Away,142,167,96,0,Wade J.,De Decker M.
+8,2-0,VERLORENER ANWURF Away,142,25,0,142,Wade J.,De Decker M.
+9,2-0,VERLORENER ANWURF Away,87,25,55,0,Wade J.,De Decker M.
+10,2-0,VERLORENER ANWURF Away,87,8,0,17,Wade J.,De Decker M.
+0,1-0,VERLORENER ANWURF Away,501,465,0,36,Noppert D.,Smith M.
+1,1-0,VERLORENER ANWURF Away,401,465,100,0,Noppert D.,Smith M.
+2,1-0,VERLORENER ANWURF Away,401,365,0,100,Noppert D.,Smith M.
+3,1-0,VERLORENER ANWURF Away,221,365,180,0,Noppert D.,Smith M.
+4,1-0,VERLORENER ANWURF Away,221,265,0,100,Noppert D.,Smith M.
+5,1-0,VERLORENER ANWURF Away,116,265,105,0,Noppert D.,Smith M.
+6,1-0,VERLORENER ANWURF Away,116,204,0,61,Noppert D.,Smith M.
+7,1-0,VERLORENER ANWURF Away,77,204,39,0,Noppert D.,Smith M.
+8,1-0,VERLORENER ANWURF Away,77,160,0,44,Noppert D.,Smith M.
+9,1-0,VERLORENER ANWURF Away,40,160,37,0,Noppert D.,Smith M.
+10,1-0,VERLORENER ANWURF Away,40,40,0,120,Noppert D.,Smith M.
+0,2-0,,361,501,140,0,Noppert D.,Smith M.
+1,2-0,,361,401,0,100,Noppert D.,Smith M.
+2,2-0,,301,401,60,0,Noppert D.,Smith M.
+3,2-0,,301,347,0,54,Noppert D.,Smith M.
+4,2-0,,161,347,140,0,Noppert D.,Smith M.
+5,2-0,,161,247,0,100,Noppert D.,Smith M.
+6,2-0,,24,247,137,0,Noppert D.,Smith M.
+7,2-0,,24,147,0,100,Noppert D.,Smith M.
+0,0-1,VERLORENER ANWURF Home,441,501,60,0,Bunting S.,Borland W.
+1,0-1,VERLORENER ANWURF Home,441,441,0,60,Bunting S.,Borland W.
+2,0-1,VERLORENER ANWURF Home,316,441,125,0,Bunting S.,Borland W.
+3,0-1,VERLORENER ANWURF Home,316,301,0,140,Bunting S.,Borland W.
+4,0-1,VERLORENER ANWURF Home,176,301,140,0,Bunting S.,Borland W.
+5,0-1,VERLORENER ANWURF Home,176,219,0,82,Bunting S.,Borland W.
+6,0-1,VERLORENER ANWURF Home,135,219,41,0,Bunting S.,Borland W.
+7,0-1,VERLORENER ANWURF Home,135,120,0,99,Bunting S.,Borland W.
+8,0-1,VERLORENER ANWURF Home,40,120,95,0,Bunting S.,Borland W.
+0,0-2,,501,441,0,60,Bunting S.,Borland W.
+1,0-2,,441,441,60,0,Bunting S.,Borland W.
+2,0-2,,441,261,0,180,Bunting S.,Borland W.
+3,0-2,,381,261,60,0,Bunting S.,Borland W.
+4,0-2,,381,204,0,57,Bunting S.,Borland W.
+5,0-2,,321,204,60,0,Bunting S.,Borland W.
+6,0-2,,321,64,0,140,Bunting S.,Borland W.
+7,0-2,,221,64,100,0,Bunting S.,Borland W.
+0,0-1,,501,402,0,99,Humphries L.,Cullen J.
+1,0-1,,441,402,60,0,Humphries L.,Cullen J.
+2,0-1,,441,262,0,140,Humphries L.,Cullen J.
+3,0-1,,316,262,125,0,Humphries L.,Cullen J.
+4,0-1,,316,82,0,180,Humphries L.,Cullen J.
+5,0-1,,272,82,44,0,Humphries L.,Cullen J.
+0,1-1,,361,501,140,0,Humphries L.,Cullen J.
+1,1-1,,361,404,0,97,Humphries L.,Cullen J.
+2,1-1,,261,404,100,0,Humphries L.,Cullen J.
+3,1-1,,261,345,0,59,Humphries L.,Cullen J.
+4,1-1,,121,345,140,0,Humphries L.,Cullen J.
+5,1-1,,121,205,0,140,Humphries L.,Cullen J.
+6,1-1,,36,205,85,0,Humphries L.,Cullen J.
+7,1-1,,36,100,0,105,Humphries L.,Cullen J.
+0,2-1,VERLORENER ANWURF Away,501,490,0,11,Humphries L.,Cullen J.
+1,2-1,VERLORENER ANWURF Away,401,490,100,0,Humphries L.,Cullen J.
+2,2-1,VERLORENER ANWURF Away,401,430,0,60,Humphries L.,Cullen J.
+3,2-1,VERLORENER ANWURF Away,261,430,140,0,Humphries L.,Cullen J.
+4,2-1,VERLORENER ANWURF Away,261,372,0,58,Humphries L.,Cullen J.
+5,2-1,VERLORENER ANWURF Away,140,372,121,0,Humphries L.,Cullen J.
+6,2-1,VERLORENER ANWURF Away,140,276,0,96,Humphries L.,Cullen J.
+7,2-1,VERLORENER ANWURF Away,58,276,82,0,Humphries L.,Cullen J.
+8,2-1,VERLORENER ANWURF Away,58,216,0,60,Humphries L.,Cullen J.
+0,1-0,,367,501,134,0,Price G.,Hempel F.
+1,1-0,,367,378,0,123,Price G.,Hempel F.
+2,1-0,,227,378,140,0,Price G.,Hempel F.
+3,1-0,,227,278,0,100,Price G.,Hempel F.
+4,1-0,,127,278,100,0,Price G.,Hempel F.
+5,1-0,,127,138,0,140,Price G.,Hempel F.
+0,2-0,VERLORENER ANWURF Away,501,417,0,84,Price G.,Hempel F.
+1,2-0,VERLORENER ANWURF Away,405,417,96,0,Price G.,Hempel F.
+2,2-0,VERLORENER ANWURF Away,405,321,0,96,Price G.,Hempel F.
+3,2-0,VERLORENER ANWURF Away,271,321,134,0,Price G.,Hempel F.
+4,2-0,VERLORENER ANWURF Away,271,261,0,60,Price G.,Hempel F.
+5,2-0,VERLORENER ANWURF Away,170,261,101,0,Price G.,Hempel F.
+6,2-0,VERLORENER ANWURF Away,170,211,0,50,Price G.,Hempel F.
+7,2-0,VERLORENER ANWURF Away,25,211,145,0,Price G.,Hempel F.
+8,2-0,VERLORENER ANWURF Away,25,112,0,99,Price G.,Hempel F.
+0,1-0,,418,501,83,0,Cross R.,O'Connor W.
+1,1-0,,418,416,0,85,Cross R.,O'Connor W.
+2,1-0,,361,416,57,0,Cross R.,O'Connor W.
+3,1-0,,361,358,0,58,Cross R.,O'Connor W.
+4,1-0,,264,358,97,0,Cross R.,O'Connor W.
+5,1-0,,264,237,0,121,Cross R.,O'Connor W.
+6,1-0,,84,237,180,0,Cross R.,O'Connor W.
+7,1-0,,84,141,0,96,Cross R.,O'Connor W.
+8,1-0,,40,141,44,0,Cross R.,O'Connor W.
+9,1-0,,40,8,0,133,Cross R.,O'Connor W.
+0,2-0,VERLORENER ANWURF Away,501,443,0,58,Cross R.,O'Connor W.
+1,2-0,VERLORENER ANWURF Away,416,443,85,0,Cross R.,O'Connor W.
+2,2-0,VERLORENER ANWURF Away,416,384,0,59,Cross R.,O'Connor W.
+3,2-0,VERLORENER ANWURF Away,236,384,180,0,Cross R.,O'Connor W.
+4,2-0,VERLORENER ANWURF Away,236,247,0,137,Cross R.,O'Connor W.
+5,2-0,VERLORENER ANWURF Away,40,189,196,58,Cross R.,O'Connor W.
+6,2-0,VERLORENER ANWURF Away,40,89,0,100,Cross R.,O'Connor W.
+0,0-1,,501,376,0,125,Heta D.,Smith R.
+1,0-1,,361,376,140,0,Heta D.,Smith R.
+2,0-1,,361,317,0,59,Heta D.,Smith R.
+3,0-1,,221,317,140,0,Heta D.,Smith R.
+4,0-1,,221,220,0,97,Heta D.,Smith R.
+5,0-1,,121,220,100,0,Heta D.,Smith R.
+6,0-1,,121,160,0,60,Heta D.,Smith R.
+7,0-1,,64,160,57,0,Heta D.,Smith R.
+8,0-1,,64,20,0,140,Heta D.,Smith R.
+9,0-1,,8,20,56,0,Heta D.,Smith R.
+0,1-1,,441,501,60,0,Heta D.,Smith R.
+1,1-1,,441,361,0,140,Heta D.,Smith R.
+2,1-1,,341,361,100,0,Heta D.,Smith R.
+3,1-1,,341,261,0,100,Heta D.,Smith R.
+4,1-1,,256,261,85,0,Heta D.,Smith R.
+5,1-1,,256,161,0,100,Heta D.,Smith R.
+6,1-1,,160,161,96,0,Heta D.,Smith R.
+7,1-1,,160,36,0,125,Heta D.,Smith R.
+8,1-1,,60,36,100,0,Heta D.,Smith R.
+9,1-1,,60,8,0,28,Heta D.,Smith R.
+0,2-1,VERLORENER ANWURF Away,501,401,0,100,Heta D.,Smith R.
+1,2-1,VERLORENER ANWURF Away,443,401,58,0,Heta D.,Smith R.
+2,2-1,VERLORENER ANWURF Away,443,301,0,100,Heta D.,Smith R.
+3,2-1,VERLORENER ANWURF Away,384,301,59,0,Heta D.,Smith R.
+4,2-1,VERLORENER ANWURF Away,384,201,0,100,Heta D.,Smith R.
+5,2-1,VERLORENER ANWURF Away,304,201,80,0,Heta D.,Smith R.
+6,2-1,VERLORENER ANWURF Away,304,140,0,61,Heta D.,Smith R.
+7,2-1,VERLORENER ANWURF Away,124,140,180,0,Heta D.,Smith R.
+8,2-1,VERLORENER ANWURF Away,124,40,0,100,Heta D.,Smith R.
+9,2-1,VERLORENER ANWURF Away,25,40,99,0,Heta D.,Smith R.
+10,2-1,VERLORENER ANWURF Away,25,20,0,20,Heta D.,Smith R.
+0,1-0,,460,501,41,0,Rock J.,Wattimena J.
+1,1-0,,460,361,0,140,Rock J.,Wattimena J.
+2,1-0,,360,361,100,0,Rock J.,Wattimena J.
+3,1-0,,360,301,0,60,Rock J.,Wattimena J.
+4,1-0,,300,301,60,0,Rock J.,Wattimena J.
+5,1-0,,300,201,0,100,Rock J.,Wattimena J.
+6,1-0,,200,201,100,0,Rock J.,Wattimena J.
+7,1-0,,200,101,0,100,Rock J.,Wattimena J.
+8,1-0,,79,101,121,0,Rock J.,Wattimena J.
+9,1-0,,79,48,0,53,Rock J.,Wattimena J.
+10,1-0,,40,48,39,0,Rock J.,Wattimena J.
+11,1-0,,40,8,0,40,Rock J.,Wattimena J.
+0,1-1,,501,401,0,100,Rock J.,Wattimena J.
+1,1-1,,443,401,58,0,Rock J.,Wattimena J.
+2,1-1,,443,278,0,123,Rock J.,Wattimena J.
+3,1-1,,402,278,41,0,Rock J.,Wattimena J.
+4,1-1,,402,197,0,81,Rock J.,Wattimena J.
+5,1-1,,302,197,100,0,Rock J.,Wattimena J.
+6,1-1,,302,97,0,100,Rock J.,Wattimena J.
+7,1-1,,140,97,162,0,Rock J.,Wattimena J.
+8,1-1,,140,40,0,57,Rock J.,Wattimena J.
+9,1-1,,48,40,92,0,Rock J.,Wattimena J.
+0,2-1,,405,501,96,0,Rock J.,Wattimena J.
+1,2-1,,405,441,0,60,Rock J.,Wattimena J.
+2,2-1,,322,441,83,0,Rock J.,Wattimena J.
+3,2-1,,322,358,0,83,Rock J.,Wattimena J.
+4,2-1,,241,358,81,0,Rock J.,Wattimena J.
+5,2-1,,241,258,0,100,Rock J.,Wattimena J.
+6,2-1,,145,258,96,0,Rock J.,Wattimena J.
+7,2-1,,145,198,0,60,Rock J.,Wattimena J.
+8,2-1,,60,198,85,0,Rock J.,Wattimena J.
+9,2-1,,60,24,0,174,Rock J.,Wattimena J.
+0,0-1,,501,361,0,140,Wright P.,Doets K.
+1,0-1,,443,361,58,0,Wright P.,Doets K.
+2,0-1,,443,221,0,140,Wright P.,Doets K.
+3,0-1,,318,221,125,0,Wright P.,Doets K.
+4,0-1,,318,164,0,57,Wright P.,Doets K.
+5,0-1,,261,164,57,0,Wright P.,Doets K.
+6,0-1,,261,104,0,60,Wright P.,Doets K.
+7,0-1,,207,104,54,0,Wright P.,Doets K.
+8,0-1,,207,56,0,48,Wright P.,Doets K.
+9,0-1,,70,56,137,0,Wright P.,Doets K.
+0,1-1,,361,501,140,0,Wright P.,Doets K.
+1,1-1,,361,404,0,97,Wright P.,Doets K.
+2,1-1,,301,404,60,0,Wright P.,Doets K.
+3,1-1,,301,308,0,96,Wright P.,Doets K.
+4,1-1,,241,308,60,0,Wright P.,Doets K.
+5,1-1,,241,176,0,132,Wright P.,Doets K.
+6,1-1,,101,176,140,0,Wright P.,Doets K.
+7,1-1,,101,76,0,100,Wright P.,Doets K.
+8,1-1,,36,76,65,0,Wright P.,Doets K.
+9,1-1,,36,8,0,68,Wright P.,Doets K.
+0,1-2,,501,401,0,100,Wright P.,Doets K.
+1,1-2,,378,401,123,0,Wright P.,Doets K.
+2,1-2,,378,346,0,55,Wright P.,Doets K.
+3,1-2,,278,346,100,0,Wright P.,Doets K.
+4,1-2,,278,307,0,39,Wright P.,Doets K.
+5,1-2,,182,307,96,0,Wright P.,Doets K.
+6,1-2,,182,127,0,180,Wright P.,Doets K.
+7,1-2,,82,127,100,0,Wright P.,Doets K.

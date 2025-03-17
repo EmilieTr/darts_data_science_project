@@ -1,0 +1,905 @@
+Rank,Player,Country,Stat,Stat Category,Year
+1,Wales,,78.95%,Pcnt Legs Won,2013
+2,England,,71.43%,Pcnt Legs Won,2013
+3,Belgium,,66.67%,Pcnt Legs Won,2013
+4,Germany,,65.22%,Pcnt Legs Won,2013
+5,Northern Ireland,,63.64%,Pcnt Legs Won,2013
+6,Netherlands,,61.9%,Pcnt Legs Won,2013
+7,Scotland,,58.33%,Pcnt Legs Won,2013
+8,Australia,,57.89%,Pcnt Legs Won,2013
+9,Ireland,,54.55%,Pcnt Legs Won,2013
+10,Finland,,52%,Pcnt Legs Won,2013
+11,Spain,,50%,Pcnt Legs Won,2013
+12,South Africa,,48.15%,Pcnt Legs Won,2013
+13,Croatia,,47.83%,Pcnt Legs Won,2013
+14,Poland,,45.45%,Pcnt Legs Won,2013
+15,Japan,,45.45%,Pcnt Legs Won,2013
+16,Canada,,41.67%,Pcnt Legs Won,2013
+17,United States,,41.18%,Pcnt Legs Won,2013
+18,Austria,,37.5%,Pcnt Legs Won,2013
+19,Sweden,,37.5%,Pcnt Legs Won,2013
+20,Denmark,,35.71%,Pcnt Legs Won,2013
+21,New Zealand,,33.33%,Pcnt Legs Won,2013
+22,Italy,,23.08%,Pcnt Legs Won,2013
+23,Gibraltar,,16.67%,Pcnt Legs Won,2013
+24,Hungary,,9.09%,Pcnt Legs Won,2013
+1,Nándor Bezzeg,HUN,100%,Pcnt Legs Won,2016
+2,Scott MacKenzie,,100%,Pcnt Legs Won,2016
+3,Austria,,100%,Pcnt Legs Won,2016
+4,Gerwyn Price,WAL,90%,Pcnt Legs Won,2016
+5,John Part,CAN,83.33%,Pcnt Legs Won,2016
+6,Belgium,,83.33%,Pcnt Legs Won,2016
+7,Singapore,,83.33%,Pcnt Legs Won,2016
+8,Cor Dekker,NOR,80%,Pcnt Legs Won,2016
+9,Kim Huybrechts,BEL,77.78%,Pcnt Legs Won,2016
+10,Robert Thornton,SCO,77.78%,Pcnt Legs Won,2016
+11,Phil Taylor,ENG,77.42%,Pcnt Legs Won,2016
+12,Mick McGowan,,75%,Pcnt Legs Won,2016
+13,Northern Ireland,,71.43%,Pcnt Legs Won,2016
+14,Norway,,71.43%,Pcnt Legs Won,2016
+15,Canada,,69.23%,Pcnt Legs Won,2016
+16,Simon Whitlock,AUS,66.67%,Pcnt Legs Won,2016
+17,Daryl Gurney,NIR,66.67%,Pcnt Legs Won,2016
+18,Adrian Lewis,ENG,64.29%,Pcnt Legs Won,2016
+19,Australia,,63.16%,Pcnt Legs Won,2016
+20,Hungary,,62.5%,Pcnt Legs Won,2016
+21,China,,62.5%,Pcnt Legs Won,2016
+22,Philippines,,62.5%,Pcnt Legs Won,2016
+23,Scotland,,62.5%,Pcnt Legs Won,2016
+24,Netherlands,,61.9%,Pcnt Legs Won,2016
+25,Rowby-John Rodriguez,AUT,61.54%,Pcnt Legs Won,2016
+26,Raymond van Barneveld,NED,58.54%,Pcnt Legs Won,2016
+27,Wales,,58.33%,Pcnt Legs Won,2016
+28,Harith Lim,SNG,55.56%,Pcnt Legs Won,2016
+29,Ireland,,55.56%,Pcnt Legs Won,2016
+30,Michael van Gerwen,NED,55.26%,Pcnt Legs Won,2016
+31,Gary Anderson,SCO,54.55%,Pcnt Legs Won,2016
+32,Per Laursen,DEN,54.55%,Pcnt Legs Won,2016
+33,Cody Harris,NZL,50%,Pcnt Legs Won,2016
+34,Boris Koltsov,RUS,50%,Pcnt Legs Won,2016
+35,Mensur Suljović,AUT,50%,Pcnt Legs Won,2016
+36,William O'Connor,IRL,50%,Pcnt Legs Won,2016
+37,Toni Alcinas,ESP,50%,Pcnt Legs Won,2016
+38,Max Hopp,GER,50%,Pcnt Legs Won,2016
+39,Cristo Reyes,ESP,50%,Pcnt Legs Won,2016
+40,Daniel Jensen,DEN,50%,Pcnt Legs Won,2016
+41,Michal Kocik,,50%,Pcnt Legs Won,2016
+42,Larry Butler,USA,50%,Pcnt Legs Won,2016
+43,Thanawat Gaweenuntavong,THA,50%,Pcnt Legs Won,2016
+44,Gilbert Ulang,,50%,Pcnt Legs Won,2016
+45,England,,46.67%,Pcnt Legs Won,2016
+46,Denmark,,45.45%,Pcnt Legs Won,2016
+47,Spain,,44.44%,Pcnt Legs Won,2016
+48,Paul Lim,SNG,44.44%,Pcnt Legs Won,2016
+49,Hong Kong,,44.44%,Pcnt Legs Won,2016
+50,Brendan Dolan,NIR,42.86%,Pcnt Legs Won,2016
+1,Nándor Bezzeg,HUN,100%,Pcnt Legs Won,2016
+2,Scott MacKenzie,,100%,Pcnt Legs Won,2016
+3,Austria,,100%,Pcnt Legs Won,2016
+4,Gerwyn Price,WAL,90%,Pcnt Legs Won,2016
+5,John Part,CAN,83.33%,Pcnt Legs Won,2016
+6,Belgium,,83.33%,Pcnt Legs Won,2016
+7,Singapore,,83.33%,Pcnt Legs Won,2016
+8,Cor Dekker,NOR,80%,Pcnt Legs Won,2016
+9,Kim Huybrechts,BEL,77.78%,Pcnt Legs Won,2016
+10,Robert Thornton,SCO,77.78%,Pcnt Legs Won,2016
+11,Phil Taylor,ENG,77.42%,Pcnt Legs Won,2016
+12,Mick McGowan,,75%,Pcnt Legs Won,2016
+13,Northern Ireland,,71.43%,Pcnt Legs Won,2016
+14,Norway,,71.43%,Pcnt Legs Won,2016
+15,Canada,,69.23%,Pcnt Legs Won,2016
+16,Simon Whitlock,AUS,66.67%,Pcnt Legs Won,2016
+17,Daryl Gurney,NIR,66.67%,Pcnt Legs Won,2016
+18,Adrian Lewis,ENG,64.29%,Pcnt Legs Won,2016
+19,Australia,,63.16%,Pcnt Legs Won,2016
+20,Hungary,,62.5%,Pcnt Legs Won,2016
+21,China,,62.5%,Pcnt Legs Won,2016
+22,Philippines,,62.5%,Pcnt Legs Won,2016
+23,Scotland,,62.5%,Pcnt Legs Won,2016
+24,Netherlands,,61.9%,Pcnt Legs Won,2016
+25,Rowby-John Rodriguez,AUT,61.54%,Pcnt Legs Won,2016
+26,Raymond van Barneveld,NED,58.54%,Pcnt Legs Won,2016
+27,Wales,,58.33%,Pcnt Legs Won,2016
+28,Harith Lim,SNG,55.56%,Pcnt Legs Won,2016
+29,Ireland,,55.56%,Pcnt Legs Won,2016
+30,Michael van Gerwen,NED,55.26%,Pcnt Legs Won,2016
+31,Gary Anderson,SCO,54.55%,Pcnt Legs Won,2016
+32,Per Laursen,DEN,54.55%,Pcnt Legs Won,2016
+33,Cody Harris,NZL,50%,Pcnt Legs Won,2016
+34,Boris Koltsov,RUS,50%,Pcnt Legs Won,2016
+35,Mensur Suljović,AUT,50%,Pcnt Legs Won,2016
+36,William O'Connor,IRL,50%,Pcnt Legs Won,2016
+37,Toni Alcinas,ESP,50%,Pcnt Legs Won,2016
+38,Max Hopp,GER,50%,Pcnt Legs Won,2016
+39,Cristo Reyes,ESP,50%,Pcnt Legs Won,2016
+40,Daniel Jensen,DEN,50%,Pcnt Legs Won,2016
+41,Michal Kocik,,50%,Pcnt Legs Won,2016
+42,Larry Butler,USA,50%,Pcnt Legs Won,2016
+43,Thanawat Gaweenuntavong,THA,50%,Pcnt Legs Won,2016
+44,Gilbert Ulang,,50%,Pcnt Legs Won,2016
+45,England,,46.67%,Pcnt Legs Won,2016
+46,Denmark,,45.45%,Pcnt Legs Won,2016
+47,Spain,,44.44%,Pcnt Legs Won,2016
+48,Paul Lim,SNG,44.44%,Pcnt Legs Won,2016
+49,Hong Kong,,44.44%,Pcnt Legs Won,2016
+50,Brendan Dolan,NIR,42.86%,Pcnt Legs Won,2016
+1,Daryl Gurney,NIR,100%,Pcnt Legs Won,2017
+2,Patrick Rey,SUI,100%,Pcnt Legs Won,2017
+3,Netherlands,,85%,Pcnt Legs Won,2017
+4,Michael van Gerwen,NED,83.33%,Pcnt Legs Won,2017
+5,Mensur Suljović,AUT,81.25%,Pcnt Legs Won,2017
+6,Per Laursen,DEN,75%,Pcnt Legs Won,2017
+7,Russia,,75%,Pcnt Legs Won,2017
+8,Canada,,71.43%,Pcnt Legs Won,2017
+9,Belgium,,69.23%,Pcnt Legs Won,2017
+10,England,,69.23%,Pcnt Legs Won,2017
+11,Dyson Parody,GIB,66.67%,Pcnt Legs Won,2017
+12,Dave Chisnall,ENG,66.67%,Pcnt Legs Won,2017
+13,Kim Huybrechts,BEL,65.38%,Pcnt Legs Won,2017
+14,Max Hopp,GER,65%,Pcnt Legs Won,2017
+15,Singapore,,64.71%,Pcnt Legs Won,2017
+16,Austria,,63.64%,Pcnt Legs Won,2017
+17,Mark Webster,WAL,63.33%,Pcnt Legs Won,2017
+18,Greece,,62.5%,Pcnt Legs Won,2017
+19,Ireland,,62.5%,Pcnt Legs Won,2017
+20,John Michael,GRE,62.5%,Pcnt Legs Won,2017
+21,South Africa,,62.5%,Pcnt Legs Won,2017
+22,Paul Lim,SNG,59.09%,Pcnt Legs Won,2017
+23,Boris Koltsov,RUS,58.82%,Pcnt Legs Won,2017
+24,Adrian Lewis,ENG,58.33%,Pcnt Legs Won,2017
+25,Harith Lim,SNG,58.33%,Pcnt Legs Won,2017
+26,John Part,CAN,57.14%,Pcnt Legs Won,2017
+27,Ronny Huybrechts,BEL,56%,Pcnt Legs Won,2017
+28,Diogo Portela,BRA,55.56%,Pcnt Legs Won,2017
+29,Brazil,,55.56%,Pcnt Legs Won,2017
+30,William O'Connor,IRL,54.55%,Pcnt Legs Won,2017
+31,Cristo Reyes,ESP,53.85%,Pcnt Legs Won,2017
+32,Krzysztof Ratajski,POL,50%,Pcnt Legs Won,2017
+33,Gerwyn Price,WAL,50%,Pcnt Legs Won,2017
+34,Daniel Larsson,SWE,50%,Pcnt Legs Won,2017
+35,Marko Kantele,FIN,50%,Pcnt Legs Won,2017
+36,Leung Kai Fan,HKG,50%,Pcnt Legs Won,2017
+37,Haruki Muramatsu,JPN,50%,Pcnt Legs Won,2017
+38,Kim Viljanen,FIN,50%,Pcnt Legs Won,2017
+39,United States,,50%,Pcnt Legs Won,2017
+40,Attapol Eupakaree,THA,50%,Pcnt Legs Won,2017
+41,Raymond van Barneveld,NED,48.98%,Pcnt Legs Won,2017
+42,Rowby-John Rodriguez,AUT,47.37%,Pcnt Legs Won,2017
+43,Aleksandr Oreshkin,RUS,47.37%,Pcnt Legs Won,2017
+44,Larry Butler,USA,46.15%,Pcnt Legs Won,2017
+45,Mick McGowan,,45.45%,Pcnt Legs Won,2017
+46,Martin Schindler,GER,44.44%,Pcnt Legs Won,2017
+47,Finland,,44.44%,Pcnt Legs Won,2017
+48,Denmark,,44.44%,Pcnt Legs Won,2017
+49,Northern Ireland,,44.44%,Pcnt Legs Won,2017
+50,Switzerland,,44.44%,Pcnt Legs Won,2017
+1,Daryl Gurney,NIR,100%,Pcnt Legs Won,2017
+2,Patrick Rey,SUI,100%,Pcnt Legs Won,2017
+3,Netherlands,,85%,Pcnt Legs Won,2017
+4,Michael van Gerwen,NED,83.33%,Pcnt Legs Won,2017
+5,Mensur Suljović,AUT,81.25%,Pcnt Legs Won,2017
+6,Per Laursen,DEN,75%,Pcnt Legs Won,2017
+7,Russia,,75%,Pcnt Legs Won,2017
+8,Canada,,71.43%,Pcnt Legs Won,2017
+9,Belgium,,69.23%,Pcnt Legs Won,2017
+10,England,,69.23%,Pcnt Legs Won,2017
+11,Dyson Parody,GIB,66.67%,Pcnt Legs Won,2017
+12,Dave Chisnall,ENG,66.67%,Pcnt Legs Won,2017
+13,Kim Huybrechts,BEL,65.38%,Pcnt Legs Won,2017
+14,Max Hopp,GER,65%,Pcnt Legs Won,2017
+15,Singapore,,64.71%,Pcnt Legs Won,2017
+16,Austria,,63.64%,Pcnt Legs Won,2017
+17,Mark Webster,WAL,63.33%,Pcnt Legs Won,2017
+18,Greece,,62.5%,Pcnt Legs Won,2017
+19,Ireland,,62.5%,Pcnt Legs Won,2017
+20,John Michael,GRE,62.5%,Pcnt Legs Won,2017
+21,South Africa,,62.5%,Pcnt Legs Won,2017
+22,Paul Lim,SNG,59.09%,Pcnt Legs Won,2017
+23,Boris Koltsov,RUS,58.82%,Pcnt Legs Won,2017
+24,Adrian Lewis,ENG,58.33%,Pcnt Legs Won,2017
+25,Harith Lim,SNG,58.33%,Pcnt Legs Won,2017
+26,John Part,CAN,57.14%,Pcnt Legs Won,2017
+27,Ronny Huybrechts,BEL,56%,Pcnt Legs Won,2017
+28,Diogo Portela,BRA,55.56%,Pcnt Legs Won,2017
+29,Brazil,,55.56%,Pcnt Legs Won,2017
+30,William O'Connor,IRL,54.55%,Pcnt Legs Won,2017
+31,Cristo Reyes,ESP,53.85%,Pcnt Legs Won,2017
+32,Krzysztof Ratajski,POL,50%,Pcnt Legs Won,2017
+33,Gerwyn Price,WAL,50%,Pcnt Legs Won,2017
+34,Daniel Larsson,SWE,50%,Pcnt Legs Won,2017
+35,Marko Kantele,FIN,50%,Pcnt Legs Won,2017
+36,Leung Kai Fan,HKG,50%,Pcnt Legs Won,2017
+37,Haruki Muramatsu,JPN,50%,Pcnt Legs Won,2017
+38,Kim Viljanen,FIN,50%,Pcnt Legs Won,2017
+39,United States,,50%,Pcnt Legs Won,2017
+40,Attapol Eupakaree,THA,50%,Pcnt Legs Won,2017
+41,Raymond van Barneveld,NED,48.98%,Pcnt Legs Won,2017
+42,Rowby-John Rodriguez,AUT,47.37%,Pcnt Legs Won,2017
+43,Aleksandr Oreshkin,RUS,47.37%,Pcnt Legs Won,2017
+44,Larry Butler,USA,46.15%,Pcnt Legs Won,2017
+45,Mick McGowan,,45.45%,Pcnt Legs Won,2017
+46,Martin Schindler,GER,44.44%,Pcnt Legs Won,2017
+47,Finland,,44.44%,Pcnt Legs Won,2017
+48,Denmark,,44.44%,Pcnt Legs Won,2017
+49,Northern Ireland,,44.44%,Pcnt Legs Won,2017
+50,Switzerland,,44.44%,Pcnt Legs Won,2017
+1,Netherlands,,90%,Pcnt Legs Won,2018
+2,Finland,,83.33%,Pcnt Legs Won,2018
+3,Canada,,83.33%,Pcnt Legs Won,2018
+4,Brazil,,83.33%,Pcnt Legs Won,2018
+5,Mensur Suljović,AUT,80%,Pcnt Legs Won,2018
+6,Michael van Gerwen,NED,76.47%,Pcnt Legs Won,2018
+7,Raymond van Barneveld,NED,71.43%,Pcnt Legs Won,2018
+8,John Part,CAN,70%,Pcnt Legs Won,2018
+9,Belgium,,69.23%,Pcnt Legs Won,2018
+10,Jonny Clayton,WAL,66.67%,Pcnt Legs Won,2018
+11,Daryl Gurney,NIR,66.67%,Pcnt Legs Won,2018
+12,Germany,,64.29%,Pcnt Legs Won,2018
+13,Australia,,64%,Pcnt Legs Won,2018
+14,South Africa,,62.5%,Pcnt Legs Won,2018
+15,Kim Huybrechts,BEL,60%,Pcnt Legs Won,2018
+16,Krzysztof Ratajski,POL,60%,Pcnt Legs Won,2018
+17,Boris Koltsov,RUS,60%,Pcnt Legs Won,2018
+18,Dimitri Van den Bergh,BEL,59.26%,Pcnt Legs Won,2018
+19,Peter Wright,SCO,58.97%,Pcnt Legs Won,2018
+20,Kyle Anderson,AUS,58.33%,Pcnt Legs Won,2018
+21,Rob Cross,ENG,57.69%,Pcnt Legs Won,2018
+22,Paul Lim,SNG,56.25%,Pcnt Legs Won,2018
+23,Scotland,,55.56%,Pcnt Legs Won,2018
+24,Japan,,55.56%,Pcnt Legs Won,2018
+25,Wales,,55.56%,Pcnt Legs Won,2018
+26,England,,52.94%,Pcnt Legs Won,2018
+27,Martin Schindler,GER,52.63%,Pcnt Legs Won,2018
+28,Gary Anderson,SCO,51.22%,Pcnt Legs Won,2018
+29,Toni Alcinas,ESP,50%,Pcnt Legs Won,2018
+30,Karel Sedláček,CZE,50%,Pcnt Legs Won,2018
+31,Warren Parry,NZL,50%,Pcnt Legs Won,2018
+32,Kim Viljanen,FIN,50%,Pcnt Legs Won,2018
+33,Dennis Nilsson,SWE,50%,Pcnt Legs Won,2018
+34,Seigo Asada,JPN,50%,Pcnt Legs Won,2018
+35,Tamas Alexits,,50%,Pcnt Legs Won,2018
+36,Spain,,50%,Pcnt Legs Won,2018
+37,Attapol Eupakaree,THA,50%,Pcnt Legs Won,2018
+38,Switzerland,,50%,Pcnt Legs Won,2018
+39,Simon Whitlock,AUS,48.72%,Pcnt Legs Won,2018
+40,Northern Ireland,,46.67%,Pcnt Legs Won,2018
+41,Singapore,,46.15%,Pcnt Legs Won,2018
+42,Ireland,,44.44%,Pcnt Legs Won,2018
+43,Austria,,44.44%,Pcnt Legs Won,2018
+44,Russia,,44.44%,Pcnt Legs Won,2018
+45,Poland,,44.44%,Pcnt Legs Won,2018
+46,Bruno Rangel,BRA,42.86%,Pcnt Legs Won,2018
+47,Dave Chisnall,ENG,40.74%,Pcnt Legs Won,2018
+48,William O'Connor,IRL,40%,Pcnt Legs Won,2018
+49,Steve Lennon,IRL,40%,Pcnt Legs Won,2018
+50,Gerwyn Price,WAL,38.46%,Pcnt Legs Won,2018
+1,Netherlands,,90%,Pcnt Legs Won,2018
+2,Finland,,83.33%,Pcnt Legs Won,2018
+3,Canada,,83.33%,Pcnt Legs Won,2018
+4,Brazil,,83.33%,Pcnt Legs Won,2018
+5,Mensur Suljović,AUT,80%,Pcnt Legs Won,2018
+6,Michael van Gerwen,NED,76.47%,Pcnt Legs Won,2018
+7,Raymond van Barneveld,NED,71.43%,Pcnt Legs Won,2018
+8,John Part,CAN,70%,Pcnt Legs Won,2018
+9,Belgium,,69.23%,Pcnt Legs Won,2018
+10,Jonny Clayton,WAL,66.67%,Pcnt Legs Won,2018
+11,Daryl Gurney,NIR,66.67%,Pcnt Legs Won,2018
+12,Germany,,64.29%,Pcnt Legs Won,2018
+13,Australia,,64%,Pcnt Legs Won,2018
+14,South Africa,,62.5%,Pcnt Legs Won,2018
+15,Kim Huybrechts,BEL,60%,Pcnt Legs Won,2018
+16,Krzysztof Ratajski,POL,60%,Pcnt Legs Won,2018
+17,Boris Koltsov,RUS,60%,Pcnt Legs Won,2018
+18,Dimitri Van den Bergh,BEL,59.26%,Pcnt Legs Won,2018
+19,Peter Wright,SCO,58.97%,Pcnt Legs Won,2018
+20,Kyle Anderson,AUS,58.33%,Pcnt Legs Won,2018
+21,Rob Cross,ENG,57.69%,Pcnt Legs Won,2018
+22,Paul Lim,SNG,56.25%,Pcnt Legs Won,2018
+23,Scotland,,55.56%,Pcnt Legs Won,2018
+24,Japan,,55.56%,Pcnt Legs Won,2018
+25,Wales,,55.56%,Pcnt Legs Won,2018
+26,England,,52.94%,Pcnt Legs Won,2018
+27,Martin Schindler,GER,52.63%,Pcnt Legs Won,2018
+28,Gary Anderson,SCO,51.22%,Pcnt Legs Won,2018
+29,Toni Alcinas,ESP,50%,Pcnt Legs Won,2018
+30,Karel Sedláček,CZE,50%,Pcnt Legs Won,2018
+31,Warren Parry,NZL,50%,Pcnt Legs Won,2018
+32,Kim Viljanen,FIN,50%,Pcnt Legs Won,2018
+33,Dennis Nilsson,SWE,50%,Pcnt Legs Won,2018
+34,Seigo Asada,JPN,50%,Pcnt Legs Won,2018
+35,Tamas Alexits,,50%,Pcnt Legs Won,2018
+36,Spain,,50%,Pcnt Legs Won,2018
+37,Attapol Eupakaree,THA,50%,Pcnt Legs Won,2018
+38,Switzerland,,50%,Pcnt Legs Won,2018
+39,Simon Whitlock,AUS,48.72%,Pcnt Legs Won,2018
+40,Northern Ireland,,46.67%,Pcnt Legs Won,2018
+41,Singapore,,46.15%,Pcnt Legs Won,2018
+42,Ireland,,44.44%,Pcnt Legs Won,2018
+43,Austria,,44.44%,Pcnt Legs Won,2018
+44,Russia,,44.44%,Pcnt Legs Won,2018
+45,Poland,,44.44%,Pcnt Legs Won,2018
+46,Bruno Rangel,BRA,42.86%,Pcnt Legs Won,2018
+47,Dave Chisnall,ENG,40.74%,Pcnt Legs Won,2018
+48,William O'Connor,IRL,40%,Pcnt Legs Won,2018
+49,Steve Lennon,IRL,40%,Pcnt Legs Won,2018
+50,Gerwyn Price,WAL,38.46%,Pcnt Legs Won,2018
+1,Scotland,,100%,Pcnt Legs Won,2019
+2,England,,83.33%,Pcnt Legs Won,2019
+3,Belgium,,83.33%,Pcnt Legs Won,2019
+4,Sweden,,83.33%,Pcnt Legs Won,2019
+5,Germany,,83.33%,Pcnt Legs Won,2019
+6,United States,,83.33%,Pcnt Legs Won,2019
+7,Peter Wright,SCO,82.86%,Pcnt Legs Won,2019
+8,Antony Lopez,,80%,Pcnt Legs Won,2019
+9,Cody Harris,NZL,77.78%,Pcnt Legs Won,2019
+10,New Zealand,,75%,Pcnt Legs Won,2019
+11,Devon Petersen,RSA,73.33%,Pcnt Legs Won,2019
+12,Ireland,,72.22%,Pcnt Legs Won,2019
+13,Poland,,71.43%,Pcnt Legs Won,2019
+14,Michael Smith,ENG,70%,Pcnt Legs Won,2019
+15,Dimitri Van den Bergh,BEL,69.23%,Pcnt Legs Won,2019
+16,William O'Connor,IRL,68.57%,Pcnt Legs Won,2019
+17,Netherlands,,64.29%,Pcnt Legs Won,2019
+18,Gary Anderson,SCO,62.96%,Pcnt Legs Won,2019
+19,Mensur Suljović,AUT,62.5%,Pcnt Legs Won,2019
+20,Darin Young,USA,62.5%,Pcnt Legs Won,2019
+21,Singapore,,62.5%,Pcnt Legs Won,2019
+22,Marko Kantele,FIN,60%,Pcnt Legs Won,2019
+23,Martin Schindler,GER,60%,Pcnt Legs Won,2019
+24,Michael van Gerwen,NED,56.25%,Pcnt Legs Won,2019
+25,Dennis Nilsson,SWE,55.56%,Pcnt Legs Won,2019
+26,Japan,,55.56%,Pcnt Legs Won,2019
+27,Australia,,55.56%,Pcnt Legs Won,2019
+28,Paul Lim,SNG,54.55%,Pcnt Legs Won,2019
+29,Haruki Muramatsu,JPN,52.17%,Pcnt Legs Won,2019
+30,Seigo Asada,JPN,52.17%,Pcnt Legs Won,2019
+31,Kim Huybrechts,BEL,50%,Pcnt Legs Won,2019
+32,Kyle Anderson,AUS,50%,Pcnt Legs Won,2019
+33,Krzysztof Ratajski,POL,50%,Pcnt Legs Won,2019
+34,Jermaine Wattimena,NED,50%,Pcnt Legs Won,2019
+35,Jonny Clayton,WAL,50%,Pcnt Legs Won,2019
+36,Stefano Tomassetti,ITA,50%,Pcnt Legs Won,2019
+37,Aleksei Kadochnikov,,50%,Pcnt Legs Won,2019
+38,Steve Lennon,IRL,48.78%,Pcnt Legs Won,2019
+39,Jim Long,CAN,47.83%,Pcnt Legs Won,2019
+40,South Africa,,46.67%,Pcnt Legs Won,2019
+41,Canada,,46.15%,Pcnt Legs Won,2019
+42,Zoran Lerchbacher,AUT,44.44%,Pcnt Legs Won,2019
+43,Finland,,44.44%,Pcnt Legs Won,2019
+44,Gibraltar,,44.44%,Pcnt Legs Won,2019
+45,Northern Ireland,,44.44%,Pcnt Legs Won,2019
+46,Dawson Murschell,CAN,43.48%,Pcnt Legs Won,2019
+47,Austria,,41.67%,Pcnt Legs Won,2019
+48,Simon Whitlock,AUS,41.67%,Pcnt Legs Won,2019
+49,Brendan Dolan,NIR,40%,Pcnt Legs Won,2019
+50,Daryl Gurney,NIR,40%,Pcnt Legs Won,2019
+1,Scotland,,100%,Pcnt Legs Won,2019
+2,England,,83.33%,Pcnt Legs Won,2019
+3,Belgium,,83.33%,Pcnt Legs Won,2019
+4,Sweden,,83.33%,Pcnt Legs Won,2019
+5,Germany,,83.33%,Pcnt Legs Won,2019
+6,United States,,83.33%,Pcnt Legs Won,2019
+7,Peter Wright,SCO,82.86%,Pcnt Legs Won,2019
+8,Antony Lopez,,80%,Pcnt Legs Won,2019
+9,Cody Harris,NZL,77.78%,Pcnt Legs Won,2019
+10,New Zealand,,75%,Pcnt Legs Won,2019
+11,Devon Petersen,RSA,73.33%,Pcnt Legs Won,2019
+12,Ireland,,72.22%,Pcnt Legs Won,2019
+13,Poland,,71.43%,Pcnt Legs Won,2019
+14,Michael Smith,ENG,70%,Pcnt Legs Won,2019
+15,Dimitri Van den Bergh,BEL,69.23%,Pcnt Legs Won,2019
+16,William O'Connor,IRL,68.57%,Pcnt Legs Won,2019
+17,Netherlands,,64.29%,Pcnt Legs Won,2019
+18,Gary Anderson,SCO,62.96%,Pcnt Legs Won,2019
+19,Mensur Suljović,AUT,62.5%,Pcnt Legs Won,2019
+20,Darin Young,USA,62.5%,Pcnt Legs Won,2019
+21,Singapore,,62.5%,Pcnt Legs Won,2019
+22,Marko Kantele,FIN,60%,Pcnt Legs Won,2019
+23,Martin Schindler,GER,60%,Pcnt Legs Won,2019
+24,Michael van Gerwen,NED,56.25%,Pcnt Legs Won,2019
+25,Dennis Nilsson,SWE,55.56%,Pcnt Legs Won,2019
+26,Japan,,55.56%,Pcnt Legs Won,2019
+27,Australia,,55.56%,Pcnt Legs Won,2019
+28,Paul Lim,SNG,54.55%,Pcnt Legs Won,2019
+29,Haruki Muramatsu,JPN,52.17%,Pcnt Legs Won,2019
+30,Seigo Asada,JPN,52.17%,Pcnt Legs Won,2019
+31,Kim Huybrechts,BEL,50%,Pcnt Legs Won,2019
+32,Kyle Anderson,AUS,50%,Pcnt Legs Won,2019
+33,Krzysztof Ratajski,POL,50%,Pcnt Legs Won,2019
+34,Jermaine Wattimena,NED,50%,Pcnt Legs Won,2019
+35,Jonny Clayton,WAL,50%,Pcnt Legs Won,2019
+36,Stefano Tomassetti,ITA,50%,Pcnt Legs Won,2019
+37,Aleksei Kadochnikov,,50%,Pcnt Legs Won,2019
+38,Steve Lennon,IRL,48.78%,Pcnt Legs Won,2019
+39,Jim Long,CAN,47.83%,Pcnt Legs Won,2019
+40,South Africa,,46.67%,Pcnt Legs Won,2019
+41,Canada,,46.15%,Pcnt Legs Won,2019
+42,Zoran Lerchbacher,AUT,44.44%,Pcnt Legs Won,2019
+43,Finland,,44.44%,Pcnt Legs Won,2019
+44,Gibraltar,,44.44%,Pcnt Legs Won,2019
+45,Northern Ireland,,44.44%,Pcnt Legs Won,2019
+46,Dawson Murschell,CAN,43.48%,Pcnt Legs Won,2019
+47,Austria,,41.67%,Pcnt Legs Won,2019
+48,Simon Whitlock,AUS,41.67%,Pcnt Legs Won,2019
+49,Brendan Dolan,NIR,40%,Pcnt Legs Won,2019
+50,Daryl Gurney,NIR,40%,Pcnt Legs Won,2019
+1,Karel Sedláček,CZE,100%,Pcnt Legs Won,2020
+2,Poland,,100%,Pcnt Legs Won,2020
+3,Greece,,100%,Pcnt Legs Won,2020
+4,Portugal,,100%,Pcnt Legs Won,2020
+5,Krzysztof Ratajski,POL,77.78%,Pcnt Legs Won,2020
+6,Leung Kai Fan,HKG,75%,Pcnt Legs Won,2020
+7,Germany,,75%,Pcnt Legs Won,2020
+8,Daniele Petri,ITA,75%,Pcnt Legs Won,2020
+9,Haupai Puha,NZL,75%,Pcnt Legs Won,2020
+10,Kim Huybrechts,BEL,73.91%,Pcnt Legs Won,2020
+11,Gerwyn Price,WAL,73.53%,Pcnt Legs Won,2020
+12,Wales,,72.73%,Pcnt Legs Won,2020
+13,New Zealand,,71.43%,Pcnt Legs Won,2020
+14,Jeff Smith,CAN,69.23%,Pcnt Legs Won,2020
+15,Michael van Gerwen,NED,66.67%,Pcnt Legs Won,2020
+16,Michael Smith,ENG,66.67%,Pcnt Legs Won,2020
+17,William O'Connor,IRL,66.67%,Pcnt Legs Won,2020
+18,Per Laursen,DEN,66.67%,Pcnt Legs Won,2020
+19,Gabriel Clemens,GER,65.22%,Pcnt Legs Won,2020
+20,Damon Heta,AUS,64.71%,Pcnt Legs Won,2020
+21,Simon Whitlock,AUS,64.71%,Pcnt Legs Won,2020
+22,Mensur Suljović,AUT,63.16%,Pcnt Legs Won,2020
+23,Lithuania,,62.5%,Pcnt Legs Won,2020
+24,Rowby-John Rodriguez,AUT,61.11%,Pcnt Legs Won,2020
+25,Danny Noppert,NED,60%,Pcnt Legs Won,2020
+26,Belgium,,60%,Pcnt Legs Won,2020
+27,Matt Campbell,CAN,58.82%,Pcnt Legs Won,2020
+28,Jonny Clayton,WAL,58.82%,Pcnt Legs Won,2020
+29,Rob Cross,ENG,58.33%,Pcnt Legs Won,2020
+30,Austria,,57.14%,Pcnt Legs Won,2020
+31,Latvia,,55.56%,Pcnt Legs Won,2020
+32,Spain,,55.56%,Pcnt Legs Won,2020
+33,Max Hopp,GER,55%,Pcnt Legs Won,2020
+34,England,,54.55%,Pcnt Legs Won,2020
+35,Netherlands,,53.85%,Pcnt Legs Won,2020
+36,Canada,,53.85%,Pcnt Legs Won,2020
+37,Australia,,53.85%,Pcnt Legs Won,2020
+38,Lourence Ilagan,PHI,50%,Pcnt Legs Won,2020
+39,Noel Malicdem,PHI,50%,Pcnt Legs Won,2020
+40,Yuki Yamada,JPN,50%,Pcnt Legs Won,2020
+41,Robert Thornton,SCO,50%,Pcnt Legs Won,2020
+42,Toni Alcinas,ESP,50%,Pcnt Legs Won,2020
+43,Justin Hewitt,GIB,50%,Pcnt Legs Won,2020
+44,Jose De Sousa,POR,50%,Pcnt Legs Won,2020
+45,Janis Mustafejevs,LTV,50%,Pcnt Legs Won,2020
+46,Benny Simeonidis,GRE,50%,Pcnt Legs Won,2020
+47,Czechia,,44.44%,Pcnt Legs Won,2020
+48,Italy,,44.44%,Pcnt Legs Won,2020
+49,Hong Kong,,44.44%,Pcnt Legs Won,2020
+50,José Marquês,POR,42.86%,Pcnt Legs Won,2020
+1,Karel Sedláček,CZE,100%,Pcnt Legs Won,2020
+2,Poland,,100%,Pcnt Legs Won,2020
+3,Greece,,100%,Pcnt Legs Won,2020
+4,Portugal,,100%,Pcnt Legs Won,2020
+5,Krzysztof Ratajski,POL,77.78%,Pcnt Legs Won,2020
+6,Leung Kai Fan,HKG,75%,Pcnt Legs Won,2020
+7,Germany,,75%,Pcnt Legs Won,2020
+8,Daniele Petri,ITA,75%,Pcnt Legs Won,2020
+9,Haupai Puha,NZL,75%,Pcnt Legs Won,2020
+10,Kim Huybrechts,BEL,73.91%,Pcnt Legs Won,2020
+11,Gerwyn Price,WAL,73.53%,Pcnt Legs Won,2020
+12,Wales,,72.73%,Pcnt Legs Won,2020
+13,New Zealand,,71.43%,Pcnt Legs Won,2020
+14,Jeff Smith,CAN,69.23%,Pcnt Legs Won,2020
+15,Michael van Gerwen,NED,66.67%,Pcnt Legs Won,2020
+16,Michael Smith,ENG,66.67%,Pcnt Legs Won,2020
+17,William O'Connor,IRL,66.67%,Pcnt Legs Won,2020
+18,Per Laursen,DEN,66.67%,Pcnt Legs Won,2020
+19,Gabriel Clemens,GER,65.22%,Pcnt Legs Won,2020
+20,Damon Heta,AUS,64.71%,Pcnt Legs Won,2020
+21,Simon Whitlock,AUS,64.71%,Pcnt Legs Won,2020
+22,Mensur Suljović,AUT,63.16%,Pcnt Legs Won,2020
+23,Lithuania,,62.5%,Pcnt Legs Won,2020
+24,Rowby-John Rodriguez,AUT,61.11%,Pcnt Legs Won,2020
+25,Danny Noppert,NED,60%,Pcnt Legs Won,2020
+26,Belgium,,60%,Pcnt Legs Won,2020
+27,Matt Campbell,CAN,58.82%,Pcnt Legs Won,2020
+28,Jonny Clayton,WAL,58.82%,Pcnt Legs Won,2020
+29,Rob Cross,ENG,58.33%,Pcnt Legs Won,2020
+30,Austria,,57.14%,Pcnt Legs Won,2020
+31,Latvia,,55.56%,Pcnt Legs Won,2020
+32,Spain,,55.56%,Pcnt Legs Won,2020
+33,Max Hopp,GER,55%,Pcnt Legs Won,2020
+34,England,,54.55%,Pcnt Legs Won,2020
+35,Netherlands,,53.85%,Pcnt Legs Won,2020
+36,Canada,,53.85%,Pcnt Legs Won,2020
+37,Australia,,53.85%,Pcnt Legs Won,2020
+38,Lourence Ilagan,PHI,50%,Pcnt Legs Won,2020
+39,Noel Malicdem,PHI,50%,Pcnt Legs Won,2020
+40,Yuki Yamada,JPN,50%,Pcnt Legs Won,2020
+41,Robert Thornton,SCO,50%,Pcnt Legs Won,2020
+42,Toni Alcinas,ESP,50%,Pcnt Legs Won,2020
+43,Justin Hewitt,GIB,50%,Pcnt Legs Won,2020
+44,Jose De Sousa,POR,50%,Pcnt Legs Won,2020
+45,Janis Mustafejevs,LTV,50%,Pcnt Legs Won,2020
+46,Benny Simeonidis,GRE,50%,Pcnt Legs Won,2020
+47,Czechia,,44.44%,Pcnt Legs Won,2020
+48,Italy,,44.44%,Pcnt Legs Won,2020
+49,Hong Kong,,44.44%,Pcnt Legs Won,2020
+50,José Marquês,POR,42.86%,Pcnt Legs Won,2020
+1,Michael van Gerwen,NED,100%,Pcnt Legs Won,2021
+2,Australia,,100%,Pcnt Legs Won,2021
+3,Spain,,100%,Pcnt Legs Won,2021
+4,Darius Labanauskas,LTH,84.62%,Pcnt Legs Won,2021
+5,United States,,83.33%,Pcnt Legs Won,2021
+6,Yoshihisa Baba,JPN,80%,Pcnt Legs Won,2021
+7,Krzysztof Ratajski,POL,77.78%,Pcnt Legs Won,2021
+8,Brendan Dolan,NIR,77.78%,Pcnt Legs Won,2021
+9,Mensur Suljović,AUT,73.68%,Pcnt Legs Won,2021
+10,Gerwyn Price,WAL,73.08%,Pcnt Legs Won,2021
+11,James Wade,ENG,72.22%,Pcnt Legs Won,2021
+12,Poland,,71.43%,Pcnt Legs Won,2021
+13,Belgium,,71.43%,Pcnt Legs Won,2021
+14,England,,71.43%,Pcnt Legs Won,2021
+15,Marko Kantele,FIN,66.67%,Pcnt Legs Won,2021
+16,Scotland,,65.38%,Pcnt Legs Won,2021
+17,Simon Whitlock,AUS,64.29%,Pcnt Legs Won,2021
+18,Germany,,64.29%,Pcnt Legs Won,2021
+19,Kim Huybrechts,BEL,62.5%,Pcnt Legs Won,2021
+20,Netherlands,,61.54%,Pcnt Legs Won,2021
+21,Peter Wright,SCO,60.98%,Pcnt Legs Won,2021
+22,John Henderson,SCO,60.61%,Pcnt Legs Won,2021
+23,Devon Petersen,RSA,60%,Pcnt Legs Won,2021
+24,Austria,,60%,Pcnt Legs Won,2021
+25,Daniel Lauby Jr.,USA,60%,Pcnt Legs Won,2021
+26,Japan,,58.33%,Pcnt Legs Won,2021
+27,Wales,,57.14%,Pcnt Legs Won,2021
+28,Singapore,,55.56%,Pcnt Legs Won,2021
+29,Portugal,,55.56%,Pcnt Legs Won,2021
+30,South Africa,,55.56%,Pcnt Legs Won,2021
+31,Lithuania,,53.33%,Pcnt Legs Won,2021
+32,Damon Heta,AUS,53.33%,Pcnt Legs Won,2021
+33,Jose De Sousa,POR,50%,Pcnt Legs Won,2021
+34,Steve Lennon,IRL,50%,Pcnt Legs Won,2021
+35,William O'Connor,IRL,50%,Pcnt Legs Won,2021
+36,Leung Kai Fan,HKG,50%,Pcnt Legs Won,2021
+37,Jesús Noguera,ESP,50%,Pcnt Legs Won,2021
+38,Justin Hewitt,GIB,50%,Pcnt Legs Won,2021
+39,János Végső,HUN,50%,Pcnt Legs Won,2021
+40,Sean Negrette,GIB,50%,Pcnt Legs Won,2021
+41,Northern Ireland,,50%,Pcnt Legs Won,2021
+42,Matt Campbell,CAN,50%,Pcnt Legs Won,2021
+43,José Justicia,ESP,50%,Pcnt Legs Won,2021
+44,Hugo Leung Man Lok,HKG,50%,Pcnt Legs Won,2021
+45,Rowby-John Rodriguez,AUT,48.39%,Pcnt Legs Won,2021
+46,Daryl Gurney,NIR,47.06%,Pcnt Legs Won,2021
+47,Jonny Clayton,WAL,46.43%,Pcnt Legs Won,2021
+48,Harith Lim,SNG,45.45%,Pcnt Legs Won,2021
+49,Carl Gabriel,RSA,44.44%,Pcnt Legs Won,2021
+50,Dave Chisnall,ENG,44.44%,Pcnt Legs Won,2021
+1,Michael van Gerwen,NED,100%,Pcnt Legs Won,2021
+2,Australia,,100%,Pcnt Legs Won,2021
+3,Spain,,100%,Pcnt Legs Won,2021
+4,Darius Labanauskas,LTH,84.62%,Pcnt Legs Won,2021
+5,United States,,83.33%,Pcnt Legs Won,2021
+6,Yoshihisa Baba,JPN,80%,Pcnt Legs Won,2021
+7,Krzysztof Ratajski,POL,77.78%,Pcnt Legs Won,2021
+8,Brendan Dolan,NIR,77.78%,Pcnt Legs Won,2021
+9,Mensur Suljović,AUT,73.68%,Pcnt Legs Won,2021
+10,Gerwyn Price,WAL,73.08%,Pcnt Legs Won,2021
+11,James Wade,ENG,72.22%,Pcnt Legs Won,2021
+12,Poland,,71.43%,Pcnt Legs Won,2021
+13,Belgium,,71.43%,Pcnt Legs Won,2021
+14,England,,71.43%,Pcnt Legs Won,2021
+15,Marko Kantele,FIN,66.67%,Pcnt Legs Won,2021
+16,Scotland,,65.38%,Pcnt Legs Won,2021
+17,Simon Whitlock,AUS,64.29%,Pcnt Legs Won,2021
+18,Germany,,64.29%,Pcnt Legs Won,2021
+19,Kim Huybrechts,BEL,62.5%,Pcnt Legs Won,2021
+20,Netherlands,,61.54%,Pcnt Legs Won,2021
+21,Peter Wright,SCO,60.98%,Pcnt Legs Won,2021
+22,John Henderson,SCO,60.61%,Pcnt Legs Won,2021
+23,Devon Petersen,RSA,60%,Pcnt Legs Won,2021
+24,Austria,,60%,Pcnt Legs Won,2021
+25,Daniel Lauby Jr.,USA,60%,Pcnt Legs Won,2021
+26,Japan,,58.33%,Pcnt Legs Won,2021
+27,Wales,,57.14%,Pcnt Legs Won,2021
+28,Singapore,,55.56%,Pcnt Legs Won,2021
+29,Portugal,,55.56%,Pcnt Legs Won,2021
+30,South Africa,,55.56%,Pcnt Legs Won,2021
+31,Lithuania,,53.33%,Pcnt Legs Won,2021
+32,Damon Heta,AUS,53.33%,Pcnt Legs Won,2021
+33,Jose De Sousa,POR,50%,Pcnt Legs Won,2021
+34,Steve Lennon,IRL,50%,Pcnt Legs Won,2021
+35,William O'Connor,IRL,50%,Pcnt Legs Won,2021
+36,Leung Kai Fan,HKG,50%,Pcnt Legs Won,2021
+37,Jesús Noguera,ESP,50%,Pcnt Legs Won,2021
+38,Justin Hewitt,GIB,50%,Pcnt Legs Won,2021
+39,János Végső,HUN,50%,Pcnt Legs Won,2021
+40,Sean Negrette,GIB,50%,Pcnt Legs Won,2021
+41,Northern Ireland,,50%,Pcnt Legs Won,2021
+42,Matt Campbell,CAN,50%,Pcnt Legs Won,2021
+43,José Justicia,ESP,50%,Pcnt Legs Won,2021
+44,Hugo Leung Man Lok,HKG,50%,Pcnt Legs Won,2021
+45,Rowby-John Rodriguez,AUT,48.39%,Pcnt Legs Won,2021
+46,Daryl Gurney,NIR,47.06%,Pcnt Legs Won,2021
+47,Jonny Clayton,WAL,46.43%,Pcnt Legs Won,2021
+48,Harith Lim,SNG,45.45%,Pcnt Legs Won,2021
+49,Carl Gabriel,RSA,44.44%,Pcnt Legs Won,2021
+50,Dave Chisnall,ENG,44.44%,Pcnt Legs Won,2021
+1,Netherlands,,100%,Pcnt Legs Won,2022
+2,Scotland,,90%,Pcnt Legs Won,2022
+3,John Henderson,SCO,84.62%,Pcnt Legs Won,2022
+4,Michael Smith,ENG,80.95%,Pcnt Legs Won,2022
+5,Simon Whitlock,AUS,77.42%,Pcnt Legs Won,2022
+6,Craig Galliano,GIB,75%,Pcnt Legs Won,2022
+7,Danny Baggish,USA,75%,Pcnt Legs Won,2022
+8,England,,75%,Pcnt Legs Won,2022
+9,Danny Noppert,NED,72.22%,Pcnt Legs Won,2022
+10,Ireland,,71.43%,Pcnt Legs Won,2022
+11,Denmark,,71.43%,Pcnt Legs Won,2022
+12,Australia,,69.57%,Pcnt Legs Won,2022
+13,Madars Razma,LTV,69.23%,Pcnt Legs Won,2022
+14,Dimitri Van den Bergh,BEL,68.75%,Pcnt Legs Won,2022
+15,Harith Lim,SNG,66.67%,Pcnt Legs Won,2022
+16,Tomoya Goto,JPN,66.67%,Pcnt Legs Won,2022
+17,RJ Escaros,PHI,66.67%,Pcnt Legs Won,2022
+18,Stefan Vermaak,RSA,66.67%,Pcnt Legs Won,2022
+19,Gerwyn Price,WAL,65.38%,Pcnt Legs Won,2022
+20,Brendan Dolan,NIR,64.71%,Pcnt Legs Won,2022
+21,New Zealand,,62.5%,Pcnt Legs Won,2022
+22,Northern Ireland,,62.5%,Pcnt Legs Won,2022
+23,Wales,,61.9%,Pcnt Legs Won,2022
+24,Gabriel Clemens,GER,60%,Pcnt Legs Won,2022
+25,Ben Robb,NZL,60%,Pcnt Legs Won,2022
+26,Damon Heta,AUS,59.46%,Pcnt Legs Won,2022
+27,Daniel Larsson,SWE,58.33%,Pcnt Legs Won,2022
+28,Latvia,,58.33%,Pcnt Legs Won,2022
+29,Rowby-John Rodriguez,AUT,56.25%,Pcnt Legs Won,2022
+30,Krzysztof Ratajski,POL,55.56%,Pcnt Legs Won,2022
+31,Germany,,55.56%,Pcnt Legs Won,2022
+32,Poland,,55.56%,Pcnt Legs Won,2022
+33,Dirk van Duijvenbode,NED,55%,Pcnt Legs Won,2022
+34,Austria,,53.33%,Pcnt Legs Won,2022
+35,Mensur Suljović,AUT,52.94%,Pcnt Legs Won,2022
+36,Jonny Clayton,WAL,50%,Pcnt Legs Won,2022
+37,Steve Lennon,IRL,50%,Pcnt Legs Won,2022
+38,Kim Huybrechts,BEL,50%,Pcnt Legs Won,2022
+39,Stefan Bellmont,SUI,50%,Pcnt Legs Won,2022
+40,Sweden,,50%,Pcnt Legs Won,2022
+41,Tony Martinez,ESP,50%,Pcnt Legs Won,2022
+42,José Justicia,ESP,50%,Pcnt Legs Won,2022
+43,Johan Engstrom,SWE,50%,Pcnt Legs Won,2022
+44,Aki Paavilainen,FIN,50%,Pcnt Legs Won,2022
+45,Giuseppe di Rocco,,50%,Pcnt Legs Won,2022
+46,Andreas Toft Jorgensen,DEN,50%,Pcnt Legs Won,2022
+47,Martin Schindler,GER,46.15%,Pcnt Legs Won,2022
+48,Jose De Sousa,POR,46.15%,Pcnt Legs Won,2022
+49,James Wade,ENG,45.45%,Pcnt Legs Won,2022
+50,Belgium,,45.45%,Pcnt Legs Won,2022
+1,Netherlands,,100%,Pcnt Legs Won,2022
+2,Scotland,,90%,Pcnt Legs Won,2022
+3,John Henderson,SCO,84.62%,Pcnt Legs Won,2022
+4,Michael Smith,ENG,80.95%,Pcnt Legs Won,2022
+5,Simon Whitlock,AUS,77.42%,Pcnt Legs Won,2022
+6,Craig Galliano,GIB,75%,Pcnt Legs Won,2022
+7,Danny Baggish,USA,75%,Pcnt Legs Won,2022
+8,England,,75%,Pcnt Legs Won,2022
+9,Danny Noppert,NED,72.22%,Pcnt Legs Won,2022
+10,Ireland,,71.43%,Pcnt Legs Won,2022
+11,Denmark,,71.43%,Pcnt Legs Won,2022
+12,Australia,,69.57%,Pcnt Legs Won,2022
+13,Madars Razma,LTV,69.23%,Pcnt Legs Won,2022
+14,Dimitri Van den Bergh,BEL,68.75%,Pcnt Legs Won,2022
+15,Harith Lim,SNG,66.67%,Pcnt Legs Won,2022
+16,Tomoya Goto,JPN,66.67%,Pcnt Legs Won,2022
+17,RJ Escaros,PHI,66.67%,Pcnt Legs Won,2022
+18,Stefan Vermaak,RSA,66.67%,Pcnt Legs Won,2022
+19,Gerwyn Price,WAL,65.38%,Pcnt Legs Won,2022
+20,Brendan Dolan,NIR,64.71%,Pcnt Legs Won,2022
+21,New Zealand,,62.5%,Pcnt Legs Won,2022
+22,Northern Ireland,,62.5%,Pcnt Legs Won,2022
+23,Wales,,61.9%,Pcnt Legs Won,2022
+24,Gabriel Clemens,GER,60%,Pcnt Legs Won,2022
+25,Ben Robb,NZL,60%,Pcnt Legs Won,2022
+26,Damon Heta,AUS,59.46%,Pcnt Legs Won,2022
+27,Daniel Larsson,SWE,58.33%,Pcnt Legs Won,2022
+28,Latvia,,58.33%,Pcnt Legs Won,2022
+29,Rowby-John Rodriguez,AUT,56.25%,Pcnt Legs Won,2022
+30,Krzysztof Ratajski,POL,55.56%,Pcnt Legs Won,2022
+31,Germany,,55.56%,Pcnt Legs Won,2022
+32,Poland,,55.56%,Pcnt Legs Won,2022
+33,Dirk van Duijvenbode,NED,55%,Pcnt Legs Won,2022
+34,Austria,,53.33%,Pcnt Legs Won,2022
+35,Mensur Suljović,AUT,52.94%,Pcnt Legs Won,2022
+36,Jonny Clayton,WAL,50%,Pcnt Legs Won,2022
+37,Steve Lennon,IRL,50%,Pcnt Legs Won,2022
+38,Kim Huybrechts,BEL,50%,Pcnt Legs Won,2022
+39,Stefan Bellmont,SUI,50%,Pcnt Legs Won,2022
+40,Sweden,,50%,Pcnt Legs Won,2022
+41,Tony Martinez,ESP,50%,Pcnt Legs Won,2022
+42,José Justicia,ESP,50%,Pcnt Legs Won,2022
+43,Johan Engstrom,SWE,50%,Pcnt Legs Won,2022
+44,Aki Paavilainen,FIN,50%,Pcnt Legs Won,2022
+45,Giuseppe di Rocco,,50%,Pcnt Legs Won,2022
+46,Andreas Toft Jorgensen,DEN,50%,Pcnt Legs Won,2022
+47,Martin Schindler,GER,46.15%,Pcnt Legs Won,2022
+48,Jose De Sousa,POR,46.15%,Pcnt Legs Won,2022
+49,James Wade,ENG,45.45%,Pcnt Legs Won,2022
+50,Belgium,,45.45%,Pcnt Legs Won,2022
+1,Craig Galliano,GIB,150%,Pcnt Legs Won,2023
+2,Patrick Kovacs,HUN,150%,Pcnt Legs Won,2023
+3,Brendan Dolan,NIR,125%,Pcnt Legs Won,2023
+4,Gerwyn Price,WAL,100%,Pcnt Legs Won,2023
+5,Mensur Suljović,AUT,100%,Pcnt Legs Won,2023
+6,Gary Anderson,SCO,100%,Pcnt Legs Won,2023
+7,Darius Labanauskas,LTH,100%,Pcnt Legs Won,2023
+8,Keane Barry,IRL,100%,Pcnt Legs Won,2023
+9,Mindaugas Barauskas,LTH,100%,Pcnt Legs Won,2023
+10,Dennis Nilsson,SWE,100%,Pcnt Legs Won,2023
+11,Thibault Tricole,FRA,100%,Pcnt Legs Won,2023
+12,Warren Parry,NZL,100%,Pcnt Legs Won,2023
+13,Martin Schindler,GER,90.91%,Pcnt Legs Won,2023
+14,Simon Whitlock,AUS,90.91%,Pcnt Legs Won,2023
+15,Christian Perez,PHI,87.5%,Pcnt Legs Won,2023
+16,Adam Gawlas,CZE,80%,Pcnt Legs Won,2023
+17,Krzysztof Ratajski,POL,75%,Pcnt Legs Won,2023
+18,Paavo Myller,FIN,75%,Pcnt Legs Won,2023
+19,Dirk van Duijvenbode,NED,71.43%,Pcnt Legs Won,2023
+20,Boris Krčmar,CRO,70%,Pcnt Legs Won,2023
+21,Wales,,68%,Pcnt Legs Won,2023
+22,Tomoya Goto,JPN,66.67%,Pcnt Legs Won,2023
+23,Vitor Manuel Guerra Charrua,ISL,66.67%,Pcnt Legs Won,2023
+24,Jun Matsuda,JPN,66.67%,Pcnt Legs Won,2023
+25,Madars Razma,LTV,66.67%,Pcnt Legs Won,2023
+26,Kim Huybrechts,BEL,66.67%,Pcnt Legs Won,2023
+27,Dimitri Van den Bergh,BEL,66.67%,Pcnt Legs Won,2023
+28,Rob Cross,ENG,66.67%,Pcnt Legs Won,2023
+29,Michael Smith,ENG,66.67%,Pcnt Legs Won,2023
+30,Michele Turetta,ITA,66.67%,Pcnt Legs Won,2023
+31,Larry Butler,USA,66.67%,Pcnt Legs Won,2023
+32,Jeff Smith,CAN,63.64%,Pcnt Legs Won,2023
+33,Germany,,63.04%,Pcnt Legs Won,2023
+34,Australia,,62.16%,Pcnt Legs Won,2023
+35,Jacques Labre,FRA,60%,Pcnt Legs Won,2023
+36,Hugo Leung Man Lok,HKG,60%,Pcnt Legs Won,2023
+37,Gabriel Clemens,GER,60%,Pcnt Legs Won,2023
+38,Jonny Clayton,WAL,60%,Pcnt Legs Won,2023
+39,Attapol Eupakaree,THA,60%,Pcnt Legs Won,2023
+40,Marcel Walpen,SUI,60%,Pcnt Legs Won,2023
+41,Benjamin Drue Reus,DEN,60%,Pcnt Legs Won,2023
+42,Luis Ameixa,,60%,Pcnt Legs Won,2023
+43,Devon Petersen,RSA,58.33%,Pcnt Legs Won,2023
+44,Philippines,,56.52%,Pcnt Legs Won,2023
+45,Scotland,,56.52%,Pcnt Legs Won,2023
+46,Hungary,,55.56%,Pcnt Legs Won,2023
+47,Northern Ireland,,55.56%,Pcnt Legs Won,2023
+48,Belgium,,55.36%,Pcnt Legs Won,2023
+49,Sweden,,55.26%,Pcnt Legs Won,2023
+50,France,,55.17%,Pcnt Legs Won,2023
+101,Karel Sedláček,CZE,20%,Pcnt Legs Won,2023
+102,Jose De Sousa,POR,20%,Pcnt Legs Won,2023
+103,Paul Lim,SNG,20%,Pcnt Legs Won,2023
+104,Ben Robb,NZL,20%,Pcnt Legs Won,2023
+105,Thanawat Gaweenuntavong,THA,20%,Pcnt Legs Won,2023
+106,India,,20%,Pcnt Legs Won,2023
+107,Guyana,,11.11%,Pcnt Legs Won,2023
+108,Ukraine,,0%,Pcnt Legs Won,2023
+109,Abdelnasser Yusuf,,0%,Pcnt Legs Won,2023
+110,Vladyslav Omelchenko,,0%,Pcnt Legs Won,2023
+111,Ilya Pekaruk,UKR,0%,Pcnt Legs Won,2023
+112,Sudesh Fitzgerald,GUY,0%,Pcnt Legs Won,2023
+113,Jules Van Dongen,USA,0%,Pcnt Legs Won,2023
+114,Amit Gilitwala,IND,0%,Pcnt Legs Won,2023
+115,Lok Yin Lee,HKG,0%,Pcnt Legs Won,2023
+116,Hallgrimur Egilsson,ISL,0%,Pcnt Legs Won,2023
+117,Zong Xiaochen,CHN,0%,Pcnt Legs Won,2023
+118,Wen Lihao,,0%,Pcnt Legs Won,2023
+119,Daryl Gurney,NIR,0%,Pcnt Legs Won,2023
+120,Rowby-John Rodriguez,AUT,0%,Pcnt Legs Won,2023
+101,Karel Sedláček,CZE,20%,Pcnt Legs Won,2023
+102,Jose De Sousa,POR,20%,Pcnt Legs Won,2023
+103,Paul Lim,SNG,20%,Pcnt Legs Won,2023
+104,Ben Robb,NZL,20%,Pcnt Legs Won,2023
+105,Thanawat Gaweenuntavong,THA,20%,Pcnt Legs Won,2023
+106,India,,20%,Pcnt Legs Won,2023
+107,Guyana,,11.11%,Pcnt Legs Won,2023
+108,Ukraine,,0%,Pcnt Legs Won,2023
+109,Abdelnasser Yusuf,,0%,Pcnt Legs Won,2023
+110,Vladyslav Omelchenko,,0%,Pcnt Legs Won,2023
+111,Ilya Pekaruk,UKR,0%,Pcnt Legs Won,2023
+112,Sudesh Fitzgerald,GUY,0%,Pcnt Legs Won,2023
+113,Jules Van Dongen,USA,0%,Pcnt Legs Won,2023
+114,Amit Gilitwala,IND,0%,Pcnt Legs Won,2023
+115,Lok Yin Lee,HKG,0%,Pcnt Legs Won,2023
+116,Hallgrimur Egilsson,ISL,0%,Pcnt Legs Won,2023
+117,Zong Xiaochen,CHN,0%,Pcnt Legs Won,2023
+118,Wen Lihao,,0%,Pcnt Legs Won,2023
+119,Daryl Gurney,NIR,0%,Pcnt Legs Won,2023
+120,Rowby-John Rodriguez,AUT,0%,Pcnt Legs Won,2023
+1,Valters Melderis,LTV,85.71%,Pcnt Legs Won,2024
+2,Jose De Sousa,POR,83.33%,Pcnt Legs Won,2024
+3,Luke Humphries,ENG,80%,Pcnt Legs Won,2024
+4,Craig Galliano,GIB,80%,Pcnt Legs Won,2024
+5,Cameron Carolissen,RSA,80%,Pcnt Legs Won,2024
+6,Gary Anderson,SCO,77.78%,Pcnt Legs Won,2024
+7,Christian Perez,PHI,75%,Pcnt Legs Won,2024
+8,Arngrimur Olafsson,ISL,75%,Pcnt Legs Won,2024
+9,Boris Krčmar,CRO,73.68%,Pcnt Legs Won,2024
+10,Oskar Lukasiak,SWE,72.22%,Pcnt Legs Won,2024
+11,Jonny Clayton,WAL,71.43%,Pcnt Legs Won,2024
+12,Simon Whitlock,AUS,69.23%,Pcnt Legs Won,2024
+13,Gabriel Clemens,GER,66.67%,Pcnt Legs Won,2024
+14,William O'Connor,IRL,66.67%,Pcnt Legs Won,2024
+15,Rowby-John Rodriguez,AUT,66.67%,Pcnt Legs Won,2024
+16,Cor Dekker,NOR,66.67%,Pcnt Legs Won,2024
+17,Matt Campbell,CAN,66.67%,Pcnt Legs Won,2024
+18,England,,66.67%,Pcnt Legs Won,2024
+19,Massimo Dalla Rosa,ITA,65%,Pcnt Legs Won,2024
+20,Kim Huybrechts,BEL,63.64%,Pcnt Legs Won,2024
+21,New Zealand,,63.64%,Pcnt Legs Won,2024
+22,Haupai Puha,NZL,62.5%,Pcnt Legs Won,2024
+23,Ben Robb,NZL,62.5%,Pcnt Legs Won,2024
+24,Sweden,,60.53%,Pcnt Legs Won,2024
+25,Austria,,60.32%,Pcnt Legs Won,2024
+26,Hugo Leung Man Lok,HKG,60%,Pcnt Legs Won,2024
+27,Thibault Tricole,FRA,60%,Pcnt Legs Won,2024
+28,Lok Yin Lee,HKG,60%,Pcnt Legs Won,2024
+29,Mensur Suljović,AUT,60%,Pcnt Legs Won,2024
+30,Gabor Jagicza,HUN,60%,Pcnt Legs Won,2024
+31,Dimitri Van den Bergh,BEL,59.09%,Pcnt Legs Won,2024
+32,Croatia,,58.97%,Pcnt Legs Won,2024
+33,Belgium,,58.7%,Pcnt Legs Won,2024
+34,Karel Sedláček,CZE,58.33%,Pcnt Legs Won,2024
+35,Adam Gawlas,CZE,58.33%,Pcnt Legs Won,2024
+36,Martin Schindler,GER,58.33%,Pcnt Legs Won,2024
+37,Pupo Teng Lieh,TPE,58.33%,Pcnt Legs Won,2024
+38,Michael Smith,ENG,56%,Pcnt Legs Won,2024
+39,Czechia,,56%,Pcnt Legs Won,2024
+40,Brendan Dolan,NIR,55.56%,Pcnt Legs Won,2024
+41,Jeffrey de Graaf,SWE,55.56%,Pcnt Legs Won,2024
+42,Germany,,55.56%,Pcnt Legs Won,2024
+43,Josh Rock,NIR,55.56%,Pcnt Legs Won,2024
+44,Hong Kong,,54.55%,Pcnt Legs Won,2024
+45,Scotland,,54.05%,Pcnt Legs Won,2024
+46,Portugal,,53.85%,Pcnt Legs Won,2024
+47,Ireland,,53.85%,Pcnt Legs Won,2024
+48,Italy,,53.49%,Pcnt Legs Won,2024
+49,Australia,,52.38%,Pcnt Legs Won,2024
+50,Northern Ireland,,51.28%,Pcnt Legs Won,2024
+101,Duda Durra,BHR,25%,Pcnt Legs Won,2024
+102,Alexis Toylo,PHI,25%,Pcnt Legs Won,2024
+103,Marko Kantele,FIN,25%,Pcnt Legs Won,2024
+104,Justin Hewitt,GIB,20%,Pcnt Legs Won,2024
+105,Michael van Gerwen,NED,20%,Pcnt Legs Won,2024
+106,Danny Noppert,NED,20%,Pcnt Legs Won,2024
+107,Nandor Major,HUN,20%,Pcnt Legs Won,2024
+108,José Justicia,ESP,20%,Pcnt Legs Won,2024
+109,Norman Madhoo,GUY,20%,Pcnt Legs Won,2024
+110,Johan Geldenhuys,RSA,20%,Pcnt Legs Won,2024
+111,Netherlands,,20%,Pcnt Legs Won,2024
+112,Daniel Lauby Jr.,USA,16.67%,Pcnt Legs Won,2024
+113,Mindaugas Barauskas,LTH,16.67%,Pcnt Legs Won,2024
+114,Jim Williams,WAL,14.29%,Pcnt Legs Won,2024
+115,Liu Chengan,CHN,14.29%,Pcnt Legs Won,2024
+116,Siik Hwang Wong,MLY,14.29%,Pcnt Legs Won,2024
+117,Harith Lim,SNG,12.5%,Pcnt Legs Won,2024
+118,Finland,,11.11%,Pcnt Legs Won,2024
+119,Madars Razma,LTV,0%,Pcnt Legs Won,2024
+120,Teemu Harju,FIN,0%,Pcnt Legs Won,2024
+101,Duda Durra,BHR,25%,Pcnt Legs Won,2024
+102,Alexis Toylo,PHI,25%,Pcnt Legs Won,2024
+103,Marko Kantele,FIN,25%,Pcnt Legs Won,2024
+104,Justin Hewitt,GIB,20%,Pcnt Legs Won,2024
+105,Michael van Gerwen,NED,20%,Pcnt Legs Won,2024
+106,Danny Noppert,NED,20%,Pcnt Legs Won,2024
+107,Nandor Major,HUN,20%,Pcnt Legs Won,2024
+108,José Justicia,ESP,20%,Pcnt Legs Won,2024
+109,Norman Madhoo,GUY,20%,Pcnt Legs Won,2024
+110,Johan Geldenhuys,RSA,20%,Pcnt Legs Won,2024
+111,Netherlands,,20%,Pcnt Legs Won,2024
+112,Daniel Lauby Jr.,USA,16.67%,Pcnt Legs Won,2024
+113,Mindaugas Barauskas,LTH,16.67%,Pcnt Legs Won,2024
+114,Jim Williams,WAL,14.29%,Pcnt Legs Won,2024
+115,Liu Chengan,CHN,14.29%,Pcnt Legs Won,2024
+116,Siik Hwang Wong,MLY,14.29%,Pcnt Legs Won,2024
+117,Harith Lim,SNG,12.5%,Pcnt Legs Won,2024
+118,Finland,,11.11%,Pcnt Legs Won,2024
+119,Madars Razma,LTV,0%,Pcnt Legs Won,2024
+120,Teemu Harju,FIN,0%,Pcnt Legs Won,2024
