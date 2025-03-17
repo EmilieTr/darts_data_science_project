@@ -18,6 +18,5 @@ average, which is calculated by dividing a player's total points scored by the n
 efficiency and consistency. A high three-dart average is a strong indicator of skill, as it reflects a player's ability to hit high-scoring targets consistently while maintaining accuracy.
 Professional players often maintain averages above 90, with the elite players frequently surpassing 100.
 
-Darts players earn rankings through their performances in various tournaments, accumulating points based on results. The most prestigious rankings include:
-PDC Order of Merit: Determined by prize money earned over two years in ranking events.
-WDF Rankings: Used in the World Darts Federation system for qualification in their major events.
+Darts players earn rankings throughout various tournaments, accumulating points based on results. The most known rankings include PDC Order of Merit. In this, a player's
+rank is determined by prize money earned over two years in ranking events.
