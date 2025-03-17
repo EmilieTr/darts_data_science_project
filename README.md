@@ -22,3 +22,25 @@ A simple Streamlit app showing the GDP of different countries in the world.
 Local URL: http://localhost:8501
 Network URL: http://10.0.4.173:8501
 External URL: http://172.191.151.56:8501
+
+# About the Project
+(bla bli blubb)
+# Interesting Darts Questions answered with a few clicks
+(website demo)
+
+## Features
+- Explanation of the game
+- Toggle into different subtopics
+- Interactive Graphs
+- Data Analysis at first glance
+- 
+## Development
+- Known issues
+- Build with Streamlit
+- 
+
+## Usage
+(everyone knows how to use a website?)
+
+## Avalability
+(see streamlit plan)
