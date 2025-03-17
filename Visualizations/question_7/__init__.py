@@ -1,0 +1,1 @@
+from .question7_stat import plot_conditional_probability, plot_observed_expected_frequencies, plot_observed_frequencies

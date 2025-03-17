@@ -1,57 +1,88 @@
 import pandas as pd
 import scipy.stats as stats
-import seaborn as sns
-import matplotlib.pyplot as plt
+import plotly.express as px
 
-# CSV-Datei einlesen
-df = pd.read_csv('Visualization/question 7/question7_table.csv', index_col=0)
+def chi_squared():
 
-# Überprüfen der Struktur
-print(df.head())
+    # CSV-Datei einlesen
+    df = pd.read_csv('Visualization/question 7/question7_table.csv', index_col=0)
 
-# Chi-Quadrat-Test der Unabhängigkeit durchführen
-chi2, p, dof, expected = stats.chi2_contingency(df)
+    # Überprüfen der Struktur
+    print(df.head())
 
-# Ergebnisse anzeigen
-print(f"Chi-Quadrat-Wert: {chi2}")
-print(f"p-Wert: {p}")
-print(f"Freiheitsgrade: {dof}")
-print("Erwartete Häufigkeiten:")
-print(expected)
+    # Chi-Quadrat-Test der Unabhängigkeit durchführen
+    chi2, p, dof, expected = stats.chi2_contingency(df)
 
-# p-Wert interpretieren
-alpha = 0.05  # Signifikanzniveau
-if p < alpha:
-    print("Es besteht eine signifikante Beziehung zwischen Austragungsland und Nationalität.")
-else:
-    print("Es besteht keine signifikante Beziehung zwischen Austragungsland und Nationalität.")
+    # Ergebnisse ausgeben
+    print(f"Chi-Quadrat-Wert: {chi2}")
+    print(f"p-Wert: {p}")
+    print(f"Freiheitsgrade: {dof}")
+    print("Erwartete Häufigkeiten:")
+    print(expected)
 
+    # p-Wert interpretieren
+    alpha = 0.05  # Signifikanzniveau
+    if p < alpha:
+        print("Es besteht eine signifikante Beziehung zwischen Austragungsland und Nationalität.")
+    else:
+        print("Es besteht keine signifikante Beziehung zwischen Austragungsland und Nationalität.")
 
-# Differenz zwischen beobachteten und erwarteten Häufigkeiten berechnen
-observed_vs_expected = df - expected
+    # Differenz zwischen beobachteten und erwarteten Häufigkeiten berechnen
+    observed_vs_expected = df - expected
+    
+    return df, observed_vs_expected
 
 # Die Differenzen ausgeben (Optional)
-print(observed_vs_expected)
+#print(observed_vs_expected)
+
+def plot_observed_frequencies():
+    df, _ = chi_squared()
+    
+    # 📊 HEATMAP 1: Beobachtete Häufigkeiten
+    fig1 = px.imshow(df,
+                    labels=dict(x="Nationalität", y="Austragungsland", color="Häufigkeit"),
+                    x=df.columns,
+                    y=df.index,
+                    title="Beobachtete Häufigkeiten zwischen Austragungsland und Nationalität",
+                    color_continuous_scale="YlGnBu",
+                    text_auto=True)
+    
+    return fig1
+    
+#fig1.show()
+
+def plot_observed_expected_frequencies():
+    df, observed_vs_expected = chi_squared()
+    
+    # 📊 HEATMAP 2: Differenzen zwischen Beobachtet & Erwartet
+    fig2 = px.imshow(observed_vs_expected,
+                    labels=dict(x="Nationalität", y="Austragungsland", color="Differenz"),
+                    x=df.columns,
+                    y=df.index,
+                    title="Differenzen zwischen Beobachteten und Erwarteten Häufigkeiten",
+                    color_continuous_scale="coolwarm",
+                    text_auto=".2f")
+    
+    return fig2
+    
+#fig2.show()
 
 
-# Heatmap der beobachteten Häufigkeiten
-plt.figure(figsize=(10, 8))
-sns.heatmap(df, annot=True, fmt='d', cmap="YlGnBu", linewidths=0.5)
-plt.title('Beobachtete Häufigkeiten zwischen Austragungsland und Nationalität')
-plt.show()
+def plot_conditional_probability():
+    df, _ = chi_squared()
+    
+    # Bedingte Wahrscheinlichkeiten berechnen (P(Nationalität | Austragungsland))
+    conditional_probabilities = df.div(df.sum(axis=1), axis=0)
 
-# Heatmap der Differenz zwischen beobachteten und erwarteten Häufigkeiten
-plt.figure(figsize=(10, 8))
-sns.heatmap(observed_vs_expected, annot=True, fmt='.2f', cmap="coolwarm", linewidths=0.5)
-plt.title('Differenzen zwischen Beobachteten und Erwarteten Häufigkeiten')
-plt.show()
-
-
-# Bedingte Wahrscheinlichkeiten berechnen (P(Nationalität | Austragungsland))
-conditional_probabilities = df.div(df.sum(axis=1), axis=0)
-
-# Heatmap der bedingten Wahrscheinlichkeiten
-plt.figure(figsize=(10, 8))
-sns.heatmap(conditional_probabilities, annot=True, fmt='.2f', cmap="viridis", linewidths=0.5)
-plt.title('Bedingte Wahrscheinlichkeiten zwischen Austragungsland und Nationalität')
-plt.show()
+    # 📊 HEATMAP 3: Bedingte Wahrscheinlichkeiten
+    fig3 = px.imshow(conditional_probabilities,
+                    labels=dict(x="Nationalität", y="Austragungsland", color="Wahrscheinlichkeit"),
+                    x=df.columns,
+                    y=df.index,
+                    title="Bedingte Wahrscheinlichkeiten zwischen Austragungsland und Nationalität",
+                    color_continuous_scale="viridis",
+                    text_auto=".2f")
+    
+    return fig3
+    
+#fig3.show()

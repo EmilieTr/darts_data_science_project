@@ -26,7 +26,7 @@ def plot_average_every_year():
 
         list_best_players = [convert_name(name) for name in df['Name'].head(10)]
         df_averages_year = df_averages[(df_averages['Year'] == year) & (df_averages['Player'].isin(list_best_players))]
-        print(df_averages_year.head())
+        
         if not df_averages_year.empty:
             df_averages_year['Stat'] = df_averages_year['Stat'].astype(float)
             for val in df_averages_year['Stat']:
