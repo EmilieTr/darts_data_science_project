@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 
-def plot_average_every_year():
+def plot_checkout_every_year():
 
     # Function to convert names from format "SURNAME, First_name" into "First_name Surname"
     def convert_name(name):
@@ -62,6 +62,8 @@ def plot_average_every_year():
     )
     return fig
 
+
+
 # Diagramm anzeigen
-fig = plot_average_every_year()
+fig = plot_checkout_every_year()
 fig.show()
