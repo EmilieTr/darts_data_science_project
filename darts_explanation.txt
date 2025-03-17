@@ -1,6 +1,10 @@
-Darts is a competitive sport, in which two players (or two teams of each two players) throw darts at a dartboard. It is the perfect game for analyses of numerical data, since the tournaments and rankings rely heavily on the scorings, 
-it's averages, and overall statistics. There are several websites analysing the sport by gathering the plentiful numerical data, analysing the competitor's averages throughout and over several matches, and following the game's 
-politics and news.
+Darts is a competitive sport in which two players, or two teams of two players each, take turns throwing darts at a dartboard. The game is highly analytical,
+as tournaments and rankings rely heavily on scores, averages, and overall statistics. Numerous websites and analysts track the sport by gathering extensive numerical data,
+monitoring players' averages across multiple matches, and covering the latest news and developments within the darts community.
 
-The dartboard is split up like a pizza of 20 slices, wherein these slices have two big fields (single fields) and two smaller fields (double and triple fields). In the middle lay two circles, where the outer one count for 25 points, 
-and the inner one is that fields double field, making it 50 points and a "bulls-eye".
+The dartboard is split up like a pizza of 20 slices, wherein these slices have two large fields (single fields) along with smaller double and triple fields (double and triple fields) that multiply
+the respective number's value. At the center of the board, there are two circular target areas: the outer bull, worth 25 points, and the inner bullseye, worth 50 points. The bullseye functions as
+the board's double for the outer bull.
+
+A match is made up of several legs, which can vary in number. The player with more legs won, wins the match. Players start with a score of 501 and aim to reduce it to exactly zero,
+finishing with a double or a "check-out". Thas makes competitors have to calculate their best scoring options to check out efficiently.
