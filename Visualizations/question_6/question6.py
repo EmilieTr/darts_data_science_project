@@ -86,7 +86,8 @@ def ranking_age(var):
         colorscale=colors,  # Farbschema
         showscale=True  # Farblegende anzeigen
     ),
-    text=[f"Spiele: {s}" for s in counter],  # Hover-Text
+    
+    text=[f"Siege: {s}" for s in counter],  # Hover-Text
     ))
 
     # Layout anpassen
