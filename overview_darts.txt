@@ -2,13 +2,13 @@
 
 *	Development of tournaments
 
-2.	How do the (average) winning scorings of tournaments/matches vary over the years?
+2	How do the (average) winning scorings of tournaments/matches vary over the years?
    Data Source:
    https://app.dartsorakel.com/events
 
 Visualization: line graph over matches and overall avg. of winning scores (y) / over time (x)
 
-5.	How does the price money and the amount of participants of tournaments vary over the years? (rewrite)
+5	How does the price money and the amount of participants of tournaments vary over the years? (rewrite)
    Data Source:
    https://mastercaller.com/tournaments/pdc-world-championship/
 
@@ -20,7 +20,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
 
 *	Strategies and tactics
 
-7.	In which countries are tournaments held and how does it influence singular participants if at all?
+7	In which countries are tournaments held and how does it influence singular participants if at all?
    Data Source: 
    https://de.wikipedia.org/wiki/Professional_Darts_Corporation
    https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
@@ -28,7 +28,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
    Visualization: table of winner nationality and country of match held, absolute numbers of winners in cell
    -> Visualization: table of winner nationality and country of match held, conditional likeliness and manually assess for correlation
 
-8.	How do team matches compare to single matches in their scores? (does it imply teammates dragging each other down or raising each other up?)
+8	How do team matches compare to single matches in their scores? (does it imply teammates dragging each other down or raising each other up?)
    Data Source:
    https://app.dartsorakel.com/tournament/stats/1095
 
@@ -36,25 +36,25 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
    Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, averages
    Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, check out percentage
 
-9.	How likely is it to throw 180 points after there was another 180 points thrown?
+9	How likely is it to throw 180 points after there was another 180 points thrown?
    Data Source:
    https://www.flashscore.de/
 
    Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), filter out situations where a 180 isn't able to be thrown
 
-10. How likely are participants to win a leg after throwing 180 points as first throw?
+10 How likely are participants to win a leg after throwing 180 points as first throw?
     Data Source:
     https://www.flashscore.de/
 
     Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website)
 
-- 11.	Is it more likely to win a match if the participants scoring or check-out quota is better than the opponents?
+- 11	Is it more likely to win a match if the participants scoring or check-out quota is better than the opponents?
       Data Source:
       https://www.flashscore.de/
 
     - Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), BIG CALCULATIONS
 
-4.	What are the most popular double fields and what is the percentage to check them? (doubles are normally not thrown)
+4	What are the most popular double fields and what is the percentage to check them? (doubles are normally not thrown)
    Data Sources:
    https://app.dartsorakel.com/stats/double
 
@@ -64,7 +64,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
    Visualization: pie chart over participant percentage, which check out scorings they "prefer"
    Visualization: line graph over amount of check out scorings (y) thrown over the years (x)
 
-13. How likely is the participant to lose after throwing a 9 darter?
+13 How likely is the participant to lose after throwing a 9 darter?
     Data Source:
     https://www.flashscore.de/
 
@@ -73,13 +73,13 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
 
 *	Players
 
-1.	How do the 5/10/15 best player change from 2000/1995 to now? (averages vs. check-out quota)
+1	How do the 5/10/15 best player change from 2000/1995 to now? (averages vs. check-out quota)
    Data Source:
    https://app.dartsorakel.com/stats/player
 
    Visualizations: bar chart average / bar chart check out quota over the top 5 players 1995/2014 (x)
 
-- 6. How do the rankings vary over age, nationality and left/right handed people of participants?
+- 6 How do the rankings vary over age, nationality and left/right handed people of participants?
      Data Source:
      https://www.dartn.de/Dart-Profis
 
