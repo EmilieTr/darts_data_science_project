@@ -55,7 +55,7 @@ Geburtstag,Plays since,Profi since,Nationality,Handedness,Darts gramm,Name,Name 
 20.01.2000,2009,,Tschechien,Rechtshänder,Target Adrian Lewis 22g,Roman Benecky,Benecky R.
 31.12.2005,2017,,England,Rechtshänder,Target,Leighton Bennett,Bennett L.
 18.10.1985,1998,,Niederlande,,,Joey ten Berge,ten Berge J.
-08.07.1994,,2013,Belgien,Rechtshänder,Target 22g,Dimitri van den Bergh ,van den Bergh D.
+08.07.1994,,2013,Belgien,Rechtshänder,Target 22g,Dimitri van den Bergh,van den Bergh D.
 26.05.1983,1999,,Deutschland,Rechtshänder,Vapor 8 Target,René Berndt,Berndt R.
 03.08.1992,2011,,Schottland,Rechtshänder,Unicorn 24g,Darren Beveridge,Beveridge D.
 12.05.1971,1991,,Ungarn,Linkshänder,Unicorn Global Nandor Bezzeg 23g,Nándor Bezzeg,Bezzeg N.
@@ -78,7 +78,7 @@ Geburtstag,Plays since,Profi since,Nationality,Handedness,Darts gramm,Name,Name 
 09.11.2001,2016,,Niederlande,Rechtshänder,,Jarno Bottenberg,Bottenberg J.
 25.02.1973,1991,2006,,Rechtshänder,Showtime X-Factor 23g,Andy Boulton,Boulton A.
 ,,,Südafrika,Rechtshänder,,Vernon Bouwers,Bouwers V.
-26.05.1967,,,Engländer,Rechtshänder,26g Target,John Bowles,Bowles J.
+26.05.1967,,,England,Rechtshänder,26g Target,John Bowles,Bowles J.
 03.05.1975,1998,,USA,Rechtshänder,Shot Signature 23g,Jason Brandon,Brandon J.
 10.02.1983,,,Tschechien,Rechtshänder,,Jiri Brejcha,Brejcha J.
 02.10.2002,2017,,Deutschland,Rechtshänder,,Jannes Bremermann,Bremermann J.
@@ -591,7 +591,7 @@ Geburtstag,Plays since,Profi since,Nationality,Handedness,Darts gramm,Name,Name 
 17.06.2002,,,Gibraltar,Rechtshänder,,Sean Negrette,Negrette S.
 04.09.1998,2013,,Niederlande,Linkshänder,,Geert Nentjes,Nentjes G.
 05.04.1982,2009,2014,England,Rechtshänder,,Tony Newell,Newell T.
-27.08.1977,1996,2004,England,Rechtshänder,Wes Newton Unicorn 22g,Wes Newton,Newton W.
+27.08.1977,1996,2004,England,Rechtshänder,Wes Newton Unicorn 22g,Wesley Newton,Newton W.
 13.01.1995,2012,2015,Belgien,Rechtshänder,,Kenny Neyens,Neyens K.
 10.05.1979,1990,,Australien,,,Paul Nicholson,Nicholson P.
 10.04.1978,2019,,Dänemark,Rechtshänder,,Claus Bendix Nielsen,Bendix Nielsen C.
@@ -789,7 +789,7 @@ Geburtstag,Plays since,Profi since,Nationality,Handedness,Darts gramm,Name,Name 
 21.05.1971,1995,,Kanada,Rechtshänder,Cosmo 23g,Ross Snook,Snook R.
 ,,,Neuseeland,Rechtshänder,,Daniel Snookes,Snookes D.
 ,,,Philippinen,Rechtshänder,,Sandro Eric Sosing,Eric Sosing S.
-25.02.1974,1993,2019,Portugal,Rechtshänder,Trinidad Signature 20g,José de Sousa,de Sousa J.
+25.02.1974,1993,2019,Portugal,Rechtshänder,Trinidad Signature 20g,Jose de Sousa,de Sousa J.
 10.01.1978,1992,2021,Schottland,Rechtshänder,Mission Darts,Alan Soutar,Soutar A.
 08.09.1993,2010,2016,Niederlande,Rechtshänder,Cosmo Darts 24g,Jeffrey Sparidaans,Sparidaans J.
 06.11.1988,,,USA,Rechtshänder,Winmau 22g,Alex Spellman,Spellman A.
@@ -896,6 +896,7 @@ Geburtstag,Plays since,Profi since,Nationality,Handedness,Darts gramm,Name,Name 
 31.10.2006,2020,,England,Rechtshänder,Target Signature 23g,Jenson Walker,Walker J.
 22.02.1962,,,Schottland,Linkshänder,Signature 24g,Les Wallace,Wallace L.
 24.02.1976,2011,,Schweiz,Rechtshänder,Unicorn T80 21g,Marcel Walpen,Walpen M.
+02.02.1965,,,England,Rechtshänder,,Mark Walsh, Walsh M.
 28.03.1983,,,England,Rechtshänder,RedDragon Hunters 22g,Scott Walters,Walters S.
 10.11.1961,,,England,Rechtshänder,,John Walton,Walton J.
 29.11.1984,2008,,Wales,Rechtshänder,,Michael Warburton,Warburton M.

@@ -7,7 +7,10 @@ def ranking_age(var):
     def format_name(name):
         # only change format if name contains comma
         if "," in name:
-            surname, first_name = name.split(", ", 1)  # divide name
+            if ", " in name:
+                surname, first_name = name.split(", ", 1)  # divide name
+            else:
+                surname, first_name = name.split(",",1)
             surname = surname.lower()  # only first letter is capitalized
             first_name = first_name.strip().lower() 
             return f"{first_name} {surname}" #combine name again
@@ -19,7 +22,7 @@ def ranking_age(var):
         df['Name'] = df['Name'].str.lower()
         return df
 
-    nationalities_selection = ['England', 'Australien', 'Deutschland', 'Schottland', 'Niederlande', 'Kanada', 'Nordirland', 'Wales', 'Other']
+    nationalities_selection = ['England', 'Australien', 'Deutschland', 'Schottland', 'Niederlande', 'Wales', 'Other']
     nationalities = []
     order_of_merit = []
     counter = []
@@ -49,7 +52,7 @@ def ranking_age(var):
             else:
                 print(f"Spieler {player} nicht gefunden!")
 
-
+        print(var)
         print(df_players)
         
         total = 0
@@ -103,6 +106,6 @@ def ranking_age(var):
 
     return fig
 
-var = 5
+var = 50
 fig = ranking_age(var)
 fig.show()
