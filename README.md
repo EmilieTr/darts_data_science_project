@@ -28,17 +28,17 @@ External URL: http://172.191.151.56:8501
 (RQs)
 (data)
 
-# Interesting Darts Questions answered with a few clicks
+## Interesting Darts Questions answered with a few clicks
 (website demo)
 
-## Features
+### Features
 - Explanation of the game
 - Toggle into different subtopics
 - Interactive Graphs
 - Data Analysis at first glance
 - 
 
-## Development
+### Development
 - data pipeline
 - How is the data connected?
 - Known issues
