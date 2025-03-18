@@ -23,7 +23,7 @@ Local URL: http://localhost:8501
 Network URL: http://10.0.4.173:8501
 External URL: http://172.191.151.56:8501
 
-# About the Project
+# :dart: Data Science Project
 (bla bli blubb)
 (RQs)
 (data)
@@ -38,7 +38,7 @@ External URL: http://172.191.151.56:8501
 - Data Analysis at first glance
 - 
 
-### Development
+## Development
 - data pipeline
 - How is the data connected?
 - Known issues
