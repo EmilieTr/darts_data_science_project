@@ -19,13 +19,13 @@ def ranking_age(var):
         df['Name'] = df['Name'].str.lower()
         return df
 
-    nationalities_selection = ['England', 'Portugal', 'Deutschland', 'Schottland', 'Niederlande', 'Irland', 'Schweiz', 'Wales', 'Anderes']
+    nationalities_selection = ['England', 'Australien', 'Deutschland', 'Schottland', 'Niederlande', 'Kanada', 'Nordirland', 'Wales', 'Other']
     nationalities = []
     order_of_merit = []
     counter = []
     y_axis_tickvals = []
     y_axis_ticktext = []
-
+    list_other = [] #for extracting the countries in column 'Other'
     for i in range(var):
         y_axis_tickvals.append(i+1)
         y_axis_ticktext.append(str(i+1))
@@ -50,7 +50,7 @@ def ranking_age(var):
                 print(f"Spieler {player} nicht gefunden!")
 
 
-        
+        print(df_players)
         
         total = 0
         for country in nationalities_selection[:len(nationalities_selection)-1]:
@@ -59,13 +59,20 @@ def ranking_age(var):
             nationalities.append(country)
             total += counter_value
             order_of_merit.append(i+1)
+
         counter.append(len(df_players)- total)
-        nationalities.append('Anderes')
+        nationalities.append('Other')
         order_of_merit.append(i+1)
+
+        other = df_players[~df_players['Nationality'].isin(nationalities_selection)]
+        if not other.empty:
+            list_other.append(other['Nationality'].iloc[0])
+        else: list_other.append(None)
+
     #print("nationalities", nationalities)
     #print("order of merit", order_of_merit)
     #print("count", counter)
-    
+    print(list_other)
     fig = go.Figure()
     colors = px.colors.qualitative.Prism
     
@@ -84,9 +91,9 @@ def ranking_age(var):
 
     # Layout anpassen
     fig.update_layout(
-        title="Blasendiagramm: How good is which Nationality",
-        xaxis_title="Jahr",
-        yaxis_title="",
+        title="How good is which Nationality",
+        xaxis_title="Nationality",
+        yaxis_title="Order of Merit",
         yaxis_tickformat=".",
         #yaxis=dict(showticklabels=False),
         yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True),
@@ -95,6 +102,6 @@ def ranking_age(var):
 
     return fig
 
-var = 4
+var = 5
 fig = ranking_age(var)
 fig.show()
