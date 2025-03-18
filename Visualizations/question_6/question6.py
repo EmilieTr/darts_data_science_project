@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 
-def ranking_age(var):
+def plot_ranking_age(var):
     def format_name(name):
         # only change format if name contains comma
         if "," in name:
@@ -106,6 +106,6 @@ def ranking_age(var):
 
     return fig
 
-var = 50
-fig = ranking_age(var)
+var = 20
+fig = plot_ranking_age(var)
 fig.show()

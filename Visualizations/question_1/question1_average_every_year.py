@@ -1,6 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
-import numpy as np
+import plotly.express as px
 
 def plot_average_every_year():
 
@@ -35,6 +35,9 @@ def plot_average_every_year():
             sum = round((sum / count))
             averages_stat[year] = sum
 
+    # color
+    prism_color = px.colors.qualitative.Prism[0]
+
     # create bar chart 
     fig = go.Figure()
 
@@ -43,7 +46,7 @@ def plot_average_every_year():
         y=list(averages_stat.values()),  # Durchschnittliche Checkout-Quote auf der Y-Achse
         text=[f"{v:.1f}" for v in averages_stat.values()],  # Prozentwerte als Text
         textposition='outside',  # Text über den Balken platzieren
-        marker_color='royalblue'  # Farbe der Balken
+        marker_color=prism_color  # Farbe der Balken
     ))
 
     # Layout anpassen
@@ -56,8 +59,6 @@ def plot_average_every_year():
     )
     return fig
 
-
-
 # Diagramm anzeigen
-fig = plot_average_every_year()
+#fig = plot_average_every_year()
 #fig.show()

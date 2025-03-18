@@ -1,0 +1,1 @@
+from .question6 import plot_ranking_age
