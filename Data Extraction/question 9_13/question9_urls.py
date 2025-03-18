@@ -68,6 +68,7 @@ print(tournament_links)
 driver.quit()   
 
 # Write the extracted links to a text file
-with open('./Data Extraction/urls_flashcore.txt', 'w', encoding="iso 8859-1") as file:
+with open('./Data Extraction/urls_flashcore.txt',
+           'w', encoding="iso 8859-1") as file:
     for key, value in tournament_links.items():
         file.write(f'{key}: {value}\n')

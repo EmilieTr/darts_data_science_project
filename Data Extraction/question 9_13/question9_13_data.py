@@ -6,7 +6,7 @@ import time
 import pandas as pd
 import ast
 
-# Dictionary to store tournament URLs and their respective match history pages
+# Dictionary to store tournament URLs and respective match history pages
 data = {}
 
 # File path to the text file containing stored URLs
@@ -23,7 +23,8 @@ service = Service(ChromeDriverManager().install())
 
 for tournament, urls in data.items():
     data_df = []  # List to store extracted match data
-    urls = ast.literal_eval(urls)  # Convert string representation of list to an actual list
+    # Convert string representation of list to an actual list
+    urls = ast.literal_eval(urls)
     
     for url in urls:
         driver = webdriver.Chrome(service=service) 
@@ -54,7 +55,7 @@ for tournament, urls in data.items():
 
         divs = []
         
-        # Extract following divs with class 'matchHistoryRow__dartThrows' (dart throw history)
+        # Extract following divs with class 'matchHistoryRow__dartThrows'
         for a in divs_first:
             b = a.find_next_sibling(
                 'div', 
@@ -99,8 +100,10 @@ for tournament, urls in data.items():
                 
                 # Ensure valid values before processing
                 if value[0] != '' and value[1] != '':
-                    throw_home = int(value_home) - int(value[0])  # Points deducted for home player
-                    throw_away = int(value_away) - int(value[1])  # Points deducted for away player
+                    # Points deducted for home player
+                    throw_home = int(value_home) - int(value[0])
+                    # Points deducted for away player
+                    throw_away = int(value_away) - int(value[1])
                     
                     # Update remaining scores
                     value_home = value[0]
