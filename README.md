@@ -25,6 +25,9 @@ External URL: http://172.191.151.56:8501
 
 # About the Project
 (bla bli blubb)
+(RQs)
+(data)
+
 # Interesting Darts Questions answered with a few clicks
 (website demo)
 
@@ -34,13 +37,11 @@ External URL: http://172.191.151.56:8501
 - Interactive Graphs
 - Data Analysis at first glance
 - 
+
 ## Development
+- data pipeline
+- How is the data connected?
 - Known issues
 - Build with Streamlit
+- Avalability (see streamlit plan, only available for people in the CAU-VPN?)
 - 
-
-## Usage
-(everyone knows how to use a website?)
-
-## Avalability
-(see streamlit plan)
