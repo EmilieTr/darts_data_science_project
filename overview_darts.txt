@@ -42,7 +42,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
 
    Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), filter out situations where a 180 isn't able to be thrown
 
-10 How likely are participants to win a leg after throwing 180 points as first throw?
+10  How likely are participants to win a leg after throwing 180 points as first throw?
     Data Source:
     https://www.flashscore.de/
 
@@ -64,7 +64,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
    Visualization: pie chart over participant percentage, which check out scorings they "prefer"
    Visualization: line graph over amount of check out scorings (y) thrown over the years (x)
 
-13 How likely is the participant to lose after throwing a 9 darter?
+13  How likely is the participant to lose after throwing a 9 darter?
     Data Source:
     https://www.flashscore.de/
 
@@ -79,7 +79,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
 
    Visualizations: bar chart average / bar chart check out quota over the top 5 players 1995/2014 (x)
 
-- 6 How do the rankings vary over age, nationality and left/right handed people of participants?
+- 6  How do the rankings vary over age, nationality and left/right handed people of participants?
      Data Source:
      https://www.dartn.de/Dart-Profis
 
