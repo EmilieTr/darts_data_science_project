@@ -1,1 +1,1 @@
-from .question6 import plot_ranking_age
+from .question6_ranking_age import plot_ranking_age
