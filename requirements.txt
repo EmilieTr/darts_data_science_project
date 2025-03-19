@@ -7,4 +7,4 @@ scipy
 seaborn
 geopy
 selenium
-beautifulsoup
+beautifulsoup4
