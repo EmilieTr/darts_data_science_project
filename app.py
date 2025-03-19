@@ -9,18 +9,18 @@ from Visualizations.question_6 import plot_ranking_age, plot_ranking_nationality
 from Visualizations.question_7 import plot_observed_frequencies, plot_observed_expected_frequencies, plot_conditional_probability
 from Visualizations.question_8 import plot_comparison_single_team
 from texts import *
-#from Visualizations.question_9 import 
+# from Visualizations.question_9 import 
 
 # Sidebar für Navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Info Texte", "Tournaments", "Players"])
+page = st.sidebar.radio("Go to", ["Game Explanation", "Tournaments", "Players", "Data"])
 
 # Seite wechseln 
-if page == "Info Texte":
-    st.title("Information Texts")
-    st.header(text1)
+if page == "Game Explanation":
+    st.title("Game Explanation")
+    st.header("Test")
     st.subheader("Subheader")
-    st.write("Test Text")
+    st.write(darts_explanation)
     
 elif page == "Tournaments":
     subpage = st.sidebar.radio("Development of Tournaments", ["2 Averages throughout the years", "5 Price Money and Participants at WC", "7 Location of Tournament and Winner Nationality"])
@@ -182,3 +182,7 @@ elif page == "Players":
         st.subheader("Handedness Participants Over the Years")
         fig = plot_ranking_handedness(var)
         st.plotly_chart(fig)
+
+elif page == "Data":
+        st.title("Data Pipeline")
+        st.write(data_pipeline)
