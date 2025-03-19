@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
-from Visualizations.question_14 import plot_checkout_every_year, plot_average_2009_2024, plot_average_every_year, plot_checkout_2012_2024, plot_doubles_fields_hits_misses
+from Visualizations.question_14 import plot_checkout_every_year, plot_average_2009_2024, plot_average_every_year, plot_checkout_2012_2024
 from Visualizations.question_2 import plot_winning_averages
 from Visualizations.question_15 import plot_double_fields_player_combined, plot_double_fields_player
+from Visualizations.question_4 import plot_distribution_double_fields, plot_distribution_best_double_fields
 from Visualizations.question_5 import plot_price_money_and_participants, plot_participants, plot_price_money
-from Visualizations.question_6 import plot_ranking_age
+from Visualizations.question_6 import plot_ranking_age, plot_ranking_nationality, plot_ranking_handedness
 from Visualizations.question_7 import plot_observed_frequencies, plot_observed_expected_frequencies, plot_conditional_probability
 from Visualizations.question_8 import plot_comparison_single_team
 #from Visualizations.question_9 import 
@@ -117,6 +118,18 @@ elif page == "Players":
         fig = plot_double_fields_player_combined(selected_player, selected_double)
         st.plotly_chart(fig) 
     
+    # Question 4
+    elif subpage == "Double Fields":
+        st.header("4. What are most popular double fields and what are the corresponding checkout quotes?")
+        
+        st.subheader("Distribution of Throws and Hits on Double Fields")
+        fig = plot_distribution_double_fields()
+        st.plotly_chart(fig)
+        
+        st.subheader("Distribution of Throws and Hits on the Best Double Fields per Player")
+        fig = plot_distribution_best_double_fields()
+        st.plotly_chart(fig)
+    
     # Question 14
     elif subpage == "Averages of Best Players":
         st.header("14. How does the performance of players in general change over time?")
@@ -149,11 +162,7 @@ elif page == "Players":
         # Visualisierungen mit gewählten Parametern aufrufen
         #st.title("Hit and Misses of individual Double Fields")
         #fig = plot_doubles_fields_hits_misses()
-        #st.plotly_chart(fig)
-
-        st.subheader("Distribution of Throws and Hits on Double Fields")
-        fig = plot_distribution_double_fields()
-        st.plotly_chart(fig)  
+        #st.plotly_chart(fig)  
         
     # Question 6
     elif subpage == "Rankings vs Properties":
@@ -161,6 +170,14 @@ elif page == "Players":
         
         var = 10
         
-        st.subheader("Participants Over the Years")
+        st.subheader("Age Participants Over the Years")
         fig = plot_ranking_age(var)
+        st.plotly_chart(fig)
+        
+        st.subheader("Nationality Participants Over the Years")
+        fig = plot_ranking_nationality(var)
+        st.plotly_chart(fig)
+        
+        st.subheader("Handedness Participants Over the Years")
+        fig = plot_ranking_handedness(var)
         st.plotly_chart(fig)

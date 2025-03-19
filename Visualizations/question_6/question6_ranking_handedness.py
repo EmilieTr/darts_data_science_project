@@ -99,11 +99,13 @@ def plot_ranking_handedness(var):
         yaxis_tickformat=".",
         #yaxis=dict(showticklabels=False),
         yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
-        template="plotly_white"
+        template="plotly_white",
+        width=700,
+        height=750
     )
 
     return fig
 
 var = 10
-fig = plot_ranking_handedness(var)
-fig.show()
+#fig = plot_ranking_handedness(var)
+#fig.show()

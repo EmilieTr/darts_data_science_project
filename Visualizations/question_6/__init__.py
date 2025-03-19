@@ -1,1 +1,3 @@
 from .question6_ranking_age import plot_ranking_age
+from .question6_ranking_handedness import plot_ranking_handedness
+from .question6_ranking_nationality import plot_ranking_nationality

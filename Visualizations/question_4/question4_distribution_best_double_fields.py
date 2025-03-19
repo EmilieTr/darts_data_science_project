@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
 
-def plot_distribution_double_fields():
+def plot_distribution_best_double_fields():
     # CSV-Daten einlesen
     csv_data = "./Data/question 4/question4_doubles.csv"
     df = pd.read_csv(csv_data)
@@ -12,10 +12,10 @@ def plot_distribution_double_fields():
     df["Total"] = df["Hit"] + df["Single"] + df["Outside"] + df["Other"]
 
     # Bestes Doppelfeld für jeden Spieler ermitteln
-    df_max = df.loc[df.groupby("Double")["Total"].idxmax(), ["Double", "Hit"]]
+    df_max = df.loc[df.groupby("Player")["Total"].idxmax(), ["Player", "Double", "Hit"]]
 
     # Häufigkeit der Doppelfelder zählen
-    double_counts = df["Double"].value_counts()
+    double_counts = df_max["Double"].value_counts()
 
     # Werte unter 1.5% als "Others" zusammenfassen
     total_count = double_counts.sum()
