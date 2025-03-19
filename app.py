@@ -8,6 +8,7 @@ from Visualizations.question_5 import plot_price_money_and_participants, plot_pa
 from Visualizations.question_6 import plot_ranking_age, plot_ranking_nationality, plot_ranking_handedness
 from Visualizations.question_7 import plot_observed_frequencies, plot_observed_expected_frequencies, plot_conditional_probability
 from Visualizations.question_8 import plot_comparison_single_team
+from texts import *
 #from Visualizations.question_9 import 
 
 # Sidebar für Navigation
@@ -17,7 +18,7 @@ page = st.sidebar.radio("Go to", ["Info Texte", "Tournaments", "Players"])
 # Seite wechseln 
 if page == "Info Texte":
     st.title("Information Texts")
-    st.header("Header")
+    st.header(text1)
     st.subheader("Subheader")
     st.write("Test Text")
     
