@@ -2,7 +2,6 @@ streamlit
 pandas
 plotly
 matplotlib
-re
 pycountry
 scipy
 seaborn

@@ -166,7 +166,7 @@ elif page == "Players":
         
     # Question 6
     elif subpage == "Rankings vs Properties":
-        st.header("6. How does age, nationality and handiness eGects the rankings?")
+        st.header("6. How does age, nationality and handiness effects the rankings?")
         
         var = 10
         
