@@ -51,7 +51,7 @@ Players:
 - Flashscore: https://www.flashscore.de/
 (see github folder "data" for files extracted in data pipeline)
 
-## Interesting Darts Questions answered with a few clicks
+## Interesting Darts Questions answered with a few Clicks!
 (website demo)
 
 ### Features
@@ -59,7 +59,7 @@ Players:
 - Toggle into different subtopics
 - Interactive Graphs
 - Data Analysis at first glance
-- 
+- Data Pipeline Description
 
 ## Development
 
