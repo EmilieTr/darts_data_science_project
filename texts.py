@@ -14,12 +14,18 @@ data_pipeline = """This data science project focuses on darts and aims to transf
 The project began with formulating research questions, ensuring they were answerable with the available data (looking ahead at available data sources), and prioritizing those that were the most interesting and meaningful. After defining these questions, relevant data sources were identified. Since existing APIs did not provide sufficient information, web scraping was necessary. The data was acquired from several sources, including:
 
 Darts Orakel
-- Darts Orakel: https://app.dartsorakel.com/
-- Mastercaller PDC World Championship: https://mastercaller.com/tournaments/pdc-world-championship/
-- Dartn.de Professional Darts: https://www.dartn.de/Dart-Profis
-- Wikipedia - Professional Darts Corporation: https://de.wikipedia.org/wiki/Professional_Darts_Corporation
-- Wikipedia - PDC World Darts Championship: https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
-- Flashscore: https://www.flashscore.de/
+- Darts Orakel:
+  https://app.dartsorakel.com/
+- Mastercaller PDC World Championship:
+  https://mastercaller.com/tournaments/pdc-world-championship/
+- Dartn.de Professional Darts:
+  https://www.dartn.de/Dart-Profis
+- Wikipedia - Professional Darts Corporation:
+  https://de.wikipedia.org/wiki/Professional_Darts_Corporation
+- Wikipedia - PDC World Darts Championship:
+  https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
+- Flashscore:
+  https://www.flashscore.de/
 These sources provided a comprehensive range of information, from historical match results and official player statistics to tournament formats and prize money distributions.
 
 The data pipeline followed a structured process, including acquisition, processing, transformation, visualization, and analysis.
