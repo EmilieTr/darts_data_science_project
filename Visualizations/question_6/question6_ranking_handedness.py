@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 
-def plot_ranking_age(var):
+def plot_ranking_handedness(var):
     def format_name(name):
 
         # change different formats of names into one format (all lowercase and "first_name surname")
@@ -112,5 +112,5 @@ def plot_ranking_age(var):
     return fig
 
 var = 10
-fig = plot_ranking_age(var)
+fig = plot_ranking_handedness(var)
 fig.show()
