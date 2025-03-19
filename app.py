@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-from Visualizations.question_1 import plot_checkout_every_year, plot_average_2009_2024, plot_average_every_year, plot_checkout_2012_2024
+from Visualizations.question_14 import plot_checkout_every_year, plot_average_2009_2024, plot_average_every_year, plot_checkout_2012_2024, plot_doubles_fields_hits_misses
 from Visualizations.question_2 import plot_winning_averages
-from Visualizations.question_4 import plot_double_fields_player_combined, plot_distribution_double_fields, plot_double_fields_player, plot_doubles_fields_hits_misses
+from Visualizations.question_15 import plot_double_fields_player_combined, plot_double_fields_player
 from Visualizations.question_5 import plot_price_money_and_participants, plot_participants, plot_price_money
 from Visualizations.question_6 import plot_ranking_age
 from Visualizations.question_7 import plot_observed_frequencies, plot_observed_expected_frequencies, plot_conditional_probability
