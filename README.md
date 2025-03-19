@@ -42,6 +42,7 @@ Players:
 - „How does age, nationality and handiness effects the rankings?“
 - „Is there a difference between a player's team performance and single performance?“
 
+### General Introduction to the Game
 
 Darts is a competitive sport in which two players take alternating turns throwing three darts at a dartboard. The game is highly analytical, as tournaments and rankings rely heavily on scores, averages, and overall statistics. Numerous websites and analysts track the sport by gathering extensive numerical data, monitoring the throws across multiple matches, and covering the latest news and developments within the darts community.
 
