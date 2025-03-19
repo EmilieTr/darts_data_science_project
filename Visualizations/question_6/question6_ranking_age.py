@@ -105,12 +105,12 @@ def plot_ranking_age(var):
 
     # setting the layout
     fig.update_layout(
-        title="How good is which Nationality",
+        title="Correlation of nationality to rankings",
         xaxis_title="Nationality",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",
         #yaxis=dict(showticklabels=False),
-        yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True),
+        yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
         template="plotly_white"
     )
 
