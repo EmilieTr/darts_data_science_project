@@ -27,7 +27,7 @@ def plot_ranking_nationality(var):
     # selection of nationalities with own value on X axis (others are in 'Other')   
     nationalities_selection = ['England', 'Australien', 'Deutschland', 'Schottland', 'Niederlande', 'Wales', 'Other']
     
-    # lists needes for creating bubble chart
+    # lists needed for creating bubble chart
     nationalities = []
     order_of_merit = []
     counter = []

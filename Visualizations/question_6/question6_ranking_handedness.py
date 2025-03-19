@@ -24,10 +24,10 @@ def plot_ranking_handedness(var):
     def convert_names_to_lowercase(df):
         df['Name'] = df['Name'].str.lower()
         return df
-    # selection of nationalities with own value on X axis (others are in 'Other')   
+    # righthandedness and lefthandedness are the only values on X axis 
     handedness_selection = ['Rechtshänder', 'Linkshänder']
     #handedness_selection_english = ['Righthandedness', 'Lefthandedness']
-    # lists needes for creating bubble chart
+    # lists needed for creating bubble chart
     handedness = []
     order_of_merit = []
     counter = []
@@ -36,8 +36,6 @@ def plot_ranking_handedness(var):
     y_axis_tickvals = []
     y_axis_ticktext = []
 
-    # for access to countries shown in 'Other'
-    list_other = []
 
     # var = number of order_of_merit ranks you want to compare
     for i in range(var):
@@ -53,7 +51,7 @@ def plot_ranking_handedness(var):
             name = df[(df['Aktuelle Position'] == i+1)]['Name'].iloc[0]
             list_player.append(format_name(name))
 
-        # extracting nationality of players on list_player
+        # extracting handedness of players on list_player
         file_players = 'Data/question 6/male_players.csv'
         df = pd.read_csv(file_players)
         df = convert_names_to_lowercase(df)
@@ -68,17 +66,12 @@ def plot_ranking_handedness(var):
 
         
         for hand in handedness_selection[:len(handedness_selection)]:
-            counter_value = df_players['Handedness'].value_counts().get(hand, 0) # number of players with specific nationality
+            counter_value = df_players['Handedness'].value_counts().get(hand, 0) # number of players with specific handedness
             counter.append(counter_value)
             handedness.append(hand)
             order_of_merit.append(i+1)
 
 
-        other = df_players[~df_players['Handedness'].isin(handedness_selection)]
-
-        if not other.empty:
-            list_other.append(other['Handedness'].iloc[0])
-        else: list_other.append(None)
 
     # creating figure
     fig = go.Figure()

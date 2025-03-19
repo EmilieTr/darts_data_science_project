@@ -1,8 +1,8 @@
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
-
-
+from datetime import date
+from datetime import datetime
 def plot_ranking_age(var):
     def format_name(name):
 
@@ -24,11 +24,41 @@ def plot_ranking_age(var):
     def convert_names_to_lowercase(df):
         df['Name'] = df['Name'].str.lower()
         return df
-    # selection of nationalities with own value on X axis (others are in 'Other')   
-    nationalities_selection = ['England', 'Australien', 'Deutschland', 'Schottland', 'Niederlande', 'Wales', 'Other']
     
-    # lists needes for creating bubble chart
-    nationalities = []
+    # calculate the age, when only given the birthday
+    def calculate_age(birthday):
+        # date of today
+        today = date.today()
+        # birthday in right format
+        birthday= datetime.strptime(birthday, "%d.%m.%Y")
+        if today.month == birthday.month:
+            if today.day >= birthday.day:
+                age = today.year - birthday.year
+            else:
+                age = today.year - birthday.year -1
+        elif today.month > birthday.month:
+            age = today.year - birthday.year
+        else:
+            age = today.year - birthday.year -1
+        return age
+    
+    # sorting age in clusters
+    def sorting_in_clusters(birthday):
+        age = calculate_age(birthday)
+        if age <21: return '10-20'
+        elif age <31: return '20-30'
+        elif age < 41: return '30-40'
+        elif age < 51: return '40-50'
+        elif age < 61: return '50-60'
+        elif age < 71: return '60-70'
+        else: return '70+'
+
+        
+    # selection of Age-Clusters with own value on X axis  
+    age_selection = ['10-20', '20-30', '30-40', '40-50', '50-60', '60-70', '70+']
+    
+    # lists needed for creating bubble chart
+    ages = []
     order_of_merit = []
     counter = []
 
@@ -36,8 +66,6 @@ def plot_ranking_age(var):
     y_axis_tickvals = []
     y_axis_ticktext = []
 
-    # for access to countries shown in 'Other'
-    list_other = []
 
     # var = number of order_of_merit ranks you want to compare
     for i in range(var):
@@ -53,44 +81,37 @@ def plot_ranking_age(var):
             name = df[(df['Aktuelle Position'] == i+1)]['Name'].iloc[0]
             list_player.append(format_name(name))
 
-        # extracting nationality of players on list_player
+        # extracting age of players on list_player
         file_players = 'Data/question 6/male_players.csv'
         df = pd.read_csv(file_players)
         df = convert_names_to_lowercase(df)
-        df_players = pd.DataFrame(columns=['Name', 'Nationality'])
+        df_players = pd.DataFrame(columns=['Name', 'Age'])
         for player in list_player:
-            filtered = df.loc[df['Name'] == player, 'Nationality']
+            filtered = df.loc[df['Name'] == player, 'Geburtstag']
             if not filtered.empty:
-                nationality = filtered.iloc[0]
-                df_players.loc[len(df_players)] = [player, nationality]
+                age = filtered.iloc[0]
+                df_players.loc[len(df_players)] = [player, age]
             else:
                 print(f"Spieler {player} nicht gefunden!")
+        
+        # converting birthday into matching age-cluster
+        df_players['Age'] = df_players['Age'].apply(sorting_in_clusters)
 
         
-        total = 0 # counting how high 'Other' must be
-        for country in nationalities_selection[:len(nationalities_selection)-1]:
-            counter_value = df_players['Nationality'].value_counts().get(country, 0) # number of players with specific nationality
+        for country in age_selection[:len(age_selection)]:
+            counter_value = df_players['Age'].value_counts().get(country, 0) # number of players with specific age-cluster
             counter.append(counter_value)
-            nationalities.append(country)
-            total += counter_value
+            ages.append(country)
             order_of_merit.append(i+1)
 
-        counter.append(len(df_players)- total)
-        nationalities.append('Other')
-        order_of_merit.append(i+1)
-
-        other = df_players[~df_players['Nationality'].isin(nationalities_selection)]
-
-        if not other.empty:
-            list_other.append(other['Nationality'].iloc[0])
-        else: list_other.append(None)
+        
 
     # creating figure
     fig = go.Figure()
     colors = px.colors.qualitative.Prism
     
     fig.add_trace(go.Scatter(
-    x=nationalities,
+    x=ages,
     y=order_of_merit,
     mode="markers", 
     marker=dict(
@@ -105,8 +126,8 @@ def plot_ranking_age(var):
 
     # setting the layout
     fig.update_layout(
-        title="Correlation of nationality to rankings",
-        xaxis_title="Nationality",
+        title="Correlation of age to rankings",
+        xaxis_title="Age",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",
         #yaxis=dict(showticklabels=False),
@@ -116,6 +137,8 @@ def plot_ranking_age(var):
 
     return fig
 
-var = 10
+
+
+var = 20
 fig = plot_ranking_age(var)
 fig.show()
