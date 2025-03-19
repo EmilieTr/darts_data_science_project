@@ -84,7 +84,7 @@ def ranking_age(var):
     y=order_of_merit,
     mode="markers",  # Nur Punkte (keine Linien)
     marker=dict(
-        size=[s *10 for s in counter],  # Blasengröße (angepasst für bessere Skalierung)
+        size=[s *2 for s in counter],  # Blasengröße (angepasst für bessere Skalierung)
         color=counter,  # Farbverlauf basierend auf der Quote
         colorscale=colors,  # Farbschema
         showscale=True  # Farblegende anzeigen
@@ -106,6 +106,6 @@ def ranking_age(var):
 
     return fig
 
-var = 50
+var = 1
 fig = ranking_age(var)
 fig.show()
