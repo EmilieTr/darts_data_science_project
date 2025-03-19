@@ -36,15 +36,15 @@ from texts import *
 
 # Sidebar für Navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Game Explanation", "Tournaments", "Players", "Data"])
+page = st.sidebar.radio("Go to", ["Home", "Tournaments", "Players", "Data"])
 
 # Change page
-if page == "Game Explanation":
+if page == "Home":
     st.title("Information")
-    st.header("... for you to understand the context the ressearch questions were answered in!")
+    st.subheader("... for you to understand the context the research questions were answered in!")
     with st.expander("Game Explanation"):
         st.write(darts_explanation)
-    st.subheader("Information")
+    st.subheader("This is a Dashboard")
     st.write("Testtext")
 
 elif page == "Tournaments":
