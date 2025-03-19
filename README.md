@@ -25,7 +25,22 @@ External URL: http://172.191.151.56:8501
 
 # :dart: Data Science Project
 (bla bli blubb)
-(RQs)
+
+### Research Questions
+Tournaments:
+- „How do the averages of tournaments vary over time?"
+- „How does the price money and number of participants vary over time?“
+- „How does the country a tournament is held in correlate to the success of players?“
+
+Players:
+- „How does the performance of players in general change over time?“
+-    „How does the performance of players change over time?“
+-    "What are the are most popular double fields and what are the generally corresponding checkout quotes?“
+
+- „How does the performance of individual players change over time?
+-    „What are most popular double fields and what are the corresponding checkout quotes?“
+- „How does age, nationality and handiness effects the rankings?“
+- „Is there a difference between a player's team performance and single performance?“
 
 
 Darts is a competitive sport in which two players take alternating turns throwing three darts at a dartboard. The game is highly analytical, as tournaments and rankings rely heavily on scores, averages, and overall statistics. Numerous websites and analysts track the sport by gathering extensive numerical data, monitoring the throws across multiple matches, and covering the latest news and developments within the darts community.
