@@ -23,10 +23,10 @@ if page == "Game Explanation":
     st.write(darts_explanation)
     
 elif page == "Tournaments":
-    subpage = st.sidebar.radio("Development of Tournaments", ["Averages throughout the years", "Price Money and Participants at WC", "Location of Tournament and Winner Nationality"])
+    subpage = st.sidebar.radio("Development of Tournaments", ["2 Averages throughout the years", "5 Price Money and Participants at WC", "7 Location of Tournament and Winner Nationality"])
     
     # Question 2
-    if subpage == "Averages throughout the years":
+    if subpage == "2 Averages throughout the years":
         tournaments = [
             "World Championship",
             "World Matchplay",
@@ -54,7 +54,7 @@ elif page == "Tournaments":
 
         
     # Question 5
-    elif subpage == "Price Money and Participants at WC":
+    elif subpage == "5 Price Money and Participants at WC":
         st.header("5. How does the price money and number of participants vary over time?")
         
         st.subheader("Participants of the World Championships over the Years")
@@ -70,7 +70,7 @@ elif page == "Tournaments":
         st.plotly_chart(fig)
         
         # Question 7
-    if subpage == "Location of Tournament and Winner Nationality":
+    if subpage == "7 Location of Tournament and Winner Nationality":
         st.header("7. How does the country a tournament is held in correlate to the success of players?")
         
         st.subheader("Observed Frequencies")
@@ -86,10 +86,10 @@ elif page == "Tournaments":
         st.plotly_chart(fig)
     
 elif page == "Players":
-    subpage = st.sidebar.radio("Players", ["Averages of Best Players", "Rankings vs Properties", "Team vs. Single", "Double Fields"])
+    subpage = st.sidebar.radio("Players", ["14 Averages of Best Players", "6 Rankings vs Properties", "8 Team vs. Single", "4 Double Fields", "15 Double Fields"])
         
     # Question 8
-    if subpage == "Team vs. Single":
+    if subpage == "8 Team vs. Single":
         st.header("8. Wie sehr weicht die Teamperformance von der Einzelperformance ab?")
         
         st.subheader("Comparision of Averages of the Team Matches to the Averages of the Single Player")
@@ -97,7 +97,7 @@ elif page == "Players":
         st.plotly_chart(fig)
     
     # Question 15   
-    elif subpage == "Double Fields":
+    elif subpage == "15 Double Fields":
         st.header("15. How does the performance of specific/ individual players change over time?")      
         
         # Lade eine Liste von Spielern aus einer CSV oder definiere sie manuell
@@ -120,7 +120,7 @@ elif page == "Players":
         st.plotly_chart(fig) 
     
     # Question 4
-    elif subpage == "Double Fields":
+    elif subpage == "4 Double Fields":
         st.header("4. What are most popular double fields and what are the corresponding checkout quotes?")
         
         st.subheader("Distribution of Throws and Hits on Double Fields")
@@ -132,7 +132,7 @@ elif page == "Players":
         st.plotly_chart(fig)
     
     # Question 14
-    elif subpage == "Averages of Best Players":
+    elif subpage == "14 Averages of Best Players":
         st.header("14. How does the performance of players in general change over time?")
         
         category = ["Averages", "Checkout Quota"] 
@@ -157,8 +157,6 @@ elif page == "Players":
             st.subheader("Development of Checkouts over the Years")
             fig = plot_checkout_every_year()
             st.plotly_chart(fig)
-            
-        st.header("Double Fields Analysis")
 
         # Visualisierungen mit gewählten Parametern aufrufen
         #st.title("Hit and Misses of individual Double Fields")
@@ -166,7 +164,7 @@ elif page == "Players":
         #st.plotly_chart(fig)  
         
     # Question 6
-    elif subpage == "Rankings vs Properties":
+    elif subpage == "6 Rankings vs Properties":
         st.header("6. How does age, nationality and handiness effects the rankings?")
         
         var = 10
