@@ -1,6 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import plotly.express as px
 
 def plot_distribution_double_fields():
     # CSV-Daten einlesen
@@ -35,6 +36,10 @@ def plot_distribution_double_fields():
     if other_hits > 0:
         double_counts_hits_filtered["Others"] = other_hits
 
+    # **Farben direkt aus der Prism-Palette für jedes Doppelfeld**
+    prism_colors = px.colors.qualitative.Prism
+    color_map = {double: prism_colors[i % len(prism_colors)] for i, double in enumerate(double_counts_filtered.index)}
+
     # **Kombinierte Figure mit Subplots**
     fig = make_subplots(
         rows=1, cols=2,  # Zwei Diagramme nebeneinander
@@ -48,7 +53,8 @@ def plot_distribution_double_fields():
             labels=[f"D {x}" if x != "Others" else x for x in double_counts_filtered.index],
             values=double_counts_filtered.values,
             hole=0.3,
-            name="Throws"
+            name="Throws",
+            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_filtered.index])  # Dynamische Farbanwendung
         ),
         row=1, col=1
     )
@@ -59,7 +65,8 @@ def plot_distribution_double_fields():
             labels=[f"D {x}" if x != "Others" else x for x in double_counts_hits_filtered.index],
             values=double_counts_hits_filtered.values,
             hole=0.3,
-            name="Hits"
+            name="Hits",
+            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_hits_filtered.index])  # Dynamische Farbanwendung
         ),
         row=1, col=2
     )
@@ -71,6 +78,3 @@ def plot_distribution_double_fields():
     )
 
     return fig
-
-# Diagramm anzeigen
-#fig.show()

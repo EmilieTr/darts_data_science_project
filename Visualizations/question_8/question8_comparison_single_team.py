@@ -1,6 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 import pycountry
+import plotly.express as px
 
 def plot_comparison_single_team():
 
@@ -80,21 +81,22 @@ def plot_comparison_single_team():
     # 📊 INTERAKTIVES BALKENDIAGRAMM ERSTELLEN
     fig = go.Figure()
 
-    # Positive Balken (bessere Spieler)
+    # Positive Balken (bessere Spieler) mit Prism-Palette-Farben
+    prism_colors = px.colors.qualitative.Prism
     fig.add_trace(go.Bar(
         x=comparison_counts['Country'],
         y=comparison_counts['better_count'],
         name="Player better than team",
-        marker_color="green",
+        marker_color=prism_colors[0],  # Verwenden der ersten Farbe in der Prism-Palette
         hovertemplate="%{y} players better<extra></extra>"
     ))
 
-    # Negative Balken (schlechtere Spieler)
+    # Negative Balken (schlechtere Spieler) mit Prism-Palette-Farben
     fig.add_trace(go.Bar(
         x=comparison_counts['Country'],
         y=-comparison_counts['worse_count'],  # Negativer Wert für visuelle Unterscheidung
         name="Player worse than team",
-        marker_color="red",
+        marker_color=prism_colors[6],  # Verwenden der siebten Farbe in der Prism-Palette
         hovertemplate="%{y} players worse<extra></extra>"
     ))
 
@@ -116,4 +118,4 @@ def plot_comparison_single_team():
 #fig.show()
 
 # Funktion ausführen
-plot_comparison_single_team()
+#plot_comparison_single_team()

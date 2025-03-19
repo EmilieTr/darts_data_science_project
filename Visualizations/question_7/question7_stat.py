@@ -5,7 +5,7 @@ import plotly.express as px
 def chi_squared():
 
     # CSV-Datei einlesen
-    df = pd.read_csv('Visualization/question 7/question7_table.csv', index_col=0)
+    df = pd.read_csv('Visualizations/question_7/question7_table.csv', index_col=0)
 
     # Überprüfen der Struktur
     print(df.head())
@@ -44,7 +44,7 @@ def plot_observed_frequencies():
                     x=df.columns,
                     y=df.index,
                     title="Beobachtete Häufigkeiten zwischen Austragungsland und Nationalität",
-                    color_continuous_scale="YlGnBu",
+                    color_continuous_scale=px.colors.qualitative.Prism,  # Hier Prism Color Palette anpassen
                     text_auto=True)
     
     return fig1
@@ -60,7 +60,7 @@ def plot_observed_expected_frequencies():
                     x=df.columns,
                     y=df.index,
                     title="Differenzen zwischen Beobachteten und Erwarteten Häufigkeiten",
-                    color_continuous_scale="coolwarm",
+                    color_continuous_scale=px.colors.qualitative.Prism,  # Hier Prism Color Palette anpassen
                     text_auto=".2f")
     
     return fig2
@@ -80,7 +80,7 @@ def plot_conditional_probability():
                     x=df.columns,
                     y=df.index,
                     title="Bedingte Wahrscheinlichkeiten zwischen Austragungsland und Nationalität",
-                    color_continuous_scale="viridis",
+                    color_continuous_scale=px.colors.qualitative.Prism,  # Hier Prism Color Palette anpassen
                     text_auto=".2f")
     
     return fig3

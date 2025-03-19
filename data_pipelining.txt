@@ -1,1 +1,172 @@
+## Data Pipeline
+This data science project on the topic darts aims to transform raw data into structured datasets suitable for data visualization and analysis needed for answering the predefined reasearch questions.
+This pipeline gathers data from multiple sources, processes it, and generates analytical datasets.
 
+### Data Sources
+The data for this project was acquired through web scraping, since existing APIs did not provide sufficient information:
+- [Darts Orakel](https://app.dartsorakel.com/)
+- [Mastercaller PDC World Championship](https://mastercaller.com/tournaments/pdc-world-championship/)
+- [Dartn.de Professional Darts](https://www.dartn.de/Dart-Profis)
+- [Wikipedia - Professional Darts Corporation](https://de.wikipedia.org/wiki/Professional_Darts_Corporation)
+- [Wikipedia - PDC World Darts Championship](https://de.wikipedia.org/wiki/PDC_World_Darts_Championship)
+- [Flashscore](https://www.flashscore.de/)
+These sources cover an wide array of information ranging from historical match results and official player statistics to tournament formats and prize money allocations.
+
+### Pipeline Architecture
+The data pipeline follows a structured process that includes data acquisition, processing, transformation, visualization, and analysis.
+
+The first stage, data acquisition, involves extracting player statistics, match results etc. through several web scraping programs - one program for each research question.
+To ensure the data is completely and correctly extracted, it was manually validated before storing the raw data in structured CSV files.
+
+Next, during the data transformation phase, the extracted data undergoes cleaning and preprocessing, which includes checking for missing values effecting answering the research questions and
+correcting errors in the corresponding web scraping program if necessary. This step ensured that the data is consistent and suitable for analysis.
+
+We didn't need a specified modeling phase, since the datasets were structured inthemselves and in relation to each other from the get go, since it was know from the beginning which relationships and
+patterns were to be looked at in the context of the research questions.  
+
+Finally, the visualization phase involved creating graphical representations of the data for eacah research question. These visualizations are supposed to answer the reasearch questions presented on the
+website and poster, not on their own but with text snippets explaining the context of the questions and the game itself.
+
+
+### Pipeline Output
+
+The pipeline generates structured datasets that serve different analytical purposes. Player performance profiles, tournament analysis structures, and historical trend data allow for in-depth exploration
+of darts performance. Additionally, pre-aggregated datasets are prepared for facilitating data visualization and interactive analysis.  
+
+
+### Implementation Details
+
+The project is built on the Python ecosystem, leveraging Pandas for data manipulation, NumPy for numerical computations, and Scikit-learn for preprocessing. Visualization is handled using Matplotlib.
+Data quality is ensured with Great Expectations for validation and Pandas Profiling for exploratory analysis. The workflow follows a structured execution flow, with script-based sequential
+processing and modular functions for reusability and maintainability.  
+
+
+### Execution Flow
+
+The process begins with collecting raw data through web scraping, followed by data cleaning and standardization. Feature engineering is then applied to create insightful variables, and modeling
+datasets are generated with appropriate partitioning. Finally, visualization-ready datasets are produced for analytical dashboards, ensuring a clear and structured approach to darts data analysis.  
+
+
+### Final Datasets
+jgcghrtxfgbc vhgb
+
+By systematically processing and analyzing darts data, this project offers a website and poster.
+
+
+
+Data Pipeline for Analyzing Dart Double Fields
+Research Question 4
+The analysis focuses on identifying the most popular double fields in darts and determining the percentage of successful attempts to hit these doubles.
+
+Data Source
+The data was sourced from the Darts Orakel statistics platform (https://app.dartsorakel.com/stats/double), which provides comprehensive statistics on professional dart players'
+performance on double fields.
+
+Web Scraping Implementation
+The web scraping process utilized Selenium and BeautifulSoup to extract structured data from the Darts Orakel website. The pipeline followed these steps:
+
+Browser Automation Setup:
+
+Configured Chrome WebDriver using Selenium to interact with the website
+Implemented automatic WebDriver management with ChromeDriverManager
+
+
+Data Filtering:
+
+Set the date filter to January 1, 1994, to obtain historical data across multiple years
+Created a function to extract available double types from the dropdown menu
+
+
+Systematic Data Extraction:
+
+Iterated through each double field type (D1 through D20)
+Extracted player statistics tables for each double field
+Implemented pagination handling to capture up to 9 pages of players per double type
+
+
+Data Organization:
+
+Stored extracted data in pandas DataFrames with consistent structure
+Added a "Double" column to identify which double field each record relates to
+Combined all individual DataFrames into a comprehensive dataset
+
+
+Data Export:
+
+Saved the consolidated data to "question4.csv" for analysis and visualization
+
+
+
+Data Analysis and Visualization
+The resulting CSV file contains player performance data structured with these columns:
+
+Rank: Player's ranking for that specific double
+Player: Name of the dart player
+Country: Nationality of the player
+Hit: Number of successful hits on the double
+Single: Number of times hitting the single field instead
+Outside: Number of throws missing the board or hitting other segments
+Other: Number of hits on other segments
+Pcnt: Success percentage on that double
+Double: The specific double field (D1-D20)
+
+
+
+
+From the visualization in Image 2, we can interpret:
+
+Distribution of Throws:
+
+D20 is clearly the most frequently attempted double at 71.1% of all throws
+D16 is the second most popular at 20.1%
+D10, D8, and D18 are attempted significantly less often
+All other doubles collectively make up just 1.2% of attempts
+
+
+Distribution of Hits:
+
+The success rate distribution closely mirrors the attempt distribution
+D20 accounts for 72.0% of all successful doubles
+D16 represents 20.4% of successful hits
+The remaining doubles have minimal representation in successful hits
+
+
+
+Key Findings
+
+The double 20 (D20) is overwhelmingly the most popular double field to attempt, accounting for over 70% of all double attempts by professional players.
+Double 16 (D16) is the clear second choice, representing approximately 20% of attempts.
+There is a strong correlation between the frequency of attempts on a particular double and the proportion of successful hits on that same double.
+The remaining double fields (D18, D10, D8, and others) collectively account for less than 10% of throws, indicating a strong preference among professional players for D20 and D16.
+This data suggests that dart players follow established strategies for double selection rather than attempting all doubles with equal frequency.
+
+
+
+
+Formulate Research Questions
+
+Brainstorm and define research questions
+Ensure questions are answerable with available data
+Prioritize questions based on importance and feasibility
+
+
+Data Source Identification
+
+Find websites containing relevant data in their HTML
+Evaluate data quality and accessibility
+Check terms of service for scraping permissions
+
+
+Web Scraping Implementation
+
+Develop custom scraping scripts for each research question
+Extract structured data from HTML
+Export scraped data to separate CSV files (one per question)
+
+
+Data Visualization
+
+Import CSV datasets
+Clean and prepare data for visualization
+Create appropriate visualizations to answer research questions
+Interpret findings and draw conclusions

@@ -3,15 +3,14 @@ import plotly.graph_objects as go
 import plotly.express as px  # Für Farben (px.colors.qualitative.Paired)
 from plotly.subplots import make_subplots  # Für mehrere Diagramme in einer Figure
 
-def plot_double_fields_player():
+def plot_double_fields_player(player):
 
     # CSV-Daten einlesen
     csv_data = "./Data/question 4/question4_doubles.csv"
     df = pd.read_csv(csv_data)
 
     # Spieler S filtern (Ersetze 'Spieler S' mit dem tatsächlichen Namen)
-    spieler_name = "Michael van Gerwen"
-    df_spieler = df[df["Player"] == spieler_name]
+    df_spieler = df[df["Player"] == player]
 
     # Filter: Nur Werte >= 20 behalten
     df_spieler = df_spieler[df_spieler["Hit"] >= 20]
@@ -26,10 +25,14 @@ def plot_double_fields_player():
     mean_hits = df_spieler.groupby("Double")["Hit"].mean()
 
     # Schritt 2: Filtere nur Doppelfelder mit einem Durchschnitt von >= 120 Hits
-    top_doppelfelder = mean_hits[mean_hits >= 120].index  # Liste der relevanten Doppelfelder
+    if player == "Luke Littler":
+        min_hits = 40
+    else:
+        min_hits = 120
+    top_doppelfelder = mean_hits[mean_hits >= min_hits].index  # Liste der relevanten Doppelfelder
 
     # Farben für Doppelfelder zuweisen
-    colors = px.colors.qualitative.Paired
+    colors = px.colors.qualitative.Prism
     color_map = {double: colors[i % len(colors)] for i, double in enumerate(sorted(df_spieler["Double"].unique()))}
 
     # Figuren erstellen
@@ -53,7 +56,7 @@ def plot_double_fields_player():
 
     # Layout anpassen
     fig.update_layout(
-        title=f"Player: {spieler_name}",
+        title=f"Player: {player}",
         xaxis_title="Year",
         yaxis_title="Number of Throws",
         xaxis2_title="Year",
