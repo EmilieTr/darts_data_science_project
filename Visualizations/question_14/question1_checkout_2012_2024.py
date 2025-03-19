@@ -84,4 +84,5 @@ def plot_checkout_2012_2024(ranking_position):
     return fig
 
 # Show Plot
-#fig.show()
+fig = plot_checkout_2012_2024(50)
+fig.show()

@@ -4,7 +4,6 @@ import plotly.express as px
 import numpy as np
 
 def plot_average_2009_2024(ranking_position):
-
     # Function to convert names from format "SURNAME, First_name" into "First_name Surname"
     def convert_name(name):
         if ", " in name:
@@ -33,7 +32,10 @@ def plot_average_2009_2024(ranking_position):
     # Extract data for 2009 and 2024
     df_averages_2009 = df_averages[(df_averages['Year'] == 2009) & (df_averages['Player'].isin(list_2009))]
     df_averages_2024 = df_averages[(df_averages['Year'] == 2024) & (df_averages['Player'].isin(list_2024))]
-
+    print("2009", list_2009, len(list_2009), len(df_averages_2009))
+    print(df_averages_2009)
+    print("2024", list_2024)
+    print(df_averages_2024)
     # Add Year column
     df_averages_2009['Year'] = 2009
     df_averages_2024['Year'] = 2024
@@ -82,5 +84,6 @@ def plot_average_2009_2024(ranking_position):
 
     return fig
 
-# Show Plot
+#Show Plot
+#fig= plot_average_2009_2024(15)
 #fig.show()
