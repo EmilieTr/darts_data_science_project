@@ -42,7 +42,14 @@ Players:
 - „How does age, nationality and handiness effects the rankings?“
 - „Is there a difference between a player's team performance and single performance?“
 
-### Data
+### Data Sources
+- Darts Orakel: https://app.dartsorakel.com/
+- Mastercaller PDC World Championship: https://mastercaller.com/tournaments/pdc-world-championship/
+- Dartn.de Professional Darts: https://www.dartn.de/Dart-Profis
+- Wikipedia - Professional Darts Corporation: https://de.wikipedia.org/wiki/Professional_Darts_Corporation
+- Wikipedia - PDC World Darts Championship: https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
+- Flashscore: https://www.flashscore.de/
+(see github folder "data" for files extracted in data pipeline)
 
 ## Interesting Darts Questions answered with a few clicks
 (website demo)
@@ -62,7 +69,6 @@ This data science project focuses on darts and aims to transform raw data into s
 
 The project began with formulating research questions, ensuring they were answerable with the available data (looking ahead at available data sources), and prioritizing those that were the most interesting and meaningful. After defining these questions, relevant data sources were identified. Since existing APIs did not provide sufficient information, web scraping was necessary. The data was acquired from several sources, including:
 
-Darts Orakel
 - Darts Orakel: https://app.dartsorakel.com/
 - Mastercaller PDC World Championship: https://mastercaller.com/tournaments/pdc-world-championship/
 - Dartn.de Professional Darts: https://www.dartn.de/Dart-Profis
