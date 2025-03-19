@@ -86,10 +86,10 @@ Optional:
     Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website)
 
 11. Is it more likely to win a match if the participants scoring or check-out quota is better than the opponents?
-   - Data Source:
-https://www.flashscore.de/
+   Data Source:
+   https://www.flashscore.de/
 
-   - Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), BIG CALCULATIONS
+   Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), BIG CALCULATIONS
 
 13. How likely is the participant to lose after throwing a 9 darter?
     Data Source:
