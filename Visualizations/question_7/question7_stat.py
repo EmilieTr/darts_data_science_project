@@ -1,50 +1,47 @@
 import pandas as pd
 import scipy.stats as stats
 import plotly.express as px
+import streamlit as st
 
 def chi_squared():
 
-    # CSV-Datei einlesen
+    # Read CSV file
     df = pd.read_csv('Visualizations/question_7/question7_table.csv', index_col=0)
 
-    # Überprüfen der Struktur
-    print(df.head())
+    # Filter countries that have more than 10 entries in total
+    df = df[df['Total'] > 10]  # Only countries with more than 10 entries
 
-    # Chi-Quadrat-Test der Unabhängigkeit durchführen
+    # Filter nationalities that have more than 10 entries in total
+    df = df.loc[:, df.loc['Total'] > 10]  # Only nationalities with more than 10 entries
+
+    # Perform Chi-Squared test of independence
     chi2, p, dof, expected = stats.chi2_contingency(df)
 
-    # Ergebnisse ausgeben
-    print(f"Chi-Quadrat-Wert: {chi2}")
-    print(f"p-Wert: {p}")
-    print(f"Freiheitsgrade: {dof}")
-    print("Erwartete Häufigkeiten:")
-    print(expected)
-
-    # p-Wert interpretieren
-    alpha = 0.05  # Signifikanzniveau
+    # Interpret p-value
+    alpha = 0.05  # Significance level
     if p < alpha:
-        print("Es besteht eine signifikante Beziehung zwischen Austragungsland und Nationalität.")
+        st.write("There is a significant relationship between the host country and nationality.")
     else:
-        print("Es besteht keine signifikante Beziehung zwischen Austragungsland und Nationalität.")
+        st.write("There is no significant relationship between the host country and nationality.")
 
-    # Differenz zwischen beobachteten und erwarteten Häufigkeiten berechnen
+    # Calculate the difference between observed and expected frequencies
     observed_vs_expected = df - expected
     
     return df, observed_vs_expected
 
-# Die Differenzen ausgeben (Optional)
+# Output the differences (Optional)
 #print(observed_vs_expected)
 
 def plot_observed_frequencies():
     df, _ = chi_squared()
     
-    # 📊 HEATMAP 1: Beobachtete Häufigkeiten
+    # 📊 HEATMAP 1: Observed frequencies
     fig1 = px.imshow(df,
-                    labels=dict(x="Nationalität", y="Austragungsland", color="Häufigkeit"),
+                    labels=dict(x="Nationality", y="Host Country", color="Frequency"),
                     x=df.columns,
                     y=df.index,
-                    title="Beobachtete Häufigkeiten zwischen Austragungsland und Nationalität",
-                    color_continuous_scale=px.colors.qualitative.Prism,  # Hier Prism Color Palette anpassen
+                    title="Observed Frequencies between Host Country and Nationality",
+                    color_continuous_scale=px.colors.qualitative.Prism,  # Adjust Prism color palette here
                     text_auto=True)
     
     return fig1
@@ -54,33 +51,32 @@ def plot_observed_frequencies():
 def plot_observed_expected_frequencies():
     df, observed_vs_expected = chi_squared()
     
-    # 📊 HEATMAP 2: Differenzen zwischen Beobachtet & Erwartet
+    # 📊 HEATMAP 2: Differences between Observed & Expected
     fig2 = px.imshow(observed_vs_expected,
-                    labels=dict(x="Nationalität", y="Austragungsland", color="Differenz"),
+                    labels=dict(x="Nationality", y="Host Country", color="Difference"),
                     x=df.columns,
                     y=df.index,
-                    title="Differenzen zwischen Beobachteten und Erwarteten Häufigkeiten",
-                    color_continuous_scale=px.colors.qualitative.Prism,  # Hier Prism Color Palette anpassen
+                    title="Differences between Observed and Expected Frequencies",
+                    color_continuous_scale=px.colors.qualitative.Prism,  # Adjust Prism color palette here
                     text_auto=".2f")
     
     return fig2
     
 #fig2.show()
 
-
 def plot_conditional_probability():
     df, _ = chi_squared()
     
-    # Bedingte Wahrscheinlichkeiten berechnen (P(Nationalität | Austragungsland))
+    # Calculate conditional probabilities (P(Nationality | Host Country))
     conditional_probabilities = df.div(df.sum(axis=1), axis=0)
 
-    # 📊 HEATMAP 3: Bedingte Wahrscheinlichkeiten
+    # 📊 HEATMAP 3: Conditional probabilities
     fig3 = px.imshow(conditional_probabilities,
-                    labels=dict(x="Nationalität", y="Austragungsland", color="Wahrscheinlichkeit"),
+                    labels=dict(x="Nationality", y="Host Country", color="Probability"),
                     x=df.columns,
                     y=df.index,
-                    title="Bedingte Wahrscheinlichkeiten zwischen Austragungsland und Nationalität",
-                    color_continuous_scale=px.colors.qualitative.Prism,  # Hier Prism Color Palette anpassen
+                    title="Conditional Probabilities between Host Country and Nationality",
+                    color_continuous_scale=px.colors.qualitative.Prism,  # Adjust Prism color palette here
                     text_auto=".2f")
     
     return fig3

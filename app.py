@@ -84,6 +84,8 @@ elif page == "Tournaments":
         st.subheader("Conditional Probabilities")
         fig = plot_conditional_probability()
         st.plotly_chart(fig)
+        
+        st.image("Visualizations/question_7/map.png")
     
 elif page == "Players":
     subpage = st.sidebar.radio("Players", ["14 Averages of Best Players", "6 Rankings vs Properties", "8 Team vs. Single", "4 Double Fields", "15 Double Fields"])
