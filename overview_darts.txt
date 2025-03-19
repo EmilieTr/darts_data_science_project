@@ -63,7 +63,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
 
    Visualization: bubble charts with rankings (y) age / nationality / left/right handeddness (x)
 
-8. „How much does team performance vary from single performance?“
+8. „Is there a difference between a player's team performance and single performance?“
    Data Source:
    https://app.dartsorakel.com/tournament/stats/1095
 
