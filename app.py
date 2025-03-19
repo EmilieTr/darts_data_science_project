@@ -18,10 +18,10 @@ page = st.sidebar.radio("Go to", ["Game Explanation", "Tournaments", "Players", 
 # Seite wechseln 
 if page == "Game Explanation":
     st.title("Information")
+    st.header("... for you to understand the context the ressearch questions were answered in!")
     with st.expander("Game Explanation"):
         st.write(darts_explanation)
-    st.header("Information")
-    st.subheader("... for you to understand the context the ressearch questions were answered in!")
+    st.subheader("Information")
     st.write("Testtext")
     
 elif page == "Tournaments":
