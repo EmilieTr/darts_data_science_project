@@ -119,6 +119,18 @@ elif page == "Players":
         fig = plot_double_fields_player_combined(selected_player, selected_double)
         st.plotly_chart(fig) 
     
+    # Question 4
+    elif subpage == "4 Double Fields":
+        st.header("4. What are most popular double fields and what are the corresponding checkout quotes?")
+        
+        st.subheader("Distribution of Throws and Hits on Double Fields")
+        fig = plot_distribution_double_fields()
+        st.plotly_chart(fig)
+        
+        st.subheader("Distribution of Throws and Hits on the Best Double Fields per Player")
+        fig = plot_distribution_best_double_fields()
+        st.plotly_chart(fig)
+    
     # Question 14
     elif subpage == "14 Averages of Best Players":
         st.header("14. How does the performance of players in general change over time?")
@@ -145,17 +157,7 @@ elif page == "Players":
             st.subheader("Development of Checkouts over the Years")
             fig = plot_checkout_every_year()
             st.plotly_chart(fig)
-            
-        st.header("Double Fields Analysis")
-        st.header("4. What are most popular double fields and what are the corresponding checkout quotes?")
-        
-        st.subheader("Distribution of Throws and Hits on Double Fields")
-        fig = plot_distribution_double_fields()
-        st.plotly_chart(fig)
-        
-        st.subheader("Distribution of Throws and Hits on the Best Double Fields per Player")
-        fig = plot_distribution_best_double_fields()
-        st.plotly_chart(fig)
+
         # Visualisierungen mit gewählten Parametern aufrufen
         #st.title("Hit and Misses of individual Double Fields")
         #fig = plot_doubles_fields_hits_misses()
