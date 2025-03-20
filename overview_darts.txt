@@ -71,8 +71,6 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
    Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, averages
    Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, check out percentage
 
-Optional:
-
 9.	How likely is it to throw 180 points after there was another 180 points thrown?
    Data Source:
    https://www.flashscore.de/
@@ -84,6 +82,8 @@ Optional:
     https://www.flashscore.de/
 
     Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website)
+    
+Optional:
 
 11. Is it more likely to win a match if the participants scoring or check-out quota is better than the opponents?
    Data Source:
