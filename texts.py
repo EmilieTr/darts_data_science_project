@@ -76,7 +76,7 @@ The checkout percentages have also become more uniform across different ranking 
 
 subtext_2 = "This is the subtext for question 2"
 
-interpretation_2 = """While the World Championship average scores appear more volatile with sharper peaks and valleys, they seem higher than in the other majors." \
+interpretation_2 = """While the World Championship average scores appear more volatile with sharper peaks and valleys, they seem higher than in the other majors.
 
 Both lines show an upward trajectory from 2000 to 2025 and the average scores generally range between 94 and 105, with a few notable exceptions.
 
@@ -88,11 +88,56 @@ This likely comes from improving player skill levels, technological advancements
 
 subtext_4 = "This is the subtext for question 4"
 
-interpretation_4 = "This is the interpretation for the results of question 4"
+interpretation_4 = """Most Attempted Double Fields (Throws):
+
+1. D20 - 14.8%
+2. D16 - 11.3%
+3. D10 - 11.0%
+4. D8 - 10.3%
+5. D18 - 7.22%
+
+Most Successfully Hit Double Fields (Hits):
+
+1. D20 - 24.7%
+2. D10 - 19.0%
+3. D16 - 12.7%
+4. D8 - 9.38%
+5. D12 - 5.92%
+
+This shows that D20, D16, D10, and D8 are consistently among the most popular double fields for both attempts and successful hits.
+
+The best players achieve checkout success rates of 50-67% on their preferred doubles.
+
+The preferred double felds vs. succesful double hits indicate that top players focus on just two double fields (D20 and D16), because ..."""
 
 subtext_5 = "This is the subtext for question 5"
 
-interpretation_5 = "This is the interpretation for the results of question 5"
+interpretation_5 = """This participant growth pattern reveals deliberate structural changes to the tournament format, with significant expansions occurring around 1999, 2006, and 2019.
+
+The total prize pool has seen remarkable growth:
+
+- Started at £64,000 in 1994
+- Reached £1 million by 2010
+- Peaked at £2.5 million in 2019 and has remained stable since
+
+The winner's prize has followed a similar trajectory:
+
+- £16,000 in 1994
+- £100,000 by 2006
+- £250,000 by 2014
+- £500,000 from 2019 onward
+
+There's a clear correlation between participant numbers and prize money:
+
+- Major increases in participants (1999, 2006, 2019) typically coincided with significant prize money increases
+- The 2019 expansion to 96 participants aligned with the prize pool reaching its current £2.5 million
+- Since 2019, both participant numbers and prize money have remained stable
+
+The graphs show that while the total prize pool has increased, the distribution maintains a similar structure:
+
+- Champion and runner-up consistently receive the largest portions
+- Prize money decreases progressively across placement categories
+- The introduction of new placement categories (Last 64 in 2006, Last 96 in 2019) reflects the expanding tournament format"""
 
 subtext_6 = "This is the subtext for question 6"
 
@@ -111,12 +156,38 @@ Players from these countries might just be less common, similar to the problem w
 
 subtext_7 = "This is the subtext for question 7"
 
-interpretation_7 = "This is the interpretation for the results of question 7"
+interpretation_7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the general dominance of these nations in darts rather than a host country advantage." \
+
+This graph displays the residuals from a statistical analysis, likely a chi-square test. The values are relatively small, indicating minimal deviation from what would be expected if there were no relationship between host country and winner nationality.
+
+Conditional Probabilities show the probability of winners being from a specific nationality given the host country. The conditional probabilities appear fairly consistent across host countries:
+
+- In Australia, England, and USA, English players win about 43-44% of tournaments
+- In the Netherlands, Dutch players win 29% of tournaments
+- No pattern suggests players consistently perform better in their home countries
+
+The UK and Germany host the most tournaments."""
 
 subtext_8 = "This is the subtext for question 8"
 
-interpretation_8 = "This is the interpretation for the results of question 8"
+interpretation_8 = """Game Insider for Analysis: team matches only occurr at the World Cup.
+
+Most countries show a positive difference in the purple bars, indicating that players generally perform better individually than when playing as part of a team.
+
+Highlights:
+
+(Notable standouts:
+
+ENG (England) shows the highest positive difference, with approximately 525+ players performing better individually than in team matches over the years analyzed.
+WAL (Wales), NED (Netherlands), and SCO (Scotland) also show substantial positive differences.
+
+
+Negative differences: Some countries show significant negative differences (orange bars), meaning players performed worse individually than in team settings:
+
+NED (Netherlands) has the most dramatic negative difference, with approximately 350 players performing worse individually.
+Other countries with notable negative differences include BRA (Brazil), HUN (Hungary), and SWE (Sweden).)
+Does this have to do with the UK being better represented and us only showcasing absolute values or maybe is it that people try harder in World Cups?"""
 
 subtext_15 = "This is the subtext for question 15"
 
-interpretation_15 = "This is the interpretation for the results of question 15"
+interpretation_15 = """individual analysis for players???"""
