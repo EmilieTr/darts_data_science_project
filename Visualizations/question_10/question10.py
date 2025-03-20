@@ -31,8 +31,8 @@ for file in csv_files:
                                 else ("Away" if row["Away Score"] > row["Prev Away Score"] else "Draw"), axis=1)
     
     # Spalte "First" erstellen: True für die erste Zeile eines Legs, sonst False
-    df["First"] = df["Leg Value"] != df["Prev Leg Value"]
-    
+    df["First"] = df["First"] = df["Leg"] == 0
+
     # Spalten für 180er-Würfe filtern
     df["180 Home"] = df["Throw Home"] == 180
     df["180 Away"] = df["Throw Away"] == 180
@@ -46,30 +46,31 @@ for file in csv_files:
     # Wahrscheinlichkeit berechnen und in Prozent umwandeln
     probability = (wins_after_180 / total_legs_180 * 100) if total_legs_180 > 0 else 0
     
-    # Durchschnittswert berechnen und in Prozent umwandeln
-    avg_probability = (wins_after_180 / total_legs_180 * 100) if total_legs_180 > 0 else 0
-    
     # Dateiname als Turniernamen extrahieren (ohne ".csv")
     tournament_name = os.path.splitext(os.path.basename(file))[0]
     
     # Ergebnisse speichern
-    results.append([tournament_name, total_legs_180, wins_after_180, probability, avg_probability])
+    results.append([tournament_name, total_legs_180, wins_after_180, probability])
 
 # Ergebnisse als DataFrame speichern
-results_df = pd.DataFrame(results, columns=["Tournament", "Total Legs 180", "Wins After 180", "Probability (%)", "Avg Probability"])
+results_df = pd.DataFrame(results, columns=["Tournament", "Total Legs Start with 180", "Wins After 180 at first throw", "Probability (%)"])
 
 # Durchschnittswerte für alle Turniere berechnen und in Prozent umwandeln
-avg_total_legs_180 = round(results_df["Total Legs 180"].mean(), 2)
-avg_wins_after_180 = round(results_df["Wins After 180"].mean(), 2)
+avg_total_legs_180 = round(results_df["Total Legs Start with 180"].mean(), 2)
+avg_wins_after_180 = round(results_df["Wins After 180 at first throw"].mean(), 2)
 avg_probability = round(results_df["Probability (%)"].mean(), 2)
-avg_avg_probability = round(results_df["Avg Probability"].mean(), 2)
 
 # Zeile mit Gesamt-Durchschnittswerten hinzufügen
-average_row = pd.DataFrame([["Average", avg_total_legs_180, avg_wins_after_180, avg_probability, avg_avg_probability]],
+average_row = pd.DataFrame([["Average", avg_total_legs_180, avg_wins_after_180, avg_probability]],
                            columns=results_df.columns)
 
 # Durchschnittszeile an die Tabelle anhängen
 results_df = pd.concat([results_df, average_row], ignore_index=True)
+
+results_df['Tournament'] = results_df['Tournament'].str.replace('_', ' ').str.title()
+
+# Sortiere die Zeilen alphabetisch basierend auf der Spalte 'Name'
+results_df = results_df.sort_values(by='Tournament')
 
 # CSV-Datei speichern
 results_df.to_csv(output_file, index=False)

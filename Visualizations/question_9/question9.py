@@ -30,30 +30,31 @@ for file in csv_files:
     # Wahrscheinlichkeit berechnen und als Prozentwert speichern
     probability = round((consecutive_180s / total_180s) * 100, 2) if total_180s > 0 else 0
 
-    # Durchschnittswert berechnen
-    avg_consecutive = round(consecutive_180s / total_180s, 2) if total_180s > 0 else 0
-
     # Dateiname als Turniernamen extrahieren (ohne ".csv")
     tournament_name = os.path.splitext(os.path.basename(file))[0]
     
     # Ergebnisse speichern
-    results.append([tournament_name, total_180s, consecutive_180s, probability, avg_consecutive])
+    results.append([tournament_name, total_180s, consecutive_180s, probability])
 
 # Ergebnisse als DataFrame speichern
-results_df = pd.DataFrame(results, columns=["Tournament", "Total 180s", "Consecutive 180s", "Probability (%)", "Avg Consecutive"])
+results_df = pd.DataFrame(results, columns=["Tournament", "Total 180s", "Consecutive 180s", "Probability (%)"])
 
 # Durchschnittswerte für alle Turniere berechnen
 avg_total_180s = round(results_df["Total 180s"].mean(), 2)
 avg_consecutive_180s = round(results_df["Consecutive 180s"].mean(), 2)
 avg_probability = round(results_df["Probability (%)"].mean(), 2)
-avg_avg_consecutive = round(results_df["Avg Consecutive"].mean(), 2)
 
 # Zeile mit Gesamt-Durchschnittswerten hinzufügen
-average_row = pd.DataFrame([["Average", avg_total_180s, avg_consecutive_180s, avg_probability, avg_avg_consecutive]],
+average_row = pd.DataFrame([["Average", avg_total_180s, avg_consecutive_180s, avg_probability]],
                            columns=results_df.columns)
 
 # Durchschnittszeile an die Tabelle anhängen
 results_df = pd.concat([results_df, average_row], ignore_index=True)
+
+results_df['Tournament'] = results_df['Tournament'].str.replace('_', ' ').str.title()
+
+# Sortiere die Zeilen alphabetisch basierend auf der Spalte 'Name'
+results_df = results_df.sort_values(by='Tournament')
 
 # CSV-Datei speichern
 results_df.to_csv(output_file, index=False)

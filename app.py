@@ -203,7 +203,9 @@ elif page == "Players":
             "6 Rankings vs Properties",
             "8 Team vs. Single",
             "4 Double Fields",
-            "15 Player Stats"
+            "15 Player Stats",
+            "9 180 after 180",
+            "10 Leg Winner after start with 180"
         ]
     )
     
@@ -409,6 +411,20 @@ elif page == "Players":
 
         # Call function to add footer
         add_footer()
+        
+    # Question 9    
+    elif subpage == "9 180 after 180":
+        st.header("9. How likely is it to throw a 180 after the opponent threw one?")
+        
+        df = pd.read_csv('Visualizations/question_9/180_stats.csv')
+        st.dataframe(df)
+        
+    # Question 10     
+    elif subpage == "10 Leg Winner after start with 180":  
+        st.header("10. How likely are participants win a leg after throwing a 180 as first throw?") 
+        
+        df = pd.read_csv('Visualizations/question_10/180_stats.csv') 
+        st.dataframe(df)
 
 elif page == "Data":
     st.title("Data Pipeline")
