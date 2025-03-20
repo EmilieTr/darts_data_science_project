@@ -144,5 +144,5 @@ def plot_ranking_age(var):
 
 
 var = 20
-fig = plot_ranking_age(var)
-fig.show()
+#fig = plot_ranking_age(var)
+#fig.show()

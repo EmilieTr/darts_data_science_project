@@ -105,5 +105,5 @@ def plot_ranking_handedness(var):
 
 var = 10
 
-fig = plot_ranking_handedness(var)
-fig.show()
+#fig = plot_ranking_handedness(var)
+#fig.show()
