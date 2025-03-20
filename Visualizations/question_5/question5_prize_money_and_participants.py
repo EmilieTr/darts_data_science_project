@@ -1,45 +1,45 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-def plot_price_money_and_participants():
+def plot_prize_money_and_participants():
 
-    # Funktion zur Umwandlung von Währungsstrings in float
+    # Function to convert currency strings to float
     def convert_currency(value):
         if isinstance(value, str):
             value = value.replace('£', '').replace(',', '')
             return float(value)
         return value
 
-    # CSV-Datei laden
+    # Load CSV file
     file = 'Data/question 5/question5.csv'
     df = pd.read_csv(file)
 
-    # Preisgeld-Spalten definieren
+    # Define prize money columns
     columns = ['Champion', 'Runner-up', '3d place', '4d place', 'Quarter finalists', 
-            'Last 16', 'Last 24', 'Last 32', 'Last 64', 'Last 96']
+               'Last 16', 'Last 24', 'Last 32', 'Last 64', 'Last 96']
     labels = ['1st', '2nd', '3rd', '4th', 'Quarter finalists', 'Last 16', 
-            'Last 24', 'Last 32', 'Last 64', 'Last 96']
+              'Last 24', 'Last 32', 'Last 64', 'Last 96']
 
-    # Daten umwandeln
+    # Convert currency values
     for column in columns:
         df[column] = df[column].apply(convert_currency)
     df['Semi finalists'] = df['Semi finalists'].apply(convert_currency)
     df['Total Prize Pool'] = df['Total Prize Pool'].apply(convert_currency)
 
-    # Fehlende Werte auffüllen
+    # Fill missing values
     columns_without_3rd_4th = [col for col in columns if col not in ['3d place', '4d place']]
     df[columns_without_3rd_4th] = df[columns_without_3rd_4th].fillna(0)
     df['3d place'].fillna(df['Semi finalists'], inplace=True)
     df['4d place'].fillna(df['Semi finalists'], inplace=True)
 
-    # Teilnehmer-Daten gruppieren
+    # Group participant data
     participants_per_year = df.groupby('Year')['Participants'].mean()
 
-    # **Plotly-Figur erstellen**
+    # **Create Plotly figure**
     fig = go.Figure()
 
-    # **Gestapeltes Balkendiagramm für Preisgelder**
-    bottom_values = [0] * len(df['Year'])  # Startwerte für Stapel
+    # **Stacked bar chart for prize money**
+    bottom_values = [0] * len(df['Year'])  # Starting values for stacking
 
     for column, label in zip(columns, labels):
         fig.add_trace(go.Bar(
@@ -50,7 +50,7 @@ def plot_price_money_and_participants():
         ))
         bottom_values = [sum(x) for x in zip(bottom_values, df[column])]
 
-    # Fehlendes Preisgeld auffüllen
+    # Fill missing prize money
     missing_prize_money = df['Total Prize Pool'] - bottom_values
     fig.add_trace(go.Bar(
         x=df['Year'],
@@ -59,7 +59,7 @@ def plot_price_money_and_participants():
         marker=dict(color='gray', opacity=0.6)
     ))
 
-    # **Linienplot für Teilnehmerzahlen (zweite Y-Achse)**
+    # **Line plot for participants (second Y-axis)**
     fig.add_trace(go.Scatter(
         x=participants_per_year.index,
         y=participants_per_year.values,
@@ -69,7 +69,7 @@ def plot_price_money_and_participants():
         line=dict(color='red', width=2)
     ))
 
-    # **Layout anpassen**
+    # **Adjust layout**
     fig.update_layout(
         title="Development of Prize Money and Participants over the Years (PDC World Championship)",
         xaxis=dict(title="Year"),
@@ -85,6 +85,3 @@ def plot_price_money_and_participants():
     )
     
     return fig
-
-# **Diagramm anzeigen (in Streamlit verwenden mit st.plotly_chart(fig))**
-#fig.show()

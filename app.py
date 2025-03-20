@@ -17,9 +17,9 @@ from Visualizations.question_4 import (
     plot_distribution_best_double_fields
 )
 from Visualizations.question_5 import (
-    plot_price_money_and_participants,
+    plot_prize_money_and_participants,
     plot_participants,
-    plot_price_money
+    plot_prize_money
 )
 from Visualizations.question_6 import (
     plot_ranking_age,
@@ -38,18 +38,52 @@ from Visualizations.question_8 import (
 from texts import *
 # from Visualizations.question_9 import
 
+
+def add_footer():
+    footer_code = """
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <div class="footer">
+        Contact: <a href="mailto:stu240535@mail.uni-kiel.de">stu240535@mail.uni-kiel.de</a> |
+        <a href=www.google.com">this is a link</a>
+    </div>
+    """
+    st.markdown(footer_code, unsafe_allow_html=True)
+
+
 # Sidebar for Navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Tournaments", "Players", "Data"])
 
 # Change page
 if page == "Home":
-    st.title("Welcome!")
-    st.header("This Data Science Projekt is on Darts")
+    st.title("Welcome to this Data Science Project!")
+    st.header("Here you can find interesting Research Questions on the Game Darts")
     st.subheader("This is a Dashboard")
     with st.expander("Game Explanation"):
         st.write(darts_explanation)
     st.write("Testtext")
+
+    # Call function to add footer
+    add_footer()
 
 elif page == "Tournaments":
     subpage = st.sidebar.radio(
@@ -105,14 +139,14 @@ elif page == "Tournaments":
         st.plotly_chart(fig)
         
         st.subheader("Price Money of the World Championships over the Years")
-        fig = plot_price_money()
+        fig = plot_prize_money()
         st.plotly_chart(fig)
         
         st.subheader(
             "Participants and Price Money of the World Championships "
             "over the Years"
         )
-        fig = plot_price_money_and_participants()
+        fig = plot_prize_money_and_participants()
         st.plotly_chart(fig)
         
     # Question 7
@@ -296,4 +330,5 @@ elif page == "Players":
 
 elif page == "Data":
     st.title("Data Pipeline")
+    st.header("Our Process of data aquisition, data transformation, and data visualization.")
     st.write(data_pipeline)
