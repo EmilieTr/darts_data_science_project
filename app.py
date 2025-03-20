@@ -128,6 +128,9 @@ elif page == "Tournaments":
         # Call the function with the list of selected tournaments
         fig = plot_winning_averages(selected_tournaments)
         st.plotly_chart(fig)
+
+        # Call function to add footer
+        add_footer()
         
     # Question 5
     elif subpage == "5 Price Money and Participants at WC":
@@ -148,6 +151,9 @@ elif page == "Tournaments":
         )
         fig = plot_prize_money_and_participants()
         st.plotly_chart(fig)
+
+        # Call function to add footer
+        add_footer()
         
     # Question 7
     if subpage == "7 Location of Tournament and Winner Nationality":
@@ -169,6 +175,9 @@ elif page == "Tournaments":
         st.plotly_chart(fig)
         
         st.image("Visualizations/question_7/map.png")
+
+        # Call function to add footer
+        add_footer()
 
 elif page == "Players":
     subpage = st.sidebar.radio(
@@ -197,6 +206,9 @@ elif page == "Players":
         )
         fig = plot_comparison_single_team_averages()
         st.plotly_chart(fig)
+
+        # Call function to add footer
+        add_footer()
 
     # Question 15
     elif subpage == "15 Player Stats":
@@ -235,6 +247,9 @@ elif page == "Players":
         )
         fig = plot_player_average(selected_player)
         st.plotly_chart(fig)
+
+        # Call function to add footer
+        add_footer()
     
     # Question 4
     elif subpage == "4 Double Fields":
@@ -254,6 +269,9 @@ elif page == "Players":
         fig = plot_distribution_best_double_fields()
         st.plotly_chart(fig)
     
+        # Call function to add footer
+        add_footer()
+
     # Question 1
     elif subpage == "1 Averages of Best Players":
         st.header("1. How does the performance of players in general "
@@ -309,6 +327,9 @@ elif page == "Players":
         # fig = plot_doubles_fields_hits_misses()
         # st.plotly_chart(fig)  
         
+        # Call function to add footer
+        add_footer()
+
     # Question 6
     elif subpage == "6 Rankings vs Properties":
         st.header("6. How does age, nationality and handiness effects "
@@ -328,7 +349,13 @@ elif page == "Players":
         fig = plot_ranking_handedness(var)
         st.plotly_chart(fig)
 
+        # Call function to add footer
+        add_footer()
+
 elif page == "Data":
     st.title("Data Pipeline")
     st.header("Our Process of data aquisition, data transformation, and data visualization.")
     st.write(data_pipeline)
+
+    # Call function to add footer
+    add_footer()
