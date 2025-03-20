@@ -159,8 +159,8 @@ def plot_ranking_handedness(var, variant):
 
     return fig, mean_ranking
 
-var = 10
+'''var = 10
 
 fig, mean_ranking = plot_ranking_handedness(var, 0)
 fig.show()
-print(mean_ranking)
+print(mean_ranking)'''
