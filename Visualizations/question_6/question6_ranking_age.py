@@ -211,7 +211,7 @@ def plot_ranking_age(var, variant):
 
 
 
-var = 2
+'''var = 2
 fig, mean_ranking = plot_ranking_age(var, 0)
 fig.show()
-print(mean_ranking)
+print(mean_ranking)'''

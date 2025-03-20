@@ -43,7 +43,10 @@ def plot_ranking_nationality(var, variant):
     #function for using proportions and not absolute numbers
     def ratio(nationalities, total_nationality, counter):
         for i,nation in enumerate(nationalities):
-            counter[i] = counter[i] / total_nationality[country_translation_other[nation]]
+            if total_nationality[country_translation_other[nation]] == 0:
+                counter[i] = 0
+            else:
+                counter[i] = counter[i] / total_nationality[country_translation_other[nation]]
         return counter
     
     def mean_rank(nationalities, order_of_merit, counter):
