@@ -22,7 +22,7 @@ def plot_average_line_chart(ranking_position, list_of_years):
     df_averages['Stat'] = df_averages['Stat'].astype(float)
 
     
-    
+    list_of_years = [int(i) for i in list_of_years]
 
     data_frames = []
     for year in list_of_years:
