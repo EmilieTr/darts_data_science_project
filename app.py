@@ -383,13 +383,13 @@ elif page == "Players":
                  "the rankings?")
         
         # Erstelle einen Slider von 0 bis 50
-        var = st.slider("Choose a Number", min_value=2, max_value=50)
-        variant = st.radio("Choose an Option", ("Variant 1", "Variant 2"))
+        var = st.slider("Choose a Number", min_value=1, max_value=50)
+        variant = st.radio("Choose an Option", ("absolute values", "relative values"))
         
-        if variant == "Variant 1":
-            variant = 0
-        else:
+        if variant == "absolute values":
             variant = 1
+        else:
+            variant = 0
         
         st.subheader("Age Participants Over the Years")
         fig, _ = plot_ranking_age(var, variant)
