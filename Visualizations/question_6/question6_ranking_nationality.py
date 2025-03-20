@@ -145,7 +145,7 @@ def plot_ranking_nationality(var, variant):
     bubble_sizes = [min_size + (s / max_count) * (max_size - min_size) for s in counter]
     
     # Dynamically adjust chart height based on the number of ranks
-    chart_height = min(max(500, var * 70), 2000)
+    chart_height = min(max(500, var * 70), 2500)
 
     # Create the plot
     fig = go.Figure()
