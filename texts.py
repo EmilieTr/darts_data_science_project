@@ -1,19 +1,19 @@
 darts_explanation = (
-    """Darts is a competitive sport in which two players take alternating turns "
-    "throwing three darts at a dartboard. The game is highly analytical, as "
-    "tournaments and rankings rely heavily on scores, averages, and overall "
-    "statistics. Numerous websites and analysts track the sport by gathering "
-    "extensive numerical data, monitoring the throws across multiple matches, "
-    "and covering the latest news and developments within the darts community.""
-    "
-    The dartboard is split up like a pizza of 20 slices, wherein these slices "
-    "have two large fields (single fields) along with smaller double and triple "
-    "fields that multiply the respective number's value. At the center of the "
-    "board, there are two circular target areas: the outer bull, worth 25 "
-    "points, and the inner bullseye, worth 50 points. The bullseye functions as "
-    "the board's double for the bull. The triple 20, with its 60 points, is the "
-    "highest score on the board. This means the highest score to be reached "
-    "with three darts is 180.
+    """Darts is a competitive sport in which two players take alternating turns
+    throwing three darts at a dartboard. The game is highly analytical, as
+    tournaments and rankings rely heavily on scores, averages, and overall
+    statistics. Numerous websites and analysts track the sport by gathering
+    extensive numerical data, monitoring the throws across multiple matches,
+    and covering the latest news and developments within the darts community.
+    
+    The dartboard is split up like a pizza of 20 slices, wherein these slices 
+    have two large fields (single fields) along with smaller double and triple 
+    fields that multiply the respective number's value. At the center of the 
+    board, there are two circular target areas: the outer bull, worth 25 
+    points, and the inner bullseye, worth 50 points. The bullseye functions as 
+    the board's double for the bull. The triple 20, with its 60 points, is the 
+    highest score on the board. This means the highest score to be reached 
+    with three darts is 180.
     
     Matches are structured in different ways depending on the event. The "
     "leg-format we focused on lets players compete to win a predetermined "
