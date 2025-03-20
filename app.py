@@ -237,6 +237,8 @@ elif page == "Players":
             "time?"
         )
         
+        st.write(first_graph_15)
+        
         # Load a list of players from CSV or define manually
         players = [
             "Luke Humphries", "Luke Littler", "Michael van Gerwen",
