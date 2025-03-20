@@ -80,7 +80,7 @@ if page == "Home":
     st.subheader("This is a Dashboard")
     with st.expander("Game Explanation"):
         st.write(darts_explanation)
-    st.write("Testtext")
+    st.write("Testtest")    
 
     # Call function to add footer
     add_footer()
@@ -325,6 +325,8 @@ elif page == "Players":
             st.subheader("Development of Checkouts over the Years")
             fig = plot_checkout_every_year(selected_ranking_position)
             st.plotly_chart(fig)
+
+        st.write(interpretation_1)
     
         # Call visualizations with selected features
         # st.title("Hit and Misses of individual Double Fields")
