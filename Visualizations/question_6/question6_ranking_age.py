@@ -62,7 +62,10 @@ def plot_ranking_age(var, variant):
     #function for using proportions and not absolute numbers
     def ratio(ages, total_age, counter):
         for i,age in enumerate(ages):
-            counter[i] = counter[i] / total_age[age]
+            if total_age[age] == 0:
+                counter[i] = 0
+            else:
+                counter[i] = counter[i] / total_age[age]
         return counter
     
     def mean_rank(nationalities, order_of_merit, counter):
@@ -208,7 +211,7 @@ def plot_ranking_age(var, variant):
 
 
 
-'''var = 50
+var = 2
 fig, mean_ranking = plot_ranking_age(var, 0)
 fig.show()
-print(mean_ranking)'''
+print(mean_ranking)
