@@ -3,26 +3,25 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 def plot_doubles_fields_hits_misses():
-
-    # CSV-Daten einlesen
+    # Read CSV data
     csv_data = "./Data/question 4/question4_doubles.csv"
     df = pd.read_csv(csv_data, header=0)
 
-    # Berechnung der verfehlten Würfe
+    # Calculate missed throws (Single, Outside, Other)
     df["Miss"] = df["Single"] + df["Outside"] + df["Other"]
 
-    # Daten aggregieren nach Doppelfeld
+    # Aggregate data by double field
     df_agg = df.groupby("Double")[["Miss", "Hit"]].sum().reset_index()
 
-    # Farben direkt aus der Prism-Palette per Index
+    # Colors directly from the Prism color palette by index
     prism_colors = px.colors.qualitative.Prism
-    color_hit = prism_colors[0]  # Blau
+    color_hit = prism_colors[0]  # Blue
     color_miss = prism_colors[6] # Orange
 
-    # Stacked Bar Chart mit Plotly erstellen
+    # Create a stacked bar chart with Plotly
     fig = go.Figure()
 
-    # "Hit"-Balken hinzufügen
+    # Add "Hit" bars
     fig.add_trace(go.Bar(
         x=df_agg["Double"],
         y=df_agg["Hit"],
@@ -30,7 +29,7 @@ def plot_doubles_fields_hits_misses():
         marker_color=color_hit
     ))
 
-    # "Miss"-Balken auf die "Hit"-Balken stapeln
+    # Stack "Miss" bars on top of the "Hit" bars
     fig.add_trace(go.Bar(
         x=df_agg["Double"],
         y=df_agg["Miss"],
@@ -38,14 +37,14 @@ def plot_doubles_fields_hits_misses():
         marker_color=color_miss
     ))
 
-    # Layout anpassen
+    # Adjust layout
     fig.update_layout(
         barmode="stack",
         title="Stacked Bar Chart of Hits and Misses per Double Field",
         xaxis_title="Double Fields",
         yaxis_title="Number of Throws",
-        xaxis=dict(type="category"),  # X-Achse als kategoriale Werte (für bessere Darstellung)
+        xaxis=dict(type="category"),  # Set X-axis as categorical (for better presentation)
         legend_title="Outcome"
     )
-    
+
     return fig

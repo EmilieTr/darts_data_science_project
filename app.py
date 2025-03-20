@@ -17,9 +17,9 @@ from Visualizations.question_4 import (
     plot_distribution_best_double_fields
 )
 from Visualizations.question_5 import (
-    plot_price_money_and_participants,
+    plot_prize_money_and_participants,
     plot_participants,
-    plot_price_money
+    plot_prize_money
 )
 from Visualizations.question_6 import (
     plot_ranking_age,
@@ -105,14 +105,14 @@ elif page == "Tournaments":
         st.plotly_chart(fig)
         
         st.subheader("Price Money of the World Championships over the Years")
-        fig = plot_price_money()
+        fig = plot_prize_money()
         st.plotly_chart(fig)
         
         st.subheader(
             "Participants and Price Money of the World Championships "
             "over the Years"
         )
-        fig = plot_price_money_and_participants()
+        fig = plot_prize_money_and_participants()
         st.plotly_chart(fig)
         
     # Question 7
