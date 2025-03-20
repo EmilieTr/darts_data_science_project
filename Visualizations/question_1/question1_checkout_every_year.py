@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 
-def plot_checkout_every_year():
+def plot_checkout_every_year(order_of_merit):
 
     # Function to convert names from format "SURNAME, First_name" into "First_name Surname"
     def convert_name(name):
@@ -24,7 +24,7 @@ def plot_checkout_every_year():
         file = f'Data/order_of_merit/order_of_merit_year_{year}.csv'
         df = pd.read_csv(file)
 
-        list_best_players = [convert_name(name) for name in df['Name'].head(10)]
+        list_best_players = [convert_name(name) for name in df['Name'].head(order_of_merit)]
         df_averages_year = df_averages[(df_averages['Year'] == year) & (df_averages['Player'].isin(list_best_players))]
         
         if not df_averages_year.empty:
@@ -62,5 +62,5 @@ def plot_checkout_every_year():
 
 
 # Diagramm anzeigen
-#fig = plot_checkout_every_year()
-#fig.show()
+fig = plot_checkout_every_year(10)
+fig.show()

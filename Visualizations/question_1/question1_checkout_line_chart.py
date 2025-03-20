@@ -21,7 +21,7 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
     # Convert Stat to float
     df_averages['Stat'] = df_averages['Stat'].str.rstrip('%').astype(float) / 100
 
-    
+    list_of_years = [int(i) for i in list_of_years]
     
 
     data_frames = []
