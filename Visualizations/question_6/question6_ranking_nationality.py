@@ -176,8 +176,8 @@ def plot_ranking_nationality(var, variant):
 
     return fig , mean_ranking
 
-var = 50
+'''var = 50
 
 fig, mean_ranking = plot_ranking_nationality(var, 0)
 fig.show()
-print(mean_ranking)
+print(mean_ranking)'''
