@@ -44,6 +44,7 @@ Once the raw data was extracted, the transformation phase began. CSV datasets we
 
 The execution flow of the pipeline started with defining the research questions and identifying data sources. Web scraping scripts were then developed and executed to extract structured data. The extracted data was validated, cleaned, and stored in organized CSV files. In the next step, datasets were transformed to ensure correctness and consistency, addressing any missing values or errors manually. The final datasets were then analyzed and visualized using appropriate graphical representations, forming the basis for answering the research questions. The results were interpreted and integrated into the website and poster to present meaningful insights in an interactive way."""
 
+
 subtext_1 = "This is the subtext for question 1"
 interpretation_1 = "This is the interpretation for the results of question 1"
 subtext_2 = "This is the subtext for question 2"

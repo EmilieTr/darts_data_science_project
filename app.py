@@ -44,8 +44,8 @@ page = st.sidebar.radio("Go to", ["Home", "Tournaments", "Players", "Data"])
 
 # Change page
 if page == "Home":
-    st.title("Welcome!")
-    st.header("This Data Science Projekt is on Darts")
+    st.title("Welcome to this Data Science Project!")
+    st.header("Here you can find interesting Research Questions on the Game Darts")
     st.subheader("This is a Dashboard")
     with st.expander("Game Explanation"):
         st.write(darts_explanation)
@@ -296,4 +296,38 @@ elif page == "Players":
 
 elif page == "Data":
     st.title("Data Pipeline")
+    st.header("Our Process of data aquisition, data transformation, and data visualization.")
     st.write(data_pipeline)
+
+
+def add_footer():
+    footer_code = """
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <div class="footer">
+        Contact: <a href="mailto:stu240535@mail.uni-kiel.de">stu240535@mail.uni-kiel.de</a> |
+        <a href=www.google.com">this is a link</a>
+    </div>
+    """
+    st.markdown(footer_code, unsafe_allow_html=True)
+
+# Call function to add footer
+add_footer()
