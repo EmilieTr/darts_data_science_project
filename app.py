@@ -37,17 +37,17 @@ from Visualizations.question_8 import (
 from texts import *
 # from Visualizations.question_9 import
 
-# Sidebar für Navigation
+# Sidebar for Navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Tournaments", "Players", "Data"])
 
 # Change page
 if page == "Home":
-    st.title("Information")
-    st.subheader("... for you to understand the context the research questions were answered in!")
+    st.title("Welcome!")
+    st.header("This Data Science Projekt is on Darts")
+    st.subheader("This is a Dashboard")
     with st.expander("Game Explanation"):
         st.write(darts_explanation)
-    st.subheader("This is a Dashboard")
     st.write("Testtext")
 
 elif page == "Tournaments":
