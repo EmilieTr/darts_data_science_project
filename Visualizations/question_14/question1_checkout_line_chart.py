@@ -106,10 +106,10 @@ def plot_average_2009_2024(ranking_position, list_of_years):
     return fig
 
 # Show Plot
-'''all = []
+all = []
 for year in range(2012, 2025):
     all.append(year)
 years = [2012,2024]
 fig = plot_average_2009_2024(50, years)
 #fig = plot_average_2009_2024(50, all)
-fig.show()'''
+fig.show()
