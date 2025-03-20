@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from Visualizations.question_1 import (
     plot_checkout_every_year,
-    #plot_checkout_line_chart,
+    plot_checkout_line_chart,
     plot_average_every_year,
     plot_average_line_chart
 )
@@ -139,7 +139,7 @@ elif page == "Players":
     subpage = st.sidebar.radio(
         "Players", 
         [
-            "14 Averages of Best Players",
+            "1 Averages of Best Players",
             "6 Rankings vs Properties",
             "8 Team vs. Single",
             "4 Double Fields",
@@ -256,8 +256,8 @@ elif page == "Players":
             )
             
             st.subheader("Development of Checkouts in 2012 vs. 2024")
-            #fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
-            #st.plotly_chart(fig)
+            fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
+            st.plotly_chart(fig)
             
             st.subheader("Development of Checkouts over the Years")
             fig = plot_checkout_every_year(selected_ranking_position)
