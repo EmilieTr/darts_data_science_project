@@ -124,5 +124,5 @@ def plot_ranking_nationality(var):
 
 var = 10
 
-fig = plot_ranking_nationality(var)
-fig.show()
+#fig = plot_ranking_nationality(var)
+#fig.show()
