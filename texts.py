@@ -76,12 +76,11 @@ transformed to ensure correctness and consistency, addressing any missing values
 using appropriate graphical representations, forming the basis for answering the research questions. The results were interpreted and integrated into the
 website and poster to present meaningful insights in an interactive way."""
 
-
 first_graph_1 = """The line graph comparing 2009 vs. 2024 shows a significant improvement in player averages across all ranking positions.
 The 2024 line (blue) consistently remains higher than the 2009 line (purple), indicating that players at all ranking levels are performing
-at higher averages than their counterparts from 15 years ago.
+at higher averages than their counterparts from 15 years ago."""
 
-This bar chart shows the progression of averages from 2009 to 2024, with some interesting patterns:
+second_graph_1 = """This bar chart shows the progression of averages from 2009 to 2024, with some interesting patterns:
 
 - Starting at 92.0 in 2009, averages initially dipped to 90.0 in 2010
 
@@ -91,16 +90,14 @@ This bar chart shows the progression of averages from 2009 to 2024, with some in
 
 - Relatively stable high performance (97.0-98.0) from 2019 through 2024"""
 
-second_graph_1 = """In the check-out analytics we have found:
+third_graph_1 = """In the check-out analytics we have found:
 
 - In 2012, there was more variability in checkout percentages based on rank
 - By 2024, checkout percentages have become more consistent across ranks (around 41%)
 - Top players (rank 1) had higher checkout percentages in 2012 than in 2024
 - Lower-ranked players (ranks 4-5) have improved their checkout percentages compared to 2012"""
 
-interpretation_1 = """
-
-In general we can say that the average performance metrics have increased significantly from 2009 to 2024, with approximately
+interpretation_1 = """In general we can say that the average performance metrics have increased significantly from 2009 to 2024, with approximately
 a 7-10 point improvement in averages across all ranking positions.
 
 The data also suggests that the gap between top-ranked and lower-ranked players has decreased over time.
