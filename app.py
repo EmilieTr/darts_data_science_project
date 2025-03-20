@@ -92,7 +92,7 @@ elif page == "Tournament Data":
         "Tournament Data",
         [
             "2 Averages over Time",
-            "5 Prize Money and Participants at the World Cup",
+            "5 Price Money and Participants at WC",
             "7 Locations of Tournaments and Winner Nationality"
         ]
     )
@@ -137,25 +137,25 @@ elif page == "Tournament Data":
         add_footer()
         
     # Question 5
-    elif subpage == "5 Prize Money and Participants at the World Cup":
+    elif subpage == "5 Price Money and Participants at WC":
         st.header("5. How does the price money and number of participants vary "
                  "over time?")
         
         selection = [
-            "Prize Money",
-            "Participants"
+            "Participants",
+            "Prize Money"
         ]
         
         # Select multiple tournaments
         selected_vis = st.multiselect(
             "Select Visualization",
             selection,
-            default=["Prize Money", "Participant"]
+            default=["Participants", "Prize Money"]
         )
         
         st.subheader(
             "Participants and Price Money of the World Championships "
-            "over Time"
+            "over the Years"
         )
         fig = plot_prize_money_and_participants(selected_vis)
         st.plotly_chart(fig)
