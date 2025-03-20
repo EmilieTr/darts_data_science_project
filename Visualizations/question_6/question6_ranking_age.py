@@ -3,6 +3,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 from datetime import date
 from datetime import datetime
+
+
 def plot_ranking_age(var):
     def format_name(name):
 
@@ -142,5 +144,5 @@ def plot_ranking_age(var):
 
 
 var = 20
-#fig = plot_ranking_age(var)
-#fig.show()
+fig = plot_ranking_age(var)
+fig.show()
