@@ -9,7 +9,8 @@ from Visualizations.question_1 import (
 from Visualizations.question_2 import plot_winning_averages
 from Visualizations.question_15 import (
     plot_double_fields_player_combined,
-    plot_double_fields_player
+    plot_double_fields_player,
+    plot_player_average
 )
 from Visualizations.question_4 import (
     plot_distribution_double_fields,
@@ -139,11 +140,11 @@ elif page == "Players":
     subpage = st.sidebar.radio(
         "Players", 
         [
-            "14 Averages of Best Players",
+            "1 Averages of Best Players",
             "6 Rankings vs Properties",
             "8 Team vs. Single",
             "4 Double Fields",
-            "15 Double Fields"
+            "15 Player Stats"
         ]
     )
     
@@ -164,7 +165,7 @@ elif page == "Players":
         st.plotly_chart(fig)
 
     # Question 15
-    elif subpage == "15 Double Fields":
+    elif subpage == "15 Player Stats":
         st.header(
             "15. How does the performance of individual players change over "
             "time?"
@@ -193,6 +194,12 @@ elif page == "Players":
             f"for {selected_player}"
         )
         fig = plot_double_fields_player_combined(selected_player, selected_double)
+        st.plotly_chart(fig)
+        
+        st.subheader(
+            f"Averages for {selected_player}"
+        )
+        fig = plot_player_average(selected_player)
         st.plotly_chart(fig)
     
     # Question 4
@@ -232,9 +239,9 @@ elif page == "Players":
 
             # Select multiple tournaments
             selected_years = st.multiselect(
-                "Select Tournaments",
+                "Select years",
                 years,
-                default=["World Championship"]
+                default=["2009", "2024"]
             )
         
             st.subheader("Development of Averages in 2009 vs. 2024")
@@ -250,9 +257,9 @@ elif page == "Players":
 
             # Select multiple tournaments
             selected_years = st.multiselect(
-                "Select Tournaments",
+                "Select years",
                 years,
-                default=["World Championship"]
+                default=["2012", "2024"]
             )
             
             st.subheader("Development of Checkouts in 2012 vs. 2024")
