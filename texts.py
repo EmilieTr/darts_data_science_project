@@ -98,7 +98,9 @@ second_graph_1 = """In the check-out analytics we have found:
 - Top players (rank 1) had higher checkout percentages in 2012 than in 2024
 - Lower-ranked players (ranks 4-5) have improved their checkout percentages compared to 2012"""
 
-interpretation_1 = """In general we can say that the average performance metrics have increased significantly from 2009 to 2024, with approximately
+interpretation_1 = """
+
+In general we can say that the average performance metrics have increased significantly from 2009 to 2024, with approximately
 a 7-10 point improvement in averages across all ranking positions.
 
 The data also suggests that the gap between top-ranked and lower-ranked players has decreased over time.
@@ -109,9 +111,7 @@ recent years (2019-2024), suggesting the sport may have reached a certain maturi
 The checkout percentages have also become more uniform across different ranking positions, indicating more consistent finishing skills throughout the
 professional ranks."""
 
-first_graph_2 = "This is the subtext for question 2"
-
-second_graph_2 = """While the World Championship average scores appear more volatile with sharper peaks and valleys, they seem higher than in the other majors.
+first_graph_2 = """While the World Championship average scores appear more volatile with sharper peaks and valleys, they seem higher than in the other majors.
 
 Both lines show an upward trajectory from 2000 to 2025 and the average scores generally range between 94 and 105, with a few notable exceptions.
 
@@ -123,9 +123,7 @@ tournaments has widened slightly in recent years (2022-2025).
 This likely comes from improving player skill levels, technological advancements in equipment, and possibly changes in competitive formats or scoring
 systems over time."""
 
-first_graph_4 = "This is the subtext for question 4"
-
-second_graph_4 = """Most Attempted Double Fields (Throws):
+first_graph_4 = """Most Attempted Double Fields (Throws):
 
 1. D20 - 14.8%
 2. D16 - 11.3%
@@ -141,15 +139,13 @@ Most Successfully Hit Double Fields (Hits):
 4. D8 - 9.38%
 5. D12 - 5.92%
 
-This shows that D20, D16, D10, and D8 are consistently among the most popular double fields for both attempts and successful hits.
+This shows that D20, D16, D10, and D8 are consistently among the most popular double fields for both attempts and successful hits."""
 
-The best players achieve checkout success rates of 50-67% on their preferred doubles.
+second_graph_4 = """The best players achieve checkout success rates of 50-67% on their preferred doubles.
 
 The preferred double felds vs. succesful double hits indicate that top players focus on just two double fields (D20 and D16), because ..."""
 
-subtext_5 = "This is the subtext for question 5"
-
-interpretation_5 = """This participant growth pattern reveals deliberate structural changes to the tournament format, with significant expansions
+first_graph_5 = """This participant growth pattern reveals deliberate structural changes to the tournament format, with significant expansions
 occurring around 1999, 2006, and 2019.
 
 The total prize pool has seen remarkable growth:
@@ -177,41 +173,37 @@ The graphs show that while the total prize pool has increased, the distribution 
 - Prize money decreases progressively across placement categories
 - The introduction of new placement categories (Last 64 in 2006, Last 96 in 2019) reflects the expanding tournament format"""
 
-subtext_6 = "This is the subtext for question 6"
+first_graph_6 = """The peak performance age for players seems to be 30-50 years, with some older players (50-60) still ranking well."""
 
-interpretation_6 = """The peak performance age for players seems to be 30-50 years, with some older players (50-60) still ranking well.
-
-The majority of high-ranking players are right-handed, as shown by the larger bubbles on the left.
-Left-handed players are significantly fewer and rarely appear in top ranks.
-
-Right-handed players dominate the rankings, suggesting that left-handed players are either less common or struggle to keep up.
-
-England appears most frequently, indicating that English players may dominate the rankings.
+second_graph_6 = """England appears most frequently, indicating that English players may dominate the rankings.
 
 The majority of top-ranking players come from England, suggesting that the sport might be more competitive or better developed there.
 Other countries like Germany, Japan, and Australia have representation, but their players are less frequent.
-Players from these countries might just be less common, similar to the problem with left-handed players."""
+Players from these countries might just be less common."""
 
-subtext_7 = "This is the subtext for question 7"
+third_graph_6 = """The majority of high-ranking players are right-handed, as shown by the larger bubbles on the left.
+Left-handed players are significantly fewer and rarely appear in top ranks.
 
-interpretation_7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
-general dominance of these nations in darts rather than a host country advantage." \
+Right-handed players dominate the rankings, suggesting that left-handed players are either less common or struggle to keep up."""
 
-This graph displays the residuals from a statistical analysis, likely a chi-square test. The values are relatively small, indicating minimal deviation
-from what would be expected if there were no relationship between host country and winner nationality.
+first_graph__7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
+general dominance of these nations in darts rather than a host country advantage."""
 
-Conditional Probabilities show the probability of winners being from a specific nationality given the host country. The conditional probabilities appear
+second_graph_7 = """This graph displays the residuals from a statistical analysis, likely a chi-square test. The values are relatively small, indicating minimal deviation
+from what would be expected if there were no relationship between host country and winner nationality."""
+
+third_graph_7 = """Conditional Probabilities show the probability of winners being from a specific nationality given the host country. The conditional probabilities appear
 fairly consistent across host countries:
 
 - In Australia, England, and USA, English players win about 43-44% of tournaments
 - In the Netherlands, Dutch players win 29% of tournaments
-- No pattern suggests players consistently perform better in their home countries
+- No pattern suggests players consistently perform better in their home countries"""
 
-The UK and Germany host the most tournaments."""
+fourth_graph_7 = """The UK and Germany host the most tournaments."""
 
-subtext_8 = "This is the subtext for question 8"
+first_graph_8 = """Something could be written here."""
 
-interpretation_8 = """Game Insider for Analysis: team matches only occurr at the World Cup.
+second_graph_8 = """Game Insider for Analysis: team matches only occurr at the World Cup.
 
 Most countries show a positive difference in the purple bars, indicating that players generally perform better individually than when playing as part of a team.
 
@@ -229,6 +221,4 @@ NED (Netherlands) has the most dramatic negative difference, with approximately 
 Other countries with notable negative differences include BRA (Brazil), HUN (Hungary), and SWE (Sweden).)
 Does this have to do with the UK being better represented and us only showcasing absolute values or maybe is it that people try harder in World Cups?"""
 
-subtext_15 = "This is the subtext for question 15"
-
-interpretation_15 = """individual analysis for players???"""
+first_graph_15 = """individual analysis for players???"""

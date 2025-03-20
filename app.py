@@ -129,6 +129,8 @@ elif page == "Tournaments":
         fig = plot_winning_averages(selected_tournaments)
         st.plotly_chart(fig)
 
+        st.write(first_graph_2)
+
         # Call function to add footer
         add_footer()
         
@@ -156,6 +158,8 @@ elif page == "Tournaments":
         fig = plot_prize_money_and_participants(selected_vis)
         st.plotly_chart(fig)
 
+        st.write(first_graph_5)
+
         # Call function to add footer
         add_footer()
         
@@ -169,16 +173,24 @@ elif page == "Tournaments":
         st.subheader("Observed Frequencies")
         fig = plot_observed_frequencies()
         st.plotly_chart(fig)
+
+        st.write(first_graph__7)
         
         st.subheader("Difference between Observed and Expected Frequencies")
         fig = plot_observed_expected_frequencies()
         st.plotly_chart(fig)
+
+        st.write(second_graph_7)
         
         st.subheader("Conditional Probabilities")
         fig = plot_conditional_probability()
         st.plotly_chart(fig)
+
+        st.write(third_graph_7)
         
         st.image("Visualizations/question_7/map.png")
+
+        st.write(fourth_graph_7)
 
         # Call function to add footer
         add_footer()
@@ -204,12 +216,16 @@ elif page == "Players":
         fig = plot_comparison_single_team_checkout()
         st.plotly_chart(fig)
         
+        st.write(first_graph_8)
+
         st.subheader(
             "Comparision of Averages of the Team Matches to the Averages "
             "of the Single Player"
         )
         fig = plot_comparison_single_team_averages()
         st.plotly_chart(fig)
+
+        st.write(second_graph_8)
 
         # Call function to add footer
         add_footer()
@@ -229,6 +245,8 @@ elif page == "Players":
             "Peter Wright", "Martin Schindler"
         ]  # Replace with real names or load from a file
         
+        st.write(first_graph_15)
+
         # Dropdowns for selecting player and double field
         selected_player = st.selectbox("Select a Player", players)
         
@@ -265,6 +283,8 @@ elif page == "Players":
         st.subheader("Distribution of Throws and Hits on Double Fields")
         fig = plot_distribution_double_fields()
         st.plotly_chart(fig)
+
+        st.write(first_graph_4)
         
         st.subheader(
             "Distribution of Throws and Hits on the Best Double Fields "
@@ -272,6 +292,8 @@ elif page == "Players":
         )
         fig = plot_distribution_best_double_fields()
         st.plotly_chart(fig)
+
+        st.write(second_graph_4)
     
         # Call function to add footer
         add_footer()
@@ -289,7 +311,6 @@ elif page == "Players":
             ranking_positions
         )
         
-               
         if selected_category == "Averages":
             years = [str(i) for i in range(2009, 2025)]
 
@@ -330,9 +351,7 @@ elif page == "Players":
 
             st.write(second_graph_1)
         
-        st.write(interpretation_1)
-        
-        
+        st.write(interpretation_1)        
     
         # Call visualizations with selected features
         # st.title("Hit and Misses of individual Double Fields")
@@ -352,14 +371,20 @@ elif page == "Players":
         st.subheader("Age Participants Over the Years")
         fig = plot_ranking_age(var)
         st.plotly_chart(fig)
+
+        st.write(first_graph_6)
         
         st.subheader("Nationality Participants Over the Years")
         fig = plot_ranking_nationality(var)
         st.plotly_chart(fig)
+
+        st.write(second_graph_6)
         
         st.subheader("Handedness Participants Over the Years")
         fig = plot_ranking_handedness(var)
         st.plotly_chart(fig)
+
+        st.write(third_graph_6)
 
         # Call function to add footer
         add_footer()
