@@ -62,7 +62,10 @@ def plot_ranking_age(var, variant):
     #function for using proportions and not absolute numbers
     def ratio(ages, total_age, counter):
         for i,age in enumerate(ages):
-            counter[i] = counter[i] / total_age[age]
+            if total_age[age] == 0:
+                counter[i] = 0
+            else:
+                counter[i] = counter[i] / total_age[age]
         return counter
     
     def mean_rank(nationalities, order_of_merit, counter):
@@ -170,7 +173,7 @@ def plot_ranking_age(var, variant):
     bubble_sizes = [min_size + (s / max_count) * (max_size - min_size) for s in counter]
     
     # Dynamically adjust chart height based on the number of ranks
-    chart_height = max(500, var * 70) 
+    chart_height = min(max(500, var * 70), 2500) 
 
     # creating figure
     fig = go.Figure()
@@ -208,7 +211,7 @@ def plot_ranking_age(var, variant):
 
 
 
-'''var = 50
+'''var = 2
 fig, mean_ranking = plot_ranking_age(var, 0)
 fig.show()
 print(mean_ranking)'''

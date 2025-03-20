@@ -31,9 +31,15 @@ def plot_ranking_handedness(var, variant):
     def ratio(handedness, total_righthanded, total_lefthanded, counter):
         for i,hand in enumerate(handedness):
             if hand == "Right-handed":
-                counter[i] = counter[i]/total_righthanded
+                if total_righthanded == 0:
+                    counter[i] = 0
+                else:
+                    counter[i] = counter[i]/total_righthanded
             elif hand == "Left-handed":
-                counter[i] = counter[i]/total_lefthanded
+                if total_lefthanded == 0:
+                    counter[i] = 0
+                else: 
+                    counter[i] = counter[i]/total_lefthanded
         return counter
     
     def mean_rank(handedness, order_of_merit, counter):
@@ -125,7 +131,7 @@ def plot_ranking_handedness(var, variant):
     bubble_sizes = [min_size + (s / max_count) * (max_size - min_size) for s in counter]
     
     # Dynamically adjust chart height based on the number of ranks
-    chart_height = max(500, var * 70)
+    chart_height = min(max(500, var * 70), 3000)
     
     # Create the plot
     fig = go.Figure()
