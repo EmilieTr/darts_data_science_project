@@ -63,7 +63,9 @@ def add_footer():
     </style>
     <div class="footer">
         Contact: <a href="mailto:stu240535@mail.uni-kiel.de">stu240535@mail.uni-kiel.de</a> |
-        <a href=www.google.com">this is a link</a>
+        <a href="mailto:stu240535@mail.uni-kiel.de">Emilie Terhaars Stu-Mail</a> |
+        <a href="mailto:stu240535@mail.uni-kiel.de">Sara Rolfs Stu-Mail</a> |
+        <a href="www.google.com">poster link here?</a>
     </div>
     """
     st.markdown(footer_code, unsafe_allow_html=True)
@@ -71,7 +73,7 @@ def add_footer():
 
 # Sidebar for Navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Home", "Tournaments", "Players", "Data"])
+page = st.sidebar.radio("Go to", ["Home", "Tournament Data", "Player Data", "Data Pipeline"])
 
 # Change page
 if page == "Home":
@@ -85,18 +87,18 @@ if page == "Home":
     # Call function to add footer
     add_footer()
 
-elif page == "Tournaments":
+elif page == "Tournament Data":
     subpage = st.sidebar.radio(
-        "Development of Tournaments",
+        "Tournament Data",
         [
-            "2 Averages throughout the years",
-            "5 Price Money and Participants at WC",
-            "7 Location of Tournament and Winner Nationality"
+            "2 Averages over Time",
+            "5 Prize Money and Participants at the World Cup",
+            "7 Locations of Tournaments and Winner Nationality"
         ]
     )
 
     # Question 2
-    if subpage == "2 Averages throughout the years":
+    if subpage == "2 Averages over Time":
         tournaments = [
             "World Championship",
             "World Matchplay",
@@ -122,7 +124,7 @@ elif page == "Tournaments":
         # Display the selected tournament
         st.subheader(
             "Development of Prize Money and the Number of Participants "
-            "of the World Championship"
+            "of the World Championship (gehört das nicht in 5)"
         )
         
         # Call the function with the list of selected tournaments
@@ -135,25 +137,25 @@ elif page == "Tournaments":
         add_footer()
         
     # Question 5
-    elif subpage == "5 Price Money and Participants at WC":
+    elif subpage == "5 Prize Money and Participants at the World Cup":
         st.header("5. How does the price money and number of participants vary "
                  "over time?")
         
         selection = [
-            "Participants",
-            "Prize Money"
+            "Prize Money",
+            "Participants"
         ]
         
         # Select multiple tournaments
         selected_vis = st.multiselect(
             "Select Visualization",
             selection,
-            default=["Participants", "Prize Money"]
+            default=["Prize Money", "Participant"]
         )
         
         st.subheader(
             "Participants and Price Money of the World Championships "
-            "over the Years"
+            "over Time"
         )
         fig = plot_prize_money_and_participants(selected_vis)
         st.plotly_chart(fig)
@@ -164,7 +166,7 @@ elif page == "Tournaments":
         add_footer()
         
     # Question 7
-    if subpage == "7 Location of Tournament and Winner Nationality":
+    if subpage == "7 Locations of Tournaments and Winner Nationality":
         st.header(
             "7. How does the country a tournament is held in correlate "
             "to the success of players?"
@@ -195,23 +197,23 @@ elif page == "Tournaments":
         # Call function to add footer
         add_footer()
 
-elif page == "Players":
+elif page == "Player Data":
     subpage = st.sidebar.radio(
-        "Players", 
+        "Player Data", 
         [
-            "1 Averages of Best Players",
-            "6 Rankings vs Properties",
+            "1 Averages of the Best Players",
+            "6 Rankings vs. Properties",
             "8 Team vs. Single",
-            "4 Double Fields",
+            "4 Popular Double Fields",
             "15 Player Stats",
-            "9 180 after 180",
-            "10 Leg Winner after start with 180"
+            "9 Likelihood of 180 after 180",
+            "10 Winning Legs after starting with 180"
         ]
     )
     
     # Question 8
     if subpage == "8 Team vs. Single":
-        st.header("8. How much do a player's team and single performance"
+        st.header("8. How much do a player's team and single performance "
                  "differ?")
         
         st.subheader("Comparision of Checkouts of the Team Matches to the Averages of the Single Player")
@@ -266,7 +268,7 @@ elif page == "Players":
         st.write(f"**Handedness:** {player_data['Handedness']}")
         st.write(f"**Darts Used:** {player_data['Darts gramm']}")
         
-        st.subheader(f"Doubles Field Values of {selected_player}")
+        st.subheader(f"Double Field Values of {selected_player}")
         fig = plot_double_fields_player(selected_player)
         st.plotly_chart(fig)
         
@@ -290,10 +292,10 @@ elif page == "Players":
         add_footer()
     
     # Question 4
-    elif subpage == "4 Double Fields":
+    elif subpage == "4 Popular Double Fields":
         st.header(
-            "4. What are most popular double fields and what are "
-            "the corresponding checkout quotes?"
+            "4. What are most popular double fields and their "
+            "corresponding checkout quotes?"
         )
         
         st.subheader("Distribution of Throws and Hits on Double Fields")
@@ -315,7 +317,7 @@ elif page == "Players":
         add_footer()
 
     # Question 1
-    elif subpage == "1 Averages of Best Players":
+    elif subpage == "1 Averages of the Best Players":
         st.header("1. How does the general performance of players change over "
                  "time?")
         
@@ -380,7 +382,7 @@ elif page == "Players":
         add_footer()
 
     # Question 6
-    elif subpage == "6 Rankings vs Properties":
+    elif subpage == "6 Rankings vs. Properties":
         st.header("6. How does age, nationality and handiness effects "
                  "the rankings?")
         
@@ -415,18 +417,22 @@ elif page == "Players":
         add_footer()
         
     # Question 9    
-    elif subpage == "9 180 after 180":
+    elif subpage == "9 Likelihood of 180 after 180":
         st.header("9. How likely is it to throw a 180 after the opponent threw one?")
         
         df = pd.read_csv('Visualizations/question_9/180_stats.csv')
         st.dataframe(df)
+
+        st.write(first_graph_9)
         
     # Question 10     
-    elif subpage == "10 Leg Winner after start with 180":  
+    elif subpage == "10 Winning Legs after starting with 180":  
         st.header("10. How likely are participants win a leg after throwing a 180 as first throw?") 
         
         df = pd.read_csv('Visualizations/question_10/180_stats.csv') 
         st.dataframe(df)
+
+        st.write(first_graph_10)
 
 elif page == "Data":
     st.title("Data Pipeline")

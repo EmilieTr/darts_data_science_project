@@ -120,7 +120,9 @@ tournaments has widened slightly in recent years (2022-2025).
 This likely comes from improving player skill levels, technological advancements in equipment, and possibly changes in competitive formats or scoring
 systems over time."""
 
-first_graph_4 = """Most Attempted Double Fields (Throws):
+first_graph_4 = """Game Insider for Analysis: Most of the time, doubles are not targeted if it's not ime for a check-out.
+
+Most Attempted Double Fields (Throws):
 
 1. D20 - 14.8%
 2. D16 - 11.3%
@@ -183,7 +185,9 @@ Left-handed players are significantly fewer and rarely appear in top ranks.
 
 Right-handed players dominate the rankings, suggesting that left-handed players are either less common or struggle to keep up."""
 
-first_graph__7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
+first_graph__7 = """DEFINE SUCCESS STILL
+
+While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
 general dominance of these nations in darts rather than a host country advantage."""
 
 second_graph_7 = """This graph displays the residuals from a statistical analysis, likely a chi-square test. The values are relatively small, indicating minimal
@@ -200,7 +204,7 @@ fourth_graph_7 = """The UK and Germany host the most tournaments."""
 
 first_graph_8 = """Something could be written here."""
 
-second_graph_8 = """Game Insider for Analysis: team matches only occurr at the World Cup.
+second_graph_8 = """Game Insider for Analysis: Team matches only occurr at the World Cup.
 
 Most countries show a positive difference in the purple bars, indicating that players generally perform better individually than when playing as part of a team.
 
@@ -219,3 +223,25 @@ Other countries with notable negative differences include BRA (Brazil), HUN (Hun
 Does this have to do with the UK being better represented and us only showcasing absolute values or maybe is it that people try harder in World Cups?"""
 
 first_graph_15 = """individual analysis for players???"""
+
+first_graph_9 = """- The average probability across all tournaments is 7.81%
+
+- The highest probabilities are in European Tour 5 (9.43%) and European Tour 2 (9.35%)
+
+- The lowest probabilities are in European Tour 12 (6.49%) and European Tour 11 (6.94%)
+
+- Across tournaments, the probability ranges from about 6.5% to 9.4%
+
+- This suggests there's only a modest "response effect" - players don't dramatically increase their chances of throwing a 180 just because their opponent did
+
+There's only a modest psychological or momentum effect when responding to an opponent's 180"""
+
+first_graph_10 = """- The average win probability after starting with a 180 is quite high at 72.42%
+
+- The highest win rates are in European Tour 13 and European Tour 2 (both 88.24%)
+
+- The lowest win rate is in European Tour 11 (53.85%)
+
+- Most tournaments show win rates of 80% or higher after starting with a 180
+
+Starting a leg with a 180 gives players a significant advantage, with roughly 3/4 chance of winning that leg"""
