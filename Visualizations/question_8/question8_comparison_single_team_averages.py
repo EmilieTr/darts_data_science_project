@@ -3,7 +3,6 @@ import plotly.graph_objects as go
 import pycountry
 import plotly.express as px
 import numpy as np
-import streamlit as st
 
 def plot_comparison_single_team_averages():
 
@@ -55,6 +54,9 @@ def plot_comparison_single_team_averages():
 
     # Überprüfen, ob Spieler vorhanden sind
     print(f"Anzahl Spieler, die in beiden DataFrames vorkommen: {len(players_in_both)}")
+    a = sorted(countries_df[['Country', 'Year']].apply(tuple, axis=1).unique())
+    b = sorted(players_in_both[['Country', 'Year']].apply(tuple, axis=1).unique())
+    print(list(set(a) & set(b)))
 
     # Merge der beiden DataFrames basierend auf Jahr und Land
     merged_df = pd.merge(players_in_both, countries_df, on=['Country', 'Year'], suffixes=('_player', '_country'))
@@ -63,8 +65,8 @@ def plot_comparison_single_team_averages():
     print(f"Anzahl der Zeilen im zusammengeführten DataFrame: {len(merged_df)}")
 
     # Prozentwerte in numerische Werte umwandeln
-    merged_df['Stat_player'] = merged_df['Stat_player'].str.replace('%', '').astype(float)
-    merged_df['Stat_country'] = merged_df['Stat_country'].str.replace('%', '').astype(float)
+    merged_df['Stat_player'] = merged_df['Stat_player'].astype(float)
+    merged_df['Stat_country'] = merged_df['Stat_country'].astype(float)
 
     # Berechnung der Differenz    
     merged_df['Deviation'] = merged_df['Stat_country'] - merged_df['Stat_player']
@@ -83,7 +85,7 @@ def plot_comparison_single_team_averages():
     fig.add_trace(go.Bar(
         x=comparison_counts['Country'],
         y=comparison_counts['better_count'],
-        name="Player better than team",
+        name="Deviation better than team",
         marker_color=prism_colors[0],  # Verwenden der ersten Farbe in der Prism-Palette
         hovertemplate="%{y} players better<extra></extra>"
     ))
@@ -92,16 +94,16 @@ def plot_comparison_single_team_averages():
     fig.add_trace(go.Bar(
         x=comparison_counts['Country'],
         y=-comparison_counts['worse_count'],  # Negativer Wert für visuelle Unterscheidung
-        name="Player worse than team",
+        name="Deviation worse than team",
         marker_color=prism_colors[6],  # Verwenden der siebten Farbe in der Prism-Palette
         hovertemplate="%{y} players worse<extra></extra>"
     ))
 
     # Layout anpassen
     fig.update_layout(
-        title="Comparison: Player's Checkout vs. Team Checkout (World Cup)",
+        title="Comparison: Player's Averages vs. Team Averages (World Cup)",
         xaxis_title="Country",
-        yaxis_title="Number of Players (Summed over Years)",
+        yaxis_title="Deviation of Players' Averages (Summed over Years)",
         barmode="relative",  # Balken auf der gleichen Achse (positive & negative Werte)
         template="plotly_white",
         showlegend=True,
@@ -115,4 +117,4 @@ def plot_comparison_single_team_averages():
 #fig.show()
 
 # Funktion ausführen
-#plot_comparison_single_team()
+plot_comparison_single_team_averages().show()
