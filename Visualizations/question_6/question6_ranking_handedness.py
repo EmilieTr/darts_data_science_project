@@ -131,7 +131,7 @@ def plot_ranking_handedness(var, variant):
     bubble_sizes = [min_size + (s / max_count) * (max_size - min_size) for s in counter]
     
     # Dynamically adjust chart height based on the number of ranks
-    chart_height = min(max(500, var * 70), 2500)
+    chart_height = min(max(500, var * 70), 3000)
     
     # Create the plot
     fig = go.Figure()
@@ -159,7 +159,7 @@ def plot_ranking_handedness(var, variant):
         yaxis_tickformat=".",
         yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
         template="plotly_white",
-        width=100,
+        width=10,
         height=chart_height  # Adjusted dynamically
     )
 
