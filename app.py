@@ -245,11 +245,11 @@ elif page == "Players":
             "Peter Wright", "Martin Schindler"
         ]  # Replace with real names or load from a file
         
-        st.write(first_graph_15)
-
         # Dropdowns for selecting player and double field
         selected_player = st.selectbox("Select a Player", players)
         
+        st.write(first_graph_15)
+
         st.subheader(f"Doubles Field Values of {selected_player}")
         fig = plot_double_fields_player(selected_player)
         st.plotly_chart(fig)
