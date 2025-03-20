@@ -196,7 +196,7 @@ def plot_ranking_age(var, variant):
 
     # setting the layout
     fig.update_layout(
-        title="Correlation of age to rankings",
+        title=max_count,
         xaxis_title="Age",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",
