@@ -47,7 +47,7 @@ def add_footer():
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: #333;
+            background-color: #f0f0f0;
             color: white;
             text-align: center;
             padding: 10px;
