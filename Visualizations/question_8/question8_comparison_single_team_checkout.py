@@ -83,7 +83,7 @@ def plot_comparison_single_team_checkout():
     fig.add_trace(go.Bar(
         x=comparison_counts['Country'],
         y=comparison_counts['better_count'],
-        name="Player better than team",
+        name="Deviation better than team",
         marker_color=prism_colors[0],  # Verwenden der ersten Farbe in der Prism-Palette
         hovertemplate="%{y} players better<extra></extra>"
     ))
@@ -92,7 +92,7 @@ def plot_comparison_single_team_checkout():
     fig.add_trace(go.Bar(
         x=comparison_counts['Country'],
         y=-comparison_counts['worse_count'],  # Negativer Wert für visuelle Unterscheidung
-        name="Player worse than team",
+        name="Deviation worse than team",
         marker_color=prism_colors[6],  # Verwenden der siebten Farbe in der Prism-Palette
         hovertemplate="%{y} players worse<extra></extra>"
     ))
@@ -101,7 +101,7 @@ def plot_comparison_single_team_checkout():
     fig.update_layout(
         title="Comparison: Player's Checkout vs. Team Checkout (World Cup)",
         xaxis_title="Country",
-        yaxis_title="Number of Players (Summed over Years)",
+        yaxis_title="Deviation of Players' Checkout (Summed over Years)",
         barmode="relative",  # Balken auf der gleichen Achse (positive & negative Werte)
         template="plotly_white",
         showlegend=True,

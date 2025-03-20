@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from Visualizations.question_14 import (
+from Visualizations.question_1 import (
     plot_checkout_every_year,
-    plot_average_2009_2024,
+    plot_checkout_line_chart,
     plot_average_every_year,
-    plot_checkout_2012_2024
+    plot_average_line_chart
 )
 from Visualizations.question_2 import plot_winning_averages
 from Visualizations.question_15 import (
@@ -213,9 +213,9 @@ elif page == "Players":
         fig = plot_distribution_best_double_fields()
         st.plotly_chart(fig)
     
-    # Question 14
-    elif subpage == "14 Averages of Best Players":
-        st.header("14. How does the performance of players in general "
+    # Question 1
+    elif subpage == "1 Averages of Best Players":
+        st.header("1. How does the performance of players in general "
                  "change over time?")
         
         category = ["Averages", "Checkout Quota"]
@@ -226,22 +226,41 @@ elif page == "Players":
             ranking_positions
         )
         
+               
         if selected_category == "Averages":
+            years = [str(i) for i in range(2009, 2025)]
+
+            # Select multiple tournaments
+            selected_years = st.multiselect(
+                "Select Tournaments",
+                years,
+                default=["World Championship"]
+            )
+        
             st.subheader("Development of Averages in 2009 vs. 2024")
-            fig = plot_average_2009_2024(selected_ranking_position)
+            fig = plot_average_line_chart(selected_ranking_position, selected_years)
             st.plotly_chart(fig)
             
             st.subheader("Development of Averages over the Years")
-            fig = plot_average_every_year()
+            fig = plot_average_every_year(selected_ranking_position)
             st.plotly_chart(fig)
             
         elif selected_category == "Checkout Quota":
+            years = [str(i) for i in range(2012, 2025)]
+
+            # Select multiple tournaments
+            selected_years = st.multiselect(
+                "Select Tournaments",
+                years,
+                default=["World Championship"]
+            )
+            
             st.subheader("Development of Checkouts in 2012 vs. 2024")
-            fig = plot_checkout_2012_2024(selected_ranking_position)
+            fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
             st.plotly_chart(fig)
             
             st.subheader("Development of Checkouts over the Years")
-            fig = plot_checkout_every_year()
+            fig = plot_checkout_every_year(selected_ranking_position)
             st.plotly_chart(fig)
     
         # Call visualizations with selected features

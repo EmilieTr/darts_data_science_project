@@ -1,4 +1,0 @@
-from .question1_average_2009_2024 import plot_average_2009_2024
-from .question1_average_every_year import plot_average_every_year
-from .question1_checkout_2012_2024 import plot_checkout_2012_2024
-from .question1_checkout_every_year import plot_checkout_every_year
