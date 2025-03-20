@@ -46,18 +46,77 @@ The execution flow of the pipeline started with defining the research questions 
 
 
 subtext_1 = "This is the subtext for question 1"
-interpretation_1 = "This is the interpretation for the results of question 1"
+
+interpretation_1 = """The line graph comparing 2009 vs. 2024 shows a significant improvement in player averages across all ranking positions. The 2024 line (blue) consistently remains higher than the 2009 line (purple), indicating that players at all ranking levels are performing at higher averages than their counterparts from 15 years ago.
+
+This bar chart shows the progression of averages from 2009 to 2024, with some interesting patterns:
+
+- Starting at 92.0 in 2009, averages initially dipped to 90.0 in 2010
+
+- Consistent improvement through 2012-2013 (97.0)
+
+- A peak of 99.0 in 2017
+
+- Relatively stable high performance (97.0-98.0) from 2019 through 2024
+
+In the check-out analytics we have found:
+
+- In 2012, there was more variability in checkout percentages based on rank
+- By 2024, checkout percentages have become more consistent across ranks (around 41%)
+- Top players (rank 1) had higher checkout percentages in 2012 than in 2024
+- Lower-ranked players (ranks 4-5) have improved their checkout percentages compared to 2012"""
+
+interpretation_1_2 = """In general we can say that the average performance metrics have increased significantly from 2009 to 2024, with approximately a 7-10 point improvement in averages across all ranking positions.
+
+The data also suggests that the gap between top-ranked and lower-ranked players has decreased over time.
+
+The sport has become more consistent in general as seen in significant improvements between 2009-2017 and seemingly performance metrics stabilized in recent years (2019-2024), suggesting the sport may have reached a certain maturity level.
+
+The checkout percentages have also become more uniform across different ranking positions, indicating more consistent finishing skills throughout the professional ranks."""
+
 subtext_2 = "This is the subtext for question 2"
-interpretation_2 = "This is the interpretation for the results of question 2"
+
+interpretation_2 = """While the World Championship average scores appear more volatile with sharper peaks and valleys, they seem higher than in the other majors." \
+
+Both lines show an upward trajectory from 2000 to 2025 and the average scores generally range between 94 and 105, with a few notable exceptions.
+
+These entail a significant spike around 2015-2016 for World Championship scores, reaching above 105 and a noticeable dip in both averages around 2002-2003.
+
+All these factors seem to rise more, since World Championship scores appear to be trending upward and the gap between World Championship and all major tournaments has widened slightly in recent years (2022-2025).
+
+This likely comes from improving player skill levels, technological advancements in equipment, and possibly changes in competitive formats or scoring systems over time."""
+
 subtext_4 = "This is the subtext for question 4"
+
 interpretation_4 = "This is the interpretation for the results of question 4"
+
 subtext_5 = "This is the subtext for question 5"
+
 interpretation_5 = "This is the interpretation for the results of question 5"
+
 subtext_6 = "This is the subtext for question 6"
-interpretation_6 = "This is the interpretation for the results of question 6"
+
+interpretation_6 = """The peak performance age for players seems to be 30-50 years, with some older players (50-60) still ranking well.
+
+The majority of high-ranking players are right-handed, as shown by the larger bubbles on the left.
+Left-handed players are significantly fewer and rarely appear in top ranks.
+
+Right-handed players dominate the rankings, suggesting that left-handed players are either less common or struggle to keep up.
+
+England appears most frequently, indicating that English players may dominate the rankings.
+
+The majority of top-ranking players come from England, suggesting that the sport might be more competitive or better developed there.
+Other countries like Germany, Japan, and Australia have representation, but their players are less frequent.
+Players from these countries might just be less common, similar to the problem with left-handed players."""
+
 subtext_7 = "This is the subtext for question 7"
+
 interpretation_7 = "This is the interpretation for the results of question 7"
+
 subtext_8 = "This is the subtext for question 8"
+
 interpretation_8 = "This is the interpretation for the results of question 8"
+
 subtext_15 = "This is the subtext for question 15"
+
 interpretation_15 = "This is the interpretation for the results of question 15"

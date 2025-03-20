@@ -278,8 +278,8 @@ elif page == "Players":
 
     # Question 1
     elif subpage == "1 Averages of Best Players":
-        st.header("1. How does the performance of players in general "
-                 "change over time?")
+        st.header("1. How does the general performance of players change over "
+                 "time?")
         
         category = ["Averages", "Checkout Quota"]
         ranking_positions = [5, 10, 15, 20]
