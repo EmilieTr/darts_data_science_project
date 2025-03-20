@@ -1,11 +1,8 @@
 import pandas as pd
 import plotly.graph_objects as go
-import re
-import streamlit as st
 
 def plot_winning_averages(selected_tournaments):
-    #st.write(selected_tournaments)
-    # List of all major tournaments
+    # List of major and extra tournaments
     major_tournaments_all = [
         "World Championship",
         "World Matchplay",
@@ -21,41 +18,43 @@ def plot_winning_averages(selected_tournaments):
     extra_tournaments = []
     only_one = False
 
+    # Check if only one tournament is selected
     if len(selected_tournaments) == 1:
         only_one = True
+
+    # Classify tournaments into major and extra categories
     for tournament in selected_tournaments:
         if tournament in major_tournaments_all:
             major_tournaments.append(tournament)
         elif tournament in extra_tournaments_all:
             extra_tournaments.append(tournament)
-    #st.write(major_tournaments)
+
     # Load CSV file
     file = 'Data/question 2/question2.csv'
     df = pd.read_csv(file)
     
-    # Remove beginning spaces in column names
+    # Remove leading spaces in column names
     df.columns = df.columns.str.strip()
 
-    # Filter data without average and average < 10
+    # Filter out rows without an average or with an average < 10
     df_cleaned = df.dropna(subset=['Average'])
     df_cleaned = df_cleaned[df_cleaned['Average'] >= 10]
     
-    # Filter data of majors and extra tournaments
+    # Filter data for major and extra tournaments
     df_all = df_cleaned[
         df_cleaned['Tournament'].isin(major_tournaments_all) | 
         df_cleaned['Tournament'].str.startswith(tuple(extra_tournaments_all), na=False) & 
         ~df_cleaned['Tournament'].str.contains("Qualifier", na=False)
     ]
 
+    # Apply filters based on selected tournaments
     if (major_tournaments + extra_tournaments) == (major_tournaments_all + extra_tournaments_all):
         df_selected = df_all
-    elif only_one == True:
-        # Filter data of majors and extra tournaments
+    elif only_one:
         df_selected = df_cleaned[
             (df_cleaned['Tournament'] == selected_tournaments[0]) 
         ]
-    elif extra_tournaments != "":
-        # Filter data of majors and extra tournaments
+    elif extra_tournaments:
         df_selected = df_cleaned[
             df_cleaned['Tournament'].isin(major_tournaments) |
             df_cleaned['Tournament'].str.startswith(tuple(extra_tournaments), na=False) & 
@@ -66,15 +65,18 @@ def plot_winning_averages(selected_tournaments):
             df_cleaned['Tournament'].isin(major_tournaments) | 
             ~df_cleaned['Tournament'].str.contains("Qualifier", na=False)
         ]  
-    #st.write(df_selected.head())
-    # Normalize tournament names (remove numbers)
+
     def normalize_tournament_name(name):
-        return re.sub(r'\d+', '', name).strip()  # Removes numbers and extra spaces
+        # Create a translation table to remove digits (0-9)
+        remove_digits = str.maketrans('', '', '0123456789')
+        
+        # Apply the translation to remove digits and strip leading/trailing whitespace
+        return name.translate(remove_digits).strip()
 
     df_selected['Tournament'] = df_selected['Tournament'].apply(normalize_tournament_name)
     df_all['Tournament'] = df_all['Tournament'].apply(normalize_tournament_name)
-    #st.write(df_selected.head())
-    # Convert dates into years
+
+    # Convert dates to years
     df_cleaned['Date'] = pd.to_datetime(df_cleaned['Date'], errors='coerce')
     df_selected['Date'] = pd.to_datetime(df_selected['Date'], errors='coerce')
     df_all['Date'] = pd.to_datetime(df_all['Date'], errors='coerce')
@@ -83,27 +85,22 @@ def plot_winning_averages(selected_tournaments):
     df_selected['Year'] = df_selected['Date'].dt.year
     df_all['Year'] = df_all['Date'].dt.year
 
-    # Group data by year and calculate the average
+    # Calculate the average score per year
     average_per_year = df_cleaned.groupby('Year')['Average'].mean()
 
-    # Average per tournament and year
-    df_selected = df_selected[df_selected['Year'] >= 2000]  # We only use data from 2000 onwards
+    # Filter data from 2000 onwards
+    df_selected = df_selected[df_selected['Year'] >= 2000]
     df_all = df_all[df_all['Year'] >= 2000]
+
+    # Group data by year and tournament, then calculate average scores
     df_grouped = df_selected.groupby(['Year', 'Tournament'])['Average'].mean().reset_index()
     
-    #st.write(df_grouped.head())
-    # Create figure
+    # Create the plot
     fig = go.Figure()
     
-    #if (major_tournaments + extra_tournaments) == (major_tournaments_all + extra_tournaments_all) or extra_tournaments != "":
-        # Create line for each major tournament
-        #unique_tournaments = df_grouped['Tournament'].unique()
-        # Loop over each selected tournament and add a line to the plot
-    #st.write(selected_tournaments)
     for tournament in selected_tournaments:
-        
         df_tournament = df_grouped[df_grouped['Tournament'] == tournament]
-        #st.write(df_tournament)
+
         fig.add_trace(go.Scatter(
             x=df_tournament['Year'],
             y=df_tournament['Average'],
@@ -111,7 +108,7 @@ def plot_winning_averages(selected_tournaments):
             name=tournament
         ))
 
-    # Create line for total average of majors
+    # Line for the average of all majors
     avg_all_majors = df_all.groupby('Year')['Average'].mean()
     fig.add_trace(go.Scatter(
         x=avg_all_majors.index,
@@ -121,7 +118,7 @@ def plot_winning_averages(selected_tournaments):
         name="Average of all majors"
     ))
 
-    # Update layout
+    # Update layout with English labels
     fig.update_layout(
         title="Development of Average Scores Over the Years",
         xaxis_title="Year",
@@ -131,7 +128,3 @@ def plot_winning_averages(selected_tournaments):
     )
 
     return fig
-
-# Show Plot
-#fig.show()
-#plot_winning_averages("World Championship").show()

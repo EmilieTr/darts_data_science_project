@@ -3,31 +3,29 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 def plot_double_fields_player_combined(player, double):
-
-    # CSV-Daten einlesen
+    # Load CSV data
     csv_data_checkout = "./Data/question 4/question4_doubles.csv"
     df_checkout = pd.read_csv(csv_data_checkout)
 
-    # Spieler und Double filtern
-    double = int(double[1:])
+    # Filter data for the selected player and double field
+    double = int(double[1:])  # Remove the 'D' from the double field (e.g., "D20" -> 20)
     df_checkout = df_checkout[(df_checkout["Player"] == player) & (df_checkout["Double"] == double)]
 
-    # Berechnung der Gesamtwürfe (Hit + Single + Outside + Other)
+    # Calculate total throws (Hit + Single + Outside + Other)
     df_checkout["Total"] = df_checkout["Hit"] + df_checkout["Single"] + df_checkout["Outside"] + df_checkout["Other"]
 
-    # Berechnung der Doppelquote
+    # Calculate double quota (Hit / Total)
     df_checkout["Double Quota"] = df_checkout["Hit"] / df_checkout["Total"]
 
-    # Farben aus der Prism-Palette von Plotly Express
+    # Use colors from the Plotly Express Prism color palette
     prism_colors = px.colors.qualitative.Prism
-    color_throws = prism_colors[0]  # Erste Farbe aus der Prism-Palette
-    color_quota = prism_colors[6]   # Vierte Farbe aus der Prism-Palette
-    
+    color_throws = prism_colors[0]  # First color from the Prism palette
+    color_quota = prism_colors[6]   # Fourth color from the Prism palette
 
-    # Interaktive Grafik erstellen
+    # Create an interactive plot
     fig = go.Figure()
 
-    # Linie für Gesamtwürfe (linke y-Achse)
+    # Line plot for the number of throws (left y-axis)
     fig.add_trace(go.Scatter(
         x=df_checkout["Year"], 
         y=df_checkout["Total"], 
@@ -37,7 +35,7 @@ def plot_double_fields_player_combined(player, double):
         line=dict(color=color_throws)
     ))
 
-    # Linie für Doppelquote (rechte y-Achse)
+    # Line plot for the double quota (right y-axis)
     fig.add_trace(go.Scatter(
         x=df_checkout["Year"], 
         y=df_checkout["Double Quota"], 
@@ -47,24 +45,24 @@ def plot_double_fields_player_combined(player, double):
         line=dict(color=color_quota, dash="dash")
     ))
 
-    # Layout anpassen
+    # Update layout
     fig.update_layout(
         title=f"Number of Throws and Double Quota from {player} on D {double}",
         xaxis=dict(
             title="Year",
-            showgrid=False  # Entfernt waagerechte Linien für die x-Achse
+            showgrid=False  # Remove horizontal gridlines for the x-axis
         ),
         yaxis=dict(
             title="Number of Throws",
             tickfont=dict(color=color_throws),
-            showgrid=False  # Entfernt waagerechte Linien für die linke y-Achse
+            showgrid=False  # Remove horizontal gridlines for the left y-axis
         ),
         yaxis2=dict(
             title="Double Quota",
             tickfont=dict(color=color_quota),
             overlaying="y",
             side="right",
-            showgrid=False  # Entfernt waagerechte Linien für die rechte y-Achse
+            showgrid=False  # Remove horizontal gridlines for the right y-axis
         ),
         legend=dict(x=0.01, y=0.99),
         height=600,

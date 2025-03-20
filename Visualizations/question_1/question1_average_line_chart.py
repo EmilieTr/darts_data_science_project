@@ -13,7 +13,6 @@ def plot_average_line_chart(ranking_position, list_of_years):
         return name
 
 
-
     # Load averages
     file_averages = 'Data/Darts_Orakel_Stats/Averages.csv'
     df_averages = pd.read_csv(file_averages)
@@ -21,37 +20,36 @@ def plot_average_line_chart(ranking_position, list_of_years):
     # Convert Stat to float
     df_averages['Stat'] = df_averages['Stat'].astype(float)
 
-    
+    # Convert years from string to integer
     list_of_years = [int(i) for i in list_of_years]
 
+    # Construct data frame with rank, player and average
     data_frames = []
     for year in list_of_years:
         file = f'Data/order_of_merit/order_of_merit_year_{year}.csv'
 
         df = pd.read_csv(file)
         list = [convert_name(name) for name in df['Name'].head(ranking_position)]
-        # Leere Listen für die Rangfolge, Spieler und Averages
+
         ranks = []
         players = []
         averages = []
 
         for rank, player in enumerate(list, start=1):
-            # Überprüfen, ob der Spieler im DataFrame der Averages ist und das Jahr 2009 entspricht
-            
+            # extract player in specific year
             average_row = df_averages[(df_averages['Player'] == player) & (df_averages['Year'] == year)]
             
             if not average_row.empty:
-                # Wenn ein Average für das Jahr 2009 gefunden wurde, füge es zur Liste hinzu
+                # if average for year was found, save average
                 averages.append(average_row['Stat'].values[0])
             else:
-                # Wenn kein Average für das Jahr 2009 gefunden wurde, füge `None` hinzu
+                # if no average for year was found, save None
                 averages.append(None)
             
-            # Füge Rang und Spieler zur Liste hinzu
             ranks.append(rank)
             players.append(player)
         
-        # Erstelle das DataFrame aus den gesammelten Daten
+        # create data frame out of collected data
         df_averages_new = pd.DataFrame({
             'Rank': ranks,
             'Player': players,
@@ -64,9 +62,12 @@ def plot_average_line_chart(ranking_position, list_of_years):
     # Combine both datasets
     df_combined = pd.concat(data_frames)
     print(df_combined)
+
     # Get Prism colors for the lines
     prism_colors = px.colors.qualitative.Prism
     colors = []
+
+    # setting colors
     counter = 0
     for i in range(len(list_of_years)):
         if counter == 11:
@@ -81,25 +82,24 @@ def plot_average_line_chart(ranking_position, list_of_years):
     for year, color in zip(list_of_years, colors):
         subset = df_combined[df_combined["Year"] == year]
         
-        # Erstelle Scatter-Plot mit connectgaps=True, um die Linie fortzusetzen, auch wenn NaN-Werte vorhanden sind
         fig.add_trace(go.Scatter(
-            x=subset["Rank"],  # Order of Merit rank auf der x-Achse
-            y=subset["Stat"],  # Averages auf der y-Achse
-            mode='lines+markers',  # Linien-Diagramm mit Markern
-            name=str(year),  # Legendenname
+            x=subset["Rank"],  # order of merit rank on x-axis
+            y=subset["Stat"],  # averages on y-axis
+            mode='lines+markers',  
+            name=str(year),  
             line=dict(color=color, width=2),
             marker=dict(size=6, symbol='circle', opacity=1),
-            text=subset["Player"],  # Spielername als Hover-Text
+            text=subset["Player"],
             hovertemplate='Rank: %{x}<br>Average: %{y}<br>Player: %{text}',
-            connectgaps=True  # Setzt die Linie fort, auch wenn NaN-Werte in den Daten vorhanden sind
+            connectgaps=True  # continues line if there are values = None
         ))
 
-    # Update layout
+    # set layout
     fig.update_layout(
         title="Development of Averages by Order of Merit Rank",
         xaxis_title="Order of Merit Rank",
         yaxis_title="Average",
-        xaxis=dict(tickmode='linear', dtick=1),  # Show all ranks from 1 to ranking_position
+        xaxis=dict(tickmode='linear', dtick=1), 
         legend_title="Year"
     )
 
