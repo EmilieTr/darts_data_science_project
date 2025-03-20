@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
-import numpy as np
 
 # Mapping from German to English handedness
 handedness_translation = {
@@ -9,7 +8,7 @@ handedness_translation = {
     "Linkshänder": "Left-handed"
 }
 
-def plot_ranking_handedness(var, variant):
+def plot_ranking_handedness(var):
     def format_name(name):
         # Convert different name formats into a unified format (all lowercase and "first_name surname")
         if "," in name:
@@ -27,46 +26,18 @@ def plot_ranking_handedness(var, variant):
         df['Name'] = df['Name'].str.lower()
         return df
 
-    #function for using proportions and not absolute numbers
-    def ratio(handedness, total_righthanded, total_lefthanded, counter):
-        for i,hand in enumerate(handedness):
-            if hand == "Right-handed":
-                counter[i] = counter[i]/total_righthanded
-            elif hand == "Left-handed":
-                counter[i] = counter[i]/total_lefthanded
-        return counter
-    
-    def mean_rank(handedness, order_of_merit, counter):
-        right_sum = 0  # Sum of weighted ranks for right-handed players
-        left_sum = 0   # Sum of weighted ranks for left-handed players
-        right_count = 0  # Total count of right-handed players
-        left_count = 0   # Total count of left-handed players
-
-        for hand, rank, count in zip(handedness, order_of_merit, counter):
-            if hand == "Right-handed":
-                right_sum += rank * count  # Weighted rank
-                right_count += count
-            elif hand == "Left-handed":
-                left_sum += rank * count
-                left_count += count
-
-        # Calculate mean ranks (avoid division by zero)
-        mean_rank_right = right_sum / right_count if right_count > 0 else None
-        mean_rank_left = left_sum / left_count if left_count > 0 else None
-
-        return {'lefthanded':mean_rank_left, 'righthanded': mean_rank_right}
-
     # Selection of handedness categories in German (used for searching in the CSV file)
     handedness_selection_de = list(handedness_translation.keys())
     
     total_righthanded = 0
     total_lefthanded = 0
-    
+
     # Lists for visualization
     handedness = []
     order_of_merit = []
     counter = []
     
+
     # Lists for proper Y-axis visualization
     y_axis_tickvals = []
     y_axis_ticktext = []
@@ -109,15 +80,16 @@ def plot_ranking_handedness(var, variant):
                 total_lefthanded += counter_value
             handedness.append(handedness_translation.get(hand_de, "Unknown"))
             order_of_merit.append(i + 1)
-   
-
-    # if variant is 0 we want the ratios
-    if variant == 0:
-        counter = ratio(handedness, total_righthanded, total_lefthanded, counter)
-
-    mean_ranking = mean_rank(handedness, order_of_merit, counter)
-    print(mean_ranking)
-
+    
+    for i,hand in enumerate(handedness):
+        if hand == "Right-handed":
+            print("right",counter[i])
+            counter[i] = counter[i]/total_righthanded
+            print(counter[i])
+        elif hand == "Left-handed":
+            print("left",counter[i])
+            counter[i] = counter[i]/total_lefthanded
+            print(counter[i])
     # Normalize bubble sizes to prevent overlap
     max_count = max(counter) if counter else 1  # Avoid division by zero
     min_size = 5   # Minimum bubble size
@@ -157,10 +129,9 @@ def plot_ranking_handedness(var, variant):
         height=chart_height  # Adjusted dynamically
     )
 
-    return fig, mean_ranking
+    return fig
 
 var = 10
 
-fig, mean_ranking = plot_ranking_handedness(var, 0)
+fig = plot_ranking_handedness(var)
 fig.show()
-print(mean_ranking)

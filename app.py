@@ -335,7 +335,7 @@ elif page == "Players":
         st.header("6. How does age, nationality and handiness effects "
                  "the rankings?")
         
-        var = 10
+        var = 30
         
         st.subheader("Age Participants Over the Years")
         fig = plot_ranking_age(var)
