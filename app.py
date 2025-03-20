@@ -156,13 +156,11 @@ elif page == "Players":
         fig = plot_comparison_single_team_checkout()
         st.plotly_chart(fig)
         
-        st.subheader("Comparision of Averages of the Team Matches to the Averages of the Single Player")
-        fig = plot_comparison_single_team_averages()
         st.subheader(
             "Comparision of Averages of the Team Matches to the Averages "
             "of the Single Player"
         )
-        fig = plot_comparison_single_team()
+        fig = plot_comparison_single_team_averages()
         st.plotly_chart(fig)
 
     # Question 15
