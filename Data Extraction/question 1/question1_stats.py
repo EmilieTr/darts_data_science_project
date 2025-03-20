@@ -154,6 +154,7 @@ for stat in stats:
 
         # Loop through pages of data
         while page_number <= max_pages:
+            time.sleep(2)
             # Extract table data from the current page
             page_rows = extract_table()
             page_number += 1
@@ -192,8 +193,8 @@ for stat in stats:
         df_combined = pd.concat(dfs, ignore_index=True)  # Reset index
 
         # Define save path
-        save_path = './Data/Darts_Orakel_Stats/' + stat + '.csv'
-        # df_combined.to_csv(save_path, index=False)  # Save the DataFrame (currently commented out)
+        save_path = './Data/Darts_Orakel_Stats/' + stat + '_new.csv'
+        df_combined.to_csv(save_path, index=False)  # Save the DataFrame (currently commented out)
 
 # Close the browser session
 driver.quit()

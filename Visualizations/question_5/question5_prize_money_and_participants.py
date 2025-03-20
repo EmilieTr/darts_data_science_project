@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-def plot_prize_money_and_participants():
+def plot_prize_money_and_participants(selected):
 
     # Function to convert currency strings to float
     def convert_currency(value):
@@ -38,36 +38,38 @@ def plot_prize_money_and_participants():
     # **Create Plotly figure**
     fig = go.Figure()
 
-    # **Stacked bar chart for prize money**
-    bottom_values = [0] * len(df['Year'])  # Starting values for stacking
+    if "Prize Money" in selected:
+        # **Stacked bar chart for prize money**
+        bottom_values = [0] * len(df['Year'])  # Starting values for stacking
 
-    for column, label in zip(columns, labels):
+        for column, label in zip(columns, labels):
+            fig.add_trace(go.Bar(
+                x=df['Year'],
+                y=df[column],
+                name=label,
+                marker=dict(line=dict(width=0.5))
+            ))
+            bottom_values = [sum(x) for x in zip(bottom_values, df[column])]
+
+        # Fill missing prize money
+        missing_prize_money = df['Total Prize Pool'] - bottom_values
         fig.add_trace(go.Bar(
             x=df['Year'],
-            y=df[column],
-            name=label,
-            marker=dict(line=dict(width=0.5))
+            y=missing_prize_money,
+            name="Other Prize Money",
+            marker=dict(color='gray', opacity=0.6)
         ))
-        bottom_values = [sum(x) for x in zip(bottom_values, df[column])]
 
-    # Fill missing prize money
-    missing_prize_money = df['Total Prize Pool'] - bottom_values
-    fig.add_trace(go.Bar(
-        x=df['Year'],
-        y=missing_prize_money,
-        name="Other Prize Money",
-        marker=dict(color='gray', opacity=0.6)
-    ))
-
-    # **Line plot for participants (second Y-axis)**
-    fig.add_trace(go.Scatter(
-        x=participants_per_year.index,
-        y=participants_per_year.values,
-        mode='lines+markers',
-        name='Participants',
-        yaxis='y2',
-        line=dict(color='red', width=2)
-    ))
+    if "Participants" in selected:
+        # **Line plot for participants (second Y-axis)**
+        fig.add_trace(go.Scatter(
+            x=participants_per_year.index,
+            y=participants_per_year.values,
+            mode='lines+markers',
+            name='Participants',
+            yaxis='y2',
+            line=dict(color='red', width=2)
+        ))
 
     # **Adjust layout**
     fig.update_layout(
