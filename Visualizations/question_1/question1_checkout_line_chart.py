@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 
-def plot_average_line_chart(ranking_position, list_of_years):
+def plot_checkout_line_chart(ranking_position, list_of_years):
     # Function to convert names from format "SURNAME, First_name" into "First_name Surname"
     def convert_name(name):
         if ", " in name:
@@ -104,12 +104,12 @@ def plot_average_line_chart(ranking_position, list_of_years):
     )
 
     return fig
-
+'''
 # Show Plot
 all = []
 for year in range(2012, 2025):
     all.append(year)
 years = [2012,2024]
-fig = plot_average_2009_2024(50, years)
+#fig = plot_average_2009_2024(50, years)
 #fig = plot_average_2009_2024(50, all)
-fig.show()
+#fig.show()'''

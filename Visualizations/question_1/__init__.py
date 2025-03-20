@@ -1,4 +1,4 @@
 from .question1_average_every_year import plot_average_every_year
 from .question1_average_line_chart import plot_average_line_chart
 from .question1_checkout_every_year import plot_checkout_every_year
-from .question1_checkout_line_chart import plot_checkout_line_chart
+#from .question1_checkout_line_chart import plot_checkout_line_chart

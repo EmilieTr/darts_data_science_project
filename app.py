@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from Visualizations.question_1 import (
     plot_checkout_every_year,
-    plot_checkout_line_chart,
+    #plot_checkout_line_chart,
     plot_average_every_year,
     plot_average_line_chart
 )
@@ -232,9 +232,9 @@ elif page == "Players":
 
             # Select multiple tournaments
             selected_years = st.multiselect(
-                "Select Tournaments",
+                "Select years",
                 years,
-                default=["World Championship"]
+                default=["2009", "2024"]
             )
         
             st.subheader("Development of Averages in 2009 vs. 2024")
@@ -250,14 +250,14 @@ elif page == "Players":
 
             # Select multiple tournaments
             selected_years = st.multiselect(
-                "Select Tournaments",
+                "Select years",
                 years,
-                default=["World Championship"]
+                default=["2012", "2024"]
             )
             
             st.subheader("Development of Checkouts in 2012 vs. 2024")
-            fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
-            st.plotly_chart(fig)
+            #fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
+            #st.plotly_chart(fig)
             
             st.subheader("Development of Checkouts over the Years")
             fig = plot_checkout_every_year(selected_ranking_position)
