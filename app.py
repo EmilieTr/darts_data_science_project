@@ -30,7 +30,10 @@ from Visualizations.question_7 import (
     plot_observed_expected_frequencies,
     plot_conditional_probability
 )
-from Visualizations.question_8 import plot_comparison_single_team
+from Visualizations.question_8 import (
+    plot_comparison_single_team_checkout,
+    plot_comparison_single_team_averages
+)
 from texts import *
 # from Visualizations.question_9 import
 
