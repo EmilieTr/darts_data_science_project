@@ -232,6 +232,20 @@ elif page == "Players":
         # Dropdowns for selecting player and double field
         selected_player = st.selectbox("Select a Player", players)
         
+        # Retrieve player data
+        csv_file = "Data/question 6/male_players.csv"
+        df = pd.read_csv(csv_file)
+        player_data = df[df["Name"] == selected_player].iloc[0]
+
+        # Display player profile
+        st.header(player_data["Name"])
+        st.write(f"**Nationality:** {player_data['Nationality']}")
+        st.write(f"**Date of Birth:** {player_data['Geburtstag']}")
+        st.write(f"**Playing since:** {player_data['Plays since']}")
+        st.write(f"**Professional since:** {player_data['Profi since']}")
+        st.write(f"**Handedness:** {player_data['Handedness']}")
+        st.write(f"**Darts Used:** {player_data['Darts gramm']}")
+        
         st.subheader(f"Doubles Field Values of {selected_player}")
         fig = plot_double_fields_player(selected_player)
         st.plotly_chart(fig)
