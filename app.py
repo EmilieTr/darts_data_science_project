@@ -137,19 +137,23 @@ elif page == "Tournaments":
         st.header("5. How does the price money and number of participants vary "
                  "over time?")
         
-        st.subheader("Participants of the World Championships over the Years")
-        fig = plot_participants()
-        st.plotly_chart(fig)
+        selection = [
+            "Participants",
+            "Prize Money"
+        ]
         
-        st.subheader("Price Money of the World Championships over the Years")
-        fig = plot_prize_money()
-        st.plotly_chart(fig)
+        # Select multiple tournaments
+        selected_vis = st.multiselect(
+            "Select Visualization",
+            selection,
+            default=["Participants", "Prize Money"]
+        )
         
         st.subheader(
             "Participants and Price Money of the World Championships "
             "over the Years"
         )
-        fig = plot_prize_money_and_participants()
+        fig = plot_prize_money_and_participants(selected_vis)
         st.plotly_chart(fig)
 
         # Call function to add footer

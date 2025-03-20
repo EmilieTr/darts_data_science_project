@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
+import plotly.express as px
 
 def plot_winning_averages(selected_tournaments):
     # List of major and extra tournaments
@@ -95,6 +96,10 @@ def plot_winning_averages(selected_tournaments):
     # Group data by year and tournament, then calculate average scores
     df_grouped = df_selected.groupby(['Year', 'Tournament'])['Average'].mean().reset_index()
     
+    # **Colors taken directly from the Prism color palette for each double field**
+    prism_colors = px.colors.qualitative.Prism
+    color_map = {tournament: prism_colors[i % len(prism_colors)] for i, tournament in enumerate(df_grouped['Tournament'].unique())}
+  
     # Create the plot
     fig = go.Figure()
     
@@ -105,7 +110,8 @@ def plot_winning_averages(selected_tournaments):
             x=df_tournament['Year'],
             y=df_tournament['Average'],
             mode='lines',
-            name=tournament
+            name=tournament,
+            line=dict(color=color_map.get(tournament, "gray"))
         ))
 
     # Line for the average of all majors
@@ -114,8 +120,8 @@ def plot_winning_averages(selected_tournaments):
         x=avg_all_majors.index,
         y=avg_all_majors.values,
         mode='lines+markers',
-        line=dict(width=3, dash='dot'),
-        name="Average of all majors"
+        line=dict(width=3, dash='dot', color="black"),
+        name="Average of all majors",
     ))
 
     # Update layout with English labels
