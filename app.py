@@ -37,7 +37,7 @@ from Visualizations.question_8 import (
 from texts import *
 # from Visualizations.question_9 import
 
-# Sidebar für Navigation
+# Sidebar for Navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Tournaments", "Players", "Data"])
 

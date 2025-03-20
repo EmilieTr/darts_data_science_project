@@ -2,3 +2,34 @@ darts_explanation = "Darts is a competitive sport in which two players take alte
 
 data_pipeline = "This data science project focuses on darts and aims to transform raw data into structured datasets suitable for visualization and analysis. The goal is to answer predefined research questions by gathering data from multiple sources, processing it, and generating analytical datasets. /n The project began with formulating research questions, ensuring they were answerable with the available data (looking ahead at available data sources), and prioritizing those that were the most interesting and meaningful. After defining these questions, relevant data sources were identified. Since existing APIs did not provide sufficient information, web scraping was necessary. The data was acquired from several sources, including: /n - Darts Orakel: https://app.dartsorakel.com/ /n - Mastercaller PDC World Championship: https://mastercaller.com/tournaments/pdc-world-championship/ /n - Dartn.de Professional Darts: https://www.dartn.de/Dart-Profis /n - Wikipedia - Professional Darts Corporation: https://de.wikipedia.org/wiki/Professional_Darts_Corporation /n - Wikipedia - PDC World Darts Championship: https://de.wikipedia.org/wiki/PDC_World_Darts_Championship /n - Flashscore: https://www.flashscore.de/ /n These sources provided a comprehensive range of information, from historical match results and official player statistics to tournament formats and prize money distributions. /n The data pipeline followed a structured process, including acquisition, processing, transformation, visualization, and analysis. /n The first stage, data acquisition, involved extracting player statistics, match results, and other relevant information through those multiple web scraping programs. The data was manually validated to ensure completeness and correctness before storing it in structured CSV files. /n The custom scraping scripts were developed for each research question, extracting structured data from website HTML using Selenium and BeautifulSoup. Browser automation was set up using the Chrome WebDriver and automated WebDriver management with ChromeDriverManager. Data extraction followed a systematic process, filtering relevant information and organizing it into pandas DataFrames. These DataFrames were structured consistently and combined into comprehensive datasets. Each dataset was then exported into separate CSV files, categorized by research question and additional information, such as rankings and additional player statistics. /n Once the raw data was extracted, the transformation phase began. CSV datasets were manually cleaned, filtered, and prepared for visualization. Any missing values affecting the research questions were addressed, and errors in the corresponding web scraping programs were corrected when necessary. Data visualization was an essential part of the project, as the research questions were not meant to be answered solely through graphs but together with explanatory text snippets on the website and poster. Together they are meant to provide meaningful insights into the game and its statistics. /n The execution flow of the pipeline started with defining the research questions and identifying data sources. Web scraping scripts were then developed and executed to extract structured data. The extracted data was validated, cleaned, and stored in organized CSV files. In the next step, datasets were transformed to ensure correctness and consistency, addressing any missing values or errors manually. The final datasets were then analyzed and visualized using appropriate graphical representations, forming the basis for answering the research questions. The results were interpreted and integrated into the website and poster to present meaningful insights in an interactive way."
 
+subtext_1 = "This is the subtext for question 1"
+
+interpretation_1 = "This is the interpretation for the results of question 1"
+
+subtext_2 = "This is the subtext for question 2"
+
+interpretation_2 = "This is the interpretation for the results of question 2"
+
+subtext_4 = "This is the subtext for question 4"
+
+interpretation_4 = "This is the interpretation for the results of question 4"
+
+subtext_5 = "This is the subtext for question 5"
+
+interpretation_5 = "This is the interpretation for the results of question 5"
+
+subtext_6 = "This is the subtext for question 6"
+
+interpretation_6 = "This is the interpretation for the results of question 6"
+
+subtext_7 = "This is the subtext for question 7"
+
+interpretation_7 = "This is the interpretation for the results of question 7"
+
+subtext_8 = "This is the subtext for question 8"
+
+interpretation_8 = "This is the interpretation for the results of question 8"
+
+subtext_15 = "This is the subtext for question 15"
+
+interpretation_15 = "This is the interpretation for the results of question 15"
