@@ -12,21 +12,24 @@ def plot_checkout_every_year(order_of_merit_val):
             return f"{first_name} {surname}"
         return name 
     
-    # Load averages
-    file_averages = 'Data/Darts_Orakel_Stats/Checkout Pcnt.csv'
-    df_averages = pd.read_csv(file_averages)
+    # Load checkout quotes
+    file_checkout = 'Data/Darts_Orakel_Stats/Checkout Pcnt.csv'
+    df_checkout = pd.read_csv(file_checkout)
 
+    # find for every year (2009-2025) the checkout quote
     averages_stat = {}
     for year in range(2009, 2025):
         sum = 0
         count = 0
 
+        # extracting the requested order of merit ranks in specific years
         file = f'Data/order_of_merit/order_of_merit_year_{year}.csv'
         df = pd.read_csv(file)
 
         list_best_players = [convert_name(name) for name in df['Name'].head(order_of_merit_val)]
-        df_averages_year = df_averages[(df_averages['Year'] == year) & (df_averages['Player'].isin(list_best_players))]
+        df_averages_year = df_checkout[(df_checkout['Year'] == year) & (df_checkout['Player'].isin(list_best_players))]
         
+        # calculate the average checkout quote
         if not df_averages_year.empty:
             df_averages_year['Stat'] = df_averages_year['Stat'].str.rstrip('%').astype(float) / 100
             for val in df_averages_year['Stat']:
@@ -42,14 +45,14 @@ def plot_checkout_every_year(order_of_merit_val):
     fig = go.Figure()
 
     fig.add_trace(go.Bar(
-        x=list(averages_stat.keys()),  # Jahre auf der X-Achse
-        y=list(averages_stat.values()),  # Durchschnittliche Checkout-Quote auf der Y-Achse
-        text=[f"{v*100:.1f}%" for v in averages_stat.values()],  # Prozentwerte als Text
-        textposition='outside',  # Text über den Balken platzieren
-        marker_color=prism_color  # Farbe der Balken
+        x=list(averages_stat.keys()),  # years on x-axis
+        y=list(averages_stat.values()),  # average checkout quote on y-axis
+        text=[f"{v*100:.1f}%" for v in averages_stat.values()],  
+        textposition='outside',  
+        marker_color=prism_color  
     ))
 
-    # Layout anpassen
+    # set layout
     fig.update_layout(
         title="Average Checkout-Quote per year",
         xaxis_title="Jahr",
@@ -62,5 +65,5 @@ def plot_checkout_every_year(order_of_merit_val):
 
 
 # Diagramm anzeigen
-fig = plot_checkout_every_year(10)
-fig.show()
+# fig = plot_checkout_every_year(10)
+# fig.show()
