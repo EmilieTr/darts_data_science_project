@@ -28,7 +28,6 @@ def plot_checkout_2012_2024(ranking_position):
     df_averages = pd.read_csv(file_averages)
 
     # Convert Stat to float
-    # Entferne das Prozentzeichen und konvertiere in Float
     df_averages['Stat'] = df_averages['Stat'].str.rstrip('%').astype(float) / 100
 
     # Extract data for 2012 and 2024
