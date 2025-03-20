@@ -7,7 +7,7 @@ from Visualizations.question_4 import plot_distribution_double_fields, plot_dist
 from Visualizations.question_5 import plot_price_money_and_participants, plot_participants, plot_price_money
 from Visualizations.question_6 import plot_ranking_age, plot_ranking_nationality, plot_ranking_handedness
 from Visualizations.question_7 import plot_observed_frequencies, plot_observed_expected_frequencies, plot_conditional_probability
-from Visualizations.question_8 import plot_comparison_single_team
+from Visualizations.question_8 import plot_comparison_single_team_averages, plot_comparison_single_team_checkout
 from texts import *
 # from Visualizations.question_9 import 
 
@@ -94,8 +94,12 @@ elif page == "Players":
     if subpage == "8 Team vs. Single":
         st.header("8. Wie sehr weicht die Teamperformance von der Einzelperformance ab?")
         
+        st.subheader("Comparision of Checkouts of the Team Matches to the Averages of the Single Player")
+        fig = plot_comparison_single_team_checkout()
+        st.plotly_chart(fig)
+        
         st.subheader("Comparision of Averages of the Team Matches to the Averages of the Single Player")
-        fig = plot_comparison_single_team()
+        fig = plot_comparison_single_team_averages()
         st.plotly_chart(fig)
     
     # Question 15   
