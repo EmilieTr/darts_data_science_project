@@ -159,7 +159,7 @@ def plot_ranking_handedness(var, variant):
         yaxis_tickformat=".",
         yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
         template="plotly_white",
-        width=400,
+        width=100,
         height=chart_height  # Adjusted dynamically
     )
 
