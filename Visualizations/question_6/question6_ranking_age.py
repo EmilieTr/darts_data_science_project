@@ -173,7 +173,7 @@ def plot_ranking_age(var, variant):
     bubble_sizes = [min_size + (s / max_count) * (max_size - min_size) for s in counter]
     
     # Dynamically adjust chart height based on the number of ranks
-    chart_height = max(500, var * 70) 
+    chart_height = max(500, max_count * 70) 
 
     # creating figure
     fig = go.Figure()
