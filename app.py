@@ -30,7 +30,10 @@ from Visualizations.question_7 import (
     plot_observed_expected_frequencies,
     plot_conditional_probability
 )
-from Visualizations.question_8 import plot_comparison_single_team
+from Visualizations.question_8 import (
+    plot_comparison_single_team_checkout,
+    plot_comparison_single_team_averages
+)
 from texts import *
 # from Visualizations.question_9 import
 
@@ -149,11 +152,15 @@ elif page == "Players":
         st.header("8. How much do a player's team and single performance"
                  "differ?")
         
+        st.subheader("Comparision of Checkouts of the Team Matches to the Averages of the Single Player")
+        fig = plot_comparison_single_team_checkout()
+        st.plotly_chart(fig)
+        
         st.subheader(
             "Comparision of Averages of the Team Matches to the Averages "
             "of the Single Player"
         )
-        fig = plot_comparison_single_team()
+        fig = plot_comparison_single_team_averages()
         st.plotly_chart(fig)
 
     # Question 15
