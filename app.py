@@ -307,6 +307,8 @@ elif page == "Players":
             st.subheader("Development of Averages over the Years")
             fig = plot_average_every_year(selected_ranking_position)
             st.plotly_chart(fig)
+
+            st.write(first_graph_1)
             
         elif selected_category == "Checkout Quota":
             years = [str(i) for i in range(2012, 2025)]
@@ -326,7 +328,11 @@ elif page == "Players":
             fig = plot_checkout_every_year(selected_ranking_position)
             st.plotly_chart(fig)
 
+            st.write(second_graph_1)
+        
         st.write(interpretation_1)
+        
+        
     
         # Call visualizations with selected features
         # st.title("Hit and Misses of individual Double Fields")
