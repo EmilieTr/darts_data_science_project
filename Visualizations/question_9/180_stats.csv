@@ -1,0 +1,23 @@
+Tournament,Total 180s,Consecutive 180s,Probability (%),Avg Consecutive
+european_tour_1,242.0,20.0,8.26,0.08
+european_tour_10,267.0,22.0,8.24,0.08
+european_tour_11,216.0,15.0,6.94,0.07
+european_tour_12,185.0,12.0,6.49,0.06
+european_tour_13,219.0,17.0,7.76,0.08
+european_tour_2,214.0,20.0,9.35,0.09
+european_tour_3,224.0,18.0,8.04,0.08
+european_tour_4,212.0,15.0,7.08,0.07
+european_tour_5,244.0,23.0,9.43,0.09
+european_tour_6,202.0,10.0,4.95,0.05
+european_tour_7,220.0,15.0,6.82,0.07
+european_tour_8,219.0,15.0,6.85,0.07
+european_tour_9,217.0,19.0,8.76,0.09
+grand_slam,402.0,35.0,8.71,0.09
+pdc_world_masters,34.0,2.0,5.88,0.06
+players_championship_finals,360.0,28.0,7.78,0.08
+premier_league,234.0,17.0,7.26,0.07
+uk_open,325.0,33.0,10.15,0.1
+world_grand_prix,62.0,5.0,8.06,0.08
+world_matchplay,348.0,25.0,7.18,0.07
+world_series_finals,210.0,21.0,10.0,0.1
+Average,231.24,18.43,7.81,0.08

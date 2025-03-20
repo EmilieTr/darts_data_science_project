@@ -380,22 +380,29 @@ elif page == "Players":
         st.header("6. How does age, nationality and handiness effects "
                  "the rankings?")
         
-        var = 30
+        # Erstelle einen Slider von 0 bis 50
+        var = st.slider("Choose a Number", min_value=2, max_value=50)
+        variant = st.radio("Choose an Option", ("Variant 1", "Variant 2"))
+        
+        if variant == "Variant 1":
+            variant = 0
+        else:
+            variant = 1
         
         st.subheader("Age Participants Over the Years")
-        fig = plot_ranking_age(var)
+        fig, _ = plot_ranking_age(var, variant)
         st.plotly_chart(fig)
 
         st.write(first_graph_6)
         
         st.subheader("Nationality Participants Over the Years")
-        fig = plot_ranking_nationality(var)
+        fig, _ = plot_ranking_nationality(var, variant)
         st.plotly_chart(fig)
 
         st.write(second_graph_6)
         
         st.subheader("Handedness Participants Over the Years")
-        fig = plot_ranking_handedness(var)
+        fig, _ = plot_ranking_handedness(var, variant)
         st.plotly_chart(fig)
 
         st.write(third_graph_6)
