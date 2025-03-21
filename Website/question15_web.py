@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 from Visualizations.question_15 import (
     plot_double_fields_player_combined,
     plot_double_fields_player,

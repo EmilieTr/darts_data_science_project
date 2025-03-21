@@ -1,6 +1,6 @@
 import streamlit as st
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 
 def home():
     # Set page title and icon

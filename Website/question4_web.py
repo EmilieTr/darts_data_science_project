@@ -1,6 +1,6 @@
 import streamlit as st
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 from Visualizations.question_4 import (
     plot_distribution_double_fields,
     plot_distribution_best_double_fields

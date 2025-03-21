@@ -1,6 +1,6 @@
 import streamlit as st
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 
 def data_pipeline_web():
     st.title("Data Pipeline")

@@ -1,6 +1,6 @@
 import streamlit as st
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 from Visualizations.question_7 import (
     plot_observed_frequencies,
     plot_observed_expected_frequencies,

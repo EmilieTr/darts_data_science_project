@@ -1,6 +1,6 @@
 import streamlit as st
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 from Visualizations.question_2 import plot_winning_averages
 
 def question2_web():

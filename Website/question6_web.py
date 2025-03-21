@@ -1,6 +1,6 @@
 import streamlit as st
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 from Visualizations.question_6 import (
     plot_ranking_age,
     plot_ranking_nationality,

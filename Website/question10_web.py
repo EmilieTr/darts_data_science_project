@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from texts import *
-from footer import add_footer
+from .texts import *
+from .footer import add_footer
 
 def question10_web():
     st.header("10. How likely are participants win a leg after throwing a 180 as first throw?") 
