@@ -1,3 +1,5 @@
+import streamlit as st
+
 def add_footer():
     footer_code = """
     <style>
