@@ -6,7 +6,7 @@
 ## Interesting Darts Questions answered with a few Clicks!
 (website demo)
 
-[![Website](https://img.shields.io/badge/Website-red?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/)
+[![Website](https://img.shields.io/badge/Website-9b0a7d?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/)
 
 ### Features
 - Explanation of the game
@@ -15,8 +15,7 @@
 - Data Analysis at first glance
 - Data Pipeline Description
 
-## Development
-## Installation, Befehle
+## Installation
 ### How to run it on your own machine
 
 1. Install the requirements
