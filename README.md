@@ -1,19 +1,3 @@
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
-
-[Website Link](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/)
-
 # :dart: Data Science Project
 (bla bli blubb)
 
@@ -43,11 +27,12 @@ Players:
 These are just the parent links, as extended urls were used to gather data. Especially in the case of a
 separately created Flashcore url file, made to iterate through links in the web scraping process.
 The focus is on extended sites focusing on tournament and match results, next to player statistics.
-(Beschreiben woher die Daten kommen, siehe Data Pipeline, und wie wir an sie ran kamen, alles drumherum)
 [View the data used for this project](Data/)
 
 ## Interesting Darts Questions answered with a few Clicks!
 (website demo)
+
+[Website Link](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/)
 
 ### Features
 - Explanation of the game
@@ -57,7 +42,21 @@ The focus is on extended sites focusing on tournament and match results, next to
 - Data Pipeline Description
 
 ## Development
-- Installation, Befehle
+## Installation, Befehle
+### How to run it on your own machine
+
+1. Install the requirements
+
+   ```
+   $ pip install -r requirements.txt
+   ```
+
+2. Run the app
+
+   ```
+   $ streamlit run streamlit_app.py
+   ```
+
 - Build with Streamlit
 - Avalability
 - Usage
