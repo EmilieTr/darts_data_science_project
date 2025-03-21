@@ -1,9 +1,43 @@
-Darts is a competitive sport in which two players take alternating turns throwing three darts at a dartboard. The game is highly analytical, as tournaments and rankings rely heavily on scores, averages, and overall statistics. Numerous websites and analysts track the sport by gathering extensive numerical data, monitoring the throws across multiple matches, and covering the latest news and developments within the darts community.
+Darts is a competitive sport which is highly analytical, as tournaments and rankings rely heavily on scores, averages, and overall statistics. Numerous websites and analysts track the sport by gathering extensive numerical data, monitoring the throws across multiple matches, and covering the latest news and developments within the darts community.
 
-The dartboard is split up like a pizza of 20 slices, wherein these slices have two large fields (single fields) along with smaller double and triple fields that multiply the respective number's value. At the center of the board, there are two circular target areas: the outer bull, worth 25 points, and the inner bullseye, worth 50 points. The bullseye functions as the board's double for the bull. The triple 20, with it's 60 points, is the highest score on the board. This means the highest score to be reached with three darts is 180.
+Game Basics and Dartboard Structure:
+Two players take alternating turns throwing three darts at a dartboard.
+This circular board is divided into 20 numbered pizza slices.
+Each slice has:
+- Two large single fields
+- A smaller double field (worth double the number’s value)
+- A smaller triple field (worth triple the number’s value)
+In the middle are two small circles known as the bullseye:
+- An outer bull with 25 points
+- An inner bullseye with 50 points (functions as a double)
+Highest Possible Scores:
+- A triple 20 with 60 points (highest single dart score)
+- therefore maximum with 3 darts: 180 points
 
-Matches are structured in different ways depending on the event. The leg-format we focused on lets players compete to win a predetermined number of legs e.g. best of 11 legs, meaning the first to six wins. Within a leg, the players start with a score of 501 and aim to reduce it to exactly zero, finishing with a double. The hightest value to do a checkout with (finish a leg) is 170. This concept makes players have to calculate their next throwing options to check out efficiently. The bullseye with its 50 points is the highest double field for a checkout, which doesn't mean that it is targeted the most to finish a leg. A player's checkout quota is another crucial statistic in darts, representing the percentage of times a player successfully finishes a leg when given the opportunity. A high checkout percentage indicates a player's efficiency in closing out legs under pressure.
+Match Structure:
+This vaires depending on the event,
+The here analysed leg format:
+- Players compete to win a set number of legs (e.g., best of 11 legs means first to 6 wins).
+- Each leg starts at 501 points, and players aim to reduce it to exactly zero, finishing with a double, called the check out throw.
+- The highest checkout (finish) is 170 (e.g., Triple 20 → Triple 20 → Bullseye).
 
-Over the course of a match, the average points a player throws with one dart is calculated. Averages are one of the most critical statistics in darts. The primary metric used is the three-dart average, which is calculated by dividing a player's total points scored in a throw divided by 3 (number of dart in a throw). This gives an indication of a player’s overall scoring efficiency and consistency. A high three-dart average is a strong indicator of skill, as it reflects a player's ability to hit high-scoring targets consistently while maintaining accuracy. Professional players often maintain averages above 90, with the elite players frequently surpassing 100.
+Checkout Strategy & Statistics:
+Players calculate their throws to finish efficiently.
+The bullseye (50 points) is the highest double field, but not always the most used to finish.
+Checkout quota:
+- The percentage of times a player successfully finishes a leg when given the opportunity
+- A high checkout percentage shows a player’s ability to close out legs under pressure.
 
-Darts players earn rankings throughout various tournaments, accumulating points based on results. The most known rankings is the PDC Order of Merit. In this, a player's rank is determined by prize money earned over the last two years in ranking events.
+Scoring & Averages:
+Three-dart average:
+- Measures a player's scoring efficiency and consistency
+- Formula: Total points scored ÷ Total darts thrown × 3.
+
+Professional benchmarks:
+- Above 90: Solid professional level.
+- Above 100: Elite level.
+- Rankings & Tournaments:
+
+Players earn rankings by accumulating points in tournaments.
+- The PDC Order of Merit is the most well-known ranking system.
+- Ranks are determined by prize money earned over the last two years in ranking events.
