@@ -62,5 +62,5 @@ Players:
 
 ### Data Pipeline
 
-[View the Data Pipeline](data_pipeline.txt)
+[View the Data Pipeline](https://github.com/EmilieTr/darts_data_science_project/blob/main/data_pipelining.txt)
 
