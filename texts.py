@@ -195,7 +195,7 @@ Right-handed players dominate the rankings, suggesting that left-handed players 
 
 heads_up_7 = """In this, success will be defined as ..."""
 
-first_graph__7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
+first_graph_7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
 general dominance of these nations in darts rather than a host country advantage."""
 
 second_graph_7 = """This graph displays the residuals from a statistical analysis, likely a chi-square test. The values are relatively small, indicating minimal
