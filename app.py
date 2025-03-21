@@ -77,13 +77,35 @@ page = st.sidebar.radio("Go to", ["Home", "Tournament Data", "Player Data", "Dat
 
 # Change page
 if page == "Home":
-    st.title("Welcome to this Data Science Project!")
-    st.header("Here you can find interesting Research Questions on the Game Darts")
-    st.subheader("This is a Dashboard")
+    # Set page title and icon
+    st.set_page_config(page_title="Darts Data Science Project", page_icon="🎯")
+    st.title("Welcome to the Darts Data Science Project! 🎯")
+    st.markdown("### Exploring Insights Through Data")
+
+    # Introduction
+    st.write(introduction)
+
     with st.expander("Game Explanation"):
         st.write(darts_explanation)
-    st.write("Testtest")    
 
+    # Research Questions
+    st.subheader("Research Questions Explored")
+    st.markdown("- **Subtopic: Tournament Data**")
+    st.markdown("- **How do the averages of tournaments vary over time?**")
+    st.markdown("- **How does the price money and number of participants vary over time?**")
+    st.markdown("- **How does the country a tournament is held in correlate to the success of players?**")
+    st.markdown("- **Subtopic: Player Data**")
+    st.markdown("- **How does the performance of players in general change over time?**")
+    st.markdown("- **How does the performance of individual players change over time?**")
+    st.markdown("- **How does age, nationality and handiness effects the rankings?**")
+    st.markdown("- **Is there a difference between a player's team performance and single performance?**")
+    st.markdown("- **How likely is it to throw 180 points after there was another 180 points thrown?**")
+    st.markdown("- **How likely are participants to win a leg after throwing 180 points as first throw?**")
+
+    # Call to Action
+    st.write(
+        "Dive into the analysis and uncover the hidden patterns in the world of darts!"
+    )
     # Call function to add footer
     add_footer()
 
@@ -434,7 +456,7 @@ elif page == "Player Data":
 
         st.write(first_graph_10)
 
-elif page == "Data":
+elif page == "Data Pipeline":
     st.title("Data Pipeline")
     st.header("Our Process of data aquisition, data transformation, and data visualization.")
     st.write(data_pipeline)

@@ -45,7 +45,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
          Visualization: pie chart over participant percentage, which check out scorings they "prefer"
          Visualization: bar chart over check out percent (y) / check out scoring (x)
 
-15. „How does the performance of individual players change over time?
+15. "How does the performance of individual players change over time?"
 
       4.2	„What are most popular double fields and what are the corresponding checkout quotes?“
          Data Sources:
@@ -77,7 +77,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
 
    Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), filter out situations where a 180 isn't able to be thrown
 
-10.  How likely are participants to win a leg after throwing 180 points as first throw?
+10. How likely are participants to win a leg after throwing 180 points as first throw?
     Data Source:
     https://www.flashscore.de/
 
