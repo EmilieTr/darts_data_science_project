@@ -1,14 +1,14 @@
 (This document is an organised overview of the information commented in the issue "Data Scouting Darts")
 
-*	Tournaments
+Tournaments
 
-2.	„How do the averages of tournaments vary over time?"
+2.	How do the averages of tournaments vary over time?
    Data Source:
    https://app.dartsorakel.com/events
 
 Visualization: line graph over matches and overall avg. of winning scores (y) / over time (x)
 
-5.	„How does the price money and number of participants vary over time?“
+5.	How does the price money and number of participants vary over time?
    Data Source:
    https://mastercaller.com/tournaments/pdc-world-championship/
 
@@ -17,8 +17,7 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
    Visualization: bar chart over participant amount (y) / over time (x)
    Visualization: line graph over placements and overall price money (y) / over time (x) with a second y-/x-axe for participants
 
-
-7.	„How does the country a tournament is held in correlate to the success of players?“
+7.	How does the country a tournament is held in correlate to the success of players?
    Data Source: 
    https://de.wikipedia.org/wiki/Professional_Darts_Corporation
    https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
@@ -27,49 +26,15 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
    -> Visualization: table of winner nationality and country of match held, conditional likeliness and manually assess for correlation
 
 
-*	Players
+Matches
 
-14. „How does the performance of players in general change over time?“
-
-      1.	„How does the performance of players change over time?“
-         Data Source:
-         https://app.dartsorakel.com/stats/player
-
-         Visualizations: bar chart average / bar chart check out quota over the top 5 players 1995/2014 (x)
-
-      4.1	„What are most popular double fields and what are the corresponding checkout quotes?“
-         Data Sources:
-         https://app.dartsorakel.com/stats/double
+4. What are most popular double fields and what are the corresponding checkout quotes?
+   Data Sources:
+   https://app.dartsorakel.com/stats/double
    
-         Subquestion: „What are most popular double fields and what are the corresponding checkout quotes?“ generally
-         Visualization: pie chart over participant percentage, which check out scorings they "prefer"
-         Visualization: bar chart over check out percent (y) / check out scoring (x)
-
-15. "How does the performance of individual players change over time?"
-
-      4.2	„What are most popular double fields and what are the corresponding checkout quotes?“
-         Data Sources:
-         https://app.dartsorakel.com/stats/double
-
-         Subquestion: „What are most popular double fields and what are the corresponding checkout quotes?“ for individual players
-
-         Visualization: line graph over top 5 check out scorings (several lines) and overall check out scoring (y) / over time (x) //
-                        line graph over top 5 check out scorings (several lines) and overall check out percentage (y) / over time (x)
-         Visualization: line graph over amount of check out scorings (y) thrown over the years (x)
-
-6. „How does age, nationality and handiness effects the rankings?“
-   Data Source:
-   https://www.dartn.de/Dart-Profis
-
-   Visualization: bubble charts with rankings (y) age / nationality / left/right handeddness (x)
-
-8. „Is there a difference between a player's team performance and single performance?“
-   Data Source:
-   https://app.dartsorakel.com/tournament/stats/1095
-
-   (files: person data, team match (world cup) check out scorings, single match check out scorings)
-   Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, averages
-   Visualization: diverging bar chart over better scores in team / better scores in singles on axis amount of players, bars of nationality, check out percentage
+   Subquestion: „What are most popular double fields and what are the corresponding checkout quotes?“ generally
+   Visualization: pie chart over participant percentage, which check out scorings they "prefer"
+   Visualization: bar chart over check out percent (y) / check out scoring (x)
 
 9.	How likely is it to throw 180 points after there was another 180 points thrown?
    Data Source:
@@ -82,12 +47,36 @@ Visualization: line graph over matches and overall avg. of winning scores (y) / 
     https://www.flashscore.de/
 
     Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website)
-    
+
+
+Players
+
+1. How does the performance of players change over time?
+   Data Source:
+   https://app.dartsorakel.com/stats/player
+
+   Visualizations: bar chart average / bar chart check out quota over the top 5 players 1995/2014 (x)
+
+6. How does age, nationality and handiness effects the rankings?
+   Data Source:
+   https://www.dartn.de/Dart-Profis
+
+   Visualization: bubble charts with rankings (y) age / nationality / left/right handeddness (x)
+
+15. How does the performance of individual players change over time?
+    Data Sources:
+    https://app.dartsorakel.com/stats/double
+
+    Visualization: line graph over top 5 check out scorings (several lines) and overall check out scoring (y) / over time (x) //
+                   line graph over top 5 check out scorings (several lines) and overall check out percentage (y) / over time (x)
+    Visualization: line graph over amount of check out scorings (y) thrown over the years (x)
+
+
 Optional:
 
 11. Is it more likely to win a match if the participants scoring or check-out quota is better than the opponents?
-   Data Source:
-   https://www.flashscore.de/
+    Data Source:
+    https://www.flashscore.de/
 
    Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), BIG CALCULATIONS
 
