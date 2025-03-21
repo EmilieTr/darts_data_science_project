@@ -23,7 +23,7 @@ A high p-value (e.g., > 0.05) suggests that there is no statistically significan
 '''
 def correlation_coefficient(x, y):
     correlation_coefficient, p_value = pearsonr(x, y)
-    print(f"Pearson-Korrelationskoeffizient (scipy): {correlation_coefficient:.2f}, p-Wert: {p_value:.5f}")
+    #print(f"Pearson-Korrelationskoeffizient (scipy): {correlation_coefficient:.2f}, p-Wert: {p_value:.5f}")
     return correlation_coefficient, p_value
 
 
@@ -54,10 +54,10 @@ def chi_square_test(x,y):
     chi2, p, dof, expected = chi2_contingency(table)
 
     # Print results
-    print(f"Chi-Square Value: {chi2:.2f}")
-    print(f"P-Value: {p:.5f}")
-    print(f"Degrees of Freedom: {dof}")
-    print("Expected Frequencies:\n", expected)
+    #print(f"Chi-Square Value: {chi2:.2f}")
+    #print(f"P-Value: {p:.5f}")
+    #print(f"Degrees of Freedom: {dof}")
+    #print("Expected Frequencies:\n", expected)
     return round(chi2, 2), round(p, 5), dof, expected
 
 
@@ -73,8 +73,8 @@ def mean_and_median(x):
     # median
     median = np.median(x)
 
-    print(f"Mean: {mean}")
-    print(f"Median: {median}")
+    #print(f"Mean: {mean}")
+    #print(f"Median: {median}")
     return mean, median
 
 '''
@@ -95,8 +95,8 @@ def variance_and_standard_deviation(x):
     # Standard Deviation
     std_dev = np.std(x)
 
-    print(f"Variance: {variance}")
-    print(f"Standard Deviation: {std_dev}")
+    #print(f"Variance: {variance}")
+    #print(f"Standard Deviation: {std_dev}")
     return variance, std_dev
 
 
