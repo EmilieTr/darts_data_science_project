@@ -13,19 +13,19 @@ from Website.question10_web import question10_web
 from Website.question15_web import question15_web
 from Website.data_pipeline_web import data_pipeline_web
 
-# Sidebar for Navigation
+# Sidebar for Navigationwei
 # --- Sidebar Styling ---
 st.markdown("""
     <style>
         /* Sidebar-Hintergrund */
         [data-testid="stSidebar"] {
-            background-color: #FFF8DC;
+            background-color: #F4F0EC;
             padding: 20px;
         }
         
         /* Allgemeine Sidebar-Schriftfarbe (ohne Buttons) */
         [data-testid="stSidebar"] * {
-            color: #474747;
+            color: black;
             font-size: 16px;
         }
         
@@ -39,24 +39,25 @@ st.markdown("""
             background: none;
             color: black !important;
             border-radius: 8px;
-            border: 1px solid #9b0a7d;
+            border: 1px solid #86a47c;
             padding: 10px;
             width: 100%;
             font-size: 16px;
             transition: 0.3s;
         }
         .stButton>button:hover {
-            background-color: #45a049;
+            background-color: #86a47c;
         }
 
         /* Expander-Styling */
         [data-testid="stExpander"] {
-            background-color: #e08bc6;
+            background-color: #FAF9F6;
             border-radius: 8px;
             padding: 5px;
         }
     </style>
 """, unsafe_allow_html=True)
+st.sidebar.title("Darts")
 
 # Initialisiere den Session State für die Navigation
 if "page" not in st.session_state:

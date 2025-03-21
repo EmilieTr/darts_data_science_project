@@ -5,6 +5,7 @@ from .footer import add_footer
 def home():
     # Set page title and icon
     st.title("Welcome to the Darts Data Science Project! 🎯")
+    st.markdown("---")
     st.header("Dive into the analysis and uncover the hidden patterns in the world of darts!")
 
     # Introduction

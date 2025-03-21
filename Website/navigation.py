@@ -7,7 +7,7 @@ def navigation():
     <style>
         /* Sidebar-Hintergrundfarbe */
         [data-testid="stSidebar"] {
-            background-color: #2E4053;
+            background-color: #D2B48C;
             padding: 20px;
         }
         
