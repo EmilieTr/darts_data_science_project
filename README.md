@@ -1,4 +1,4 @@
-[![Website](https://img.shields.io/badge/Website-red?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/) [![Data Pipeline](https://img.shields.io/badge/Data Pipeline-black?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/data_pipelining.txt) [![Game Explanation](https://img.shields.io/badge/Game Explanation-red?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/darts_explanation.txt)
+[![Website](https://img.shields.io/badge/Website-red?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/) [![Data Pipeline](https://img.shields.io/badge/Data-Pipeline-black?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/data_pipelining.txt) [![Game Explanation](https://img.shields.io/badge/Game-Explanation-red?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/darts_explanation.txt)
 
 # :dart: Data Science Project
 (bla bli blubb)
