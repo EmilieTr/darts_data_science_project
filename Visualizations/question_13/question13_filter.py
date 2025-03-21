@@ -37,7 +37,7 @@ while index < df_length - 1:
     
     while (index < df_length - 2) and (row1.loc[index, 'Leg'] < row2.loc[index + 1, 'Leg']):
         df_new_nine = pd.concat([df_new_nine, row2], ignore_index=True)
-        index += 1
+        index = index + 1
         row1 = combined_df.iloc[[index]]
         row2 = combined_df.iloc[[index + 1]]
     
@@ -51,5 +51,5 @@ while index < df_length - 1:
     index += 1
 
 print("-----------")
-print(df_all_nine)
+print(df_all_nine.head(10))
 df_all_nine.to_csv("Visualizations/question_13/nine_darter.csv")

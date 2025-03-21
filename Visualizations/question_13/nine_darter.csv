@@ -1,43 +1,38 @@
 ,Leg,Leg Value,Throw-in,Value Home,Value Away,Throw Home,Throw Away,Player Home,Player Away,Filename
-5,0,5-4,VERLORENER ANWURF Home,459,501,42,0,Bunting S.,Schindler M.,european_tour_11.csv
-6,1,5-4,VERLORENER ANWURF Home,459,321,0,180,Bunting S.,Schindler M.,european_tour_11.csv
-7,2,5-4,VERLORENER ANWURF Home,416,321,43,0,Bunting S.,Schindler M.,european_tour_11.csv
-8,3,5-4,VERLORENER ANWURF Home,416,141,0,180,Bunting S.,Schindler M.,european_tour_11.csv
-9,4,5-4,VERLORENER ANWURF Home,276,141,140,0,Bunting S.,Schindler M.,european_tour_11.csv
-10,0,1-0,,321,501,180,0,van Gerwen M.,Lukeman M.,european_tour_11.csv
-11,1,1-0,,321,405,0,96,van Gerwen M.,Lukeman M.,european_tour_11.csv
-12,2,1-0,,141,405,180,0,van Gerwen M.,Lukeman M.,european_tour_11.csv
-13,3,1-0,,141,345,0,60,van Gerwen M.,Lukeman M.,european_tour_11.csv
-14,0,5-2,,501,321,0,180,Bunting S.,Dekker C.,european_tour_11.csv
-15,1,5-2,,361,321,140,0,Bunting S.,Dekker C.,european_tour_11.csv
-16,2,5-2,,361,141,0,180,Bunting S.,Dekker C.,european_tour_11.csv
-17,3,5-2,,221,141,140,0,Bunting S.,Dekker C.,european_tour_11.csv
-43,0,5-3,VERLORENER ANWURF Away,501,424,0,77,Humphries L.,Cross R.,european_tour_6.csv
-44,1,5-3,VERLORENER ANWURF Away,321,424,180,0,Humphries L.,Cross R.,european_tour_6.csv
-45,2,5-3,VERLORENER ANWURF Away,321,367,0,57,Humphries L.,Cross R.,european_tour_6.csv
-46,3,5-3,VERLORENER ANWURF Away,141,367,180,0,Humphries L.,Cross R.,european_tour_6.csv
-47,4,5-3,VERLORENER ANWURF Away,141,267,0,100,Humphries L.,Cross R.,european_tour_6.csv
-48,0,3-4,VERLORENER ANWURF Away,501,408,0,93,Smith R.,Van den Bergh D.,european_tour_7.csv
-49,1,3-4,VERLORENER ANWURF Away,327,408,174,0,Smith R.,Van den Bergh D.,european_tour_7.csv
-50,2,3-4,VERLORENER ANWURF Away,327,374,0,34,Smith R.,Van den Bergh D.,european_tour_7.csv
-51,3,3-4,VERLORENER ANWURF Away,147,374,180,0,Smith R.,Van den Bergh D.,european_tour_7.csv
-52,4,3-4,VERLORENER ANWURF Away,147,348,0,26,Smith R.,Van den Bergh D.,european_tour_7.csv
-68,0,4-2,,321,501,180,0,Cross R.,Aspinall N.,premier_league.csv
-69,1,4-2,,321,444,0,57,Cross R.,Aspinall N.,premier_league.csv
-70,2,4-2,,141,444,180,0,Cross R.,Aspinall N.,premier_league.csv
-71,3,4-2,,141,304,0,140,Cross R.,Aspinall N.,premier_league.csv
-72,0,0-2,VERLORENER ANWURF Home,405,501,96,0,Cross R.,Humphries L.,premier_league.csv
-73,1,0-2,VERLORENER ANWURF Home,405,321,0,180,Cross R.,Humphries L.,premier_league.csv
-74,2,0-2,VERLORENER ANWURF Home,225,321,180,0,Cross R.,Humphries L.,premier_league.csv
-75,3,0-2,VERLORENER ANWURF Home,225,141,0,180,Cross R.,Humphries L.,premier_league.csv
-76,4,0-2,VERLORENER ANWURF Home,129,141,96,0,Cross R.,Humphries L.,premier_league.csv
-77,0,2-2,VERLORENER ANWURF Home,361,501,140,0,Van den Bergh D.,Schindler M.,world_matchplay.csv
-78,1,2-2,VERLORENER ANWURF Home,361,321,0,180,Van den Bergh D.,Schindler M.,world_matchplay.csv
-79,2,2-2,VERLORENER ANWURF Home,261,321,100,0,Van den Bergh D.,Schindler M.,world_matchplay.csv
-80,3,2-2,VERLORENER ANWURF Home,261,181,0,140,Van den Bergh D.,Schindler M.,world_matchplay.csv
-81,4,2-2,VERLORENER ANWURF Home,80,36,181,145,Van den Bergh D.,Schindler M.,world_matchplay.csv
-82,0,4-3,VERLORENER ANWURF Away,501,441,0,60,Van den Bergh D.,Schindler M.,world_matchplay.csv
-83,1,4-3,VERLORENER ANWURF Away,321,441,180,0,Van den Bergh D.,Schindler M.,world_matchplay.csv
-84,2,4-3,VERLORENER ANWURF Away,321,383,0,58,Van den Bergh D.,Schindler M.,world_matchplay.csv
-85,3,4-3,VERLORENER ANWURF Away,141,383,180,0,Van den Bergh D.,Schindler M.,world_matchplay.csv
-86,4,4-3,VERLORENER ANWURF Away,141,246,0,137,Van den Bergh D.,Schindler M.,world_matchplay.csv
+0,0,5-4,VERLORENER ANWURF Home,459,501,42,0,Bunting S.,Schindler M.,european_tour_11.csv
+1,1,5-4,VERLORENER ANWURF Home,459,321,0,180,Bunting S.,Schindler M.,european_tour_11.csv
+2,2,5-4,VERLORENER ANWURF Home,416,321,43,0,Bunting S.,Schindler M.,european_tour_11.csv
+3,3,5-4,VERLORENER ANWURF Home,416,141,0,180,Bunting S.,Schindler M.,european_tour_11.csv
+4,4,5-4,VERLORENER ANWURF Home,276,141,140,0,Bunting S.,Schindler M.,european_tour_11.csv
+5,0,1-0,,321,501,180,0,van Gerwen M.,Lukeman M.,european_tour_11.csv
+6,1,1-0,,321,405,0,96,van Gerwen M.,Lukeman M.,european_tour_11.csv
+7,2,1-0,,141,405,180,0,van Gerwen M.,Lukeman M.,european_tour_11.csv
+8,3,1-0,,141,345,0,60,van Gerwen M.,Lukeman M.,european_tour_11.csv
+9,0,5-2,,501,321,0,180,Bunting S.,Dekker C.,european_tour_11.csv
+10,1,5-2,,361,321,140,0,Bunting S.,Dekker C.,european_tour_11.csv
+11,2,5-2,,361,141,0,180,Bunting S.,Dekker C.,european_tour_11.csv
+12,3,5-2,,221,141,140,0,Bunting S.,Dekker C.,european_tour_11.csv
+13,0,5-3,VERLORENER ANWURF Away,501,424,0,77,Humphries L.,Cross R.,european_tour_6.csv
+14,1,5-3,VERLORENER ANWURF Away,321,424,180,0,Humphries L.,Cross R.,european_tour_6.csv
+15,2,5-3,VERLORENER ANWURF Away,321,367,0,57,Humphries L.,Cross R.,european_tour_6.csv
+16,3,5-3,VERLORENER ANWURF Away,141,367,180,0,Humphries L.,Cross R.,european_tour_6.csv
+17,4,5-3,VERLORENER ANWURF Away,141,267,0,100,Humphries L.,Cross R.,european_tour_6.csv
+18,0,3-4,VERLORENER ANWURF Away,501,408,0,93,Smith R.,Van den Bergh D.,european_tour_7.csv
+19,1,3-4,VERLORENER ANWURF Away,327,408,174,0,Smith R.,Van den Bergh D.,european_tour_7.csv
+20,2,3-4,VERLORENER ANWURF Away,327,374,0,34,Smith R.,Van den Bergh D.,european_tour_7.csv
+21,3,3-4,VERLORENER ANWURF Away,147,374,180,0,Smith R.,Van den Bergh D.,european_tour_7.csv
+22,4,3-4,VERLORENER ANWURF Away,147,348,0,26,Smith R.,Van den Bergh D.,european_tour_7.csv
+23,0,4-2,,321,501,180,0,Cross R.,Aspinall N.,premier_league.csv
+24,1,4-2,,321,444,0,57,Cross R.,Aspinall N.,premier_league.csv
+25,2,4-2,,141,444,180,0,Cross R.,Aspinall N.,premier_league.csv
+26,3,4-2,,141,304,0,140,Cross R.,Aspinall N.,premier_league.csv
+27,0,0-2,VERLORENER ANWURF Home,405,501,96,0,Cross R.,Humphries L.,premier_league.csv
+28,1,0-2,VERLORENER ANWURF Home,405,321,0,180,Cross R.,Humphries L.,premier_league.csv
+29,2,0-2,VERLORENER ANWURF Home,225,321,180,0,Cross R.,Humphries L.,premier_league.csv
+30,3,0-2,VERLORENER ANWURF Home,225,141,0,180,Cross R.,Humphries L.,premier_league.csv
+31,4,0-2,VERLORENER ANWURF Home,129,141,96,0,Cross R.,Humphries L.,premier_league.csv
+32,0,4-3,VERLORENER ANWURF Away,501,441,0,60,Van den Bergh D.,Schindler M.,world_matchplay.csv
+33,1,4-3,VERLORENER ANWURF Away,321,441,180,0,Van den Bergh D.,Schindler M.,world_matchplay.csv
+34,2,4-3,VERLORENER ANWURF Away,321,383,0,58,Van den Bergh D.,Schindler M.,world_matchplay.csv
+35,3,4-3,VERLORENER ANWURF Away,141,383,180,0,Van den Bergh D.,Schindler M.,world_matchplay.csv
+36,4,4-3,VERLORENER ANWURF Away,141,246,0,137,Van den Bergh D.,Schindler M.,world_matchplay.csv
