@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 
-# Mapping from German to English country names
+# German to English country names
 country_translation = {
     "England": "England",
     "Australien": "Australia",

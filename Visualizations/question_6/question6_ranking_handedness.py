@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 
-# Mapping from German to English handedness
+# German to English handedness
 handedness_translation = {
     "Rechtshänder": "Right-handed",
     "Linkshänder": "Left-handed"
