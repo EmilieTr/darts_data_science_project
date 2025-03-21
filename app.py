@@ -239,33 +239,8 @@ elif page == "Player Data":
         ]
     )
     
-    # Question 8
-    if subpage == "8 Team vs. Single":
-        st.header("8. How much do a player's team and single performance "
-                 "differ?")
-        
-        st.subheader("Comparision of Checkouts of the Team Matches to the Averages of the Single Player")
-        fig = plot_comparison_single_team_checkout()
-        st.plotly_chart(fig)
-        
-        with st.expander("Interpretation"):
-            st.write(first_graph_8)
-
-        st.subheader(
-            "Comparision of Averages of the Team Matches to the Averages "
-            "of the Single Player"
-        )
-        fig = plot_comparison_single_team_averages()
-        st.plotly_chart(fig)
-
-        with st.expander("Interpretation"):
-            st.write(second_graph_8)
-
-        # Call function to add footer
-        add_footer()
-
     # Question 15
-    elif subpage == "15 Player Stats":
+    if subpage == "15 Player Stats":
         st.header(
             "15. How does the performance of individual players change over "
             "time?"
