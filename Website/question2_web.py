@@ -31,8 +31,7 @@ def question2_web():
     
     # Display the selected tournament
     st.subheader(
-        "Development of Prize Money and the Number of Participants "
-        "of the World Championship (gehört das nicht in 5)"
+        "Development of Averages over Time"
     )
     
     # Call the function with the list of selected tournaments

@@ -13,77 +13,133 @@ from Website.question10_web import question10_web
 from Website.question15_web import question15_web
 from Website.data_pipeline_web import data_pipeline_web
 
-page = navigation()
+# Sidebar for Navigation
+# --- Sidebar Styling ---
+st.markdown("""
+    <style>
+        /* Sidebar-Hintergrund */
+        [data-testid="stSidebar"] {
+            background-color: #FFF8DC;
+            padding: 20px;
+        }
+        
+        /* Allgemeine Sidebar-Schriftfarbe (ohne Buttons) */
+        [data-testid="stSidebar"] * {
+            color: #474747;
+            font-size: 16px;
+        }
+        
+        /* Breite der Sidebar */
+        section[data-testid="stSidebar"] {
+            width: 280px !important;
+        }
 
-# Change page
-if page == "Home":
+        /* Button-Styling */
+        .stButton>button {
+            background: none;
+            color: black !important;
+            border-radius: 8px;
+            border: 1px solid #9b0a7d;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .stButton>button:hover {
+            background-color: #45a049;
+        }
+
+        /* Expander-Styling */
+        [data-testid="stExpander"] {
+            background-color: #e08bc6;
+            border-radius: 8px;
+            padding: 5px;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Initialisiere den Session State für die Navigation
+if "page" not in st.session_state:
+    st.session_state.page = "Home"
+
+# Funktion zum Wechseln der Seite
+def navigate(page_name):
+    st.session_state.page = page_name
+
+# Home-Button separat
+if st.sidebar.button("Home", key="home"):
+    navigate("Home")
+
+# Expander für Tournaments
+with st.sidebar.expander("Tournaments"):
+    if st.button("2 Averages", key="averages_2"):
+        navigate("2 Averages")
+    if st.button("5 Prize Money and Participants", key="prize_money_5"):
+        navigate("5 Prize Money and Participants")
+    if st.button("7 Host Country vs. Nationality", key="host_vs_nationality_7"):
+        navigate("7 Host Country vs. Nationality")
+
+# Expander für Matches
+with st.sidebar.expander("Matches"):
+    if st.button("4 Popular Double Fields", key="double_fields_4"):
+        navigate("4 Popular Double Fields")
+    if st.button("9 Consecutive 180s", key="consecutive_180s_9"):
+        navigate("9 Consecutive 180s")
+    if st.button("10 Winning Legs vs. 180 openings", key="winning_legs_10"):
+        navigate("10 Winning Legs vs. 180 openings")
+
+# Expander für Players
+with st.sidebar.expander("Players"):
+    if st.button("1 Averages of the Best", key="best_averages_1"):
+        navigate("1 Averages of the Best")
+    if st.button("6 Rankings vs. Properties", key="rankings_vs_properties_6"):
+        navigate("6 Rankings vs. Properties")
+    if st.button("15 Player Stats", key="player_stats_15"):
+        navigate("15 Player Stats")
+
+# Data Pipeline separat
+if st.sidebar.button("Data Pipeline", key="data_pipeline"):
+    navigate("Data Pipeline")
+
+subpage = st.session_state.page
+if subpage == "Home":
     home()
-
-elif page == "Tournaments":
-    subpage = st.sidebar.radio(
-        "Tournament Data",
-        [
-            "2 Averages",
-            "5 Prize Money and Participants",
-            "7 Host Country vs. Nationality"
-        ]
-    )
-
-    # Question 2
-    if subpage == "2 Averages":
-        question2_web()
+# Question 2
+if subpage == "2 Averages":
+    question2_web()
         
-    # Question 5
-    elif subpage == "5 Prize Money and Participants":
-        question5_web()
-        
-    # Question 7
-    if subpage == "7 Host Country vs. Nationality":
-        question7_web()
-        
-elif page == "Matches":
-    subpage = st.sidebar.radio(
-        "Player Data", 
-        [
-            "4 Popular Double Fields",
-            "9 Consecutive 180s",
-            "10 Winning Legs vs. 180 openings"
-        ]
-    )
+# Question 5
+elif subpage == "5 Prize Money and Participants":
+    question5_web()
     
-    # Question 4
-    if subpage == "4 Popular Double Fields":
-        question4_web()
-        
-        # Question 9    
-    elif subpage == "9 Consecutive 180s":
-        question9_web()
-        
-    # Question 10     
-    elif subpage == "10 Winning Legs vs. 180 openings":  
+# Question 7
+if subpage == "7 Host Country vs. Nationality":
+    question7_web()   
+    
+# Question 4
+if subpage == "4 Popular Double Fields":
+    question4_web()
+    
+    # Question 9    
+elif subpage == "9 Consecutive 180s":
+    question9_web()
+    
+# Question 10     
+elif subpage == "10 Winning Legs vs. 180 openings":  
         question10_web()
-
-elif page == "Players":
-    subpage = st.sidebar.radio(
-        "Player Data", 
-        [
-            "1 Averages of the Best",
-            "6 Rankings vs. Properties",
-            "15 Player Stats"
-        ]
-    )
     
-    # Question 15
-    if subpage == "15 Player Stats":
-        question15_web()
+# Question 15
+if subpage == "15 Player Stats":
+    question15_web()
 
-    # Question 1
-    elif subpage == "1 Averages of the Best":
-        question1_web()
+# Question 1
+elif subpage == "1 Averages of the Best":
+    question1_web()
 
-    # Question 6
-    elif subpage == "6 Rankings vs. Properties":
-        question6_web()
+# Question 6
+elif subpage == "6 Rankings vs. Properties":
+    question6_web()
 
-elif page == "Data Pipeline":
+# Data Pipeline
+elif subpage == "Data Pipeline":
     data_pipeline_web()
