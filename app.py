@@ -78,7 +78,6 @@ page = st.sidebar.radio("Go to", ["Home", "Tournament Data", "Player Data", "Dat
 # Change page
 if page == "Home":
     # Set page title and icon
-    st.set_page_config(page_title="Darts Data Science Project", page_icon="🎯")
     st.title("Welcome to the Darts Data Science Project! 🎯")
     st.header("Exploring Insights Through Data")
 
