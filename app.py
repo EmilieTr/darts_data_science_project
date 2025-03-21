@@ -2,15 +2,15 @@ import streamlit as st
 from Website.texts import *
 from Website.navigation import navigation
 from Website.home import home
-from Website.question2_web import question2_web
-from Website.question5_web import question5_web
-from Website.question7_web import question7_web
-from Website.question15_web import question15_web
-from Website.question4_web import question4_web
 from Website.question1_web import question1_web
+from Website.question2_web import question2_web
+from Website.question4_web import question4_web
+from Website.question5_web import question5_web
 from Website.question6_web import question6_web
+from Website.question7_web import question7_web
 from Website.question9_web import question9_web
 from Website.question10_web import question10_web
+from Website.question15_web import question15_web
 from Website.data_pipeline_web import data_pipeline_web
 
 page = navigation()

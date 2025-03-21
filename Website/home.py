@@ -9,8 +9,15 @@ def home():
 
     # Introduction
     st.subheader(introduction)
-    with st.expander("Game Explanation"):
-        st.write(darts_explanation)
+    
+    file_path = "darts_explanation.txt"  # Passe den Pfad an
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            text = file.read()
+        with st.expander("Game Explanation"):
+            st.text(text)
+    except FileNotFoundError:
+        st.error("File not found.")
 
     # Research Questions
     st.subheader("Research Questions Explored")
