@@ -1819,7 +1819,9 @@ Leg,Leg Value,Throw-in,Value Home,Value Away,Throw Home,Throw Away,Player Home,P
 1,2-0,VERLORENER ANWURF Away,408,361,93,0,van Duijvenbode D.,Aspinall N.
 2,2-0,VERLORENER ANWURF Away,408,221,0,140,van Duijvenbode D.,Aspinall N.
 3,2-0,VERLORENER ANWURF Away,268,221,140,0,van Duijvenbode D.,Aspinall N.
-4,2-0,VERLORENER ANWURF Away,140,40,128,181,van Duijvenbode D.,Aspinall N.
+4,2-0,VERLORENER ANWURF Away,268,121,0,100,van Duijvenbode D.,Aspinall N.
+5,2-0,VERLORENER ANWURF Away,140,121,128,0,van Duijvenbode D.,Aspinall N.
+6,2-0,VERLORENER ANWURF Away,140,40,0,181,van Duijvenbode D.,Aspinall N.
 0,3-0,,361,501,140,0,van Duijvenbode D.,Aspinall N.
 1,3-0,,361,361,0,140,van Duijvenbode D.,Aspinall N.
 2,3-0,,181,361,180,0,van Duijvenbode D.,Aspinall N.
@@ -2898,7 +2900,9 @@ Leg,Leg Value,Throw-in,Value Home,Value Away,Throw Home,Throw Away,Player Home,P
 1,1-4,VERLORENER ANWURF Home,361,361,0,140,Gilding A.,Cullen J.
 2,1-4,VERLORENER ANWURF Home,261,361,100,0,Gilding A.,Cullen J.
 3,1-4,VERLORENER ANWURF Home,261,321,0,40,Gilding A.,Cullen J.
-4,1-4,VERLORENER ANWURF Home,40,141,221,180,Gilding A.,Cullen J.
+4,1-4,VERLORENER ANWURF Home,161,321,100,0,Gilding A.,Cullen J.
+5,1-4,VERLORENER ANWURF Home,40,141,0,180,Gilding A.,Cullen J.
+6,1-4,VERLORENER ANWURF Home,40,141,121,0,Gilding A.,Cullen J.
 0,2-4,VERLORENER ANWURF Away,501,361,0,140,Gilding A.,Cullen J.
 1,2-4,VERLORENER ANWURF Away,442,361,59,0,Gilding A.,Cullen J.
 2,2-4,VERLORENER ANWURF Away,442,321,0,40,Gilding A.,Cullen J.

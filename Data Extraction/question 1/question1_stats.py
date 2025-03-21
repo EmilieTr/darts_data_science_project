@@ -158,6 +158,7 @@ for stat in stats:
             # Extract table data from the current page
             page_rows = extract_table()
             page_number += 1
+            time.sleep(2)
 
             # If data is available, process it
             if page_rows is not None:

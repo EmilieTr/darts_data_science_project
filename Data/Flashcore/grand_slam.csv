@@ -1003,7 +1003,9 @@ Leg,Leg Value,Throw-in,Value Home,Value Away,Throw Home,Throw Away,Player Home,P
 1,5-5,VERLORENER ANWURF Away,441,401,60,0,Lukeman M.,Cross R.
 2,5-5,VERLORENER ANWURF Away,441,261,0,140,Lukeman M.,Cross R.
 3,5-5,VERLORENER ANWURF Away,261,261,180,0,Lukeman M.,Cross R.
-4,5-5,VERLORENER ANWURF Away,121,40,140,221,Lukeman M.,Cross R.
+4,5-5,VERLORENER ANWURF Away,261,161,0,100,Lukeman M.,Cross R.
+5,5-5,VERLORENER ANWURF Away,121,161,140,0,Lukeman M.,Cross R.
+6,5-5,VERLORENER ANWURF Away,121,40,0,121,Lukeman M.,Cross R.
 0,6-5,,401,501,100,0,Lukeman M.,Cross R.
 1,6-5,,401,441,0,60,Lukeman M.,Cross R.
 2,6-5,,314,441,87,0,Lukeman M.,Cross R.
@@ -1788,7 +1790,9 @@ Leg,Leg Value,Throw-in,Value Home,Value Away,Throw Home,Throw Away,Player Home,P
 1,5-2,VERLORENER ANWURF Away,361,401,140,0,van Veen G.,Joyce R.
 2,5-2,VERLORENER ANWURF Away,361,320,0,81,van Veen G.,Joyce R.
 3,5-2,VERLORENER ANWURF Away,181,320,180,0,van Veen G.,Joyce R.
-4,5-2,VERLORENER ANWURF Away,41,120,140,200,van Veen G.,Joyce R.
+4,5-2,VERLORENER ANWURF Away,181,220,0,100,van Veen G.,Joyce R.
+5,5-2,VERLORENER ANWURF Away,41,220,140,0,van Veen G.,Joyce R.
+6,5-2,VERLORENER ANWURF Away,41,120,0,100,van Veen G.,Joyce R.
 0,6-2,,441,501,60,0,van Veen G.,Joyce R.
 1,6-2,,441,321,0,180,van Veen G.,Joyce R.
 2,6-2,,261,321,180,0,van Veen G.,Joyce R.
