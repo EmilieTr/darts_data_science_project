@@ -47,7 +47,7 @@ def plot_prize_money_and_participants(selected):
                 x=df['Year'],
                 y=df[column],
                 name=label,
-                marker=dict(line=dict(width=0.5))
+                marker=dict(line=dict(width=0))  # Entfernte Linienumrandung
             ))
             bottom_values = [sum(x) for x in zip(bottom_values, df[column])]
 
@@ -82,7 +82,10 @@ def plot_prize_money_and_participants(selected):
             side="right"
         ),
         barmode="stack",  # Stacked Bar Chart
-        legend=dict(x=1.1, y=1),
+        legend=dict(
+            x=1.2,  # Legende weiter nach rechts verschoben
+            y=1
+        ),
         margin=dict(l=50, r=50, t=50, b=50)
     )
     

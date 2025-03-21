@@ -1,27 +1,19 @@
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
+import numpy as np
 
-def plot_winning_averages(selected_tournaments):
+def plot_winning_averages(selected_tournaments, add_regression=False, add_std=False):
     # List of major and extra tournaments
     major_tournaments_all = [
-        "World Championship",
-        "World Matchplay",
-        "World Grand Prix",
-        "Grand Slam",
-        "Players Championship Finals",
-        "World Cup",
-        "World Series of Darts Finals",
+        "World Championship", "World Matchplay", "World Grand Prix", "Grand Slam",
+        "Players Championship Finals", "World Cup", "World Series of Darts Finals",
     ]
     extra_tournaments_all = ["European Tour", "Players Championship", "World Series"]
     
     major_tournaments = []
     extra_tournaments = []
-    only_one = False
-
-    # Check if only one tournament is selected
-    if len(selected_tournaments) == 1:
-        only_one = True
+    only_one = len(selected_tournaments) == 1
 
     # Classify tournaments into major and extra categories
     for tournament in selected_tournaments:
@@ -52,9 +44,7 @@ def plot_winning_averages(selected_tournaments):
     if (major_tournaments + extra_tournaments) == (major_tournaments_all + extra_tournaments_all):
         df_selected = df_all
     elif only_one:
-        df_selected = df_cleaned[
-            (df_cleaned['Tournament'] == selected_tournaments[0]) 
-        ]
+        df_selected = df_cleaned[df_cleaned['Tournament'] == selected_tournaments[0]]
     elif extra_tournaments:
         df_selected = df_cleaned[
             df_cleaned['Tournament'].isin(major_tournaments) |
@@ -68,11 +58,7 @@ def plot_winning_averages(selected_tournaments):
         ]  
 
     def normalize_tournament_name(name):
-        # Create a translation table to remove digits (0-9)
-        remove_digits = str.maketrans('', '', '0123456789')
-        
-        # Apply the translation to remove digits and strip leading/trailing whitespace
-        return name.translate(remove_digits).strip()
+        return name.translate(str.maketrans('', '', '0123456789')).strip()
 
     df_selected['Tournament'] = df_selected['Tournament'].apply(normalize_tournament_name)
     df_all['Tournament'] = df_all['Tournament'].apply(normalize_tournament_name)
@@ -86,9 +72,6 @@ def plot_winning_averages(selected_tournaments):
     df_selected['Year'] = df_selected['Date'].dt.year
     df_all['Year'] = df_all['Date'].dt.year
 
-    # Calculate the average score per year
-    average_per_year = df_cleaned.groupby('Year')['Average'].mean()
-
     # Filter data from 2000 onwards
     df_selected = df_selected[df_selected['Year'] >= 2000]
     df_all = df_all[df_all['Year'] >= 2000]
@@ -96,7 +79,7 @@ def plot_winning_averages(selected_tournaments):
     # Group data by year and tournament, then calculate average scores
     df_grouped = df_selected.groupby(['Year', 'Tournament'])['Average'].mean().reset_index()
     
-    # **Colors taken directly from the Prism color palette for each double field**
+    # **Farben aus der Prism-Farbpalette**
     prism_colors = px.colors.qualitative.Prism
     color_map = {tournament: prism_colors[i % len(prism_colors)] for i, tournament in enumerate(df_grouped['Tournament'].unique())}
   
@@ -119,10 +102,40 @@ def plot_winning_averages(selected_tournaments):
     fig.add_trace(go.Scatter(
         x=avg_all_majors.index,
         y=avg_all_majors.values,
-        mode='lines+markers',
+        mode='lines',
         line=dict(width=3, dash='dot', color="black"),
         name="Average of all majors",
     ))
+
+    # **Regression Line**
+    if add_regression:
+        x_years = avg_all_majors.index.to_numpy()
+        y_avg = avg_all_majors.values
+
+        # Berechnung der linearen Regression (1. Grad)
+        coeffs = np.polyfit(x_years, y_avg, deg=1)
+        regression_line = np.poly1d(coeffs)
+
+        fig.add_trace(go.Scatter(
+            x=x_years,
+            y=regression_line(x_years),
+            mode="lines",
+            line=dict(color="blue", width=2, dash="dash"),
+            name="Regression Line"
+        ))
+
+    # **Standardabweichung**
+    if add_std:
+        std_per_year = df_cleaned.groupby('Year')['Average'].std()
+
+        fig.add_trace(go.Scatter(
+            x=std_per_year.index.tolist() + std_per_year.index[::-1].tolist(),
+            y=(avg_all_majors + std_per_year).tolist() + (avg_all_majors - std_per_year).tolist()[::-1],
+            fill="toself",
+            fillcolor="rgba(0, 0, 255, 0.2)",  # Blaue Transparenz
+            line=dict(color="rgba(255,255,255,0)"),
+            name="Standard Deviation"
+        ))
 
     # Update layout with English labels
     fig.update_layout(
@@ -134,3 +147,5 @@ def plot_winning_averages(selected_tournaments):
     )
 
     return fig
+
+plot_winning_averages(True, True).show()
