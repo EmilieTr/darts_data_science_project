@@ -130,6 +130,8 @@ elif page == "Tournament Data":
         
         st.header("2. How do the averages of tournaments vary over time?")
         
+        st.write(heads_up_2)
+
         # Select multiple tournaments
         selected_tournaments = st.multiselect(
             "Select Tournaments",
@@ -187,6 +189,8 @@ elif page == "Tournament Data":
             "7. How does the country a tournament is held in correlate "
             "to the success of players?"
         )
+
+        st.write(heads_up_7)
         
         st.subheader("Observed Frequencies")
         fig = plot_observed_frequencies()

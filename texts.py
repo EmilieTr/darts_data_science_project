@@ -114,6 +114,8 @@ recent years (2019-2024), suggesting the sport may have reached a certain maturi
 The checkout percentages have also become more uniform across different ranking positions, indicating more consistent finishing skills throughout the
 professional ranks."""
 
+heads_up_2 = """In this data, only the averages of the tournament winners were looked at."""
+
 first_graph_2 = """While the World Championship average scores appear more volatile with sharper peaks and valleys, they seem higher than in the other majors.
 
 Both lines show an upward trajectory from 2000 to 2025 and the average scores generally range between 94 and 105, with a few notable exceptions.
@@ -191,9 +193,9 @@ Left-handed players are significantly fewer and rarely appear in top ranks.
 
 Right-handed players dominate the rankings, suggesting that left-handed players are either less common or struggle to keep up."""
 
-first_graph__7 = """DEFINE SUCCESS STILL
+heads_up_7 = """In this, success will be defined as ..."""
 
-While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
+first_graph__7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
 general dominance of these nations in darts rather than a host country advantage."""
 
 second_graph_7 = """This graph displays the residuals from a statistical analysis, likely a chi-square test. The values are relatively small, indicating minimal
