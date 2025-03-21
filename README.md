@@ -12,7 +12,7 @@
    $ streamlit run streamlit_app.py
    ```
 
-[Website Link]([https://www.google.com](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/))
+[Website Link](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/))
 
 # :dart: Data Science Project
 (bla bli blubb)
