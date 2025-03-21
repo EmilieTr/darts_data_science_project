@@ -1,4 +1,4 @@
-[![Website](https://img.shields.io/badge/Website-9b0a7d?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/) [![Data Pipeline](https://img.shields.io/badge/Data%20Pipeline-black?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/data_pipelining.txt) [![Game Explanation](https://img.shields.io/badge/Game%20Explanation-9b0a7d?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/darts_explanation.txt)
+[![Website](https://img.shields.io/badge/Website-9b0a7d?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/) [![Data Pipeline](https://img.shields.io/badge/Data%20Pipeline-black?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/data_pipelining.txt) [![Data](https://img.shields.io/badge/Data-9b0a7d?)](https://github.com/EmilieTr/darts_data_science_project/tree/main/Data) [![Game Explanation](https://img.shields.io/badge/Game%20Explanation-black?)](https://github.com/EmilieTr/darts_data_science_project/blob/main/darts_explanation.txt)
 
 # Data Science Project
 (bla bli blubb)
@@ -18,19 +18,6 @@ Players:
 - How does the general performance of players change over time?
 - How does age, nationality and handiness effects the rankings?
 - How does the performance of individual players change over time?
-
-### Data Sources
-- Darts Orakel: https://app.dartsorakel.com/
-- Mastercaller PDC World Championship: https://mastercaller.com/tournaments/pdc-world-championship/
-- Dartn.de Professional Darts: https://www.dartn.de/Dart-Profis
-- Wikipedia - Professional Darts Corporation: https://de.wikipedia.org/wiki/Professional_Darts_Corporation
-- Wikipedia - PDC World Darts Championship: https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
-- Flashscore: https://www.flashscore.de/
-
-These are just the parent links, as extended urls were used to gather data. Especially in the case of a
-separately created Flashcore url file, made to iterate through links in the web scraping process.
-The focus is on extended sites focusing on tournament and match results, next to player statistics.
-[View the data used for this project](Data/)
 
 ## Interesting Darts Questions answered with a few Clicks!
 (website demo)
