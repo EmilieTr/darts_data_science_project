@@ -27,10 +27,11 @@
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run app.py
    ```
 
-- Build with Streamlit
+(Build with Streamlit)
+
 - Avalability
 - Usage
 - Known issues
