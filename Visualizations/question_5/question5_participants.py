@@ -3,9 +3,7 @@ import plotly.graph_objects as go
 import sys
 import os
 
-# Gehe eine Ebene nach oben und füge den Pfad zu sys.path hinzu
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-# Jetzt kannst du die Datei importieren
 import statistical_analysis
 
 
