@@ -1,5 +1,13 @@
 import pandas as pd
 import plotly.graph_objects as go
+import sys
+import os
+
+# Gehe eine Ebene nach oben und füge den Pfad zu sys.path hinzu
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# Jetzt kannst du die Datei importieren
+import statistical_analysis
+
 
 def plot_participants():
     # Load CSV file
@@ -11,6 +19,8 @@ def plot_participants():
 
     # **Create Plotly figure**
     fig = go.Figure()
+
+
 
     # **Line plot for participant numbers**
     fig.add_trace(go.Scatter(
@@ -31,4 +41,8 @@ def plot_participants():
         template="plotly_white"  # Light theme for better visibility
     )
     
+    statistical_analysis.all_statistical_tests(participants_per_year.index, participants_per_year.values)
+
     return fig
+
+plot_participants()
