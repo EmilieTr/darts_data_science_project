@@ -1,4 +1,4 @@
-[![Website](https://img.shields.io/badge/Website-blue?style=for-the-badge)](https://github.com/user/repo/blob/main/path/to/file.ext)
+[![Website](https://img.shields.io/badge/Website-red?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/)
 
 # :dart: Data Science Project
 (bla bli blubb)
