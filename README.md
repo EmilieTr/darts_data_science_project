@@ -30,7 +30,7 @@ This project explores the world of darts through data science, uncovering trends
    $ streamlit run app.py
    ```
 
-(Build with Streamlit)
+Hosted with [Streamlit](https://streamlit.io/), for more information see the [Streamlit Documentation](https://docs.streamlit.io/).
 
 - Avalability
 - Usage
