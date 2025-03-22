@@ -62,7 +62,6 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
 
     # Combine both datasets
     df_combined = pd.concat(data_frames)
-    print(df_combined)
 
     # Get Prism colors for the lines
     prism_colors = px.colors.qualitative.Prism
@@ -86,7 +85,7 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
         fig.add_trace(go.Scatter(
             x=subset["Rank"],  # order of merit rank on x-axis
             y=subset["Stat"],  # averages on y-axis
-            mode='lines+markers',  
+            mode='lines',  
             name=str(year),  
             line=dict(color=color, width=2),
             marker=dict(size=6, symbol='circle', opacity=1),

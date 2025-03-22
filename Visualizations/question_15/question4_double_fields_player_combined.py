@@ -29,20 +29,24 @@ def plot_double_fields_player_combined(player, double):
     fig.add_trace(go.Scatter(
         x=df_checkout["Year"], 
         y=df_checkout["Total"], 
-        mode="lines+markers", 
+        mode="lines", 
         name="Number of Throws",
         yaxis="y1",
-        line=dict(color=color_throws)
+        line=dict(color=color_throws),
+        hovertemplate='Double: %{text}<br>Year: %{x}<br>Throws: %{y}<br><extra></extra>',  # Add hover info
+        text=[f'D {double}'] * len(df_checkout)  # Add the name of the double field
     ))
 
     # Line plot for the double quota (right y-axis)
     fig.add_trace(go.Scatter(
         x=df_checkout["Year"], 
         y=df_checkout["Double Quota"], 
-        mode="lines+markers", 
+        mode="lines", 
         name="Double Quota",
         yaxis="y2",
-        line=dict(color=color_quota, dash="dash")
+        line=dict(color=color_quota, dash="dash"),
+        hovertemplate='Double: %{text}<br>Year: %{x}<br>Double Quota: %{y:.2f}<br><extra></extra>',  # Add hover info
+        text=[f'D {double}'] * len(df_checkout)  # Add the name of the double field
     ))
 
     # Update layout

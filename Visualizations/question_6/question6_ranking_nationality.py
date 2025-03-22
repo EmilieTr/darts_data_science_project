@@ -133,8 +133,11 @@ def plot_ranking_nationality(var, variant):
         else:
             list_other.append(None)
 
+    title = "Absolute Number of nationality to rankings"
+
     if variant == 0:
         counter = ratio(nationalities, total_nationality, counter)
+        title = "Correlation of nationality to rankings"
 
     mean_ranking = mean_rank(nationalities, order_of_merit, counter)
 
@@ -155,19 +158,20 @@ def plot_ranking_nationality(var, variant):
     fig.add_trace(go.Scatter(
         x=nationalities,
         y=order_of_merit,
-        mode="markers",
+        mode="markers", 
         marker=dict(
-            size=bubble_sizes,  # Adjust bubble size
-            color=counter,
+            size=bubble_sizes,  # Size of bubble (times two for having bigger bubbles)
+            color=counter,  # Color gradient based on number saved in list counter
             colorscale=colors,
-            showscale=True
+            showscale=True 
         ),
-        text=[f"Count: {s}" for s in counter],
+        text=[f"Nationality: {nationality}<br>Order of Merit: {rank}<br>Number of Players: {s}" 
+            for nationality, rank, s in zip(nationalities, order_of_merit, counter)],  # Custom hover text
     ))
 
     # Configure layout
     fig.update_layout(
-        title="Correlation of nationality to rankings",
+        title=title,
         xaxis_title="Nationality",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",

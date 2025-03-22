@@ -126,7 +126,8 @@ def plot_winning_averages(selected_tournaments, add_regression=False, add_std=Fa
 
     # **Standardabweichung**
     if add_std:
-        std_per_year = df_cleaned.groupby('Year')['Average'].std()
+        min_year = avg_all_majors.index.min()
+        std_per_year = df_cleaned[df_cleaned['Year'] >= min_year].groupby('Year')['Average'].std()
 
         fig.add_trace(go.Scatter(
             x=std_per_year.index.tolist() + std_per_year.index[::-1].tolist(),
@@ -148,4 +149,4 @@ def plot_winning_averages(selected_tournaments, add_regression=False, add_std=Fa
 
     return fig
 
-plot_winning_averages(True, True).show()
+#plot_winning_averages(["World Championship"], True, True).show()

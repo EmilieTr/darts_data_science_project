@@ -47,16 +47,17 @@ def plot_average_every_year(order_of_merit_val):
     fig.add_trace(go.Bar(
         x=list(averages_stat.keys()),  # years on x-axis
         y=list(averages_stat.values()),  # averages on y-axis
-        text=[f"{v:.1f}" for v in averages_stat.values()], 
-        textposition='outside', 
-        marker_color=prism_color
+        text=[f"{v:.1f}" for v in averages_stat.values()],   # Add text to show average on hover
+        textposition='outside',  # Position text outside the bars
+        marker_color=prism_color,
+        hovertemplate='Year: %{x}<br>%{text}<br><extra></extra>'  # Hover shows year and average
     ))
 
     # set layout
     fig.update_layout(
-        title="Average per year",
-        xaxis_title="year",
-        yaxis_title="average",
+        title="Average per Year",
+        xaxis_title="Year",
+        yaxis_title="Average",
         yaxis_tickformat=".",
         template="plotly_white"
     )

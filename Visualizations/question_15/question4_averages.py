@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
+import plotly.express as px
 
 def plot_player_average(player_name):
     # Load the CSV file containing player statistics
@@ -18,15 +19,22 @@ def plot_player_average(player_name):
     # Sort by year to ensure correct chronological plotting
     df_player = df_player.sort_values(by="Year")
 
-    # Create the line chart
+    # Create a color scale from the Prism palette based on the years
+    colors = px.colors.qualitative.Prism
+    color_scale = [colors[i % len(colors)] for i in range(len(df_player))]  # Cycle through colors
+
+    # Create the line chart with colors based on year
     fig = go.Figure()
 
     fig.add_trace(go.Scatter(
         x=df_player["Year"],
         y=df_player["Stat"],
-        mode="lines+markers",
+        mode="lines",
         name=player_name,
-        line=dict(color="blue")
+        line=dict(color=color_scale[-1]),  # Use the last color for the line (or choose another strategy)
+        marker=dict(color=color_scale),  # Apply color scale to markers
+        hovertemplate='Player: %{text}<br>Year: %{x}<br>Average: %{y:.2f}<br><extra></extra>',  # Hover info
+        text=[player_name] * len(df_player)  # Add player name to text for hover
     ))
 
     # Customize the layout of the chart

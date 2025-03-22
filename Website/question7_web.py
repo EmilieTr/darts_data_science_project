@@ -29,13 +29,6 @@ def question7_web():
 
     with st.expander("Interpretation"):
         st.write(second_graph_7)
-    
-    st.subheader("Conditional Probabilities")
-    fig = plot_conditional_probability()
-    st.plotly_chart(fig)
-
-    with st.expander("Interpretation"):
-        st.write(third_graph_7)
         
     st.image("Visualizations/question_7/map.png")
 

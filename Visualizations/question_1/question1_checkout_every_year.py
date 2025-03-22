@@ -47,21 +47,21 @@ def plot_checkout_every_year(order_of_merit_val):
     fig.add_trace(go.Bar(
         x=list(averages_stat.keys()),  # years on x-axis
         y=list(averages_stat.values()),  # average checkout quote on y-axis
-        text=[f"{v*100:.1f}%" for v in averages_stat.values()],  
-        textposition='outside',  
-        marker_color=prism_color  
+        text=[f"{v*100:.1f}%" for v in averages_stat.values()],  # Show percentage in the text
+        textposition='outside',  # Position text outside the bars
+        marker_color=prism_color,  # Bar color
+        hovertemplate='Year: %{x}<br>Checkout: %{text}<br><extra></extra>'  # Hover shows year and checkout quote
     ))
 
     # set layout
     fig.update_layout(
-        title="Average Checkout-Quote per year",
-        xaxis_title="Jahr",
+        title="Average Checkout-Quote per Year",
+        xaxis_title="Year",
         yaxis_title="Checkout-Quote (%)",
-        yaxis_tickformat=".0%",  # Y-Achse als Prozentwerte anzeigen
+        yaxis_tickformat=".0%",  # Display y-axis as percentages
         template="plotly_white"
     )
     return fig
-
 
 
 # Diagramm anzeigen

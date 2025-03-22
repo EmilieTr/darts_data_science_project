@@ -49,15 +49,32 @@ def plot_double_fields_player(player):
     for double_value in sorted(df_player["Double"].unique()):
         player_data = df_player[df_player["Double"] == double_value]
         fig.add_trace(
-            go.Scatter(x=player_data["Year"], y=player_data["Total"], mode="lines", name=f'D {double_value}', line=dict(color=color_map[double_value])),
+            go.Scatter(
+                x=player_data["Year"], 
+                y=player_data["Total"], 
+                mode="lines", 
+                name=f'D {double_value}', 
+                line=dict(color=color_map[double_value]),
+                hovertemplate='Double: %{text}<br>Year: %{x}<br>Throws: %{y}<br><extra></extra>',  # Add hover info
+                text=[f'D {double_value}'] * len(player_data)  # Add the name of the double field
+            ),
             row=1, col=1
         )
 
     # RIGHT PLOT: Double quota over the years (ONLY TOP DOUBLES FIELDS)
-    for double_value in top_doubles:
+    for double_value in sorted(top_doubles):
         player_data = df_player[df_player["Double"] == double_value]
         fig.add_trace(
-            go.Scatter(x=player_data["Year"], y=player_data["Double quota"], mode="lines", name=f'D {double_value}', line=dict(color=color_map[double_value])),
+            go.Scatter(
+                x=player_data["Year"], 
+                y=player_data["Double quota"], 
+                mode="lines", 
+                name=f'D {double_value}', 
+                line=dict(color=color_map[double_value]),
+                hovertemplate='Double: %{text}<br>Year: %{x}<br>Double Quota: %{y:.2f}<br><extra></extra>',  # Add hover info
+                text=[f'D {double_value}'] * len(player_data),  # Add the name of the double field
+                showlegend=False  # Hide from legend in the right plot
+            ),
             row=1, col=2
         )
 

@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
+import plotly.express as px  # Import für das Prism-Farbschema
 
 def plot_prize_money_and_participants(selected):
 
@@ -38,16 +39,22 @@ def plot_prize_money_and_participants(selected):
     # **Create Plotly figure**
     fig = go.Figure()
 
+    # **Farben aus der Prism-Farbpalette**
+    prism_colors = px.colors.qualitative.Prism
+    color_count = len(columns)  # Anzahl der Farben, die benötigt werden
+    prism_colors = prism_colors[:color_count]  # Anzahl der Farben anpassen
+
     if "Prize Money" in selected:
         # **Stacked bar chart for prize money**
         bottom_values = [0] * len(df['Year'])  # Starting values for stacking
 
-        for column, label in zip(columns, labels):
+        for i, (column, label) in enumerate(zip(columns, labels)):
             fig.add_trace(go.Bar(
                 x=df['Year'],
                 y=df[column],
-                name=label,
-                marker=dict(line=dict(width=0))  # Entfernte Linienumrandung
+                name=label,  # Legendenname
+                marker=dict(color=prism_colors[i % len(prism_colors)], line=dict(width=0)),  # Prism-Farben zuweisen
+                hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Prize Money: £%{y:.0f}<br><extra></extra>'  # Hover zeigt name, year, und prize money
             ))
             bottom_values = [sum(x) for x in zip(bottom_values, df[column])]
 
@@ -57,7 +64,8 @@ def plot_prize_money_and_participants(selected):
             x=df['Year'],
             y=missing_prize_money,
             name="Other Prize Money",
-            marker=dict(color='gray', opacity=0.6)
+            marker=dict(color='gray', opacity=0.6),
+            hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Prize Money: £%{y:.0f}<br><extra></extra>'
         ))
 
     if "Participants" in selected:
@@ -65,10 +73,11 @@ def plot_prize_money_and_participants(selected):
         fig.add_trace(go.Scatter(
             x=participants_per_year.index,
             y=participants_per_year.values,
-            mode='lines+markers',
-            name='Participants',
+            mode='lines',
+            name='Participants',  # Legendenname
             yaxis='y2',
-            line=dict(color='red', width=2)
+            line=dict(color='red', width=2),
+            hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Participants: %{y}<br><extra></extra>'  # Hover zeigt name, year, und participants count
         ))
 
     # **Adjust layout**

@@ -161,8 +161,11 @@ def plot_ranking_age(var, variant):
             ages.append(age)
             order_of_merit.append(i+1)
 
+    title = "Absolute number of age to rankings"
+
     if variant == 0:
         counter = ratio(ages, total_age, counter)
+        title = "Correlation of age to rankings"
 
     mean_ranking = mean_rank(ages, order_of_merit, counter)
 
@@ -181,22 +184,22 @@ def plot_ranking_age(var, variant):
     colors = colors[:8]
     
     fig.add_trace(go.Scatter(
-    x=ages,
-    y=order_of_merit,
-    mode="markers", 
-    marker=dict(
-        size=bubble_sizes,  # size of bubble (times two for having bigger bubbles)
-        color=counter,  # color gradient based on number saved in list counter
-        colorscale=colors,
-        showscale=True 
-    ),
-    
-    text=[f"Anzahl: {s}" for s in counter],  # hover text
+        x=ages,
+        y=order_of_merit,
+        mode="markers", 
+        marker=dict(
+            size=bubble_sizes,  # Size of bubble (times two for having bigger bubbles)
+            color=counter,  # Color gradient based on number saved in list counter
+            colorscale=colors,
+            showscale=True 
+        ),
+        text=[f"Age Cluster: {age}<br>Order of Merit: {rank}<br>Number of Players: {s}" 
+            for age, rank, s in zip(ages, order_of_merit, counter)],  # Custom hover text
     ))
 
     # setting the layout
     fig.update_layout(
-        title="Correlation of age to rankings",
+        title=title,
         xaxis_title="Age",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",

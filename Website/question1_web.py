@@ -13,12 +13,8 @@ def question1_web():
                 "time?")
     
     category = ["Averages", "Checkout Quota"]
-    ranking_positions = [5, 10, 15, 20]
+    selected_ranking_position = st.slider("Choose the number of ranking positions", min_value=2, max_value=33)
     selected_category = st.selectbox("Select a Category", category)
-    selected_ranking_position = st.selectbox(
-        "Select a Number of Ranking Positions",
-        ranking_positions
-    )
     
     if selected_category == "Averages":
         years = [str(i) for i in range(2009, 2025)]

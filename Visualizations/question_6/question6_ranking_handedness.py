@@ -116,13 +116,14 @@ def plot_ranking_handedness(var, variant):
             handedness.append(handedness_translation.get(hand_de, "Unknown"))
             order_of_merit.append(i + 1)
    
+    title = "Absolute number of handedness to rankings"
 
     # if variant is 0 we want the ratios
     if variant == 0:
         counter = ratio(handedness, total_righthanded, total_lefthanded, counter)
+        title = "Correlation of handedness to rankings"
 
     mean_ranking = mean_rank(handedness, order_of_merit, counter)
-    print(mean_ranking)
 
     # Normalize bubble sizes to prevent overlap
     max_count = max(counter) if counter else 1  # Avoid division by zero
@@ -141,19 +142,20 @@ def plot_ranking_handedness(var, variant):
     fig.add_trace(go.Scatter(
         x=handedness,
         y=order_of_merit,
-        mode="markers",
+        mode="markers", 
         marker=dict(
-            size=bubble_sizes,  # Dynamically scaled bubble sizes
-            color=counter,
+            size=bubble_sizes,  # Size of bubble (times two for having bigger bubbles)
+            color=counter,  # Color gradient based on number saved in list counter
             colorscale=colors,
-            showscale=True
+            showscale=True 
         ),
-        text=[f"Count: {s}" for s in counter],
+        text=[f"Handedness: {handed}<br>Order of Merit: {rank}<br>Number of Players: {s}" 
+            for handed, rank, s in zip(handedness, order_of_merit, counter)],  # Custom hover text
     ))
 
     # Configure layout
     fig.update_layout(
-        title="Correlation of handedness to rankings",
+        title=title,
         xaxis_title="Handedness",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",

@@ -33,6 +33,7 @@ def chi_squared():
 #print(observed_vs_expected)
 
 def plot_observed_frequencies():
+    colors = px.colors.qualitative.Prism[:8]
     df, _ = chi_squared()
     
     # 📊 HEATMAP 1: Observed frequencies
@@ -41,7 +42,7 @@ def plot_observed_frequencies():
                     x=df.columns,
                     y=df.index,
                     title="Observed Frequencies between Host Country and Nationality",
-                    color_continuous_scale=px.colors.qualitative.Prism,  # Adjust Prism color palette here
+                    color_continuous_scale=colors,  # Adjust Prism color palette here
                     text_auto=True)
     
     return fig1
@@ -49,6 +50,7 @@ def plot_observed_frequencies():
 #fig1.show()
 
 def plot_observed_expected_frequencies():
+    colors = px.colors.qualitative.Prism[:8]
     df, observed_vs_expected = chi_squared()
     
     # 📊 HEATMAP 2: Differences between Observed & Expected
@@ -57,7 +59,7 @@ def plot_observed_expected_frequencies():
                     x=df.columns,
                     y=df.index,
                     title="Differences between Observed and Expected Frequencies",
-                    color_continuous_scale=px.colors.qualitative.Prism,  # Adjust Prism color palette here
+                    color_continuous_scale=colors,  # Adjust Prism color palette here
                     text_auto=".2f")
     
     return fig2
@@ -65,6 +67,7 @@ def plot_observed_expected_frequencies():
 #fig2.show()
 
 def plot_conditional_probability():
+    colors = px.colors.qualitative.Prism[:8]
     df, _ = chi_squared()
     
     # Calculate conditional probabilities (P(Nationality | Host Country))
@@ -76,7 +79,7 @@ def plot_conditional_probability():
                     x=df.columns,
                     y=df.index,
                     title="Conditional Probabilities between Host Country and Nationality",
-                    color_continuous_scale=px.colors.qualitative.Prism,  # Adjust Prism color palette here
+                    color_continuous_scale=colors,  # Adjust Prism color palette here
                     text_auto=".2f")
     
     return fig3
