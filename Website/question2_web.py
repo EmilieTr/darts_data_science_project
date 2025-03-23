@@ -17,12 +17,9 @@ def question2_web():
         "Players Championship",
         "World Series"
     ]
+    st.title('Averages')
     
-    st.header("2. How do the averages of tournaments vary over time?")
-    
-    with st.expander("Interpretation"):
-        st.write(heads_up_2)
-
+    st.markdown("---")
     # Select multiple tournaments
     selected_tournaments = st.multiselect(
         "Select Tournaments",
@@ -32,24 +29,28 @@ def question2_web():
     
     # Checkbox für Regression
     show_regression = st.checkbox("Show regression line for average")
-    
     # Checkbox für Regression
     show_std = st.checkbox("Show standard deviation for average")
     
+    st.markdown("---")
+
     # Display the selected tournament
-    st.subheader(
-        "Development of Averages over Time"
-    )
+    st.subheader("How do the averages of tournaments vary over time?")
     
+    with st.expander("Explanation"):
+        st.write("Hie kommt eine Erklärung der Fragestellung hin.")
     # Call the function with the list of selected tournaments
     fig = plot_winning_averages(selected_tournaments, show_regression, show_std)
     st.plotly_chart(fig)
 
+    st.text("Hier kommt eine kurze Beschreibung von dem Diagramm hin.")
+    with st.expander("Interpretation and critical evaluation"):
+        st.write(heads_up_2)
     # Call the function with the list of selected tournaments
     fig = plot_histogram(selected_tournaments)
     st.plotly_chart(fig)
-
-    with st.expander("Interpretation"):
+    st.text("Hier kommt eine kurze Beschreibung von dem Diagramm hin.")
+    with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_2)
 
     # Call function to add footer

@@ -6,10 +6,8 @@ from Visualizations.question_5 import (
 )
 
 def question5_web():
-
-    st.header("5. How does the price money and number of participants vary "
-            "over time?")
-
+    st.title("Participants and Price Money")
+    st.markdown("---")
     selection = [
     "Participants",
     "Prize Money"
@@ -19,17 +17,19 @@ def question5_web():
     selected_vis = st.multiselect(
     "Select Visualization",
     selection,
-    default=["Participants", "Prize Money"]
-    )
+    default=["Participants", "Prize Money"])
+    st.markdown("---")
+    
+    st.subheader("How does the price money and number of participants of the World Championship vary over time?")
+    with st.expander("Explanation"):
+        st.write("Hier kommt eine Erklärung der Fragestellung hin.")
+    
 
-    st.subheader(
-    "Participants and Price Money of the World Championships "
-    "over the Years"
-    )
+    
     fig = plot_prize_money_and_participants(selected_vis)
     st.plotly_chart(fig)
-
-    with st.expander("Interpretation"):
+    st.text("Hier kommt eine kurze Beschreibung von dem Diagramm hin.")
+    with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_5)
 
     # Call function to add footer

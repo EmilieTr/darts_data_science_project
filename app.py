@@ -55,6 +55,12 @@ st.markdown("""
             border-radius: 8px;
             padding: 5px;
         }
+        /* Entire MultiSelect widget */
+        .stMultiSelect {
+            background-color: #FAF9F6; /* Background color */
+            border-radius: 8px; /* Rounded corners */
+            padding: 5px; /* Padding */
+        }
     </style>
 """, unsafe_allow_html=True)
 st.sidebar.title("Darts")
