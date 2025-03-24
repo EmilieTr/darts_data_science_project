@@ -6,28 +6,38 @@ import scipy.stats as stats
 
 def plot_histogram(column):
     """
-    Creates a histogram for the given column and overlays a normal distribution curve.
+    Create a histogram for the specified column 
+    with a normal distribution curve overlay.
     
-    :param column: The column for which the histogram will be created
+    :param column: The column for which the histogram is created
+    :return: Plotly Figure object
     """
-    # Load the CSV file
+    # Load CSV file
     df = pd.read_csv("Visualizations/question_9/180_stats.csv")
     
-    # Clean the data by removing NaN values and filtering if necessary
+    # Clean data
     df_cleaned = df.dropna(subset=[column])
 
-    # Calculate the mean and standard deviation for the normal distribution
+    # Calculate the mean and standard deviation
     mu, sigma = df_cleaned[column].mean(), df_cleaned[column].std()
 
-    # Create histogram data with fewer bins (grouping two bins together)
-    nbins = 10  # Reducing the number of bins by half (default was 20)
+    # Create histogram data with fewer bins
+    nbins = 10
     hist_data = np.histogram(df_cleaned[column], bins=nbins)
     bin_edges = hist_data[1]
-    bin_centers = (bin_edges[:-1] + bin_edges[1:]) / 2  # Midpoints of the bins
+    bin_centers = (bin_edges[:-1] + bin_edges[1:]) / 2
 
-    # Generate the normal distribution curve
-    x_values = np.linspace(min(df_cleaned[column]), max(df_cleaned[column]), 100)
-    y_values = stats.norm.pdf(x_values, mu, sigma) * len(df_cleaned) * (bin_edges[1] - bin_edges[0])
+    # Generate normal distribution curve
+    x_values = np.linspace(
+        min(df_cleaned[column]), 
+        max(df_cleaned[column]), 
+        100
+    )
+    y_values = stats.norm.pdf(
+        x_values, 
+        mu, 
+        sigma
+    ) * len(df_cleaned) * (bin_edges[1] - bin_edges[0])
 
     prism_colors = px.colors.qualitative.Prism
 
