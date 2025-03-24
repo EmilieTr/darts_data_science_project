@@ -13,7 +13,7 @@ from Website.question10_web import question10_web
 from Website.question15_web import question15_web
 from Website.data_pipeline_web import data_pipeline_web
 
-# Sidebar for Navigationwei
+# Sidebar for Navigation
 # --- Sidebar Styling ---
 st.markdown("""
     <style>

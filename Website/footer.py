@@ -23,9 +23,9 @@ def add_footer():
         }
     </style>
     <div class="footer">
-        Contact: <a href="mailto:stu240535@mail.uni-kiel.de">Tyra Kauschs Stu-Mail</a> |
-        <a href="mailto:stu240868@mail.uni-kiel.de">Emilie Terhaars Stu-Mail</a> |
-        <a href="mailto:stu239831@mail.uni-kiel.de">Sara Rolfs Stu-Mail</a> |
+        Contact: <a href="mailto:stu240535@mail.uni-kiel.de">Tyra Kausch</a> |
+        <a href="mailto:stu240868@mail.uni-kiel.de">Emilie Terhaar</a> |
+        <a href="mailto:stu239831@mail.uni-kiel.de">Sara Rolf</a> |
         <a href="www.google.com">poster link here?</a>
     </div>
     """
