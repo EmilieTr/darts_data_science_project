@@ -17,13 +17,14 @@ few notable exceptions. These entail a significant spike around 2017 for World C
 above 105 which was an outstanding tournament by Michael van Gerwen.
 The averages of the World Grand Prix are lower than the ones of the other tournaments because is has a special 
 modus where it is a lot harder to reach a high average.
-The wider range of the standard deviation (which can be faded in above) is because 
+The wider range of the standard deviation (which can be faded in above) is because the all tournaments except
+the World Grand Prix are slightly at the same height but only the average of the World Grand Prix is a lot lower.
 
 This validates the assumption the research came into existence with:
 The sport matures with time, making the standards for skill of the players rise and rise over the time."""
 
-second_description_2 = """This data visualization presents a "Distribution of Winning Averages" as a histogram 
-with a normal distribution curve overlaid in red."""
+second_description_2 = """This data visualization presents a histogram of the number of winning averages that 
+occur with a normal distribution curve overlaid in red."""
 
 second_graph_2 = """The histogram shows that winning averages most frequently fall around 98-99 points, with a 
 roughly normal distribution ranging from about 92 to 107 points."""

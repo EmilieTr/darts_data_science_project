@@ -1,4 +1,4 @@
-explanation_9 = """ """
+explanation_9 = """"""
 
 first_description_9 = """ """
 
