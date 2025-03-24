@@ -61,7 +61,8 @@ def plot_distribution_double_fields():
     fig = make_subplots(
         rows=1, cols=2,  # Zwei Diagramme nebeneinander
         subplot_titles=["Throws on Double Fields", "Hits on Double Fields"],
-        specs=[[{"type": "pie"}, {"type": "pie"}]]
+        specs=[[{"type": "pie"}, {"type": "pie"}]],
+        horizontal_spacing=0.3
     )
 
     # Pie Chart für die Anzahl der Würfe auf den Doppelfeldern (linke Seite)
@@ -96,11 +97,12 @@ def plot_distribution_double_fields():
         x=0.5,
         y=0.5,
         xanchor="center",
-        yanchor="middle"
-    )
+        yanchor="middle"),
+        width = 600,
+        height = 500
     )
 
     return fig
 
 fig = plot_distribution_double_fields()
-fig.show()
+#fig.show()

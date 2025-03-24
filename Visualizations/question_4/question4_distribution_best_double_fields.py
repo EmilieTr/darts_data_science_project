@@ -44,7 +44,8 @@ def plot_distribution_best_double_fields():
     fig = make_subplots(
         rows=1, cols=2,  # Two charts side by side
         subplot_titles=["Throws on Double Fields", "Hits on Double Fields"],
-        specs=[[{"type": "pie"}, {"type": "pie"}]]
+        specs=[[{"type": "pie"}, {"type": "pie"}]],
+        horizontal_spacing=0.3
     )
 
     # Pie Chart for throws on the double fields (left side)
@@ -74,7 +75,14 @@ def plot_distribution_best_double_fields():
     # Layout optimization
     fig.update_layout(
         title_text="Distribution of Throws & Hits on Double Fields",
-        showlegend=True
+        showlegend=True,
+        legend=dict(
+        x=0.5,
+        y=0.5,
+        xanchor="center",
+        yanchor="middle"),
+        width = 600,
+        height = 500
     )
 
     return fig
