@@ -58,7 +58,7 @@ def question1_web():
 
         st.write(general_1)
         
-    elif selected_category == "Checkout Percentage":
+    elif selected_category == "Checkout Percentages":
         
         fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
