@@ -1,5 +1,4 @@
 import streamlit as st
-from Website.texts import *
 from Website.navigation import navigation
 from Website.home import home
 from Website.question1_web import question1_web
@@ -47,8 +46,16 @@ st.markdown("""
         }
         .stButton>button:hover {
             background-color: #86a47c;
+            border: 1px solid #86a47c;
         }
-
+        .stButton>button:active {
+            background-color: #86a47c;
+            border: 1px solid #86a47c !important;
+        }
+        .stButton>button:focus {
+            background-color: #86a47c;
+            border: 1px solid #86a47c !important;
+        }
         /* Expander-Styling */
         [data-testid="stExpander"] {
             background-color: #FAF9F6;
