@@ -9,15 +9,9 @@ from Visualizations.question_15 import (
 )    
     
 def question15_web():   
-    st.header(
-        "15. How does the performance of individual players change over "
-        "time?"
-    )
-
-    with st.expander("Interpretation"):
-        st.write(first_graph_15)
-    
-    # Load a list of players from CSV or define manually
+    st.title("Player Stats")
+    st.markdown("---")
+     # Load a list of players from CSV or define manually
     players = [
         "Luke Humphries", "Luke Littler", "Michael van Gerwen",
         "Phil Taylor", "Stephen Bunting", "Rob Cross", "Gerwyn Price",
@@ -45,26 +39,34 @@ def question15_web():
     st.write(f"**Professional since:** {player_data['Profi since']}")
     st.write(f"**Handedness:** {player_data['Handedness']}")
     st.write(f"**Darts Used:** {player_data['Darts gramm']}")
+    st.markdown("---")
+    st.subheader("How does the performance of individual players change over time?")
+
+    with st.expander("Explanation"):
+        st.write(first_graph_15)
     
-    st.subheader(f"Double Field Values of {selected_player}")
+   
     fig = plot_double_fields_player(selected_player)
     st.plotly_chart(fig)
+    st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    with st.expander("Interpretation and critical evaluation"):
+        st.write("Interpretation and critical evaluation")
     
+    st.markdown("---")
     double_fields = [f"D{i}" for i in range(1, 21)] + ["D25"]  # Double fields
     selected_double = st.selectbox("Select a Double Field", double_fields)
+    st.markdown("---")
     
-    st.subheader(
-        f"Throws on {selected_double} and its Double Quota "
-        f"for {selected_player}"
-    )
     fig = plot_double_fields_player_combined(selected_player, selected_double)
     st.plotly_chart(fig)
+    st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    with st.expander("Interpretation and critical evaluation"):
+        st.write("Interpretation and critical evaluation")
     
-    st.subheader(
-        f"Averages for {selected_player}"
-    )
     fig = plot_player_average(selected_player)
     st.plotly_chart(fig)
-
+    st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    with st.expander("Interpretation and critical evaluation"):
+        st.write("Interpretation and critical evaluation")
     # Call function to add footer
     add_footer()
