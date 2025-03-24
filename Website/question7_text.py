@@ -17,4 +17,8 @@ English players.
 
 There is no significant relationship between the host country and nationality."""
 
-third_graph_7 = """The UK and Germany host the most tournaments."""
+third_description_7 = """This is a map showing the distribution of number of tournaments held in european countries. The darker the green, the more tournaments
+were held in said country."""
+
+third_graph_7 = """The United Kingdom and Germany have the highest concentration (102-122 and 82-102 tournaments respectively), while countries in lighter green
+like Ireland and Netherlands have hosted fewer tournaments."""
