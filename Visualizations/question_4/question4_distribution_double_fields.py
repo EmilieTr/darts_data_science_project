@@ -104,5 +104,3 @@ def plot_distribution_double_fields():
 
     return fig
 
-fig = plot_distribution_double_fields()
-#fig.show()
