@@ -3,7 +3,7 @@ Darts is a highly analytical competitive sport, as tournaments and rankings heav
 Game Basics and Dartboard Structure:
 Two players take alternating turns throwing three darts at a dartboard.
 This circular board is divided into 20 numbered pizza slices, where each slice has:
--\t Two large single fields
+- Two large single fields
 - A smaller double field (worth double the number’s value)
 - A smaller triple field (worth triple the number’s value)
 In the middle are two small circles known as the bullseye:
@@ -18,7 +18,7 @@ This varies depending on the event. The here analysed leg format entails:
 
 Checkout Strategy & Statistics:
 Players calculate their throws to finish efficiently. The bullseye (50 points) is the highest double field, but not always the most used to finish.
-Checkout quota:
+Check out percentage:
 - the percentage of times a player successfully finishes a leg when given the opportunity
 - shows a player’s ability to close out legs under pressure
 

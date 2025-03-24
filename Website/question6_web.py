@@ -17,7 +17,7 @@ def question6_web():
     st.subheader("How does age, nationality and handiness effects the rankings?")
     
     with st.expander("Explanation"):
-        st.write("Explanation")
+        st.write(explanation_6)
     
     if variant == "absolute values":
         variant = 1
@@ -27,21 +27,21 @@ def question6_web():
     
     fig, _ = plot_ranking_age(selected_ranking_position, variant)
     st.plotly_chart(fig)
-    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write(first_description_6)
     with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_6)
     
   
     fig, _ = plot_ranking_nationality(selected_ranking_position, variant)
     st.plotly_chart(fig)
-    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write(second_description_6)
     with st.expander("Interpretation and critical evaluation"):
         st.write(second_graph_6)
     
 
     fig, _ = plot_ranking_handedness(selected_ranking_position, variant)
     st.plotly_chart(fig)
-    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write(third_description_6)
     with st.expander("Interpretation and critical evaluation"):
         st.write(third_graph_6)
 

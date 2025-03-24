@@ -1,3 +1,6 @@
+explanation_10 = """ """
+
+first_description_10 = """ """
 
 first_graph_10 = """- The average win probability after starting with a 180 is quite high at 72.42%
 
@@ -8,3 +11,7 @@ first_graph_10 = """- The average win probability after starting with a 180 is q
 - Most tournaments show win rates of 80% or higher after starting with a 180
 
 Starting a leg with a 180 gives players a significant advantage, with roughly 3/4 chance of winning that leg"""
+
+second_description_10 = """ """
+
+second_graph_10 = """ """

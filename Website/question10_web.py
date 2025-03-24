@@ -11,20 +11,20 @@ def question10_web():
 
     st.subheader("How likely are participants win a leg after throwing a 180 as first throw?") 
     with st.expander("Explanation"):
-        st.write("Explanation")
+        st.write(explanation_10)
     df = pd.read_csv('Visualizations/question_10/180_stats.csv') 
     st.dataframe(df)
-    st.write("Hier kommt eine kurze Beschreibung vom Diagramm hin.")
+    st.write(first_description_10)
     with st.expander("Interpretation and critical evaluation"):
-        st.write("Interpretation and critical evaluation")
+        st.write(first_graph_10)
 
     fig = plot_histogram("Probability (%)")
     st.plotly_chart(fig)
-    st.write("Hier kommt eine kurze Beschreibung vom Diagramm hin.")
+    st.write(second_description_10)
     with st.expander("Interpretation and critical evaluation"):
         st.write("T-Test between European Tour and Majors")
         st.write(t_test())
-        st.write(first_graph_10)
+        st.write(second_graph_10)
         
     
         
