@@ -1,9 +1,8 @@
 import pandas as pd
-import plotly.graph_objects as go
+import plotly.express as px
 
 def plot_prize_money():
-
-    # Function to convert currency strings to float values
+    # Function to convert currency strings to float
     def convert_currency(value):
         if isinstance(value, str):
             value = value.replace('£', '').replace(',', '')
@@ -14,58 +13,60 @@ def plot_prize_money():
     file = 'Data/question 5/question5.csv'
     df = pd.read_csv(file)
 
-    # Define prize money columns and corresponding labels
-    columns = ['Champion', 'Runner-up', '3d place', '4d place', 'Quarter finalists', 
+    # Define prize money columns
+    columns = ['Champion', 'Runner-up', '3d place', '4d place', 'Quarter finalists',
                'Last 16', 'Last 24', 'Last 32', 'Last 64', 'Last 96']
-    labels = ['1st', '2nd', '3rd', '4th', 'Quarter finalists', 'Last 16', 
+    labels = ['1st', '2nd', '3rd', '4th', 'Quarter finalists', 'Last 16',
               'Last 24', 'Last 32', 'Last 64', 'Last 96']
 
-    # Convert data to float
+    # Convert currency values
     for column in columns:
         df[column] = df[column].apply(convert_currency)
     df['Semi finalists'] = df['Semi finalists'].apply(convert_currency)
     df['Total Prize Pool'] = df['Total Prize Pool'].apply(convert_currency)
 
-    # Handle missing values
+    # Fill missing values
     columns_without_3rd_4th = [col for col in columns if col not in ['3d place', '4d place']]
     df[columns_without_3rd_4th] = df[columns_without_3rd_4th].fillna(0)
     df['3d place'].fillna(df['Semi finalists'], inplace=True)
     df['4d place'].fillna(df['Semi finalists'], inplace=True)
 
-    # **Create Stacked Bar Chart with Plotly**
-    fig = go.Figure()
+    # Melt the DataFrame for the area chart
+    df_melted = df.melt(id_vars='Year', value_vars=columns, var_name='Position', value_name='Prize Money')
 
-    # Calculate values for the stacked chart
-    bottom_values = [0] * len(df['Year'])  # Base value for each category
+    # Map the columns to more readable labels
+    df_melted['Position'] = df_melted['Position'].replace(dict(zip(columns, labels)))
 
-    # **Add bars for each prize money category**
-    for column, label in zip(columns, labels):
-        fig.add_trace(go.Bar(
-            x=df['Year'],
-            y=df[column],
-            name=label,
-            text=df[column],
-            textposition='auto'
-        ))
+    # Ensure the order of the categories (Last 96 to 1st)
+    df_melted['Position'] = pd.Categorical(df_melted['Position'], categories=labels[::-1], ordered=True)
 
-    # Fill missing prize money
-    missing_prize_money = df['Total Prize Pool'] - df[columns].sum(axis=1)
-    fig.add_trace(go.Bar(
-        x=df['Year'],
-        y=missing_prize_money,
-        name="Other Prize Money",
-        marker_color='gray',
-        opacity=0.6
-    ))
+    # Create overlapping area chart using Plotly Express
+    fig = px.line(
+        df_melted,
+        x='Year',
+        y='Prize Money',
+        color='Position',
+        title='Development of Prize Money over the Years (PDC World Championship)',
+        color_discrete_sequence=px.colors.qualitative.Prism[1:],
+        hover_data={'Prize Money': ':.0f'},  # Format hover text
+        line_group='Position'
+    )
 
-    # **Adjust layout**
+    # Ensure full opacity and remove transparency
+    fig.update_traces(mode='lines', fill='tozeroy', opacity=1.0, fillcolor=None)
+
+    # Customize layout
     fig.update_layout(
-        title="Development of Prize Money over the Years (PDC World Championship)",
-        xaxis=dict(title="Year"),
-        yaxis=dict(title="Prize Money (£)", tickformat=","),
-        barmode='stack',  # Stacked Bar Chart
-        legend=dict(x=1, y=1),
-        template="plotly_white"
+        xaxis_title='Year',
+        yaxis_title='Prize Money (£)',
+        legend_title='Position',
+        margin=dict(l=50, r=50, t=50, b=50),
+        plot_bgcolor='white'  # Remove blue background
     )
 
     return fig
+
+'''fig = plot_prize_money()
+fig.show()'''
+
+
