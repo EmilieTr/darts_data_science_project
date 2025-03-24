@@ -8,7 +8,7 @@ from Visualizations.question_7 import (
 )
     
 def question7_web():
-    st.title("Host Country vs Nationality")
+    st.title("Host Country vs. Nationality")
     st.markdown("---")
     st.subheader(
         "How does the country a tournament is held in correlate to the success of players?")
