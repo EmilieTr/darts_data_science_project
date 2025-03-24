@@ -96,9 +96,10 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
 
     # set layout
     fig.update_layout(
-        title="Development of Averages by Order of Merit Rank",
+        title="Development of Checkout-Quote by Order of Merit Rank",
         xaxis_title="Order of Merit Rank",
-        yaxis_title="Average",
+        yaxis_title="Checkout-Quote(%)",
+        yaxis_tickformat=".0%",
         xaxis=dict(tickmode='linear', dtick=1),  
         legend_title="Year"
     )

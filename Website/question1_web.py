@@ -12,7 +12,7 @@ def question1_web():
     st.title("Averages of the best")
     st.markdown("---")
     category = ["Averages", "Checkout Quota"]
-    selected_ranking_position = st.slider("Choose the number of ranking positions", min_value=2, max_value=33)
+    selected_ranking_position = st.slider("Choose the number of ranking positions", min_value=1, max_value=50, value= 5)
     selected_category = st.selectbox("Select a Category", category)
     if selected_category == "Averages":
         years = [str(i) for i in range(2009, 2025)]
