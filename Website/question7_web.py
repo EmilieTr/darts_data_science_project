@@ -31,7 +31,8 @@ def question7_web():
         
     st.image("Visualizations/question_7/map.png")
     st.write(third_description_7)
-    st.write(third_graph_7)
+    with st.expander("Interpretation and critical evaluation"):
+        st.write(third_graph_7)
 
     # Call function to add footer
     add_footer()
