@@ -25,8 +25,8 @@ def add_footer():
     <div class="footer">
         Contact: <a href="mailto:stu240535@mail.uni-kiel.de">Tyra Kausch</a> |
         <a href="mailto:stu240868@mail.uni-kiel.de">Emilie Terhaar</a> |
-        <a href="mailto:stu239831@mail.uni-kiel.de">Sara Rolf</a> |
-        <a href="www.google.com">poster link here?</a>
+        <a href="mailto:stu239831@mail.uni-kiel.de">Sara Rolfs</a> |
+        <a href=" ">poster link here?</a>
     </div>
     """
     st.markdown(footer_code, unsafe_allow_html=True)
