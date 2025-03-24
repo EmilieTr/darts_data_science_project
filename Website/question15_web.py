@@ -32,6 +32,10 @@ def question15_web():
     csv_file = "Data/question 6/male_players.csv"
     df = pd.read_csv(csv_file)
     player_data = df[df["Name"] == selected_player].iloc[0]
+    if player_data["Handedness"] == "Rechtshänder":
+        player_data["Handedness"] = "Right-handed Player"
+    else:
+        player_data["Handedness"] = "Left-handed Player"
 
     # Display player profile
     st.header(player_data["Name"])
