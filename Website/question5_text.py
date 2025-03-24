@@ -1,5 +1,11 @@
-first_graph_5 = """This participant growth pattern reveals deliberate structural changes to the tournament format, with significant expansions
-occurring around 1999, 2006, and 2019.
+explanation_5 = """This research question was asked under the assuptaion, that while the sport develops and becomes more popular, it must grow in "wealth" and 
+participants too. The "wealth" was measured in the prize money being given to the participants to form a concise question to analyse data for."""
+
+first_description_5 = """This data visualisation shows the "Development of Prize Money and Participants over the Years (PDC World Championship)" with a dual-axis 
+chart. The left axis tracks prize money (in £). The colored stacked bars indicate prize allocation by tournament stage, while the red line shows the increasing
+participant numbers."""
+
+first_graph_5 = """This number of participants grew from about 20 to nearly 100 players, with significant expansions occurring around 1999, 2006, and 2019.
 
 The total prize pool has seen remarkable growth:
 
@@ -7,21 +13,13 @@ The total prize pool has seen remarkable growth:
 - Reached £1 million by 2010
 - Peaked at £2.5 million in 2019 and has remained stable since
 
-The winner's prize has followed a similar trajectory:
+The winner's prize has followed a similar trajectory with numbers from under £500,000 in 2000 to £2.5 million by 2020.
 
-- £16,000 in 1994
-- £100,000 by 2006
-- £250,000 by 2014
-- £500,000 from 2019 onward
-
-There's a clear correlation between participant numbers and prize money:
-
-- Major increases in participants (1999, 2006, 2019) typically coincided with significant prize money increases
-- The 2019 expansion to 96 participants aligned with the prize pool reaching its current £2.5 million
-- Since 2019, both participant numbers and prize money have remained stable
+(
+There's a clear correlation between participant numbers and prize money: Major increases in participants (1999, 2006, 2019) typically coincided with significant
+prize money increases.
 
 The graphs show that while the total prize pool has increased, the distribution maintains a similar structure:
-
-- Champion and runner-up consistently receive the largest portions
-- Prize money decreases progressively across placement categories
-- The introduction of new placement categories (Last 64 in 2006, Last 96 in 2019) reflects the expanding tournament format"""
+- Champion and runner-up consistently receive the largest portions.
+- Prize money decreases progressively across placement categories.
+)"""
