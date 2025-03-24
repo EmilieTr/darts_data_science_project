@@ -1,9 +1,8 @@
 explanation_5 = """This research question was asked under the assuptaion, that while the sport develops and becomes more popular, it must grow in "wealth" and 
 participants too. The "wealth" was measured in the prize money being given to the participants to form a concise question to analyse data for."""
 
-first_description_5 = """This data visualisation shows the "Development of Prize Money and Participants over the Years (PDC World Championship)" with a dual-axis 
-chart. The left axis tracks prize money (in £). The colored stacked bars indicate prize allocation by tournament stage, while the red line shows the increasing
-participant numbers."""
+first_description_5 = """This data visualisation shows with a dual-axis chart how the prize money and participant number is gradually rising. The left axis tracks
+prize money (in £). The colored stacked bars indicate prize allocation by tournament stage, while the red line shows the increasing participant numbers."""
 
 first_graph_5 = """This number of participants grew from about 20 to nearly 100 players, with significant expansions occurring around 1999, 2006, and 2019.
 
