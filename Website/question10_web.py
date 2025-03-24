@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from .texts import *
+from .question10_text import *
 from .footer import add_footer
 from Visualizations.question_10 import plot_histogram
 from Visualizations.question_10 import t_test
