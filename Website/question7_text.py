@@ -1,20 +1,20 @@
-explanation_7 = """This question hones in on the phenomenon, where we have "home-macthes" in football. In this, we try to see, if such a phenomenon exists in the 
-game on darts too and a player's "success" will be defined as ... (Hilfe, Sara)"""
+explanation_7 = """This question hones in on the phenomenon where we have "home-macth advantages" in games like football. In this, we try to see, if such a
+phenomenon exists in the game darts too. A player's "success" will be defined as ... (Hilfe, Sara)"""
 
-first_description_7 = """displays "Observed Frequencies between Host Country and Nationality" as a heatmap. The data shows that the United Kingdom has hosted
-the most tournaments (102), followed by Germany (63). England has the highest nationality representation (130 players), followed by the Netherlands (70)."""
+first_description_7 = """This visualization would display this home-match advantage as a heatmap."""
 
-first_graph_7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
-general dominance of these nations in darts rather than a host country advantage."""
+first_graph_7 = """This graph displays the residuals from a chi-square test. The data shows that the United Kingdom has hosted the
+most tournaments (102), followed by Germany (63). England has the highest nationality representation (130 players), followed by the Netherlands (70). This reflects
+the general representation dominance of these nations in darts rather than a host country advantage.
 
-second_graph_7 = """This graph displays the residuals from a statistical analysis, likely a chi-square test. The values are relatively small, indicating minimal
-deviation from what would be expected if there were no relationship between host country and winner nationality."""
+There is a significant relationship between the host country and nationality."""
 
-third_graph_7 = """Conditional Probabilities show the probability of winners being from a specific nationality given the host country. The conditional probabilities
-appear fairly consistent across host countries:
+second_description_7 = """This second heatmap presents where certain nationalities are over or under-represented relative to expected values."""
 
-- In Australia, England, and USA, English players win about 43-44% of tournaments
-- In the Netherlands, Dutch players win 29 percent of tournaments
-- No pattern suggests players consistently perform better in their home countries"""
+second_graph_7 = """This graph displays the residuals from a chi-quare test. Beside the obviously small values indication no correlation, notable positive values
+appear for English players in Australia and the US, while negative values appear for English players in Germany, pointing again at the dominant representation of 
+English players.
 
-fourth_graph_7 = """The UK and Germany host the most tournaments."""
+There is no significant relationship between the host country and nationality."""
+
+third_graph_7 = """The UK and Germany host the most tournaments."""
