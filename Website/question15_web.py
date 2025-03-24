@@ -1,5 +1,7 @@
+import os
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 from .question15_text import *
 from .footer import add_footer
 from Visualizations.question_15 import (
@@ -9,6 +11,13 @@ from Visualizations.question_15 import (
 )    
     
 def question15_web():   
+    def find_matching_file(folder_path, name):
+        folder = Path(folder_path)  # Ordner als Path-Objekt
+        for file in folder.iterdir():  # Durch alle Dateien gehen
+            if file.is_file() and file.stem == name:  # Vergleiche ohne Endung
+                return file.name  # Gibt den passenden Dateinamen zurück
+        return None  # Falls keine Datei gefunden wurde
+
     st.title("Player Stats")
     st.markdown("---")
      # Load a list of players from CSV or define manually
@@ -31,14 +40,26 @@ def question15_web():
     else:
         player_data["Handedness"] = "Left-handed Player"
 
-    # Display player profile
-    st.header(player_data["Name"])
-    st.write(f"**Nationality:** {player_data['Nationality']}")
-    st.write(f"**Date of Birth:** {player_data['Geburtstag']}")
-    st.write(f"**Playing since:** {player_data['Plays since']}")
-    st.write(f"**Professional since:** {player_data['Profi since']}")
-    st.write(f"**Handedness:** {player_data['Handedness']}")
-    st.write(f"**Darts Used:** {player_data['Darts gramm']}")
+    # Spalten-Layout mit zwei gleich großen Spalten
+    col1, col2 = st.columns([1, 1])
+
+    with col1:
+        # Display player profile
+        st.header(player_data["Name"])
+        st.write(f"**Nationality:** {player_data['Nationality']}")
+        st.write(f"**Date of Birth:** {player_data['Geburtstag']}")
+        st.write(f"**Playing since:** {player_data['Plays since']}")
+        st.write(f"**Professional since:** {player_data['Profi since']}")
+        st.write(f"**Handedness:** {player_data['Handedness']}")
+        st.write(f"**Darts Used:** {player_data['Darts gramm']}")
+
+    with col2:
+        folder_path = "Player_Pictures"
+        name = player_data["Name"].replace(" ", "_")
+        image_name = find_matching_file(folder_path, name)
+        image_path = os.path.join(folder_path, image_name)
+        st.image(image_path, use_container_width=True) 
+
     st.markdown("---")
     st.subheader("How does the performance of individual players change over time?")
 
