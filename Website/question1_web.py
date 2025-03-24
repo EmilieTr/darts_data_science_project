@@ -23,7 +23,7 @@ def question1_web():
             years,
             default=["2009", "2024"]
         )
-    elif selected_category == "Checkout Quota":
+    elif selected_category == "Checkout Percentage":
         years = [str(i) for i in range(2012, 2025)]
 
         # Select multiple tournaments
@@ -38,41 +38,43 @@ def question1_web():
                 "time?")
     
     with st.expander("Explanation"):
-        st.write("Explanation")
+        st.write(explanation_1)
 
     if selected_category == "Averages":
 
         fig = plot_average_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
 
-        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")   
+        st.write(first_description_1)   
         with st.expander("Interpretation and critical evaluation"):
             st.write(first_graph_1)
 
         fig = plot_average_every_year(selected_ranking_position)
         st.plotly_chart(fig)
 
-        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+        st.write(second_description_1)
         with st.expander("Interpretation and critical evaluation"):
             st.write(second_graph_1)
+
+        st.write(general_1)
         
-    elif selected_category == "Checkout Quota":
+    elif selected_category == "Checkout Percentage":
         
         fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
         
-        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+        st.write(third_description_1)
         with st.expander("Interpretation and critical evaluatiion"):
-            st.write("Interpretation and critical evaluation")
+            st.write(third_graph_1)
 
         fig = plot_checkout_every_year(selected_ranking_position)
         st.plotly_chart(fig)
         
-        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+        st.write(fourth_description_1)
         with st.expander("Interpretation and critical evaluation"):
-            st.write(third_graph_1)
-            st.write(interpretation_1) 
-              
+            st.write(fourth_graph_1)
+        
+        st.write(general_1)
     
     # Call function to add footer
     add_footer()

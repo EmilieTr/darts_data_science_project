@@ -43,14 +43,14 @@ def question15_web():
     st.subheader("How does the performance of individual players change over time?")
 
     with st.expander("Explanation"):
-        st.write(first_graph_15)
+        st.write(explanation_15)
     
    
     fig = plot_double_fields_player(selected_player)
     st.plotly_chart(fig)
-    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write(first_description_15)
     with st.expander("Interpretation and critical evaluation"):
-        st.write("Interpretation and critical evaluation")
+        st.write(first_graph_15)
     
     st.markdown("---")
     double_fields = [f"D{i}" for i in range(1, 21)] + ["D25"]  # Double fields
@@ -59,14 +59,15 @@ def question15_web():
     
     fig = plot_double_fields_player_combined(selected_player, selected_double)
     st.plotly_chart(fig)
-    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write(second_description_15)
     with st.expander("Interpretation and critical evaluation"):
-        st.write("Interpretation and critical evaluation")
+        st.write(second_graph_15)
     
     fig = plot_player_average(selected_player)
     st.plotly_chart(fig)
-    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write(third_description_15)
     with st.expander("Interpretation and critical evaluation"):
-        st.write("Interpretation and critical evaluation")
+        st.write(third_graph_15)
+        
     # Call function to add footer
     add_footer()

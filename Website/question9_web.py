@@ -9,9 +9,10 @@ def question9_web():
     st.markdown("---")
     st.subheader("How likely is it to throw a 180 after the opponent threw one?")
     with st.expander("Explanation"):
-        st.write("Explanation")
+        st.write(explanation_9)
 
     df = pd.read_csv('Visualizations/question_9/180_stats.csv')    
+    st.write(first_description_9)
 
     # DataFrame in Streamlit anzeigen
     st.dataframe(df)
@@ -20,8 +21,8 @@ def question9_web():
         st.write("Interpretation and critical evaluation")
     fig = plot_histogram("Probability (%)")
     st.plotly_chart(fig)
-    st. text("Kurze Beschreibung der Ergebnisse im Diagramm.")
+    st.write(second_description_9)
     with st.expander("Interpretation and critical evaluation"):
-        st.write(first_graph_9)
+        st.write(second_graph_9)
         
     add_footer()
