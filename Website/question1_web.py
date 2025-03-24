@@ -23,7 +23,7 @@ def question1_web():
             years,
             default=["2009", "2024"]
         )
-    elif selected_category == "Checkout Percentage":
+    elif selected_category == "Checkout Percentages":
         years = [str(i) for i in range(2012, 2025)]
 
         # Select multiple tournaments
