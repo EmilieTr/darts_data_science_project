@@ -41,15 +41,16 @@ def plot_checkout_every_year(order_of_merit_val):
     # color
     prism_color = px.colors.qualitative.Prism[0]
 
-    # create bar chart 
+    # create line chart
     fig = go.Figure()
 
-    fig.add_trace(go.Bar(
+    fig.add_trace(go.Scatter(
         x=list(averages_stat.keys()),  # years on x-axis
         y=list(averages_stat.values()),  # average checkout quote on y-axis
+        mode='lines',
+        line=dict(color=prism_color, width=2),
+        marker=dict(size=6),
         text=[f"{v*100:.1f}%" for v in averages_stat.values()],  # Show percentage in the text
-        textposition='outside',  # Position text outside the bars
-        marker_color=prism_color,  # Bar color
         hovertemplate='Year: %{x}<br>Checkout: %{text}<br><extra></extra>'  # Hover shows year and checkout quote
     ))
 

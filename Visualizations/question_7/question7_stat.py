@@ -20,9 +20,9 @@ def chi_squared():
     # Interpret p-value
     alpha = 0.05  # Significance level
     if p < alpha:
-        st.write("There is a significant relationship between the host country and nationality.")
+        print("There is a significant relationship between the host country and nationality.")
     else:
-        st.write("There is no significant relationship between the host country and nationality.")
+        print("There is no significant relationship between the host country and nationality.")
 
     # Calculate the difference between observed and expected frequencies
     observed_vs_expected = df - expected
@@ -38,7 +38,7 @@ def plot_observed_frequencies():
     
     # 📊 HEATMAP 1: Observed frequencies
     fig1 = px.imshow(df,
-                    labels=dict(x="Nationality", y="Host Country", color="Frequency"),
+                    labels=dict(x="Nationality", y="Host Country", color="Number of Tournaments"),
                     x=df.columns,
                     y=df.index,
                     title="Observed Frequencies between Host Country and Nationality",

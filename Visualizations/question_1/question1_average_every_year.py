@@ -41,15 +41,16 @@ def plot_average_every_year(order_of_merit_val):
     # color
     prism_color = px.colors.qualitative.Prism[0]
 
-    # create bar chart 
+    # create line chart
     fig = go.Figure()
 
-    fig.add_trace(go.Bar(
+    fig.add_trace(go.Scatter(
         x=list(averages_stat.keys()),  # years on x-axis
         y=list(averages_stat.values()),  # averages on y-axis
-        text=[f"{v:.1f}" for v in averages_stat.values()],   # Add text to show average on hover
-        textposition='outside',  # Position text outside the bars
-        marker_color=prism_color,
+        mode='lines',
+        line=dict(color=prism_color, width=2),
+        marker=dict(size=6),
+        text=[f"{v:.1f}" for v in averages_stat.values()],
         hovertemplate='Year: %{x}<br>%{text}<br><extra></extra>'  # Hover shows year and average
     ))
 
