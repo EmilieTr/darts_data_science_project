@@ -55,8 +55,6 @@ def question1_web():
         st.write(second_description_1)
         with st.expander("Interpretation and critical evaluation"):
             st.write(second_graph_1)
-
-        st.write(general_1)
         
     elif selected_category == "Checkout Percentages":
         
@@ -73,8 +71,6 @@ def question1_web():
         st.write(fourth_description_1)
         with st.expander("Interpretation and critical evaluation"):
             st.write(fourth_graph_1)
-        
-        st.write(general_1)
     
     # Call function to add footer
     add_footer()

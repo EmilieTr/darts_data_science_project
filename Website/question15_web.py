@@ -53,7 +53,7 @@ def question15_web():
     
     st.markdown("---")
     double_fields = [f"D{i}" for i in range(1, 21)] + ["D25"]  # Double fields
-    selected_double = st.selectbox("Select a Double Field", double_fields)
+    selected_double = st.selectbox("Select a Double Field", double_fields, index=double_fields.index("D20"))
     st.markdown("---")
     
     fig = plot_double_fields_player_combined(selected_player, selected_double)

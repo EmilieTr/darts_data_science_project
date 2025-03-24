@@ -4,6 +4,16 @@ import plotly.express as px
 import numpy as np
 
 def plot_winning_averages(selected_tournaments, add_regression=False, add_std=False):
+    
+    def custom_index_order(n):
+        result = []
+        sequence = [0, 8, 2, 3, 6, 10, 5, 4, 7]  # Verwende keinen Variablennamen 'list'
+        
+        # Genug Werte erzeugen, falls n > 11
+        result = (sequence * ((n // len(sequence)) + 1))[:n]
+        
+        return result  # Direkt die Liste zurückgeben
+
     # List of major and extra tournaments
     major_tournaments_all = [
         "World Championship", "World Matchplay", "World Grand Prix", "Grand Slam",
@@ -79,10 +89,15 @@ def plot_winning_averages(selected_tournaments, add_regression=False, add_std=Fa
     # Group data by year and tournament, then calculate average scores
     df_grouped = df_selected.groupby(['Year', 'Tournament'])['Average'].mean().reset_index()
     
+    # Erstelle eine Liste mit den einzigartigen Turniernamen
+    tournaments = df_grouped['Tournament'].unique()
+
     # **Farben aus der Prism-Farbpalette**
     prism_colors = px.colors.qualitative.Prism
-    color_map = {tournament: prism_colors[i % len(prism_colors)] for i, tournament in enumerate(df_grouped['Tournament'].unique())}
-  
+    index_order = custom_index_order(len(tournaments))
+    print(index_order)
+    color_map = {tournaments[i]: prism_colors[index_order[i] % len(prism_colors)] for i in range(len(tournaments))}
+    
     # Create the plot
     fig = go.Figure()
     
