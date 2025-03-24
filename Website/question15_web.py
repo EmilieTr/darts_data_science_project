@@ -13,8 +13,8 @@ def question15_web():
     st.markdown("---")
      # Load a list of players from CSV or define manually
     players = [
-        "Luke Humphries", "Luke Littler", "Michael van Gerwen",
-        "Phil Taylor", "Stephen Bunting", "Rob Cross", "Gerwyn Price",
+        "Luke Humphries", "Luke Littler", "Michael van Gerwen", 
+        "Stephen Bunting", "Rob Cross", "Gerwyn Price",
         "Nathan Aspinall", "Chris Dobey", "Gary Anderson", "James Wade",
         "Peter Wright", "Martin Schindler"
     ]  # Replace with real names or load from a file
@@ -44,7 +44,6 @@ def question15_web():
 
     with st.expander("Explanation"):
         st.write(explanation_15)
-    
    
     fig = plot_double_fields_player(selected_player)
     st.plotly_chart(fig)
