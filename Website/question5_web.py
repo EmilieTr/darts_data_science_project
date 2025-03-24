@@ -22,7 +22,7 @@ def question5_web():
     
     st.subheader("How does the price money and number of participants of the World Championship vary over time?")
     with st.expander("Explanation"):
-        st.write(explanation_5)
+        st.text(explanation_5)
     
 
     
