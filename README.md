@@ -4,7 +4,7 @@
 This project explores the world of darts through data science, uncovering trends and patterns in tournament and player performance. We analyze how averages, prize money, and participation evolve over time, as well as how location influences success. On the player side, we investigate performance changes, the impact of age, nationality, and handedness on rankings, and the connection between team and individual results. Additionally, we dive into the probabilities behind key in-game moments, such as consecutive 180s and leg-winning chances.
 
 ## Interesting Darts Questions answered with a few Clicks!
-(website demo)
+![Demo](https://github.com/user/repo/blob/main/demo.gif?raw=true)
 
 [![Website](https://img.shields.io/badge/Website-9b0a7d?)](https://dartsdatascienceproject-xk6arvxz2k8qj5galyqcqv.streamlit.app/)
 
