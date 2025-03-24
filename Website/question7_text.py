@@ -1,4 +1,8 @@
-heads_up_7 = """In this, success will be defined as ..."""
+explanation_7 = """This question hones in on the phenomenon, where we have "home-macthes" in football. In this, we try to see, if such a phenomenon exists in the 
+game on darts too and a player's "success" will be defined as ... (Hilfe, Sara)"""
+
+first_description_7 = """displays "Observed Frequencies between Host Country and Nationality" as a heatmap. The data shows that the United Kingdom has hosted
+the most tournaments (102), followed by Germany (63). England has the highest nationality representation (130 players), followed by the Netherlands (70)."""
 
 first_graph_7 = """While English players have won the most tournaments overall (130 wins), followed by Dutch players (70 wins), this reflects the
 general dominance of these nations in darts rather than a host country advantage."""

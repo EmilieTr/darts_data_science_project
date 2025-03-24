@@ -18,14 +18,14 @@ def question7_web():
     
     fig = plot_observed_frequencies()
     st.plotly_chart(fig)
-    st.text("There is a significant relationship between the host country and nationality.")
+    st.write("There is a significant relationship between the host country and nationality.")
     with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_7)
     
 
     fig = plot_observed_expected_frequencies()
     st.plotly_chart(fig)
-    st.text("There is no significant relationship between the host country and nationality.")
+    st.write("There is no significant relationship between the host country and nationality.")
     with st.expander("Interpretation and critical evaluation"):
         st.write(second_graph_7)
         
