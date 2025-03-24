@@ -1,5 +1,5 @@
 import streamlit as st
-from .texts import *
+from .question1_text import *
 from .footer import add_footer
 from Visualizations.question_1 import (
     plot_checkout_every_year,

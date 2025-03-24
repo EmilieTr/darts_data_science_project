@@ -1,5 +1,5 @@
 import streamlit as st
-from .texts import *
+from .question6_text import *
 from .footer import add_footer
 from Visualizations.question_6 import (
     plot_ranking_age,

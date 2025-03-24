@@ -1,5 +1,5 @@
 import streamlit as st
-from .texts import *
+from .question7_text import *
 from .footer import add_footer
 from Visualizations.question_7 import (
     plot_observed_frequencies,

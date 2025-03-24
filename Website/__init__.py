@@ -2,6 +2,15 @@ from .footer import add_footer
 from .navigation import navigation
 from .home import home
 from .texts import *
+from .question1_text import *
+from .question2_text import *
+from .question4_text import *
+from .question5_text import *
+from .question6_text import *
+from .question7_text import *
+from .question9_text import *
+from .question10_text import *
+from .question15_text import *
 from .question1_web import question1_web
 from .question2_web import question2_web
 from .question4_web import question4_web

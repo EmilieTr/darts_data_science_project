@@ -1,5 +1,5 @@
 import streamlit as st
-from .texts import *
+from .question4_text import *
 from .footer import add_footer
 from Visualizations.question_4 import (
     plot_distribution_double_fields,

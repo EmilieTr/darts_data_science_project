@@ -1,5 +1,5 @@
 import streamlit as st
-from .texts import *
+from .question5_text import *
 from .footer import add_footer
 from Visualizations.question_5 import (
     plot_prize_money_and_participants

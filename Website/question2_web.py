@@ -1,5 +1,5 @@
 import streamlit as st
-from .texts import *
+from .question2_text import *
 from .footer import add_footer
 from Visualizations.question_2 import plot_winning_averages
 from Visualizations.question_2 import plot_histogram
