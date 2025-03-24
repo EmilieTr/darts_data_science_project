@@ -8,7 +8,7 @@ def home():
     st.header("Dive into the analysis and uncover the hidden patterns in the world of darts!")
 
     # Introduction
-    st.subheader("This project dives into the world of darts using data science techniques to uncover fascinating insights. Below you will find a short explanation for the game to give you an understanding and context to view the analysis results in. There is also a subpage to explain the data pipeline of our data science project, so the efforts to get to these results can be easily tracked.")
+    st.write("This project dives into the world of darts using data science techniques to uncover fascinating insights. Below you will find a short explanation for the game to give you an understanding and context to view the analysis results in. There is also a subpage to explain the data pipeline of our data science project, so the efforts to get to these results can be easily tracked.")
     
     file_path = "darts_explanation.txt"  # Passe den Pfad an
     try:
