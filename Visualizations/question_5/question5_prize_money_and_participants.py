@@ -1,6 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
-import plotly.express as px  # Import für das Prism-Farbschema
+import plotly.express as px  # Import for the Prism color scheme
 
 def plot_prize_money_and_participants(selected):
 
@@ -33,16 +33,25 @@ def plot_prize_money_and_participants(selected):
     df['3d place'].fillna(df['Semi finalists'], inplace=True)
     df['4d place'].fillna(df['Semi finalists'], inplace=True)
 
+    # Multiply specific columns by respective factors
+    df['Quarter finalists'] = df['Quarter finalists'] * 4
+    df['Last 16'] = df['Last 16'] * 8
+    df['Last 24'] = df['Last 24'] * 8
+    df['Last 32'] = df['Last 32'] * 32
+    df['Last 64'] = df['Last 64'] * 32
+    df['Last 96'] = df['Last 96'] * 32
+    print(df[['Total Prize Pool', 'Champion', 'Runner-up', '3d place', '4d place', 'Quarter finalists', 'Last 16', 'Last 24', 'Last 32', 'Last 64', 'Last 96']])
+
     # Group participant data
     participants_per_year = df.groupby('Year')['Participants'].mean()
 
     # **Create Plotly figure**
     fig = go.Figure()
 
-    # **Farben aus der Prism-Farbpalette**
+    # **Colors of Prism Color Scheme**
     prism_colors = px.colors.qualitative.Prism
-    color_count = len(columns)  # Anzahl der Farben, die benötigt werden
-    prism_colors = prism_colors[:color_count]  # Anzahl der Farben anpassen
+    color_count = len(columns) + 1
+    prism_colors = prism_colors[1:color_count]
 
     if "Prize Money" in selected:
         # **Stacked bar chart for prize money**
@@ -52,21 +61,12 @@ def plot_prize_money_and_participants(selected):
             fig.add_trace(go.Bar(
                 x=df['Year'],
                 y=df[column],
-                name=label,  # Legendenname
-                marker=dict(color=prism_colors[i % len(prism_colors)], line=dict(width=0)),  # Prism-Farben zuweisen
-                hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Prize Money: £%{y:.0f}<br><extra></extra>'  # Hover zeigt name, year, und prize money
+                name=label,  # Legend name
+                marker=dict(color=prism_colors[i % len(prism_colors)], line=dict(width=0)),  # Assign Prism colors
+                hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Prize Money: £%{y:.0f}<br><extra></extra>'  # Hover shows name, year, and prize money
             ))
             bottom_values = [sum(x) for x in zip(bottom_values, df[column])]
 
-        # Fill missing prize money
-        missing_prize_money = df['Total Prize Pool'] - bottom_values
-        fig.add_trace(go.Bar(
-            x=df['Year'],
-            y=missing_prize_money,
-            name="Other Prize Money",
-            marker=dict(color='gray', opacity=0.6),
-            hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Prize Money: £%{y:.0f}<br><extra></extra>'
-        ))
 
     if "Participants" in selected:
         # **Line plot for participants (second Y-axis)**
@@ -74,10 +74,10 @@ def plot_prize_money_and_participants(selected):
             x=participants_per_year.index,
             y=participants_per_year.values,
             mode='lines',
-            name='Participants',  # Legendenname
+            name='Participants',  # Legend name
             yaxis='y2',
             line=dict(color='red', width=2),
-            hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Participants: %{y}<br><extra></extra>'  # Hover zeigt name, year, und participants count
+            hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Participants: %{y}<br><extra></extra>'  # Hover shows name, year, and participant count
         ))
 
     # **Adjust layout**
@@ -92,10 +92,13 @@ def plot_prize_money_and_participants(selected):
         ),
         barmode="stack",  # Stacked Bar Chart
         legend=dict(
-            x=1.2,  # Legende weiter nach rechts verschoben
+            x=1.2,  # Shift legend to the right
             y=1
         ),
         margin=dict(l=50, r=50, t=50, b=50)
     )
-    
+
     return fig
+
+'''fig = plot_prize_money_and_participants(['Prize Money', 'Participants'])
+fig.show()'''
