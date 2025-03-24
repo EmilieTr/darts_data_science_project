@@ -15,7 +15,7 @@ def home():
         with open(file_path, "r", encoding="utf-8") as file:
             text = file.read()
         with st.expander("Game Explanation"):
-            st.text(text)
+            st.write(text)
     except FileNotFoundError:
         st.error("File not found.")
 

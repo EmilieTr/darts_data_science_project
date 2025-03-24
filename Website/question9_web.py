@@ -15,7 +15,7 @@ def question9_web():
 
     # DataFrame in Streamlit anzeigen
     st.dataframe(df)
-    st.text("Kurze Beschreibung der Ergebnisse im Diagramm.")
+    st.write("Kurze Beschreibung der Ergebnisse im Diagramm.")
     with st.expander("Interpretaion and critical evaluation"):
         st.write("Interpretation and critical evaluation")
     fig = plot_histogram("Probability (%)")

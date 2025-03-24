@@ -48,7 +48,7 @@ def question15_web():
    
     fig = plot_double_fields_player(selected_player)
     st.plotly_chart(fig)
-    st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
     with st.expander("Interpretation and critical evaluation"):
         st.write("Interpretation and critical evaluation")
     
@@ -59,13 +59,13 @@ def question15_web():
     
     fig = plot_double_fields_player_combined(selected_player, selected_double)
     st.plotly_chart(fig)
-    st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
     with st.expander("Interpretation and critical evaluation"):
         st.write("Interpretation and critical evaluation")
     
     fig = plot_player_average(selected_player)
     st.plotly_chart(fig)
-    st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+    st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
     with st.expander("Interpretation and critical evaluation"):
         st.write("Interpretation and critical evaluation")
     # Call function to add footer

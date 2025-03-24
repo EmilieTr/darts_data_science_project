@@ -38,21 +38,21 @@ def question1_web():
                 "time?")
     
     with st.expander("Explanation"):
-        st.text("Explanation")
+        st.write("Explanation")
 
     if selected_category == "Averages":
 
         fig = plot_average_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
 
-        st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")   
+        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")   
         with st.expander("Interpretation and critical evaluation"):
             st.write(first_graph_1)
 
         fig = plot_average_every_year(selected_ranking_position)
         st.plotly_chart(fig)
 
-        st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
         with st.expander("Interpretation and critical evaluation"):
             st.write(second_graph_1)
         
@@ -61,14 +61,14 @@ def question1_web():
         fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
         
-        st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
         with st.expander("Interpretation and critical evaluatiion"):
-            st.text("Interpretation and critical evaluation")
+            st.write("Interpretation and critical evaluation")
 
         fig = plot_checkout_every_year(selected_ranking_position)
         st.plotly_chart(fig)
         
-        st.text("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
+        st.write("Hier kommt eine kurze Beschreibung der Ergebnisse hin.")
         with st.expander("Interpretation and critical evaluation"):
             st.write(third_graph_1)
             st.write(interpretation_1) 

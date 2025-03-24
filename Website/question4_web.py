@@ -15,13 +15,13 @@ def question4_web():
 
     fig = plot_distribution_double_fields()
     st.plotly_chart(fig)
-    st.text("kurze Beschreibung was man im Diagramm für Ergebnisse sieht")
+    st.write("kurze Beschreibung was man im Diagramm für Ergebnisse sieht")
     with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_4)
     
     fig = plot_distribution_best_double_fields()
     st.plotly_chart(fig)
-    st.text("kurze Beschreibung was man im Diagramm für Ergebnisse sieht")
+    st.write("kurze Beschreibung was man im Diagramm für Ergebnisse sieht")
     with st.expander("Interpretation and critical evaluation"):
         st.write(second_graph_4)
 
