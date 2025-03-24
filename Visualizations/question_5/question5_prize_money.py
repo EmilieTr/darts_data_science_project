@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 
-def plot_prize_money_area():
+def plot_prize_money():
     # Function to convert currency strings to float
     def convert_currency(value):
         if isinstance(value, str):
@@ -66,7 +66,7 @@ def plot_prize_money_area():
 
     return fig
 
-'''fig = plot_prize_money_area()
+'''fig = plot_prize_money()
 fig.show()'''
 
 
