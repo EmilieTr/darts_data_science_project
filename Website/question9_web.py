@@ -11,14 +11,13 @@ def question9_web():
     with st.expander("Explanation"):
         st.write(explanation_9)
 
-    df = pd.read_csv('Visualizations/question_9/180_stats.csv')    
-    st.write(first_description_9)
+    df = pd.read_csv('Visualizations/question_9/180_stats.csv')
 
     # DataFrame in Streamlit anzeigen
     st.dataframe(df)
-    st.write("Kurze Beschreibung der Ergebnisse im Diagramm.")
+    st.write(first_description_9)
     with st.expander("Interpretaion and critical evaluation"):
-        st.write("Interpretation and critical evaluation")
+        st.write(first_graph_9)
     fig = plot_histogram("Probability (%)")
     st.plotly_chart(fig)
     st.write(second_description_9)

@@ -14,7 +14,7 @@ def question6_web():
     selected_ranking_position= st.slider("Choose the number of ranking positions", min_value=1, max_value=50, value= 5)
     variant = st.radio("Choose an Option", ("absolute values", "relative values"))
     st.markdown("---")
-    st.subheader("How does age, nationality and handiness effects the rankings?")
+    st.subheader("How does age, nationality and handedness effects the rankings?")
     
     with st.expander("Explanation"):
         st.write(explanation_6)
@@ -24,13 +24,11 @@ def question6_web():
     else:
         variant = 0
     
-    
     fig, _ = plot_ranking_age(selected_ranking_position, variant)
     st.plotly_chart(fig)
     st.write(first_description_6)
     with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_6)
-    
   
     fig, _ = plot_ranking_nationality(selected_ranking_position, variant)
     st.plotly_chart(fig)
@@ -38,7 +36,6 @@ def question6_web():
     with st.expander("Interpretation and critical evaluation"):
         st.write(second_graph_6)
     
-
     fig, _ = plot_ranking_handedness(selected_ranking_position, variant)
     st.plotly_chart(fig)
     st.write(third_description_6)

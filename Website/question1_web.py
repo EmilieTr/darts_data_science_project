@@ -9,9 +9,9 @@ from Visualizations.question_1 import (
 )
 
 def question1_web():    
-    st.title("Averages of the best")
+    st.title("Averages of the Best")
     st.markdown("---")
-    category = ["Averages", "Checkout Quota"]
+    category = ["Averages", "Checkout Percantages"]
     selected_ranking_position = st.slider("Choose the number of ranking positions", min_value=1, max_value=50, value= 5)
     selected_category = st.selectbox("Select a Category", category)
     if selected_category == "Averages":
@@ -64,7 +64,7 @@ def question1_web():
         st.plotly_chart(fig)
         
         st.write(third_description_1)
-        with st.expander("Interpretation and critical evaluatiion"):
+        with st.expander("Interpretation and critical evaluation"):
             st.write(third_graph_1)
 
         fig = plot_checkout_every_year(selected_ranking_position)
