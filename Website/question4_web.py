@@ -11,17 +11,17 @@ def question4_web():
     st.markdown("---")
     st.subheader("What are most popular double fields and their corresponding checkout quotes?")
     with st.expander("Explanation"):
-        st.write("Explanation")
+        st.write(explanation_4)
 
     fig = plot_distribution_double_fields()
     st.plotly_chart(fig)
-    st.write("kurze Beschreibung was man im Diagramm für Ergebnisse sieht")
+    st.write(first_description_4)
     with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_4)
     
     fig = plot_distribution_best_double_fields()
     st.plotly_chart(fig)
-    st.write("kurze Beschreibung was man im Diagramm für Ergebnisse sieht")
+    st.write(second_description_4)
     with st.expander("Interpretation and critical evaluation"):
         st.write(second_graph_4)
 
