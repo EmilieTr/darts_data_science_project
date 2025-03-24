@@ -3,7 +3,7 @@ Darts is a highly analytical competitive sport, as tournaments and rankings heav
 Game Basics and Dartboard Structure:
 Two players take alternating turns throwing three darts at a dartboard.
 This circular board is divided into 20 numbered pizza slices, where each slice has:
--\t Two large single fields
+- Two large single fields
 - A smaller double field (worth double the number’s value)
 - A smaller triple field (worth triple the number’s value)
 In the middle are two small circles known as the bullseye:
