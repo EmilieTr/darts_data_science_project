@@ -52,7 +52,7 @@ def question2_web():
     # Call the function with the list of selected tournaments
     fig = plot_histogram(selected_tournaments)
     st.plotly_chart(fig)
-    st.text("Hier kommt eine kurze Beschreibung von dem Diagramm hin.")
+    st.text(second_description_2)
     with st.expander("Interpretation and critical evaluation"):
         st.write(second_graph_2)
 

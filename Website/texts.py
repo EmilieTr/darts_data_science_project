@@ -47,7 +47,7 @@ in the toggle above. Up there, the regression line and area of standard deviatio
 
 first_graph_2 = """The World Championship scores demonstrate greater volatility, with notable peaks around 2010 and 2017-2018 where scores exceeded 106.
 Both lines generally show an upward trend over time (, though the World Championship scores appear to be trending upward and the gap between World Championship
-and all major tournaments has widened slightly in recent years (2022-2025).)
+and all major tournaments has widened slightly in recent years (2022-2025).> kann vielleicht raus)
 The average scores generally range between 94 and 105, with a few notable exceptions. These entail a significant spike around 2015-2016 for World Championship scores,
 reaching above 105 and a noticeable dip in both averages around 2002-2003.
 
