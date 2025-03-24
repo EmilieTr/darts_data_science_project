@@ -19,8 +19,8 @@ def plot_distribution_double_fields():
 
     # Werte unter 1,5% als "Others" gruppieren
     total_count = double_counts.sum()
-    double_counts_filtered = double_counts[double_counts / total_count >= 0.015]
-    other_count = double_counts[double_counts / total_count < 0.015].sum()
+    double_counts_filtered = double_counts[double_counts / total_count >= 0.02]
+    other_count = double_counts[double_counts / total_count < 0.02].sum()
 
     if other_count > 0:
         double_counts_filtered["Others"] = other_count
@@ -30,14 +30,16 @@ def plot_distribution_double_fields():
 
     # Werte unter 1,5% als "Others" gruppieren
     total_hits = double_counts_hits.sum()
-    double_counts_hits_filtered = double_counts_hits[double_counts_hits / total_hits >= 0.015]
-    other_hits = double_counts_hits[double_counts_hits / total_hits < 0.015].sum()
+    double_counts_hits_filtered = double_counts_hits[double_counts_hits / total_hits >= 0.02]
+    other_hits = double_counts_hits[double_counts_hits / total_hits < 0.02].sum()
 
     if other_hits > 0:
         double_counts_hits_filtered["Others"] = other_hits
 
     # Farben aus der Prism-Farbpalette für jedes Doppelfeld
     prism_colors = px.colors.qualitative.Prism
+    for color in px.colors.qualitative.Safe:
+        prism_colors.append(color)
     color_map = {double: prism_colors[i % len(prism_colors)] for i, double in enumerate(double_counts_filtered.index)}
 
     # Sortiere die "Double"-Feld-Indizes nach der Zahl nach "D"
@@ -89,7 +91,16 @@ def plot_distribution_double_fields():
     # Layout-Optimierung
     fig.update_layout(
         title_text="Distribution of Throws & Hits on Double Fields",
-        showlegend=True
+        showlegend=True,
+        legend=dict(
+        x=0.5,
+        y=0.5,
+        xanchor="center",
+        yanchor="middle"
+    )
     )
 
     return fig
+
+fig = plot_distribution_double_fields()
+fig.show()
