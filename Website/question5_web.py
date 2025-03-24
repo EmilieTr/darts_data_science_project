@@ -4,6 +4,7 @@ from .footer import add_footer
 from Visualizations.question_5 import (
     plot_prize_money_and_participants
 )
+from Visualizations.question_5 import (plot_prize_money)
 
 def question5_web():
     st.title("Participants and Price Money")
@@ -32,5 +33,10 @@ def question5_web():
     with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_5)
 
+    fig = plot_prize_money()
+    st.plotly_chart(fig)
+    st.write(first_description_5)
+    with st.expander("Interpretation and critical evaluation"):
+        st.write(first_graph_5)
     # Call function to add footer
     add_footer()
