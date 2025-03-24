@@ -46,7 +46,7 @@ def plot_prize_money():
         x='Year',
         y='Prize Money',
         color='Position',
-        title='Development of Prize Money over the Years (PDC World Championship)',
+        title='Distribution of Prize Money over the Years (PDC World Championship)',
         color_discrete_sequence=px.colors.qualitative.Prism[1:],
         hover_data={'Prize Money': ':.0f'},  # Format hover text
         line_group='Position'
