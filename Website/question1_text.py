@@ -1,22 +1,26 @@
-explanation_1 = """ """
+explanation_1 = """This research question was asked under the assuptaion, that while the sport develops and becomes 
+more popular, the players must have become better, too. We compared the performance of the player over time and 
+have a look at the performance of the player by comparising their averages."""
 
-first_description_1 = """ """
+first_description_1 = """The graph shows the average on each ranking position in the selected range, compared in 
+the selected years."""
 
-first_graph_1 = """The line graph comparing 2009 vs. 2024 shows a significant improvement in player averages across all ranking positions.
-The 2024 line (blue) consistently remains higher than the 2009 line (purple), indicating that players at all ranking levels are performing
-at higher averages than their counterparts from 15 years ago."""
+first_graph_1 = """In the early years (2009-2012), there is a significant difference between the first and 
+the second ranking because a long time Phil Taylor was a lot better than the other player and only over the time,
+other very strong player occured.
+In the meantime, the performance of the player is more balanced which means that there are a lot more really good
+players and the overall standard in darts increased in the last years. Aside from that, the overall performance 
+does not only depends on the averages anymore because the influence of the checkout percantage, the timing and the 
+consistence through the year, is getter more and more important."""
 
-second_description_1 = """ """
+second_description_1 = """The graph shows the average of the players' averages between 2009 and 2024."""
 
-second_graph_1 = """This bar chart shows the progression of averages from 2009 to 2024, with some interesting patterns:
-
-- Starting at 92.0 in 2009, averages initially dipped to 90.0 in 2010
-
-- Consistent improvement through 2012-2013 (97.0)
-
-- A peak of 99.0 in 2017
-
-- Relatively stable high performance (97.0-98.0) from 2019 through 2024"""
+second_graph_1 = """There are some interesting patterns seen in this diagram:
+There is a consistent improvement through 2010-2015 except the drop in 2014 which can not be explained. 
+The average is relatively stable on a high performance (97.0-98.0) since 2015 on a higher level than in the early
+years. The decrease since 2017 can be explained because through the years, a lot more players are on the tour but
+they are not always very good. The peak in 2021 is because of the Corona pandemic because in this year, only a few
+tournaments was held and therefore it is not that scattered and there is less underlaying data."""
 
 third_description_1 = """ """
 
