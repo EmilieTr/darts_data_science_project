@@ -23,3 +23,7 @@ The graphs show that while the total prize pool has increased, the distribution 
 - Champion and runner-up consistently receive the largest portions.
 - Prize money decreases progressively across placement categories.
 )"""
+
+second_description_5 = """ """
+
+second_graph_5 = """ """

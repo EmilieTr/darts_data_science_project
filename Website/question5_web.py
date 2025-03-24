@@ -25,8 +25,6 @@ def question5_web():
     with st.expander("Explanation"):
         st.write(explanation_5)
     
-
-    
     fig = plot_prize_money_and_participants(selected_vis)
     st.plotly_chart(fig)
     st.write(first_description_5)
@@ -35,8 +33,9 @@ def question5_web():
 
     fig = plot_prize_money()
     st.plotly_chart(fig)
-    st.write(first_description_5)
+    st.write(second_description_5)
     with st.expander("Interpretation and critical evaluation"):
-        st.write(first_graph_5)
+        st.write(second_graph_5)
+
     # Call function to add footer
     add_footer()
