@@ -3,6 +3,7 @@ import pandas as pd
 from .texts import *
 from .footer import add_footer
 from Visualizations.question_10 import plot_histogram
+from Visualizations.question_10 import t_test
 
 def question10_web():
     st.header("10. How likely are participants win a leg after throwing a 180 as first throw?") 
@@ -16,5 +17,8 @@ def question10_web():
 
     with st.expander("Interpretation"):
         st.write(first_graph_10)
+        
+    st.write("T-Test between European Tour and Majors")
+    st.write(t_test())
         
     add_footer()
