@@ -20,8 +20,6 @@ def question7_web():
     st.write(first_description_7)
     with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_7)
-    
-    st.write(first_description_7)
 
     fig = plot_observed_expected_frequencies()
     st.plotly_chart(fig)
