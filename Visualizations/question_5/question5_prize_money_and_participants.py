@@ -79,10 +79,15 @@ def plot_prize_money_and_participants(selected):
             line=dict(color='red', width=2),
             hovertemplate='Name: %{data.name}<br>Year: %{x}<br>Participants: %{y}<br><extra></extra>'  # Hover shows name, year, and participant count
         ))
-
+    if "Participants" in selected:
+        if "Prize Money" in selected: 
+            title = "Development of Prize Money and Participants over the Years (PDC World Championship)"
+        else: title = "Development of Participants over the Years (PDC World Championship)"
+    elif "Prize Money" in selected:
+        title = "Development of Prize Money over the Years (PDC World Championship)"
     # **Adjust layout**
     fig.update_layout(
-        title="Development of Prize Money and Participants over the Years (PDC World Championship)",
+        title=title,
         xaxis=dict(title="Year"),
         yaxis=dict(title="Prize Money (£)", side="left"),
         yaxis2=dict(
