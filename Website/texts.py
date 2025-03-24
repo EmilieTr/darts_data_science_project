@@ -36,19 +36,28 @@ recent years (2019-2024), suggesting the sport may have reached a certain maturi
 The checkout percentages have also become more uniform across different ranking positions, indicating more consistent finishing skills throughout the
 professional ranks."""
 
-heads_up_2 = """In this data, only the averages of the tournament winners were looked at."""
+explanation_2 = """This question was asked, assuming that over time the sport will reach a higher maturity level. Meaning the standards for skill
+of players participating in wolrd championshis will rise with better equipment, better strategies, and better coaching.
 
-first_graph_2 = """While the World Championship average scores appear more volatile with sharper peaks and valleys, they seem higher than in the other majors.
+In this data, only the averages of the tournament winners were looked at."""
 
-Both lines show an upward trajectory from 2000 to 2025 and the average scores generally range between 94 and 105, with a few notable exceptions.
+first_description_2 = """This line graph displays the "Development of Average Scores Over the Years" from 2000 to 2025. It shows two trend lines: a solid purple line
+representing World Championship scores and a dotted black line showing the average of all majors. Other solid lines can be added by selecting more majors to showcase
+in the toggle above. Up there, the regression line and area of standard deviation can also be selected to appear."""
 
-These entail a significant spike around 2015-2016 for World Championship scores, reaching above 105 and a noticeable dip in both averages around 2002-2003.
+first_graph_2 = """The World Championship scores demonstrate greater volatility, with notable peaks around 2010 and 2017-2018 where scores exceeded 106.
+Both lines generally show an upward trend over time (, though the World Championship scores appear to be trending upward and the gap between World Championship
+and all major tournaments has widened slightly in recent years (2022-2025).)
+The average scores generally range between 94 and 105, with a few notable exceptions. These entail a significant spike around 2015-2016 for World Championship scores,
+reaching above 105 and a noticeable dip in both averages around 2002-2003.
 
-All these factors seem to rise more, since World Championship scores appear to be trending upward and the gap between World Championship and all major
-tournaments has widened slightly in recent years (2022-2025).
+This validates the assumption the research came into existence with:
+The sport matures with time, making the standards for skill of the players rise and rise to a not-defined limit."""
 
-This likely comes from improving player skill levels, technological advancements in equipment, and possibly changes in competitive formats or scoring
-systems over time."""
+second_description_2 = """This data visualization presents a "Distribution of Winning Averages" as a histogram with a normal distribution curve overlaid in red."""
+
+second_graph_2 = """The histogram shows that winning averages most frequently fall around 98-99 points, with a roughly normal distribution ranging from about
+92 to 107 points."""
 
 first_graph_4 = """Game Insider for Analysis: Most of the time, doubles are not targeted if it's not ime for a check-out.
 
@@ -70,7 +79,7 @@ Most Successfully Hit Double Fields (Hits):
 
 This shows that D20, D16, D10, and D8 are consistently among the most popular double fields for both attempts and successful hits."""
 
-second_graph_4 = """The best players achieve checkout success rates of 50-67% on their preferred doubles.
+second_graph_4 = """The best players achieve checkout success rates of 50-67 percent on their preferred doubles.
 
 The preferred double felds vs. succesful double hits indicate that top players focus on just two double fields (D20 and D16), because ..."""
 
@@ -127,7 +136,7 @@ third_graph_7 = """Conditional Probabilities show the probability of winners bei
 appear fairly consistent across host countries:
 
 - In Australia, England, and USA, English players win about 43-44% of tournaments
-- In the Netherlands, Dutch players win 29% of tournaments
+- In the Netherlands, Dutch players win 29 percent of tournaments
 - No pattern suggests players consistently perform better in their home countries"""
 
 fourth_graph_7 = """The UK and Germany host the most tournaments."""

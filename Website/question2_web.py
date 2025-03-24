@@ -29,6 +29,7 @@ def question2_web():
     
     # Checkbox für Regression
     show_regression = st.checkbox("Show regression line for average")
+
     # Checkbox für Regression
     show_std = st.checkbox("Show standard deviation for average")
     
@@ -38,20 +39,22 @@ def question2_web():
     st.subheader("How do the averages of tournaments vary over time?")
     
     with st.expander("Explanation"):
-        st.write("Hie kommt eine Erklärung der Fragestellung hin.")
+        st.write(explanation_2)
+
     # Call the function with the list of selected tournaments
     fig = plot_winning_averages(selected_tournaments, show_regression, show_std)
     st.plotly_chart(fig)
 
-    st.text("Hier kommt eine kurze Beschreibung von dem Diagramm hin.")
+    st.text(first_description_2)
     with st.expander("Interpretation and critical evaluation"):
-        st.write(heads_up_2)
+        st.write(first_graph_2)
+
     # Call the function with the list of selected tournaments
     fig = plot_histogram(selected_tournaments)
     st.plotly_chart(fig)
     st.text("Hier kommt eine kurze Beschreibung von dem Diagramm hin.")
     with st.expander("Interpretation and critical evaluation"):
-        st.write(first_graph_2)
+        st.write(second_graph_2)
 
     # Call function to add footer
     add_footer()
