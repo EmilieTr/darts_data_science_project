@@ -11,7 +11,7 @@ def plot_histogram(column):
     :param column: The column for which the histogram will be created
     """
     # Load the CSV file
-    df = pd.read_csv("Visualizations/question_9/180_stats.csv")
+    df = pd.read_csv("Visualizations/question_10/180_stats.csv")
     
     # Clean the data by removing NaN values and filtering if necessary
     df_cleaned = df.dropna(subset=[column])

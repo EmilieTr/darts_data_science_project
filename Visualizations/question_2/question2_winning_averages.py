@@ -104,7 +104,7 @@ def plot_winning_averages(selected_tournaments, add_regression=False, add_std=Fa
         y=avg_all_majors.values,
         mode='lines',
         line=dict(width=3, dash='dot', color="black"),
-        name="Average of all majors",
+        name="Average of all TV tournaments",
     ))
 
     # **Regression Line**
