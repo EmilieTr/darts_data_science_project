@@ -11,7 +11,7 @@ from Visualizations.question_1 import (
 def question1_web():    
     st.title("Averages of the Best")
     st.markdown("---")
-    category = ["Averages", "Checkout Percantages"]
+    category = ["Averages", "Checkout Percentages"]
     selected_ranking_position = st.slider("Choose the number of ranking positions", min_value=1, max_value=50, value= 5)
     selected_category = st.selectbox("Select a Category", category)
     if selected_category == "Averages":
@@ -23,7 +23,7 @@ def question1_web():
             years,
             default=["2009", "2024"]
         )
-    elif selected_category == "Checkout Percentage":
+    elif selected_category == "Checkout Percentages":
         years = [str(i) for i in range(2012, 2025)]
 
         # Select multiple tournaments
@@ -58,7 +58,7 @@ def question1_web():
 
         st.write(general_1)
         
-    elif selected_category == "Checkout Percentage":
+    elif selected_category == "Checkout Percentages":
         
         fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
