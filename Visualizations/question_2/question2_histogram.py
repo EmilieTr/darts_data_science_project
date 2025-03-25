@@ -37,6 +37,8 @@ def plot_histogram(selected_tournaments):
         y=hist_data[0], 
         name="Histogram", 
         marker=dict(color='lightblue', opacity=0.7),
+        hovertemplate='Average Score: %{x}<br>Frequency: %{y}<extra></extra>',  # Nur X- und Y-Wert anzeigen
+        hoverlabel=dict(namelength=-1)
     ))
 
     # Normalverteilungskurve hinzufügen
@@ -45,16 +47,17 @@ def plot_histogram(selected_tournaments):
         y=y_values, 
         mode="lines", 
         line=dict(color="red", width=2), 
-        name="Normal Distribution"
+        name="Normal Distribution",
+        hovertemplate='Normal Distribution: %{y}<extra></extra>'
     ))
 
     # Layout anpassen
     fig.update_layout(
-        title="Distribution of Winning Averages",
+        title="Histogram of Average Scores with Normal Distribution",
         xaxis_title="Average Score",
         yaxis_title="Frequency",
         legend_title="Legend",
-        hovermode="x unified"
+        hovermode="closest"
     )
 
     return fig
