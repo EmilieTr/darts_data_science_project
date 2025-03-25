@@ -93,48 +93,25 @@ def plot_distribution_double_fields():
     # Pie Chart for throws on double fields (left side)
     fig.add_trace(
         go.Pie(
-            labels=[
-                f"D{x}" if x != "Others" else x 
-                for x in double_counts_filtered.index
-            ],
+            labels=[f"D{x}" if x != "Others" else x for x in double_counts_filtered.index],
             values=double_counts_filtered.values,
             hole=0.3,
             name="Throws",
-            marker=dict(
-                colors=[
-                color_map.get(x, "gray") 
-                for x in double_counts_filtered.index
-                ]
-            ),
-            hovertemplate=(
-                "<b>%{label}</b><br>"
-                "Throws: %{value} (%{percent})<extra></extra>"
-            ),
-        row=1, 
-        col=1
-        )
+            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_filtered.index]),
+            hovertemplate="<b>%{label}</b><br>Throws: %{value} (%{percent})<extra></extra>"
+        ),
+        row=1, col=1
     )
 
-    # Pie Chart for hits on double fields
+    # Pie Chart for hits on double fields (right side)
     fig.add_trace(
         go.Pie(
-            labels=[
-                f"D{x}" if x != "Others" else x 
-                for x in double_counts_hits_filtered.index
-            ],
+            labels=[f"D{x}" if x != "Others" else x for x in double_counts_hits_filtered.index],
             values=double_counts_hits_filtered.values,
             hole=0.3,
             name="Hits",
-            marker=dict(
-                colors=[
-                color_map.get(x, "gray") 
-                for x in double_counts_hits_filtered.index
-                ]
-            ),
-            hovertemplate=(
-                "<b>%{label}</b><br>"
-                "Hits: %{value} (%{percent})<extra></extra>"
-            )
+            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_hits_filtered.index]),
+            hovertemplate="<b>%{label}</b><br>Hits: %{value} (%{percent})<extra></extra>"
         ),
         row=1, col=2
     )
