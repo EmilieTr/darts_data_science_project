@@ -4,7 +4,7 @@ import plotly.express as px
 import numpy as np
 
 def plot_winning_averages(selected_tournaments, add_regression=False, add_std=False, apply_all=False):
-    if not selected_tournaments:
+    if not selected_tournaments and apply_all==False:
         fig = go.Figure()
         # Update layout with English labels
         fig.update_layout(
