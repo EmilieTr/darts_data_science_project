@@ -4,6 +4,16 @@ import numpy as np
 import scipy.stats as stats
 
 def plot_histogram(selected_tournaments):
+    if not selected_tournaments:
+        fig = go.Figure()
+        fig.update_layout(
+        title="Histogram of Average Scores with Normal Distribution",
+        xaxis_title="Average Score",
+        yaxis_title="Frequency",
+        legend_title="Legend",
+        hovermode="closest")
+
+        return fig
     # CSV-Datei laden
     file = 'Data/question 2/question2.csv'
     df = pd.read_csv(file)

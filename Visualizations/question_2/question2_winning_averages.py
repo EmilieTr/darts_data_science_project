@@ -4,7 +4,17 @@ import plotly.express as px
 import numpy as np
 
 def plot_winning_averages(selected_tournaments, add_regression=False, add_std=False, apply_all=False):
+    if not selected_tournaments:
+        fig = go.Figure()
+        # Update layout with English labels
+        fig.update_layout(
+        title="Development of Average Scores over Time",
+        xaxis_title="Year",
+        yaxis_title="Average Score",
+        legend_title="Tournaments",
+        hovermode="x unified")
 
+        return fig
     # Custom function to generate a specific index order for colors
     def custom_index_order(n):
         result = []

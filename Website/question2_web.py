@@ -30,11 +30,9 @@ def question2_web():
 
     # Checkbox für Regression
     show_std = st.checkbox("Show standard deviation")
-    if selected_tournaments.empty:
-        show_all = st.checkbox("Show properties for all tournaments", value=True)
-    else:
-        # Checkbox für Regression
-        show_all = st.checkbox("Show properties for all tournaments")
+    
+    # Checkbox für Regression
+    show_all = st.checkbox("Show properties for all tournaments")
     
     st.markdown("---")
 
