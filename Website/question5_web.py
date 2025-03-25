@@ -36,6 +36,6 @@ def question5_web():
     st.write(second_description_5)
     with st.expander("Interpretation and critical evaluation"):
         st.write(second_graph_5)
-
+        
     # Call function to add footer
     add_footer()

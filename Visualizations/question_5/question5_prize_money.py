@@ -72,12 +72,12 @@ def plot_prize_money():
             '(PDC World Championship)'
         ),
         color_discrete_sequence=px.colors.qualitative.Prism[1:],
-        hover_data={'Prize Money': ':.0f'},
+        hover_data={'Prize Money': ':.0f', 'Position':True},
         line_group='Position'
     )
 
     # Ensure full opacity and remove transparency
-    fig.update_traces(mode='lines', fill='tozeroy', opacity=1.0, fillcolor=None)
+    fig.update_traces(mode='lines', fill='tozeroy', opacity=1.0, fillcolor=None,hovertemplate='Position: %{customdata[0]}<extra></extra><br>Year: %{x}<br>Prize Money: £%{y:,.0f}')
 
     # Customize layout
     fig.update_layout(
