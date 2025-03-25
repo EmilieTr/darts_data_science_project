@@ -165,7 +165,7 @@ def plot_ranking_age(var, variant):
 
     if variant == 0:
         counter = ratio(ages, total_age, counter)
-        title = "Correlation of age to rankings"
+        title = "Distribution of age to rankings"
 
     mean_ranking = mean_rank(ages, order_of_merit, counter)
 
@@ -193,8 +193,9 @@ def plot_ranking_age(var, variant):
             colorscale=colors,
             showscale=True 
         ),
-        text=[f"Age Cluster: {age}<br>Order of Merit: {rank}<br>Number of Players: {s}" 
-            for age, rank, s in zip(ages, order_of_merit, counter)],  # Custom hover text
+        hovertemplate='Age Cluster: %{x}<br>Order of Merit: %{y}<br>Number of Players: %{text}<extra></extra>',
+        text=[f"{s}" for s in counter]
+        
     ))
 
     # setting the layout
@@ -203,11 +204,11 @@ def plot_ranking_age(var, variant):
         xaxis_title="Age",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",
-        #yaxis=dict(showticklabels=False),
         yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
         template="plotly_white",
         width=800,
-        height=chart_height
+        height=chart_height,
+        hovermode="closest"
     )
 
     return fig, mean_ranking

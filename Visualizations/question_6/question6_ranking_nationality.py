@@ -137,7 +137,7 @@ def plot_ranking_nationality(var, variant):
 
     if variant == 0:
         counter = ratio(nationalities, total_nationality, counter)
-        title = "Correlation of nationality to rankings"
+        title = "Distribution of nationality to rankings"
 
     mean_ranking = mean_rank(nationalities, order_of_merit, counter)
 
@@ -165,8 +165,8 @@ def plot_ranking_nationality(var, variant):
             colorscale=colors,
             showscale=True 
         ),
-        text=[f"Nationality: {nationality}<br>Order of Merit: {rank}<br>Number of Players: {s}" 
-            for nationality, rank, s in zip(nationalities, order_of_merit, counter)],  # Custom hover text
+        hovertemplate='Nationality: %{x}<br>Order of Merit: %{y}<br>Number of Players: %{text}<extra></extra>',
+        text=[f"{s}" for s in counter]
     ))
 
     # Configure layout
@@ -178,7 +178,8 @@ def plot_ranking_nationality(var, variant):
         yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
         template="plotly_white",
         width=800,
-        height=chart_height
+        height=chart_height,
+        hovermode="closest"
     )
 
     return fig , mean_ranking
