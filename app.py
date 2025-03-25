@@ -99,29 +99,29 @@ if st.sidebar.button("Home", key="home"):
 
 # Expander für Tournaments
 with st.sidebar.expander("Tournaments"):
-    if st.button("2 Averages", key="averages_2"):
+    if st.button("Averages", key="averages_2"):
         navigate("2 Averages")
-    if st.button("5 Prize Money and Participants", key="prize_money_5"):
+    if st.button("Prize Money and Participants", key="prize_money_5"):
         navigate("5 Prize Money and Participants")
-    if st.button("7 Host Country vs. Nationality", key="host_vs_nationality_7"):
+    if st.button("Host Country vs. Nationality", key="host_vs_nationality_7"):
         navigate("7 Host Country vs. Nationality")
 
 # Expander für Matches
 with st.sidebar.expander("Matches"):
-    if st.button("4 Popular Double Fields", key="double_fields_4"):
+    if st.button("Popular Double Fields", key="double_fields_4"):
         navigate("4 Popular Double Fields")
-    if st.button("9 Consecutive 180s", key="consecutive_180s_9"):
+    if st.button("Consecutive 180s", key="consecutive_180s_9"):
         navigate("9 Consecutive 180s")
-    if st.button("10 Winning Legs vs. 180 openings", key="winning_legs_10"):
+    if st.button("Winning Legs vs. 180 openings", key="winning_legs_10"):
         navigate("10 Winning Legs vs. 180 openings")
 
 # Expander für Players
 with st.sidebar.expander("Players"):
-    if st.button("1 Averages of the Best", key="best_averages_1"):
+    if st.button("Averages of the Best", key="best_averages_1"):
         navigate("1 Averages of the Best")
-    if st.button("6 Rankings vs. Properties", key="rankings_vs_properties_6"):
+    if st.button("Rankings vs. Properties", key="rankings_vs_properties_6"):
         navigate("6 Rankings vs. Properties")
-    if st.button("15 Player Stats", key="player_stats_15"):
+    if st.button("Player Stats", key="player_stats_15"):
         navigate("15 Player Stats")
 
 # Data Pipeline separat
