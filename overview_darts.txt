@@ -55,7 +55,7 @@ Players
    Data Source:
    https://app.dartsorakel.com/stats/player
 
-   Visualizations: bar chart average / bar chart check out quota over the top 5 players 1995/2014 (x)
+   Visualizations: bar chart average / bar chart checkout percentage over the top 5 players 1995/2014 (x)
 
 6. How does age, nationality and handiness effects the rankings?
    Data Source:

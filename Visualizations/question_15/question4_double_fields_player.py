@@ -5,7 +5,7 @@ from plotly.subplots import make_subplots  # For multiple plots in a single figu
 
 def plot_double_fields_player(player):
     """
-    This function creates a chart that shows the number of throws and the double quota of a player
+    This function creates a chart that shows the number of throws and the checkout percentage of a player
     over the years for various doubles fields.
     
     Parameters:
@@ -25,8 +25,8 @@ def plot_double_fields_player(player):
     # Calculate total throws (Hit + Single + Outside + Other)
     df_player["Total"] = df_player["Hit"] + df_player["Single"] + df_player["Outside"] + df_player["Other"]
 
-    # Calculate double quota: Hits / Total throws
-    df_player["Double quota"] = df_player["Hit"] / df_player["Total"]
+    # Calculate checkout Percentage: Hits / Total throws
+    df_player["Checkout Percentage"] = df_player["Hit"] / df_player["Total"]
 
     # Calculate the average hits per double field
     mean_hits = df_player.groupby("Double")["Hit"].mean()
@@ -45,8 +45,13 @@ def plot_double_fields_player(player):
     del colors[12]
     color_map = {double: colors[i % len(colors)] for i, double in enumerate(sorted(df_player["Double"].unique()))}
 
-    # Create a figure with two subplots: one for throws and one for double quota
-    fig = make_subplots(rows=1, cols=2, subplot_titles=("Throws on Double Fields", "Double Quota"))
+    # Create a figure with two subplots: one for throws and one for double percentage
+    fig = make_subplots(
+        rows=1, 
+        cols=2, 
+        subplot_titles=("Throws on Double Fields", "Checkout Percentage"),
+        horizontal_spacing=0.2 
+    )
 
     # LEFT PLOT: Number of throws over the years (ALL DOUBLE FIELDS)
     for double_value in sorted(df_player["Double"].unique()):
@@ -56,26 +61,26 @@ def plot_double_fields_player(player):
                 x=player_data["Year"], 
                 y=player_data["Total"], 
                 mode="lines", 
-                name=f'D {double_value}', 
+                name=f'D{double_value}', 
                 line=dict(color=color_map[double_value]),
-                hovertemplate='Double: %{text}<br>Year: %{x}<br>Throws: %{y}<br><extra></extra>',  # Add hover info
-                text=[f'D {double_value}'] * len(player_data)  # Add the name of the double field
+                hovertemplate='<b>%{text}</b><br>Year: %{x}<br>Throws: %{y}<br><extra></extra>',  # Add hover info
+                text=[f'D{double_value}'] * len(player_data)  # Add the name of the double field
             ),
             row=1, col=1
         )
 
-    # RIGHT PLOT: Double quota over the years (ONLY TOP DOUBLES FIELDS)
+    # RIGHT PLOT: Checkout Percentage over the years (ONLY TOP DOUBLES FIELDS)
     for double_value in sorted(top_doubles):
         player_data = df_player[df_player["Double"] == double_value]
         fig.add_trace(
             go.Scatter(
                 x=player_data["Year"], 
-                y=player_data["Double quota"], 
+                y=player_data["Checkout Percentage"], 
                 mode="lines", 
-                name=f'D {double_value}', 
+                name=f'D{double_value}', 
                 line=dict(color=color_map[double_value]),
-                hovertemplate='Double: %{text}<br>Year: %{x}<br>Double Quota: %{y:.2f}<br><extra></extra>',  # Add hover info
-                text=[f'D {double_value}'] * len(player_data),  # Add the name of the double field
+                hovertemplate='<b>%{text}</b><br>Year: %{x}<br>Checkout Percentage: %{y:.2f}<br><extra></extra>',  # Add hover info
+                text=[f'D{double_value}'] * len(player_data),  # Add the name of the double field
                 showlegend=False  # Hide from legend in the right plot
             ),
             row=1, col=2
@@ -83,11 +88,11 @@ def plot_double_fields_player(player):
 
     # Adjust layout
     fig.update_layout(
-        title=f"Player: {player}",
+        title=f"Throws on Double Fields and Checkout Percentage - {player}",
         xaxis_title="Year",
         yaxis_title="Number of Throws",
         xaxis2_title="Year",
-        yaxis2_title="Double Quota",
+        yaxis2_title="Checkout Percentage",
         showlegend=True,
         height=600,
         width=1200,

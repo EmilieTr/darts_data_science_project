@@ -20,8 +20,7 @@ def plot_player_average(player_name):
     df_player = df_player.sort_values(by="Year")
 
     # Create a color scale from the Prism palette based on the years
-    colors = px.colors.qualitative.Prism
-    color_scale = [colors[i % len(colors)] for i in range(len(df_player))]  # Cycle through colors
+    color = px.colors.qualitative.Prism[8]
 
     # Create the line chart with colors based on year
     fig = go.Figure()
@@ -31,15 +30,15 @@ def plot_player_average(player_name):
         y=df_player["Stat"],
         mode="lines",
         name=player_name,
-        line=dict(color=color_scale[-1]),  # Use the last color for the line (or choose another strategy)
-        marker=dict(color=color_scale),  # Apply color scale to markers
-        hovertemplate='Player: %{text}<br>Year: %{x}<br>Average: %{y:.2f}<br><extra></extra>',  # Hover info
+        line=dict(color=color),  # Use the last color for the line (or choose another strategy)
+        marker=dict(color=color),  # Apply color scale to markers
+        hovertemplate='<br>Year: %{x}<br>Average: %{y:.2f}<br><extra></extra>',  # Hover info
         text=[player_name] * len(df_player)  # Add player name to text for hover
     ))
 
     # Customize the layout of the chart
     fig.update_layout(
-        title=f"Averages Over Time - {player_name}",
+        title=f"Averages - {player_name}",
         xaxis_title="Year",
         yaxis_title="Average",
         height=500,
