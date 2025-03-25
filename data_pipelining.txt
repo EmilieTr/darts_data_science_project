@@ -8,6 +8,7 @@ The project began with formulating research questions, ensuring they were answer
 - Wikipedia - Professional Darts Corporation: https://de.wikipedia.org/wiki/Professional_Darts_Corporation
 - Wikipedia - PDC World Darts Championship: https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
 - Flashscore: https://www.flashscore.de/
+
 These are just the parent links, as extended urls were used to gather data. Especially in the case of a separately created Flashcore url file, made to iterate through links in the web scraping process. The focus is on extended sites focusing on tournament and match results, next to player statistics.
 These sources provided a comprehensive range of information, from historical match results and official player statistics to tournament formats and prize money distributions.
 
