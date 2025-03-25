@@ -1,5 +1,4 @@
 from .footer import add_footer
-from .navigation import navigation
 from .home import home
 from .texts import *
 from .question1_text import *

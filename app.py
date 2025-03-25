@@ -1,5 +1,4 @@
 import streamlit as st
-from Website.navigation import navigation
 from Website.home import home
 from Website.question1_web import question1_web
 from Website.question2_web import question2_web
