@@ -22,10 +22,9 @@ def question15_web():
     st.markdown("---")
      # Load a list of players from CSV or define manually
     players = [
-        "Luke Humphries", "Luke Littler", "Michael van Gerwen", 
-        "Stephen Bunting", "Rob Cross", "Gerwyn Price",
-        "Nathan Aspinall", "Chris Dobey", "Gary Anderson", "James Wade",
-        "Peter Wright", "Martin Schindler"
+        "Luke Humphries", "Michael van Gerwen", "Stephen Bunting", "Rob Cross", 
+        "Gerwyn Price", "Nathan Aspinall", "Chris Dobey", "Gary Anderson", 
+        "James Wade", "Peter Wright", "Martin Schindler", "Luke Littler"
     ]  # Replace with real names or load from a file
     
     # Dropdowns for selecting player and double field
@@ -34,11 +33,21 @@ def question15_web():
     # Retrieve player data
     csv_file = "Data/question 6/male_players.csv"
     df = pd.read_csv(csv_file)
+    df.fillna("No information", inplace=True)
+    
     player_data = df[df["Name"] == selected_player].iloc[0]
+    
     if player_data["Handedness"] == "Rechtshänder":
         player_data["Handedness"] = "Right-handed Player"
     else:
-        player_data["Handedness"] = "Left-handed Player"
+        player_data["Handedness"] = "Left-handed Player" 
+        
+    if player_data["Nationality"] == "Niederlande":
+        player_data["Nationality"] = "Netherlands"
+    elif player_data["Nationality"] == "Schottland":
+        player_data["Nationality"] = "Scotland"
+    elif player_data["Nationality"] == "Deutschland":
+        player_data["Nationality"] = "Germany"
 
     # Spalten-Layout mit zwei gleich großen Spalten
     col1, col2 = st.columns([1, 1])

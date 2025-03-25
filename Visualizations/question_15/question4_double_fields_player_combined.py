@@ -14,8 +14,8 @@ def plot_double_fields_player_combined(player, double):
     # Calculate total throws (Hit + Single + Outside + Other)
     df_checkout["Total"] = df_checkout["Hit"] + df_checkout["Single"] + df_checkout["Outside"] + df_checkout["Other"]
 
-    # Calculate double quota (Hit / Total)
-    df_checkout["Double Quota"] = df_checkout["Hit"] / df_checkout["Total"]
+    # Calculate checkout Percentage (Hit / Total)
+    df_checkout["Checkout Percentage"] = df_checkout["Hit"] / df_checkout["Total"]
 
     # Use colors from the Plotly Express Prism color palette
     prism_colors = px.colors.qualitative.Prism
@@ -33,25 +33,25 @@ def plot_double_fields_player_combined(player, double):
         name="Number of Throws",
         yaxis="y1",
         line=dict(color=color_throws),
-        hovertemplate='Double: %{text}<br>Year: %{x}<br>Throws: %{y}<br><extra></extra>',  # Add hover info
-        text=[f'D {double}'] * len(df_checkout)  # Add the name of the double field
+        hovertemplate='<b>%{text}</b><br>Year: %{x}<br>Throws: %{y}<br><extra></extra>',  # Add hover info
+        text=[f'D{double}'] * len(df_checkout)  # Add the name of the double field
     ))
 
-    # Line plot for the double quota (right y-axis)
+    # Line plot for the double percentage (right y-axis)
     fig.add_trace(go.Scatter(
         x=df_checkout["Year"], 
-        y=df_checkout["Double Quota"], 
+        y=df_checkout["Checkout Percentage"], 
         mode="lines", 
-        name="Double Quota",
+        name="Checkout Percentage",
         yaxis="y2",
         line=dict(color=color_quota, dash="dash"),
-        hovertemplate='Double: %{text}<br>Year: %{x}<br>Double Quota: %{y:.2f}<br><extra></extra>',  # Add hover info
-        text=[f'D {double}'] * len(df_checkout)  # Add the name of the double field
+        hovertemplate='<b>%{text}</b><br>Year: %{x}<br>Checkout Percentage: %{y:.2f}<br><extra></extra>',  # Add hover info
+        text=[f'D{double}'] * len(df_checkout)  # Add the name of the double field
     ))
 
     # Update layout
     fig.update_layout(
-        title=f"Number of Throws and Double Quota from {player} on D {double}",
+        title=f"Number of Throws and Checkout Percentage on D{double} - {player}",
         xaxis=dict(
             title="Year",
             showgrid=False  # Remove horizontal gridlines for the x-axis
@@ -62,7 +62,7 @@ def plot_double_fields_player_combined(player, double):
             showgrid=False  # Remove horizontal gridlines for the left y-axis
         ),
         yaxis2=dict(
-            title="Double Quota",
+            title="Checkout Percentage",
             tickfont=dict(color=color_quota),
             overlaying="y",
             side="right",
