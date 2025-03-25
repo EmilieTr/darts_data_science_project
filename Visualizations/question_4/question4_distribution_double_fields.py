@@ -136,8 +136,7 @@ def plot_distribution_double_fields():
                 "Hits: %{value} (%{percent})<extra></extra>"
             )
         ),
-        row=1, 
-        col=2
+        row=1, col=2
     )
 
     # Layout optimization
