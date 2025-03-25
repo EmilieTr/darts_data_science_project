@@ -1,5 +1,6 @@
 import streamlit as st
 from .footer import add_footer
+from .texts import *
 
 def home():
     # Set page title and icon
@@ -21,17 +22,18 @@ def home():
 
     # Research Questions
     st.subheader("Research Questions Explored")
-    st.write("**Subtopic: Tournament Data**")
-    st.write("- How do the averages of tournaments vary over time?")
-    st.write("- How does the price money and number of participants vary over time?")
-    st.write("- How does the country a tournament is held in correlate to the success of players?")
-    st.write("**Subtopic: Player Data**")
-    st.write("- How does the performance of players in general change over time?")
-    st.write("- How does the performance of individual players change over time?")
-    st.write("- How does age, nationality and handiness effects the rankings?")
-    st.write("- Is there a difference between a player's team performance and single performance?")
-    st.write("- How likely is it to throw 180 points after there was another 180 points thrown?")
-    st.write("- How likely are participants to win a leg after throwing 180 points as first throw?")
+    st.write("**Subtopic: Tournaments**")
+    st.write(question_2)
+    st.write(question_5)
+    st.write(question_7)
+    st.write("**Subtopic: Matches**")
+    st.write(question_4)
+    st.write(question_9)
+    st.write(question_10)
+    st.write("**Subtopic: Players**")
+    st.write(question_1)
+    st.write(question_6)
+    st.write(question_15)
 
     # Call function to add footer
     add_footer()
