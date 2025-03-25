@@ -61,11 +61,25 @@ st.markdown("""
             border-radius: 8px;
             padding: 5px;
         }
-        /* Entire MultiSelect widget */
         .stMultiSelect {
-            background-color: #FAF9F6; /* Background color */
-            border-radius: 8px; /* Rounded corners */
-            padding: 5px; /* Padding */
+            background-color: #FAF9F6;
+            border-radius: 8px;
+            padding: 5px;
+        }
+        div.stSelectbox {
+            background-color: #FAF9F6; 
+            border-radius: 8px;  
+            padding: 5px;       
+        }
+        div.stSlider {
+        background-color: #FAF9F6;
+        border-radius: 8px;
+        padding: 5px;
+        }
+        div.stRadio {
+        background-color: #FAF9F6;
+        border-radius: 8px;
+        padding: 5px;
         }
     </style>
 """, unsafe_allow_html=True)

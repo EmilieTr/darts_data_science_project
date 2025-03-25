@@ -73,16 +73,11 @@ def plot_average_line_chart(ranking_position, list_of_years):
     df_combined = pd.concat(data_frames)
 
     # Get Prism colors
-    prism_colors = px.colors.qualitative.Prism
-    colors = []
-
-    # Set colors
-    counter = 0
-    for i in range(len(list_of_years)):
-        if counter == 11:
-            counter = 0
-        colors.append(prism_colors[counter])
-        counter += 1
+    colors = px.colors.qualitative.Prism
+    for color in px.colors.qualitative.Safe:
+        colors.append(color)
+    del colors[9]
+    del colors[10]
 
     # Create figure
     fig = go.Figure()
@@ -95,7 +90,7 @@ def plot_average_line_chart(ranking_position, list_of_years):
             x=subset["Rank"],  # order of merit rank on x-axis
             y=subset["Stat"],  # averages on y-axis
             mode='lines',  
-            name=str(year),  
+            name=str(year),  # Name for the legend (year)
             line=dict(color=color, width=2),
             marker=dict(size=6, symbol='circle', opacity=1),
             text=subset["Player"],
@@ -105,20 +100,33 @@ def plot_average_line_chart(ranking_position, list_of_years):
             connectgaps=True
         ))
 
+    # If there's only one line, ensure the legend is displayed
+    if len(list_of_years) == 1:
+        fig.add_trace(go.Scatter(
+            x=[None],  # Invisible line for legend
+            y=[None],
+            mode='lines',
+            name='',  # empty name for the legend
+            line=dict(color='rgba(0,0,0,0)', width=0),  # Invisible line
+            hoverinfo='skip'  # Skip hover
+        ))
+
     # Set layout
     fig.update_layout(
         title="Development of Averages by Order of Merit Rank",
         xaxis_title="Order of Merit Rank",
         yaxis_title="Average",
         xaxis=dict(tickmode='linear', dtick=1), 
-        legend_title="Year"
+        legend_title="Year",  # Title of the legend
+        legend=dict(
+            title="Year",
+            x=1.1,  # Position of the legend (from 0 to 1, relative to chart)
+            y=0.95,  # Y position of the legend
+            traceorder="normal",  # Determines the order of items in the legend
+            font=dict(size=12),  # Font size of legend
+        )
     )
 
     return fig
 
-# Show Plot
-# all_years = list(range(2009, 2025))
-# years = [2009, 2024]
-# fig = plot_average_line_chart(50, years)
-# fig.show()
 
