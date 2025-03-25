@@ -50,30 +50,18 @@ def plot_histogram(selected_tournaments):
         bin_edges[1] - bin_edges[0]
     )
 
-<<<<<<< HEAD
     prism_colors = px.colors.qualitative.Prism
 
     # Erstellen der Plotly-Figur
-=======
-    # Create Plotly figure
->>>>>>> 74a7d494695b20e7c45b50f0a13525ee7b981fc4
     fig = go.Figure()
 
     # Add histogram
     fig.add_trace(go.Bar(
-<<<<<<< HEAD
         x=bin_centers, 
         y=hist_data[0], 
         name="Histogram", 
         marker=dict(color=prism_colors[1], opacity=0.7),
         hovertemplate='Average Score: %{x}<br>Frequency: %{y}<extra></extra>',  # Nur X- und Y-Wert anzeigen
-=======
-        x=bin_centers,
-        y=hist_data[0],
-        name="Histogram",
-        marker=dict(color='lightblue', opacity=0.7),
-        hovertemplate='Average Score: %{x}<br>Frequency: %{y}<extra></extra>',
->>>>>>> 74a7d494695b20e7c45b50f0a13525ee7b981fc4
         hoverlabel=dict(namelength=-1)
     ))
 
