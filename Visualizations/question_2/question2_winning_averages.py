@@ -7,7 +7,7 @@ def plot_winning_averages(selected_tournaments, add_regression=False, add_std=Fa
     
     def custom_index_order(n):
         result = []
-        sequence = [0, 8, 2, 3, 6, 10, 5, 4, 7]  # Verwende keinen Variablennamen 'list'
+        sequence = [0, 5, 2, 3, 6, 10, 8, 4, 7]  # Verwende keinen Variablennamen 'list'
         
         # Genug Werte erzeugen, falls n > 11
         result = (sequence * ((n // len(sequence)) + 1))[:n]
