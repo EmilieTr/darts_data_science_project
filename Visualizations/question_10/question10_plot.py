@@ -50,7 +50,7 @@ def plot_histogram(column):
         y=hist_data[0], 
         name=f"Histogram of {column}", 
         marker=dict(color=prism_colors[1], opacity=0.7),
-        hovertemplate='Average Score: %{x}<br>Frequency: %{y}<extra></extra>',  # Nur X- und Y-Wert anzeigen
+        hovertemplate=f'{column}:'+' %{x}<br>Frequency: %{y}<extra></extra>',  
         hoverlabel=dict(namelength=-1)
     ))
 
