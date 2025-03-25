@@ -45,7 +45,7 @@ def plot_distribution_best_double_fields():
         rows=1, cols=2,  # Two charts side by side
         subplot_titles=["Throws on Double Fields", "Hits on Double Fields"],
         specs=[[{"type": "pie"}, {"type": "pie"}]],
-        horizontal_spacing=0.3
+        horizontal_spacing=0.25
     )
 
     # Pie Chart for throws on the double fields (left side)
@@ -56,7 +56,7 @@ def plot_distribution_best_double_fields():
             hole=0.3,
             name="Throws",
             marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_filtered.index]),
-            hovertemplate="<b>%{label}</b><br>Throws: %{value} (%{percent})<extra></extra>"  # Zeigt Name, Wert und Prozentsatz an
+            hovertemplate="<b>%{label}</b><br>Throws: %{value} (%{percent})<extra></extra>",  # Zeigt Name, Wert und Prozentsatz an
         ),
         row=1, col=1
     )
@@ -69,7 +69,7 @@ def plot_distribution_best_double_fields():
             hole=0.3,
             name="Hits",
             marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_hits_filtered.index]),
-            hovertemplate="<b>%{label}</b><br>Hits: %{value} (%{percent})<extra></extra>"  # Zeigt Name, Wert und Prozentsatz an
+            hovertemplate="<b>%{label}</b><br>Hits: %{value} (%{percent})<extra></extra>",  # Zeigt Name, Wert und Prozentsatz an
         ),
         row=1, col=2
     )
@@ -84,7 +84,8 @@ def plot_distribution_best_double_fields():
         xanchor="center",
         yanchor="middle"),
         width = 600,
-        height = 500
+        height = 500,
+        margin=dict(l=35, r=0, t=0, b=0)
     )
 
     return fig
