@@ -2,6 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 import scipy.stats as stats
+import plotly.express as px
 
 def plot_histogram(selected_tournaments):
     if not selected_tournaments:
@@ -38,6 +39,8 @@ def plot_histogram(selected_tournaments):
     x_values = np.linspace(min(df_selected['Average']), max(df_selected['Average']), 100)
     y_values = stats.norm.pdf(x_values, mu, sigma) * len(df_selected) * (bin_edges[1] - bin_edges[0])
 
+    prism_colors = px.colors.qualitative.Prism
+
     # Erstellen der Plotly-Figur
     fig = go.Figure()
 
@@ -46,7 +49,7 @@ def plot_histogram(selected_tournaments):
         x=bin_centers, 
         y=hist_data[0], 
         name="Histogram", 
-        marker=dict(color='lightblue', opacity=0.7),
+        marker=dict(color=prism_colors[1], opacity=0.7),
         hovertemplate='Average Score: %{x}<br>Frequency: %{y}<extra></extra>',  # Nur X- und Y-Wert anzeigen
         hoverlabel=dict(namelength=-1)
     ))
@@ -56,7 +59,7 @@ def plot_histogram(selected_tournaments):
         x=x_values, 
         y=y_values, 
         mode="lines", 
-        line=dict(color="red", width=2), 
+        line=dict(color=prism_colors[7], width=2), 
         name="Normal Distribution",
         hovertemplate='Normal Distribution: %{y}<extra></extra>'
     ))
@@ -66,7 +69,8 @@ def plot_histogram(selected_tournaments):
         title="Histogram of Average Scores with Normal Distribution",
         xaxis_title="Average Score",
         yaxis_title="Frequency",
-        legend_title="Legend",
+        template="plotly_dark",
+        bargap=0.1,
         hovermode="closest"
     )
 
