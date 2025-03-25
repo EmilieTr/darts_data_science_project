@@ -4,6 +4,9 @@ import plotly.express as px
 def plot_prize_money():
     # Function to convert currency strings to float
     def convert_currency(value):
+        """
+        Convert currency string to float."
+        """
         if isinstance(value, str):
             value = value.replace('£', '').replace(',', '')
             return float(value)
