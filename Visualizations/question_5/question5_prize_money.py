@@ -2,7 +2,9 @@ import pandas as pd
 import plotly.express as px
 
 def plot_prize_money():
-    # Function to convert currency strings to float
+    """
+    Create a line plot showing prize money distribution over years.
+    """
     def convert_currency(value):
         """
         Convert currency string to float."
@@ -72,12 +74,22 @@ def plot_prize_money():
             '(PDC World Championship)'
         ),
         color_discrete_sequence=px.colors.qualitative.Prism[1:],
-        hover_data={'Prize Money': ':.0f'},
+        hover_data={'Prize Money': ':.0f', 'Position':True},
         line_group='Position'
     )
 
     # Ensure full opacity and remove transparency
-    fig.update_traces(mode='lines', fill='tozeroy', opacity=1.0, fillcolor=None)
+    fig.update_traces(
+        mode='lines',
+        fill='tozeroy',
+        opacity=1.0,
+        fillcolor=None,
+        hovertemplate=(
+            'Position: %{customdata[0]}<extra></extra><br>'
+            'Year: %{x}<br>Prize Money: £%{y:,.0f}'
+        )
+    )
+
 
     # Customize layout
     fig.update_layout(

@@ -9,7 +9,7 @@ def question10_web():
     st.title("Winning legs vs. 180 openings")
     st.markdown("---")
 
-    st.subheader("How likely are participants win a leg after throwing a 180 as first throw?") 
+    st.subheader("How likely are participants to win a leg after throwing a 180 as first throw?") 
     with st.expander("Explanation"):
         st.write(explanation_10)
     df = pd.read_csv('Visualizations/question_10/180_stats.csv') 

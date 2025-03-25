@@ -4,6 +4,9 @@ import plotly.express as px
 
 
 def plot_prize_money_and_participants(selected):
+    """
+    Create a plot showing prize money and participants over years.
+    """
     if not selected:
         # Create empty chart, if selected is empty
         fig = go.Figure()
@@ -19,9 +22,13 @@ def plot_prize_money_and_participants(selected):
         name="Participants",
         yaxis="y2"
         ))
+
         #  Adjust layout
         fig.update_layout(
-            title="Development of Prize Money and Participants over the Years (PDC World Championship)",
+            title=(
+                "Development of Prize Money and Participants "
+                "over the Years (PDC World Championship)"
+            ),
             xaxis=dict(
                 title="Year"
             ),
@@ -37,9 +44,8 @@ def plot_prize_money_and_participants(selected):
             margin=dict(l=50, r=50, t=50, b=50)
         )
         return fig
-    """
-    Create a plot showing prize money and participants over years."
-    """
+    
+    
     def convert_currency(value):
         """
         Convert currency string to float.
@@ -111,7 +117,7 @@ def plot_prize_money_and_participants(selected):
                     line=dict(width=0)
                 ),
                 hovertemplate=(
-                    'Name: %{data.name}<br>'
+                    'Position: %{data.name}<br>'
                     'Year: %{x}<br>'
                     'Prize Money: £%{y:.0f}<br><extra></extra>'
                 )
@@ -129,7 +135,6 @@ def plot_prize_money_and_participants(selected):
             yaxis='y2',
             line=dict(color='red', width=2),
             hovertemplate=(
-                'Name: %{data.name}<br>'
                 'Year: %{x}<br>'
                 'Participants: %{y}<br><extra></extra>'
             )
