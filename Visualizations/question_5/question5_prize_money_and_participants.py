@@ -40,8 +40,7 @@ def plot_prize_money_and_participants(selected):
     df['Last 32'] = df['Last 32'] * 32
     df['Last 64'] = df['Last 64'] * 32
     df['Last 96'] = df['Last 96'] * 32
-    print(df[['Total Prize Pool', 'Champion', 'Runner-up', '3d place', '4d place', 'Quarter finalists', 'Last 16', 'Last 24', 'Last 32', 'Last 64', 'Last 96']])
-
+    
     # Group participant data
     participants_per_year = df.groupby('Year')['Participants'].mean()
 
@@ -100,7 +99,8 @@ def plot_prize_money_and_participants(selected):
             x=1.2,  # Shift legend to the right
             y=1
         ),
-        margin=dict(l=50, r=50, t=50, b=50)
+        margin=dict(l=50, r=50, t=50, b=50),
+        height=400
     )
 
     return fig

@@ -11,11 +11,9 @@ def question2_web():
         "World Grand Prix",
         "Grand Slam",
         "Players Championship Finals",
-        "World Cup",
         "World Series of Darts Finals",
         "European Tour",
-        "Players Championship",
-        "World Series"
+        "Players Championship"
     ]
     st.title('Averages')
     
@@ -28,10 +26,13 @@ def question2_web():
     )
     
     # Checkbox für Regression
-    show_regression = st.checkbox("Show regression line for average")
+    show_regression = st.checkbox("Show regression line", value=True)
 
     # Checkbox für Regression
-    show_std = st.checkbox("Show standard deviation for average", value=True)
+    show_std = st.checkbox("Show standard deviation")
+    
+    # Checkbox für Regression
+    show_all = st.checkbox("Show regression line, standard deviation and average for all tournaments")
     
     st.markdown("---")
 
@@ -42,7 +43,7 @@ def question2_web():
         st.write(explanation_2)
 
     # Call the function with the list of selected tournaments
-    fig = plot_winning_averages(selected_tournaments, show_regression, show_std)
+    fig = plot_winning_averages(selected_tournaments, show_regression, show_std, show_all)
     st.plotly_chart(fig)
 
     st.write(first_description_2)
