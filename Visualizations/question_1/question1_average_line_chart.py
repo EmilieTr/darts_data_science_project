@@ -4,8 +4,13 @@ import plotly.express as px
 import numpy as np
 
 def plot_average_line_chart(ranking_position, list_of_years):
-    # Function to convert names from format "SURNAME, First_name" into "First_name Surname"
+    """
+    Create a line chart showing player averages across specified years.
+    """
     def convert_name(name):
+        """
+        Convert names from 'SURNAME, First_name' to 'First_name Surname' format.
+        """
         if ", " in name:
             surname, first_name = name.split(", ", 1)
             surname = surname.capitalize()
@@ -29,27 +34,32 @@ def plot_average_line_chart(ranking_position, list_of_years):
         file = f'Data/order_of_merit/order_of_merit_year_{year}.csv'
 
         df = pd.read_csv(file)
-        list = [convert_name(name) for name in df['Name'].head(ranking_position)]
+        list = [
+            convert_name(name) for name in df['Name'].head(ranking_position)
+        ]
 
         ranks = []
         players = []
         averages = []
 
         for rank, player in enumerate(list, start=1):
-            # extract player in specific year
-            average_row = df_averages[(df_averages['Player'] == player) & (df_averages['Year'] == year)]
+            # Extract player data for specific year
+            average_row = df_averages[
+                (df_averages['Player'] == player) & 
+                (df_averages['Year'] == year)
+            ]
             
             if not average_row.empty:
-                # if average for year was found, save average
+                # If average for year was found, save average
                 averages.append(average_row['Stat'].values[0])
             else:
-                # if no average for year was found, save None
+                # If no average for year was found, save None
                 averages.append(None)
             
             ranks.append(rank)
             players.append(player)
         
-        # create data frame out of collected data
+        # Create data frame from the year
         df_averages_new = pd.DataFrame({
             'Rank': ranks,
             'Player': players,
@@ -62,11 +72,11 @@ def plot_average_line_chart(ranking_position, list_of_years):
     # Combine both datasets
     df_combined = pd.concat(data_frames)
 
-    # Get Prism colors for the lines
+    # Get Prism colors
     prism_colors = px.colors.qualitative.Prism
     colors = []
 
-    # setting colors
+    # Set colors
     counter = 0
     for i in range(len(list_of_years)):
         if counter == 11:
@@ -89,11 +99,13 @@ def plot_average_line_chart(ranking_position, list_of_years):
             line=dict(color=color, width=2),
             marker=dict(size=6, symbol='circle', opacity=1),
             text=subset["Player"],
-            hovertemplate='Rank: %{x}<br>Average: %{y}<br>Player: %{text}',
-            connectgaps=True  # continues line if there are values = None
+            hovertemplate=(
+                'Rank: %{x}<br>Average: %{y}<br>Player: %{text}'
+            ),
+            connectgaps=True
         ))
 
-    # set layout
+    # Set layout
     fig.update_layout(
         title="Development of Averages by Order of Merit Rank",
         xaxis_title="Order of Merit Rank",
@@ -105,11 +117,8 @@ def plot_average_line_chart(ranking_position, list_of_years):
     return fig
 
 # Show Plot
-'''all = []
-for year in range(2009, 2025):
-    all.append(year)
-years = [2009,2024]
-fig = plot_average_2009_2024(50, years)
-#fig = plot_average_2009_2024(50, all)
-fig.show()'''
+# all_years = list(range(2009, 2025))
+# years = [2009, 2024]
+# fig = plot_average_line_chart(50, years)
+# fig.show()
 
