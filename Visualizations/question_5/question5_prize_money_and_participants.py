@@ -4,6 +4,39 @@ import plotly.express as px
 
 
 def plot_prize_money_and_participants(selected):
+    if not selected:
+        # Create empty chart, if selected is empty
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(
+        x=[],  
+        y=[],  
+        name="Prize Money",
+        yaxis="y"
+        ))
+        fig.add_trace(go.Scatter(
+        x=[],  
+        y=[],  
+        name="Participants",
+        yaxis="y2"
+        ))
+        #  Adjust layout
+        fig.update_layout(
+            title="Development of Prize Money and Participants over the Years (PDC World Championship)",
+            xaxis=dict(
+                title="Year"
+            ),
+            yaxis=dict(
+                title="Prize Money (£)",
+                side="left"
+            ),
+            yaxis2=dict(
+                title="Participants",
+                overlaying="y",
+                side="right"
+            ),
+            margin=dict(l=50, r=50, t=50, b=50)
+        )
+        return fig
     """
     Create a plot showing prize money and participants over years."
     """
