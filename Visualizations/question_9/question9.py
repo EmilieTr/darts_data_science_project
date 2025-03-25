@@ -45,7 +45,10 @@ for file in csv_files:
     ])
 
 # Save results in a DataFrame
-results_df = pd.DataFrame(results, columns=["Tournament", "Total 180s", "Consecutive 180s", "Probability (%)"])
+results_df = pd.DataFrame(
+    results, columns=["Tournament", "Total 180s", 
+                      "Consecutive 180s", "Probability (%)"]
+    )
 
 # Calculate average values for all tournaments
 avg_total_180s = round(results_df["Total 180s"].mean(), 2)
@@ -73,4 +76,4 @@ results_df = results_df.sort_values(by='Tournament')
 # Save CSV file
 results_df.to_csv(output_file, index=False)
 
-print(f"Ergebnisse gespeichert in {output_file}")
+# print(f"Ergebnisse gespeichert in {output_file}")

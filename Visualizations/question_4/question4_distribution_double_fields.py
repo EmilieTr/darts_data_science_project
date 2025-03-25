@@ -105,4 +105,3 @@ def plot_distribution_double_fields():
     )
 
     return fig
-

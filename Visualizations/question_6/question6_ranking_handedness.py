@@ -121,7 +121,7 @@ def plot_ranking_handedness(var, variant):
     # if variant is 0 we want the ratios
     if variant == 0:
         counter = ratio(handedness, total_righthanded, total_lefthanded, counter)
-        title = "Correlation of handedness to rankings"
+        title = "Distribution of handedness to rankings"
 
     mean_ranking = mean_rank(handedness, order_of_merit, counter)
 
@@ -149,8 +149,8 @@ def plot_ranking_handedness(var, variant):
             colorscale=colors,
             showscale=True 
         ),
-        text=[f"Handedness: {handed}<br>Order of Merit: {rank}<br>Number of Players: {s}" 
-            for handed, rank, s in zip(handedness, order_of_merit, counter)],  # Custom hover text
+        hovertemplate='Handedness: %{x}<br>Order of Merit: %{y}<br>Number of Players: %{text}<extra></extra>',
+        text=[f"{s}" for s in counter]
     ))
 
     # Configure layout
@@ -162,8 +162,9 @@ def plot_ranking_handedness(var, variant):
         yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
         template="plotly_white",
         width=800,
-        height=chart_height  # Adjusted dynamically
-    )
+        height=chart_height,
+        hovermode="closest"
+        )
 
     return fig, mean_ranking
 

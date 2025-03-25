@@ -4,8 +4,6 @@ import pandas as pd
 def t_test():
     """
     Perform a t-test between European Tour and Major Tournaments.
-
-    :return: Result of the statistical test
     """
     # Load data
     df = pd.read_csv("Visualizations/question_10/180_stats.csv")

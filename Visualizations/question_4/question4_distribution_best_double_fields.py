@@ -89,3 +89,4 @@ def plot_distribution_best_double_fields():
     )
 
     return fig
+
