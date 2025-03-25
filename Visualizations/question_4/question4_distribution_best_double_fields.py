@@ -76,7 +76,7 @@ def plot_distribution_best_double_fields():
 
     # Layout optimization
     fig.update_layout(
-        title_text="Distribution of Throws & Hits on Double Fields",
+        title_text="Distribution on the Most Popular Double Fields",
         showlegend=True,
         legend=dict(
         x=0.5,
