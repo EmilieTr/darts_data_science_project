@@ -111,7 +111,7 @@ def plot_prize_money_and_participants(selected):
                     line=dict(width=0)
                 ),
                 hovertemplate=(
-                    'Name: %{data.name}<br>'
+                    'Position: %{data.name}<br>'
                     'Year: %{x}<br>'
                     'Prize Money: £%{y:.0f}<br><extra></extra>'
                 )
@@ -129,7 +129,6 @@ def plot_prize_money_and_participants(selected):
             yaxis='y2',
             line=dict(color='red', width=2),
             hovertemplate=(
-                'Name: %{data.name}<br>'
                 'Year: %{x}<br>'
                 'Participants: %{y}<br><extra></extra>'
             )
