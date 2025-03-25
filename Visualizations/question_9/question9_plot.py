@@ -50,6 +50,8 @@ def plot_histogram(column):
         y=hist_data[0], 
         name=f"Histogram of {column}", 
         marker=dict(color=prism_colors[1], opacity=0.7),
+        hovertemplate=f'{column}:'+' %{x}<br>Frequency: %{y}<extra></extra>',  
+        hoverlabel=dict(namelength=-1)
     ))
 
     # Add the normal distribution curve to the figure
@@ -58,7 +60,8 @@ def plot_histogram(column):
         y=y_values, 
         mode="lines", 
         line=dict(color=prism_colors[7], width=2), 
-        name="Normal Distribution"
+        name="Normal Distribution",
+        hovertemplate='Normal Distribution: %{y}<extra></extra>'
     ))
 
     # Update layout settings
@@ -68,7 +71,7 @@ def plot_histogram(column):
         yaxis_title="Frequency",
         template="plotly_dark",
         bargap=0.1,
-        hovermode="x unified"
+        hovermode="closest"
     )
 
     return fig

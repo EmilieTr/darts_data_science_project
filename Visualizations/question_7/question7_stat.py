@@ -1,7 +1,7 @@
 import pandas as pd
 import scipy.stats as stats
 import plotly.express as px
-import streamlit as st
+
 
 def chi_squared():
     """
@@ -9,7 +9,10 @@ def chi_squared():
     and nationalities."
     """
     # Read CSV file
-    df = pd.read_csv('Visualizations/question_7/question7_table.csv', index_col=0)
+    df = pd.read_csv(
+        'Visualizations/question_7/question7_table.csv', 
+        index_col=0
+    )
 
     # Filter countries that have more than 10 entries in total
     df = df[df['Total'] > 10]
@@ -33,9 +36,10 @@ def chi_squared():
 # Output the differences (Optional)
 # print(observed_vs_expected)
 
+
 def plot_observed_frequencies():
     """
-    Plot a heatmap of observed frequencies."
+    Plot a heatmap of observed frequencies.
     """
     colors = px.colors.qualitative.Prism[:8]
     df, _ = chi_squared()
