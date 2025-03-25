@@ -2,7 +2,6 @@ This data science project focuses on darts and aims to transform raw data into s
 
 The project began with formulating research questions, ensuring they were answerable with the available data (looking ahead at available data sources), and prioritizing those that were the most interesting and meaningful. After defining these questions, relevant data sources were identified. Since existing APIs did not provide sufficient information, web scraping was necessary. The data was acquired from several sources, including:
 
-Darts Orakel
 - Darts Orakel: https://app.dartsorakel.com/
 - Mastercaller PDC World Championship: https://mastercaller.com/tournaments/pdc-world-championship/
 - Dartn.de Professional Darts: https://www.dartn.de/Dart-Profis
