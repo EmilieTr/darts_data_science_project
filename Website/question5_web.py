@@ -2,11 +2,15 @@ import streamlit as st
 from .question5_text import *
 from .footer import add_footer
 from Visualizations.question_5 import (
-    plot_prize_money_and_participants
+    plot_prize_money_and_participants,
+    plot_prize_money
 )
-from Visualizations.question_5 import (plot_prize_money)
+
 
 def question5_web():
+    """
+    Create Streamlit web interface for tournament participants and prize money."
+    """
     st.title("Participants and Price Money")
     st.markdown("---")
     selection = [
@@ -21,7 +25,10 @@ def question5_web():
     default=["Participants", "Prize Money"])
     st.markdown("---")
     
-    st.subheader("How does the price money and number of participants of the World Championship vary over time?")
+    st.subheader(
+        "How does the price money and number of participants of the "
+        "World Championship vary over time?"
+    )
     with st.expander("Explanation"):
         st.write(explanation_5)
     
