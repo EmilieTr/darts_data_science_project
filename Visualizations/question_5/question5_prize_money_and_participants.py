@@ -87,21 +87,29 @@ def plot_prize_money_and_participants(selected):
     # **Adjust layout**
     fig.update_layout(
         title=title,
-        xaxis=dict(title="Year"),
-        yaxis=dict(title="Prize Money (£)", side="left"),
+        xaxis=dict(
+            title="Year",
+            showgrid=False  # Deaktiviert horizontale Gitternetzlinien
+        ),
+        yaxis=dict(
+            title="Prize Money (£)",
+            side="left",
+            showgrid=False  # Deaktiviert vertikale Gitternetzlinien
+        ),
         yaxis2=dict(
             title="Participants",
             overlaying="y",
-            side="right"
+            side="right",
+            showgrid=False  # Deaktiviert Gitternetzlinien der zweiten y-Achse
         ),
         barmode="stack",  # Stacked Bar Chart
         legend=dict(
             x=1.2,  # Shift legend to the right
             y=1
         ),
-        margin=dict(l=50, r=50, t=50, b=50),
-        height=400
+        margin=dict(l=50, r=50, t=50, b=50)
     )
+
 
     return fig
 

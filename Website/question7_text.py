@@ -20,7 +20,9 @@ English players in Australia and the US, while negative values appear for Englis
 again at the dominant representation of English players."""
 
 third_description_7 = """This is a map showing the distribution of number of tournaments held in european countries. 
-The darker the green, the more tournaments were held in said country."""
+The darker the green, the more tournaments were held in said country. Countries like the United States, Australia
+and New Zealand are not shown in the map because the overall focus on darts is in Europe and outside are only a
+few tournaments over the time."""
 
 third_graph_7 = """The United Kingdom and Germany have the highest concentration, while countries in lighter green 
 like Ireland and Netherlands have hosted fewer tournaments. The big discrepancy of tournaments held in the United 

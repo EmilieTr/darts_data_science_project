@@ -6,22 +6,10 @@ import numpy as np
 def plot_average_2009_2024(ranking_position):
     """
     Plot average statistics for top players in 2009 and 2024.
-
-    Args:
-        ranking_position (int): Number of top players to include.
-
-    Returns:
-        plotly.graph_objects.Figure: Bar chart of player averages.
     """
     def convert_name(name):
         """
         Convert names from 'SURNAME, First_name' to 'First_name Surname' format.
-
-        Args:
-            name (str): Original name format.
-
-        Returns:
-            str: Converted name format.
         """
         if ", " in name:
             surname, first_name = name.split(", ", 1)  # Divide surname and first name

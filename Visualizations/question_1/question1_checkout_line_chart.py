@@ -4,8 +4,13 @@ import plotly.express as px
 import numpy as np
 
 def plot_checkout_line_chart(ranking_position, list_of_years):
-    # Function to convert names from format "SURNAME, First_name" into "First_name Surname"
+    """
+    Create a line chart showing player checkout percentages across years."
+    """
     def convert_name(name):
+        """
+        Convert names from 'SURNAME, First_name' to 'First_name Surname' format."
+        """
         if ", " in name:
             surname, first_name = name.split(", ", 1)
             surname = surname.capitalize()
@@ -13,17 +18,19 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
         return name
 
 
-    # Load checkout quote
+    # Load checkout percentages
     file_checkout = 'Data/Darts_Orakel_Stats/Checkout Pcnt.csv'
     df_checkout = pd.read_csv(file_checkout)
 
     # Convert Stat to float
-    df_checkout['Stat'] = df_checkout['Stat'].str.rstrip('%').astype(float) / 100
+    df_checkout['Stat'] = (
+        df_checkout['Stat'].str.rstrip('%').astype(float) / 100
+    )
 
     # Convert years from string to integer
     list_of_years = [int(i) for i in list_of_years]
     
-    # Construct data frame with rank, player and checkout quote
+    # Construct data frame with rank, player and checkout percentages
     data_frames = []
     for year in list_of_years:
         file = f'Data/order_of_merit/order_of_merit_year_{year}.csv'
@@ -37,20 +44,23 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
         checkout_quote = []
 
         for rank, player in enumerate(list, start=1):
-            # extract player in specific year
-            checkout_row = df_checkout[(df_checkout['Player'] == player) & (df_checkout['Year'] == year)]
+            # Extract player in specific year
+            checkout_row = df_checkout[
+                (df_checkout['Player'] == player) & 
+                (df_checkout['Year'] == year)
+            ]
             
             if not checkout_row.empty:
-                # if checkout quote for year was found, save average
+                # If checkout quote for year was found, save average
                 checkout_quote.append(checkout_row['Stat'].values[0])
             else:
-                # if no checkout quote for year was found, save None
+                # If no checkout quote for year was found, save None
                 checkout_quote.append(None)
             
             ranks.append(rank)
             players.append(player)
         
-        # create data frame out of collected data
+        # Create data frame out of collected data
         df_averages_new = pd.DataFrame({
             'Rank': ranks,
             'Player': players,
@@ -67,7 +77,7 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
     prism_colors = px.colors.qualitative.Prism
     colors = []
 
-    # setting colors
+    # Set colors
     counter = 0
     for i in range(len(list_of_years)):
         if counter == 11:
@@ -83,22 +93,24 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
         subset = df_combined[df_combined["Year"] == year]
         
         fig.add_trace(go.Scatter(
-            x=subset["Rank"],  # order of merit rank on x-axis
-            y=subset["Stat"],  # averages on y-axis
+            x=subset["Rank"],
+            y=subset["Stat"],
             mode='lines',  
             name=str(year),  
             line=dict(color=color, width=2),
             marker=dict(size=6, symbol='circle', opacity=1),
             text=subset["Player"],  
-            hovertemplate='Rank: %{x}<br>Average: %{y}<br>Player: %{text}',
-            connectgaps=True  # continues line if there are values = None
+            hovertemplate=(
+                'Rank: %{x}<br>Checkout: %{y:.1%}<br>Player: %{text}'
+            ),
+            connectgaps=True
         ))
 
-    # set layout
+    # Set layout
     fig.update_layout(
-        title="Development of Checkout-Quote by Order of Merit Rank",
+        title="Development of Checkout Percentages by Order of Merit Rank",
         xaxis_title="Order of Merit Rank",
-        yaxis_title="Checkout-Quote(%)",
+        yaxis_title="Checkout Percentage (%)",
         yaxis_tickformat=".0%",
         xaxis=dict(tickmode='linear', dtick=1),  
         legend_title="Year"
@@ -106,14 +118,11 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
 
     return fig
 
-
-
 # Show Plot
-'''
-all = []
-for year in range(2012, 2025):
-    all.append(year)
-years = [2012,2024]
-#fig = plot_average_2009_2024(50, years)
-#fig = plot_average_2009_2024(50, all)
-#fig.show()'''
+# all = []
+# for year in range(2012, 2025):
+#     all.append(year)
+# years = [2012,2024]
+# fig = plot_average_2009_2024(50, years)
+# fig = plot_average_2009_2024(50, all)
+# fig.show()

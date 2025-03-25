@@ -8,6 +8,9 @@ import statistical_analysis
 
 
 def plot_participants():
+    """
+    Create a line plot showing the development of participants over years."
+    """
     # Load CSV file
     file = 'Data/question 5/question5.csv'
     df = pd.read_csv(file)
@@ -15,12 +18,10 @@ def plot_participants():
     # Group participant data by year
     participants_per_year = df.groupby('Year')['Participants'].mean()
 
-    # **Create Plotly figure**
+    # Create Plotly figure
     fig = go.Figure()
 
-
-
-    # **Line plot for participant numbers**
+    # Line plot for participant numbers
     fig.add_trace(go.Scatter(
         x=participants_per_year.index,
         y=participants_per_year.values,
@@ -29,17 +30,20 @@ def plot_participants():
         line=dict(color='blue', width=2)
     ))
 
-    # **Adjust layout**
+    # Adjust layout
     fig.update_layout(
         title="Development of Participants Over the Years",
         xaxis=dict(title="Year"),
         yaxis=dict(title="Participants"),
         legend=dict(x=1, y=1),
         margin=dict(l=50, r=50, t=50, b=50),
-        template="plotly_white"  # Light theme for better visibility
+        template="plotly_white"
     )
     
-    statistical_analysis.all_statistical_tests(participants_per_year.index, participants_per_year.values)
+    statistical_analysis.all_statistical_tests(
+        participants_per_year.index,
+        participants_per_year.values
+    )
 
     return fig
 
