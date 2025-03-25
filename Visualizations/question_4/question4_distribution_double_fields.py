@@ -68,11 +68,12 @@ def plot_distribution_double_fields():
     # Pie Chart für die Anzahl der Würfe auf den Doppelfeldern (linke Seite)
     fig.add_trace(
         go.Pie(
-            labels=[f"D {x}" if x != "Others" else x for x in double_counts_filtered.index],
+            labels=[f"D{x}" if x != "Others" else x for x in double_counts_filtered.index],
             values=double_counts_filtered.values,
             hole=0.3,
             name="Throws",
-            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_filtered.index])  # Dynamische Farbzuteilung
+            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_filtered.index]),  # Dynamische Farbzuteilung
+            hovertemplate="<b>%{label}</b><br>Throws: %{value} (%{percent})<extra></extra>"
         ),
         row=1, col=1
     )
@@ -80,11 +81,12 @@ def plot_distribution_double_fields():
     # Pie Chart für Hits auf den Doppelfeldern (rechte Seite)
     fig.add_trace(
         go.Pie(
-            labels=[f"D {x}" if x != "Others" else x for x in double_counts_hits_filtered.index],
+            labels=[f"D{x}" if x != "Others" else x for x in double_counts_hits_filtered.index],
             values=double_counts_hits_filtered.values,
             hole=0.3,
             name="Hits",
-            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_hits_filtered.index])  # Dynamische Farbzuteilung
+            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_hits_filtered.index]),  # Dynamische Farbzuteilung
+            hovertemplate="<b>%{label}</b><br>Hits: %{value} (%{percent})<extra></extra>"
         ),
         row=1, col=2
     )
