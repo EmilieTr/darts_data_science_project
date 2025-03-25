@@ -135,7 +135,7 @@ def plot_winning_averages(selected_tournaments, add_regression=False, add_std=Fa
             x=x_years,
             y=regression_line(x_years),
             mode="lines",
-            line=dict(color="blue", width=2, dash="dash"),
+            line=dict(color="magenta", width=2, dash="dash"),
             name="Regression Line"
         ))
 
