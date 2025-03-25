@@ -9,7 +9,7 @@ from Visualizations.question_4 import (
 def question4_web(): 
     st.title("Popular Douple Fields")   
     st.markdown("---")
-    st.subheader("What are most popular double fields and their corresponding checkout percentages?")
+    st.subheader("What are the most popular double fields and their corresponding checkout percentages?")
     with st.expander("Explanation"):
         st.write(explanation_4)
 
