@@ -8,9 +8,6 @@ def plot_histogram(column):
     """
     Create a histogram for the specified column 
     with a normal distribution curve overlay.
-    
-    :param column: The column for which the histogram is created
-    :return: Plotly Figure object
     """
     # Load CSV file
     df = pd.read_csv("Visualizations/question_10/180_stats.csv")
@@ -50,7 +47,7 @@ def plot_histogram(column):
         y=hist_data[0], 
         name=f"Histogram of {column}", 
         marker=dict(color=prism_colors[1], opacity=0.7),
-        hovertemplate=f'{column}:'+' %{x}<br>Frequency: %{y}<extra></extra>',  
+        hovertemplate=f'{column}:'+' %{x}<br>Frequency: %{y}<extra></extra>',
         hoverlabel=dict(namelength=-1)
     ))
 

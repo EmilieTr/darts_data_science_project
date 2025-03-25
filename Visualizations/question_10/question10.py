@@ -31,7 +31,8 @@ for file in csv_files:
     # Determine the winner of a leg
     df["Leg Winner"] = df.apply(
         lambda row: "Home" if row["Home Score"] > row["Prev Home Score"] 
-        else ("Away" if row["Away Score"] > row["Prev Away Score"] else "Draw"), 
+        else ("Away" if row["Away Score"] > row["Prev Away Score"]
+              else "Draw"), 
         axis=1
     )
     
@@ -83,7 +84,7 @@ results_df = pd.DataFrame(
                 ]
             )
 
-# Calculate all averages for the tournaments and convert them into percentages
+# Calculate all averages for tournaments
 avg_total_legs_180 = round(
     results_df["Total Legs Start with 180"].mean(), 2
 )
@@ -111,4 +112,4 @@ results_df = results_df.sort_values(by="Tournament")
 # Save CSV file
 results_df.to_csv(output_file, index=False)
 
-print(f"Results saved in {output_file}")
+# print(f"Results saved in {output_file}")
