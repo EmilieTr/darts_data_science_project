@@ -59,7 +59,7 @@ def plot_average_every_year(order_of_merit_val):
         line=dict(color=prism_color, width=2),
         marker=dict(size=6),
         text=[f"{v:.1f}" for v in averages_stat.values()],
-        hovertemplate='Year: %{x}<br>%{text}<br><extra></extra>'
+        hovertemplate='Year: %{x}<br>Average: %{text}<br><extra></extra>'
     ))
 
     # Set layout
