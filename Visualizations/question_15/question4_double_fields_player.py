@@ -39,7 +39,10 @@ def plot_double_fields_player(player):
     top_doubles = mean_hits[mean_hits >= min_hits].index  # List of relevant doubles fields
 
     # Assign colors to doubles fields (using the Plotly Prism palette)
-    colors = px.colors.qualitative.Prism
+    colors = px.colors.qualitative.Prism[:9]
+    for color in px.colors.qualitative.Safe:
+        colors.append(color)
+    del colors[12]
     color_map = {double: colors[i % len(colors)] for i, double in enumerate(sorted(df_player["Double"].unique()))}
 
     # Create a figure with two subplots: one for throws and one for double quota
