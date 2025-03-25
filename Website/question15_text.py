@@ -15,7 +15,7 @@ fields from the selected player above since 2017/2018 or the time where the play
 
 second_graph_15 = """Sometimes the development is that the checkout percentage drops and therefore the number
 of throws drops in a time-shifted manner too. This is because the player noticed that this double field does not 
-work that well, for them so they adjusted their throws so that they didn't always end up with this double at the 
+work that well for them so they adjust their throws so that they didn't always end up with the previously bad double at the 
 end of a leg anymore."""
 
 third_description_15 = """The graph shows the gradual average of the selected player from above."""

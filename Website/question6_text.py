@@ -1,5 +1,5 @@
 explanation_6 = """This research question shows the influence from different properties (age, nationality, 
-handedness) on the rankings of the player. It is possible to show the absolute number of players at this ranking
+handedness) on the rankings of the player. It is possible to blend in the absolute number of players at this ranking
 at the end of the year or the relative values which show the ratio of the absolute number to the total number
 of players and rankings shown."""
 
@@ -16,9 +16,9 @@ which are also very high ranked."""
 
 second_graph_6 = """England appears most frequently, indicating that English players dominate the rankings.
 
-The majority of top-ranking players come from England, suggesting that the sport might be better developed there.
+Most top-ranking players come from England, suggesting that the sport might be better developed there.
 It is also seen that there is one player in the Netherlands (Michael van Gerwen) which dominated the darts for a
-few years and is now only on a high ranking position.
+few years and is now only on a high-ranking position.
 Other countries like Germany, Japan, and Australia have representation, but their players are less frequent and 
 frequent lower ranks."""
 
