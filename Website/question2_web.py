@@ -32,7 +32,7 @@ def question2_web():
     show_std = st.checkbox("Show standard deviation")
     
     # Checkbox für Regression
-    show_all = st.checkbox("Show regression line, standard deviation and average for all tournaments")
+    show_all = st.checkbox("Show properties for all tournaments")
     
     st.markdown("---")
 
