@@ -31,7 +31,7 @@ def question2_web():
     show_regression = st.checkbox("Show regression line for average")
 
     # Checkbox für Regression
-    show_std = st.checkbox("Show standard deviation for average")
+    show_std = st.checkbox("Show standard deviation for average", value=True)
     
     st.markdown("---")
 
