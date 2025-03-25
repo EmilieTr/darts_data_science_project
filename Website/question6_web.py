@@ -14,7 +14,7 @@ def question6_web():
     selected_ranking_position= st.slider("Choose the number of ranking positions", min_value=1, max_value=50, value= 5)
     variant = st.radio("Choose an Option", ("absolute values", "relative values"))
     st.markdown("---")
-    st.subheader("How does age, nationality and handedness effects the rankings?")
+    st.subheader("How does age, nationality and left-/right-handedness effect the rankings?")
     
     with st.expander("Explanation"):
         st.write(explanation_6)
