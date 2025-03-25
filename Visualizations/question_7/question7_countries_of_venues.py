@@ -1,10 +1,13 @@
 import pandas as pd
 from geopy.geocoders import Nominatim
-import time  # Für Verzögerung zwischen Anfragen
+import time
 
 def countries_of_venues():
-
-    # CSV einlesen
+    """
+    Process venue data from CSV files and extract countries for each venue.
+    Saves the processed data to a new CSV file.
+    """
+    # Read CSV files
     df1 = pd.read_csv("./Data/question 7/question7_majors.csv")
     df2 = pd.read_csv("./Data/question 7/question7_european_tour.csv")
 
