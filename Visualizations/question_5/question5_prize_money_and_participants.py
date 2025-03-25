@@ -107,8 +107,7 @@ def plot_prize_money_and_participants(selected):
             x=1.2,  # Shift legend to the right
             y=1
         ),
-        margin=dict(l=50, r=50, t=50, b=50),
-        height=350
+        margin=dict(l=50, r=50, t=50, b=50)
     )
 
 
