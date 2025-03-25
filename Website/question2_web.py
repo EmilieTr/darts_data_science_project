@@ -22,14 +22,14 @@ def question2_web():
     selected_tournaments = st.multiselect(
         "Select Tournaments",
         tournaments,
-        default=["World Championship"]
+        default=["World Championship", "World Matchplay"]
     )
     
     # Checkbox für Regression
     show_regression = st.checkbox("Show regression line", value=True)
 
     # Checkbox für Regression
-    show_std = st.checkbox("Show standard deviation")
+    show_std = st.checkbox("Show standard deviation", value=True)
     
     # Checkbox für Regression
     show_all = st.checkbox("Show properties for all tournaments")
