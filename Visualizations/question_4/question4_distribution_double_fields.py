@@ -85,7 +85,8 @@ def plot_distribution_double_fields():
             values=double_counts_hits_filtered.values,
             hole=0.3,
             name="Hits",
-            marker=dict(colors=[color_map.get(x, "gray") for x in double_counts_hits_filtered.index]),  # Dynamische Farbzuteilung
+            marker=dict(colors=[
+                color_map.get(x, "gray") for x in double_counts_hits_filtered.index]),
             hovertemplate="<b>%{label}</b><br>Hits: %{value} (%{percent})<extra></extra>"
         ),
         row=1, col=2
