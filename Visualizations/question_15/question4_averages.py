@@ -3,14 +3,18 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 def plot_player_average(player_name):
-    # Load the CSV file containing player statistics
+    """
+    Plot the average performance of a player over time."
+    """
     csv_data = "Data/Darts_Orakel_Stats/Averages.csv"
     
     # Read the CSV into a DataFrame
     df = pd.read_csv(csv_data)
     
     # Filter the data for the selected player and 'Averages' category
-    df_player = df[(df["Player"] == player_name) & (df["Stat Category"] == "Averages")]
+    df_player = df[
+        (df["Player"] == player_name) & (df["Stat Category"] == "Averages")
+    ]
     
     # Check if the player exists in the dataset
     if df_player.empty:
@@ -30,10 +34,10 @@ def plot_player_average(player_name):
         y=df_player["Stat"],
         mode="lines",
         name=player_name,
-        line=dict(color=color),  # Use the last color for the line (or choose another strategy)
-        marker=dict(color=color),  # Apply color scale to markers
-        hovertemplate='<br>Year: %{x}<br>Average: %{y:.2f}<br><extra></extra>',  # Hover info
-        text=[player_name] * len(df_player)  # Add player name to text for hover
+        line=dict(color=color),
+        marker=dict(color=color),
+        hovertemplate='<br>Year: %{x}<br>Average: %{y:.2f}<br><extra></extra>',
+        text=[player_name] * len(df_player)
     ))
 
     # Customize the layout of the chart

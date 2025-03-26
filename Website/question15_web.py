@@ -12,22 +12,28 @@ from Visualizations.question_15 import (
     
 def question15_web():   
     def find_matching_file(folder_path, name):
-        folder = Path(folder_path)  # Ordner als Path-Objekt
-        for file in folder.iterdir():  # Durch alle Dateien gehen
-            if file.is_file() and file.stem == name:  # Vergleiche ohne Endung
-                return file.name  # Gibt den passenden Dateinamen zurück
-        return None  # Falls keine Datei gefunden wurde
+        """
+        Find a file in a folder that matches the given name."
+        """
+        folder = Path(folder_path)
+        for file in folder.iterdir():
+            if file.is_file() and file.stem == name:
+                return file.name
+        return None
+
 
     st.title("Player Stats")
     st.markdown("---")
-     # Load a list of players from CSV or define manually
+
+    # List of players
     players = [
-        "Luke Humphries", "Michael van Gerwen", "Stephen Bunting", "Rob Cross", 
-        "Gerwyn Price", "Nathan Aspinall", "Chris Dobey", "Gary Anderson", 
-        "James Wade", "Peter Wright", "Martin Schindler", "Luke Littler"
-    ]  # Replace with real names or load from a file
-    
-    # Dropdowns for selecting player and double field
+        "Luke Humphries", "Michael van Gerwen", "Stephen Bunting",
+        "Rob Cross", "Gerwyn Price", "Nathan Aspinall", "Chris Dobey",
+        "Gary Anderson", "James Wade", "Peter Wright", "Martin Schindler",
+        "Luke Littler"
+    ]
+
+    # Player selection dropdown
     selected_player = st.selectbox("Select a Player", players)
     
     # Retrieve player data
@@ -49,7 +55,7 @@ def question15_web():
     elif player_data["Nationality"] == "Deutschland":
         player_data["Nationality"] = "Germany"
 
-    # Spalten-Layout mit zwei gleich großen Spalten
+    # Display player information
     col1, col2 = st.columns([1, 1])
 
     with col1:
@@ -70,7 +76,9 @@ def question15_web():
         st.image(image_path, use_container_width=True) 
 
     st.markdown("---")
-    st.subheader("How does the performance of individual players change over time?")
+    st.subheader(
+        "How does the performance of individual players change over time?"
+    )
 
     with st.expander("Explanation"):
         st.write(explanation_15)
@@ -83,7 +91,11 @@ def question15_web():
     
     st.markdown("---")
     double_fields = [f"D{i}" for i in range(1, 21)] + ["D25"]  # Double fields
-    selected_double = st.selectbox("Select a Double Field", double_fields, index=double_fields.index("D20"))
+    selected_double = st.selectbox(
+        "Select a Double Field", 
+        double_fields, 
+        index=double_fields.index("D20")
+    )
     st.markdown("---")
     
     fig = plot_double_fields_player_combined(selected_player, selected_double)
@@ -98,5 +110,5 @@ def question15_web():
     with st.expander("Interpretation and critical evaluation"):
         st.write(third_graph_15)
         
-    # Call function to add footer
+    # Call footer
     add_footer()

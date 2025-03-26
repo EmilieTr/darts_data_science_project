@@ -1,4 +1,5 @@
 import streamlit as st
+
 from Website.home import home
 from Website.question1_web import question1_web
 from Website.question2_web import question2_web
@@ -11,28 +12,27 @@ from Website.question10_web import question10_web
 from Website.question15_web import question15_web
 from Website.data_pipeline_web import data_pipeline_web
 
-# Sidebar for Navigation
-# --- Sidebar Styling ---
+# Sidebar styling
 st.markdown("""
     <style>
-        /* Sidebar-Hintergrund */
+        /* Sidebar background */
         [data-testid="stSidebar"] {
             background-color: #F4F0EC;
             padding: 20px;
         }
         
-        /* Allgemeine Sidebar-Schriftfarbe (ohne Buttons) */
+        /* General sidebar font color (without buttons) */
         [data-testid="stSidebar"] * {
             color: black;
             font-size: 16px;
         }
         
-        /* Breite der Sidebar */
+        /* Sidebar width */
         section[data-testid="stSidebar"] {
             width: 280px !important;
         }
 
-        /* Button-Styling */
+        /* Button styling */
         .stButton>button {
             background: none;
             color: black !important;
@@ -55,7 +55,7 @@ st.markdown("""
             background-color: #86a47c;
             border: 1px solid #86a47c !important;
         }
-        /* Expander-Styling */
+        /* Expander styling */
         [data-testid="stExpander"] {
             background-color: #FAF9F6;
             border-radius: 8px;
@@ -81,7 +81,7 @@ st.markdown("""
         border-radius: 8px;
         padding: 5px;
         }
-            .box {
+        .box {
         border-radius: 15px;
         padding: 20px;
         margin: 10px 0;
@@ -100,21 +100,25 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 st.sidebar.title("Darts")
 
-# Initialisiere den Session State für die Navigation
+# Initialize session state for navigation
 if "page" not in st.session_state:
     st.session_state.page = "Home"
 
 # Funktion zum Wechseln der Seite
 def navigate(page_name):
+    """
+    Update the current page in the session state.
+    """
     st.session_state.page = page_name
 
-# Home-Button separat
+# separate home button
 if st.sidebar.button("Home", key="home"):
     navigate("Home")
 
-# Expander für Tournaments
+# Tournaments expander
 with st.sidebar.expander("Tournaments"):
     if st.button("Averages", key="averages_2"):
         navigate("2 Averages")
@@ -123,7 +127,7 @@ with st.sidebar.expander("Tournaments"):
     if st.button("Host Country vs. Nationality", key="host_vs_nationality_7"):
         navigate("7 Host Country vs. Nationality")
 
-# Expander für Matches
+# Matches expander
 with st.sidebar.expander("Matches"):
     if st.button("Popular Double Fields", key="double_fields_4"):
         navigate("4 Popular Double Fields")
@@ -132,7 +136,7 @@ with st.sidebar.expander("Matches"):
     if st.button("Winning Legs vs. 180 openings", key="winning_legs_10"):
         navigate("10 Winning Legs vs. 180 openings")
 
-# Expander für Players
+# Players expander
 with st.sidebar.expander("Players"):
     if st.button("Averages of the Best", key="best_averages_1"):
         navigate("1 Averages of the Best")
@@ -141,49 +145,31 @@ with st.sidebar.expander("Players"):
     if st.button("Player Stats", key="player_stats_15"):
         navigate("15 Player Stats")
 
-# Data Pipeline separat
+# Data Pipeline button
 if st.sidebar.button("Data Pipeline", key="data_pipeline"):
     navigate("Data Pipeline")
 
+# Page routing
 subpage = st.session_state.page
 if subpage == "Home":
     home()
-# Question 2
-if subpage == "2 Averages":
+elif subpage == "2 Averages":
     question2_web()
-        
-# Question 5
 elif subpage == "5 Prize Money and Participants":
     question5_web()
-    
-# Question 7
-if subpage == "7 Host Country vs. Nationality":
-    question7_web()   
-    
-# Question 4
-if subpage == "4 Popular Double Fields":
+elif subpage == "7 Host Country vs. Nationality":
+    question7_web()
+elif subpage == "4 Popular Double Fields":
     question4_web()
-    
-    # Question 9    
 elif subpage == "9 Consecutive 180s":
     question9_web()
-    
-# Question 10     
-elif subpage == "10 Winning Legs vs. 180 openings":  
-        question10_web()
-    
-# Question 15
-if subpage == "15 Player Stats":
+elif subpage == "10 Winning Legs vs. 180 openings":
+    question10_web()
+elif subpage == "15 Player Stats":
     question15_web()
-
-# Question 1
 elif subpage == "1 Averages of the Best":
     question1_web()
-
-# Question 6
 elif subpage == "6 Rankings vs. Properties":
     question6_web()
-
-# Data Pipeline
 elif subpage == "Data Pipeline":
     data_pipeline_web()
