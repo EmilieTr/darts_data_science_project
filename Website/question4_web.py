@@ -8,7 +8,7 @@ from Visualizations.question_4 import (
 
 
 def question4_web(): 
-    st.title("Popular Douple Fields")   
+    st.title("Popular Double Fields")   
     st.markdown("---")
     st.subheader(
         "What are the most popular double fields and their "
