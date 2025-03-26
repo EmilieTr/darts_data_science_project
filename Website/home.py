@@ -22,18 +22,22 @@ def home():
 
     # Research Questions
     st.subheader("Research Questions Explored")
-    st.write("**Subtopic: Tournaments**")
-    st.write(question_2)
-    st.write(question_5)
-    st.write(question_7)
-    st.write("**Subtopic: Matches**")
-    st.write(question_4)
-    st.write(question_9)
-    st.write(question_10)
-    st.write("**Subtopic: Players**")
-    st.write(question_1)
-    st.write(question_6)
-    st.write(question_15)
+    # Themenbereiche
+    st.markdown(f'<div class="box"><b>Tournaments</b> <hr> {question_2} <br> {question_5} <br> {question_7}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="box"><b>Matches</b> <hr> {question_4} <br> {question_9} <br> {question_10}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="box"><b>Players</b> <hr> {question_1} <br> {question_6} <br> {question_15}</div>', unsafe_allow_html=True)
+
+    '''st.markdown("""
+    <div class="box">
+        <a href="#section1">📚 Bildung und Lernen</a>
+    </div>
+    <div class="box">
+        <a href="#section2">💻 Technologie und Innovation</a>
+    </div>
+    <div class="box">
+        <a href="#section3">🌍 Umwelt und Nachhaltigkeit</a>
+    </div>
+    """, unsafe_allow_html=True)'''
 
     # Call function to add footer
     add_footer()
