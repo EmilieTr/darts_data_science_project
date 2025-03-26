@@ -133,7 +133,7 @@ def plot_ranking_nationality(var, variant):
         else:
             list_other.append(None)
 
-    title = "Absolute Number of nationality to rankings"
+    title = "Nationalities and their rankings"
 
     if variant == 0:
         counter = ratio(nationalities, total_nationality, counter)

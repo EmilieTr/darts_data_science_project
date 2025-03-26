@@ -215,7 +215,7 @@ def plot_winning_averages(
 
     # Update layout with English labels
     fig.update_layout(
-        title="Development of Average Scores over Time",
+        title="Development of Average Scores over time",
         xaxis_title="Year",
         yaxis_title="Average Score",
         legend_title="Tournaments",

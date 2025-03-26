@@ -116,7 +116,7 @@ def plot_ranking_handedness(var, variant):
             handedness.append(handedness_translation.get(hand_de, "Unknown"))
             order_of_merit.append(i + 1)
    
-    title = "Absolute number of handedness to rankings"
+    title = "Left- and Right-handedness and their rankings"
 
     # if variant is 0 we want the ratios
     if variant == 0:
