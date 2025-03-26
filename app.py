@@ -149,27 +149,46 @@ with st.sidebar.expander("Players"):
 if st.sidebar.button("Data Pipeline", key="data_pipeline"):
     navigate("Data Pipeline")
 
-# Page routing
 subpage = st.session_state.page
 if subpage == "Home":
     home()
-elif subpage == "2 Averages":
+    
+# Question 2
+if subpage == "2 Averages":
     question2_web()
+        
+# Question 5
 elif subpage == "5 Prize Money and Participants":
     question5_web()
-elif subpage == "7 Host Country vs. Nationality":
-    question7_web()
-elif subpage == "4 Popular Double Fields":
+    
+# Question 7
+if subpage == "7 Host Country vs. Nationality":
+    question7_web()   
+    
+# Question 4
+if subpage == "4 Popular Double Fields":
     question4_web()
+    
+    # Question 9    
 elif subpage == "9 Consecutive 180s":
     question9_web()
-elif subpage == "10 Winning Legs vs. 180 openings":
-    question10_web()
-elif subpage == "15 Player Stats":
+    
+# Question 10     
+elif subpage == "10 Winning Legs vs. 180 openings":  
+        question10_web()
+    
+# Question 15
+if subpage == "15 Player Stats":
     question15_web()
+
+# Question 1
 elif subpage == "1 Averages of the Best":
     question1_web()
+
+# Question 6
 elif subpage == "6 Rankings vs. Properties":
     question6_web()
+
+# Data Pipeline
 elif subpage == "Data Pipeline":
     data_pipeline_web()
