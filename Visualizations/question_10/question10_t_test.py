@@ -25,10 +25,6 @@ def t_test():
         equal_var=False
     )
 
-    # Print results
-    print(f"T-Statistic: {t_stat:.3f}")
-    print(f"P-Value: {p_value:.3f}")
-
     # Interpretation
     if p_value < 0.05:
         result = (
