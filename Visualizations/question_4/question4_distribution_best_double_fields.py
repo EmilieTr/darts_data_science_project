@@ -127,7 +127,7 @@ def plot_distribution_best_double_fields():
         yanchor="middle"),
         width = 600,
         height = 500,
-        margin=dict(l=35, r=0, t=0, b=0)
+        margin=dict(l=35)
     )
 
     return fig
