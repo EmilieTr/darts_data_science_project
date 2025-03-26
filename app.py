@@ -100,7 +100,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.sidebar.title("Darts")
+st.sidebar.title("Darts 🎯")
 
 # Initialize session state for navigation
 if "page" not in st.session_state:
