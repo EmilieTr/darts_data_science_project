@@ -165,7 +165,7 @@ def plot_ranking_age(var, variant):
             ages.append(age)
             order_of_merit.append(i+1)
 
-    title = "Absolute number of age to rankings"
+    title = "Ages and their rankings"
 
     if variant == 0:
         counter = ratio(ages, total_age, counter)
