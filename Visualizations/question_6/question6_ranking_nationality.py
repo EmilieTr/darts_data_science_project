@@ -210,11 +210,7 @@ def plot_ranking_nationality(var, variant):
         xaxis_title="Nationality",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",
-        yaxis=dict(
-            tickvals=y_axis_tickvals, 
-            ticktext=y_axis_ticktext, 
-            showticklabels=True, 
-            autorange="reversed")
+        yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
         template="plotly_white",
         width=800,
         height=chart_height,
