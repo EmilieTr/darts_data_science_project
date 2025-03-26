@@ -69,7 +69,7 @@ def question15_web():
         st.write(f"**Darts Used:** {player_data['Darts gramm']}")
 
     with col2:
-        folder_path = "Player_Pictures"
+        folder_path = "Website/Pictures Website/Player_Pictures"
         name = player_data["Name"].replace(" ", "_")
         image_name = find_matching_file(folder_path, name)
         image_path = os.path.join(folder_path, image_name)
