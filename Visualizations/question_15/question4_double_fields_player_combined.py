@@ -51,7 +51,7 @@ def plot_double_fields_player_combined(player, double):
 
     # Update layout
     fig.update_layout(
-        title=f"Number of Throws and Checkout Percentage on D{double} - {player}",
+        title=f"Number of Throws and Checkout Percentage of D{double} - {player}",
         xaxis=dict(
             title="Year",
             showgrid=False  # Remove horizontal gridlines for the x-axis
