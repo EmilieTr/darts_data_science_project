@@ -9,9 +9,16 @@ handedness_translation = {
     "Linkshänder": "Left-handed"
 }
 
+
 def plot_ranking_handedness(var, variant):
+    """
+    Create a Plotly visualization of handedness distribution 
+    in rankings.
+    """
     def format_name(name):
-        # Convert different name formats into a unified format (all lowercase and "first_name surname")
+        """
+        Convert name to a unified format."
+        """
         if "," in name:
             if ", " in name:
                 surname, first_name = name.split(", ", 1)
@@ -22,13 +29,19 @@ def plot_ranking_handedness(var, variant):
             return f"{first_name} {surname}"
         return name.strip().lower()
 
+
     def convert_names_to_lowercase(df):
-        # Convert all names in the DataFrame to lowercase for consistency
+        """
+        Convert all names in a DataFrame to lowercase."
+        """
         df['Name'] = df['Name'].str.lower()
         return df
 
-    #function for using proportions and not absolute numbers
+
     def ratio(handedness, total_righthanded, total_lefthanded, counter):
+        """
+        Calculate ratios for handedness."
+        """
         for i,hand in enumerate(handedness):
             if hand == "Right-handed":
                 if total_righthanded == 0:
@@ -40,30 +53,39 @@ def plot_ranking_handedness(var, variant):
                     counter[i] = 0
                 else: 
                     counter[i] = counter[i]/total_lefthanded
+
         return counter
     
+
     def mean_rank(handedness, order_of_merit, counter):
-        right_sum = 0  # Sum of weighted ranks for right-handed players
-        left_sum = 0   # Sum of weighted ranks for left-handed players
-        right_count = 0  # Total count of right-handed players
-        left_count = 0   # Total count of left-handed players
+        """
+        Calculate average ranks for handedness."
+        """
+        right_sum = 0
+        left_sum = 0
+        right_count = 0
+        left_count = 0
 
         for hand, rank, count in zip(handedness, order_of_merit, counter):
             if hand == "Right-handed":
-                right_sum += rank * count  # Weighted rank
+                right_sum += rank * count
                 right_count += count
             elif hand == "Left-handed":
                 left_sum += rank * count
                 left_count += count
 
-        # Calculate mean ranks (avoid division by zero)
-        mean_rank_right = right_sum / right_count if right_count > 0 else None
-        mean_rank_left = left_sum / left_count if left_count > 0 else None
+        mean_rank_right = (right_sum / right_count 
+                        if right_count > 0 else None)
+        mean_rank_left = (left_sum / left_count 
+                        if left_count > 0 else None)
 
-        return {'lefthanded':mean_rank_left, 'righthanded': mean_rank_right}
+        return {'lefthanded': mean_rank_left, 
+                'righthanded': mean_rank_right}
 
-    # Selection of handedness categories in German (used for searching in the CSV file)
-    handedness_selection_de = list(handedness_translation.keys())
+    # Selection of handedness categories in German
+    handedness_selection_de = list(
+        handedness_translation.keys()
+    )
     
     total_righthanded = 0
     total_lefthanded = 0
@@ -81,7 +103,7 @@ def plot_ranking_handedness(var, variant):
         y_axis_tickvals.append(i + 1)
         y_axis_ticktext.append(str(i + 1))
         
-        # List of all players who ranked in a specific position across years 2009 - 2025
+        # List of all players who ranked in a specific position
         list_player = []
         for year in range(2009, 2025):
             file = f'Data/order_of_merit/order_of_merit_year_{year}.csv'
@@ -106,30 +128,38 @@ def plot_ranking_handedness(var, variant):
 
         for hand_de in handedness_selection_de:
             # Count the number of players per handedness
-            
-            counter_value = df_players['Handedness'].value_counts().get(hand_de, 0)
+            counter_value = df_players[
+                'Handedness'
+            ].value_counts().get(hand_de, 0)
             counter.append(counter_value)
             if hand_de=='Rechtshänder':
                 total_righthanded += counter_value
             else: 
                 total_lefthanded += counter_value
-            handedness.append(handedness_translation.get(hand_de, "Unknown"))
+            handedness.append(
+                handedness_translation.get(hand_de, "Unknown")
+            )
             order_of_merit.append(i + 1)
    
     title = "Left- and Right-handedness and their rankings"
 
-    # if variant is 0 we want the ratios
+    # If variant is 0 we want the ratios
     if variant == 0:
-        counter = ratio(handedness, total_righthanded, total_lefthanded, counter)
+        counter = ratio(
+            handedness, total_righthanded, total_lefthanded, counter
+        )
         title = "Distribution of handedness to rankings"
 
     mean_ranking = mean_rank(handedness, order_of_merit, counter)
 
     # Normalize bubble sizes to prevent overlap
-    max_count = max(counter) if counter else 1  # Avoid division by zero
-    min_size = 5   # Minimum bubble size
-    max_size = 50  # Maximum bubble size
-    bubble_sizes = [min_size + (s / max_count) * (max_size - min_size) for s in counter]
+    max_count = max(counter) if counter else 1
+    min_size = 5
+    max_size = 50
+    bubble_sizes = [
+        min_size + (s / max_count) * (max_size - min_size)
+        for s in counter
+    ]
     
     # Dynamically adjust chart height based on the number of ranks
     chart_height = min(max(500, var * 70), 3000)
@@ -144,13 +174,15 @@ def plot_ranking_handedness(var, variant):
         y=order_of_merit,
         mode="markers", 
         marker=dict(
-            size=bubble_sizes,  # Size of bubble (times two for having bigger bubbles)
-            color=counter,  # Color gradient based on number saved in list counter
+            size=bubble_sizes,
+            color=counter,
             colorscale=colors,
             showscale=True 
         ),
-        hovertemplate='Handedness: %{x}<br>Order of Merit: %{y}<br>Number of Players: %{text}<extra></extra>',
-        text=[f"{s}" for s in counter]
+        hovertemplate=('Handedness: %{x}<br>'
+                       'Order of Merit: %{y}<br>'
+                       'Number of Players: %{text}<extra></extra>'),
+        text=[f"{s}" for s in counter]    
     ))
 
     # Configure layout
@@ -159,7 +191,11 @@ def plot_ranking_handedness(var, variant):
         xaxis_title="Handedness",
         yaxis_title="Order of Merit",
         yaxis_tickformat=".",
-        yaxis=dict(tickvals=y_axis_tickvals, ticktext=y_axis_ticktext, showticklabels=True, autorange="reversed"),
+        yaxis=dict(
+            tickvals=y_axis_tickvals, 
+            ticktext=y_axis_ticktext, 
+            showticklabels=True, 
+            autorange="reversed"),
         template="plotly_white",
         width=800,
         height=chart_height,
@@ -168,8 +204,8 @@ def plot_ranking_handedness(var, variant):
 
     return fig, mean_ranking
 
-'''var = 10
+# var = 10
 
-fig, mean_ranking = plot_ranking_handedness(var, 0)
-fig.show()
-print(mean_ranking)'''
+# fig, mean_ranking = plot_ranking_handedness(var, 0)
+# fig.show()
+# print(mean_ranking)
