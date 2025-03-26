@@ -11,8 +11,8 @@ def plot_average_every_year(order_of_merit_val):
         Convert names from 'SURNAME, First_name' to 'First_name Surname' format.
         """
         if ", " in name:
-            surname, first_name = name.split(", ", 1)  # Divide surname and first name
-            surname = surname.capitalize()  # Only the first letter of surname is capitalized
+            surname, first_name = name.split(", ", 1)
+            surname = surname.capitalize()
             return f"{first_name} {surname}"
         return name 
 

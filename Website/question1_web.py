@@ -8,11 +8,15 @@ from Visualizations.question_1 import (
     plot_average_line_chart
 )
 
+
 def question1_web():    
     st.title("Averages of the Best")
     st.markdown("---")
     category = ["Averages", "Checkout Percentages"]
-    selected_ranking_position = st.slider("Choose the number of ranking positions", min_value=2, max_value=50, value= 5)
+    selected_ranking_position = st.slider(
+        "Choose the number of ranking positions", 
+        min_value=2, max_value=50, value= 5
+    )
     selected_category = st.selectbox("Select a Category", category)
     if selected_category == "Averages":
         years = [str(i) for i in range(2009, 2025)]
@@ -34,14 +38,14 @@ def question1_web():
         )
     
     st.markdown("---")
-    st.subheader("How does the general performance of players change over "
-                "time?")
+    st.subheader(
+        "How does the general performance of players change over time?"
+    )
     
     with st.expander("Explanation"):
         st.write(explanation_1)
 
     if selected_category == "Averages":
-
         fig = plot_average_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
 
@@ -57,7 +61,6 @@ def question1_web():
             st.write(second_graph_1)
         
     elif selected_category == "Checkout Percentages":
-        
         fig = plot_checkout_line_chart(selected_ranking_position, selected_years)
         st.plotly_chart(fig)
         
@@ -72,5 +75,5 @@ def question1_web():
         with st.expander("Interpretation and critical evaluation"):
             st.write(fourth_graph_1)
     
-    # Call function to add footer
+    # Call footer
     add_footer()

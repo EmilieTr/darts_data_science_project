@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 
+
 def plot_checkout_line_chart(ranking_position, list_of_years):
     """
     Create a line chart showing player checkout percentages across years."
@@ -36,9 +37,11 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
         file = f'Data/order_of_merit/order_of_merit_year_{year}.csv'
 
         df = pd.read_csv(file)
-        list = [convert_name(name) for name in df['Name'].head(ranking_position)]
+        list = [
+            convert_name(name) 
+            for name in df['Name'].head(ranking_position)
+        ]
 
-       
         ranks = []
         players = []
         checkout_quote = []
@@ -101,7 +104,9 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
             marker=dict(size=6, symbol='circle', opacity=1),
             text=subset["Player"],  
             hovertemplate=(
-                'Rank: %{x}<br>Checkout Percentage: %{y:.1%}<br>Player: %{text}'
+                'Rank: %{x}<br>'
+                'Checkout Percentage: %{y:.1%}<br>'
+                'Player: %{text}'
             ),
             connectgaps=True
         ))
@@ -109,11 +114,11 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
     # If there's only one line, ensure the legend is displayed
     if len(list_of_years) == 1:
         fig.add_trace(go.Scatter(
-            x=[None],  # Invisible line for legend
+            x=[None],
             y=[None],
             mode='lines',
             name='',  # empty name for the legend
-            line=dict(color='rgba(0,0,0,0)', width=0),  # Invisible line
+            line=dict(color='rgba(0,0,0,0)', width=0),
             hoverinfo='skip'  # Skip hover
         ))
 
@@ -127,10 +132,10 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
         legend_title="Year",
         legend=dict(
             title="Year",
-            x=1.1,  # Position of the legend (from 0 to 1, relative to chart)
-            y=0.95,  # Y position of the legend
-            traceorder="normal",  # Determines the order of items in the legend
-            font=dict(size=12),  # Font size of legend
+            x=1.1,
+            y=0.95,
+            traceorder="normal",
+            font=dict(size=12),
         )
     )
 

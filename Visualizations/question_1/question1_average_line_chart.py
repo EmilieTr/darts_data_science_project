@@ -87,10 +87,10 @@ def plot_average_line_chart(ranking_position, list_of_years):
         subset = df_combined[df_combined["Year"] == year]
         
         fig.add_trace(go.Scatter(
-            x=subset["Rank"],  # order of merit rank on x-axis
-            y=subset["Stat"],  # averages on y-axis
+            x=subset["Rank"],
+            y=subset["Stat"],
             mode='lines',  
-            name=str(year),  # Name for the legend (year)
+            name=str(year),
             line=dict(color=color, width=2),
             marker=dict(size=6, symbol='circle', opacity=1),
             text=subset["Player"],
@@ -103,12 +103,12 @@ def plot_average_line_chart(ranking_position, list_of_years):
     # If there's only one line, ensure the legend is displayed
     if len(list_of_years) == 1:
         fig.add_trace(go.Scatter(
-            x=[None],  # Invisible line for legend
+            x=[None],
             y=[None],
             mode='lines',
-            name='',  # empty name for the legend
-            line=dict(color='rgba(0,0,0,0)', width=0),  # Invisible line
-            hoverinfo='skip'  # Skip hover
+            name='',
+            line=dict(color='rgba(0,0,0,0)', width=0),
+            hoverinfo='skip'
         ))
 
     # Set layout
@@ -117,13 +117,13 @@ def plot_average_line_chart(ranking_position, list_of_years):
         xaxis_title="Order of Merit Rank",
         yaxis_title="Average",
         xaxis=dict(tickmode='linear', dtick=1), 
-        legend_title="Year",  # Title of the legend
+        legend_title="Year",
         legend=dict(
             title="Year",
-            x=1.1,  # Position of the legend (from 0 to 1, relative to chart)
-            y=0.95,  # Y position of the legend
-            traceorder="normal",  # Determines the order of items in the legend
-            font=dict(size=12),  # Font size of legend
+            x=1.1,
+            y=0.95,
+            traceorder="normal",
+            font=dict(size=12),
         )
     )
 
