@@ -113,7 +113,7 @@ def plot_prize_money_and_participants(selected):
                 y=df[column],
                 name=label,
                 marker=dict(
-                    color=prism_colors[i % len(prism_colors)],
+                    color=prism_colors[i],
                     line=dict(width=0)
                 ),
                 hovertemplate=(
