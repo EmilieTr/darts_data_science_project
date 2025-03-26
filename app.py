@@ -81,6 +81,23 @@ st.markdown("""
         border-radius: 8px;
         padding: 5px;
         }
+            .box {
+        border-radius: 15px;
+        padding: 20px;
+        margin: 10px 0;
+        background-color: #86a47c; /* Roter Hintergrund */
+        color: white; /* Weißer Text */
+        font-size: 18px;
+        }
+        }
+        .box a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .box a:hover {
+            text-decoration: underline;
+        }
     </style>
 """, unsafe_allow_html=True)
 st.sidebar.title("Darts")
