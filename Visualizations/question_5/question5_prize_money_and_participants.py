@@ -148,7 +148,7 @@ def plot_prize_money_and_participants(selected):
         title += "Prize Money"
     elif "Participants" in selected:
         title += "Participants"
-    title += " over the Years (PDC World Championship)"
+    title += " over time (PDC World Championship)"
 
     #  Adjust layout
     fig.update_layout(

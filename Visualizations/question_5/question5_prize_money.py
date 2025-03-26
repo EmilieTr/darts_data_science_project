@@ -70,7 +70,7 @@ def plot_prize_money():
         y='Prize Money',
         color='Position',
         title=(
-            'Distribution of Prize Money over the Years '
+            'Distribution of Prize Money over time '
             '(PDC World Championship)'
         ),
         color_discrete_sequence=px.colors.qualitative.Prism[1:],
