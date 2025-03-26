@@ -43,9 +43,15 @@ def home():
             st.write(text)
     except FileNotFoundError:
         st.error("File not found.")
-
+    st.markdown('---')
     # Research Questions
     st.subheader("Research Questions Explored")
+    st.markdown(
+        f'<div class="box test"><b>Tournaments</b><div class="box test"><b>Matches</b><div class="box test"><b>Players</b></div></div></div>',
+        unsafe_allow_html=True
+    )
+    
+    
     # Subtopics
     st.markdown(
         f'<div class="box"><b>Tournaments</b> <hr> {question_2} <br> '
@@ -62,6 +68,6 @@ def home():
         f'{question_6} <br> {question_15}</div>',
         unsafe_allow_html=True
     )
-
+    
     # Call footer
     add_footer()

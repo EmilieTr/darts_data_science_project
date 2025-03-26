@@ -97,6 +97,13 @@ st.markdown("""
         .box a:hover {
             text-decoration: underline;
         }
+        .test{
+            background-color: #FAF9F6;
+            border: 1px solid #86a47c;
+            color: #86a47c;
+            text-align: center;
+            width: 70%;
+            margin: 10px auto;}
     </style>
 """, unsafe_allow_html=True)
 
