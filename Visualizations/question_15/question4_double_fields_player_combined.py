@@ -68,7 +68,7 @@ def plot_double_fields_player_combined(player, double):
             side="right",
             showgrid=False  # Remove horizontal gridlines for the right y-axis
         ),
-        legend=dict(x=0.01, y=0.99),
+        legend=dict(x=1.1, y=0.99),
         height=600,
         width=1000
     )
