@@ -1,9 +1,5 @@
 dartboard: https://pixabay.com/de/vectors/ziel-darts-sport-dart-maschine-1967285/ 
 
-<<<<<<< HEAD
-Player Pictures:
-
-=======
 https://world-of-darts.fandom.com/wiki/Luke_Littler
 https://world-of-darts.fandom.com/wiki/Luke_Humphries
 https://www.onthisday.com/people/michael-van-gerwen
@@ -16,4 +12,3 @@ https://pdcstore.com/collections/gary-anderson-collection
 https://en.wikipedia.org/wiki/James_Wade
 https://world-of-darts.fandom.com/wiki/Peter_Wright
 https://world-of-darts.fandom.com/wiki/Martin_Schindler
->>>>>>> 5850e40ce3dcab023bc1fe97cb4935a85980bb3e
