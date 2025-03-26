@@ -1,12 +1,25 @@
 import streamlit as st
 from .footer import add_footer
 from .texts import *
+import os
 
 def home():
+    # Spalten-Layout mit zwei gleich großen Spalten
+    col1, col2 = st.columns([1, 1])
+
+    with col1:
+        st.title("Welcome to the Darts Data Science Project!")
+        st.markdown("---")
+    with col2:
+        folder_path = "Website/Pictures Website"
+        image_name = "dartboard.png"
+        image_path = os.path.join(folder_path, image_name)
+        st.image(image_path, use_container_width=True) 
     # Set page title and icon
-    st.title("Welcome to the Darts Data Science Project! 🎯")
-    st.markdown("---")
+    
     st.header("Dive into the analysis and uncover the hidden patterns in the world of darts!")
+    
+    
 
     # Introduction
     st.write("This project dives into the world of darts using data science techniques to uncover fascinating insights. Below you will find a short explanation for the game to give you an understanding and context to view the analysis results in. There is also a subpage to explain the data pipeline of our data science project, so the efforts to get to these results can be easily tracked.")
@@ -27,17 +40,6 @@ def home():
     st.markdown(f'<div class="box"><b>Matches</b> <hr> {question_4} <br> {question_9} <br> {question_10}</div>', unsafe_allow_html=True)
     st.markdown(f'<div class="box"><b>Players</b> <hr> {question_1} <br> {question_6} <br> {question_15}</div>', unsafe_allow_html=True)
 
-    '''st.markdown("""
-    <div class="box">
-        <a href="#section1">📚 Bildung und Lernen</a>
-    </div>
-    <div class="box">
-        <a href="#section2">💻 Technologie und Innovation</a>
-    </div>
-    <div class="box">
-        <a href="#section3">🌍 Umwelt und Nachhaltigkeit</a>
-    </div>
-    """, unsafe_allow_html=True)'''
 
     # Call function to add footer
     add_footer()
