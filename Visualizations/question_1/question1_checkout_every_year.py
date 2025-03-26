@@ -63,7 +63,7 @@ def plot_checkout_every_year(order_of_merit_val):
         line=dict(color=prism_color, width=2),
         marker=dict(size=6),
         text=[f"{v*100:.1f}%" for v in averages_stat.values()],
-        hovertemplate='Year: %{x}<br>Checkout: %{text}<br><extra></extra>'
+        hovertemplate='Year: %{x}<br>Checkout Percentage: %{text}<br><extra></extra>'
     ))
 
     # Set layout

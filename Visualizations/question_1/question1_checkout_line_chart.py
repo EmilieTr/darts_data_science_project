@@ -101,9 +101,20 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
             marker=dict(size=6, symbol='circle', opacity=1),
             text=subset["Player"],  
             hovertemplate=(
-                'Rank: %{x}<br>Checkout: %{y:.1%}<br>Player: %{text}'
+                'Rank: %{x}<br>Checkout Percentage: %{y:.1%}<br>Player: %{text}'
             ),
             connectgaps=True
+        ))
+
+    # If there's only one line, ensure the legend is displayed
+    if len(list_of_years) == 1:
+        fig.add_trace(go.Scatter(
+            x=[None],  # Invisible line for legend
+            y=[None],
+            mode='lines',
+            name='',  # empty name for the legend
+            line=dict(color='rgba(0,0,0,0)', width=0),  # Invisible line
+            hoverinfo='skip'  # Skip hover
         ))
 
     # Set layout
@@ -113,7 +124,14 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
         yaxis_title="Checkout Percentage (%)",
         yaxis_tickformat=".0%",
         xaxis=dict(tickmode='linear', dtick=1),  
-        legend_title="Year"
+        legend_title="Year",
+        legend=dict(
+            title="Year",
+            x=1.1,  # Position of the legend (from 0 to 1, relative to chart)
+            y=0.95,  # Y position of the legend
+            traceorder="normal",  # Determines the order of items in the legend
+            font=dict(size=12),  # Font size of legend
+        )
     )
 
     return fig
