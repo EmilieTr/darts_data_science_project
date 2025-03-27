@@ -27,8 +27,8 @@ def question15_web():
 
     # List of players
     players = [
-        "Luke Humphries", "Michael van Gerwen", "Stephen Bunting",
-        "Rob Cross", "Gerwyn Price", "Nathan Aspinall", "Chris Dobey",
+        "Rob Cross", "Luke Humphries", "Michael van Gerwen", "Stephen Bunting",
+        "Gerwyn Price", "Nathan Aspinall", "Chris Dobey",
         "Gary Anderson", "James Wade", "Peter Wright", "Martin Schindler",
         "Luke Littler"
     ]
@@ -94,7 +94,7 @@ def question15_web():
     selected_double = st.selectbox(
         "Select a Double Field", 
         double_fields, 
-        index=double_fields.index("D20")
+        index=double_fields.index("D1")
     )
     st.markdown("---")
     
