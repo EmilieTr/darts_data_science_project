@@ -6,24 +6,14 @@ Tournaments
    Data Source:
    https://app.dartsorakel.com/events
 
-Visualization: line graph over matches and overall avg. of winning scores (y) / over time (x)
-
 5.	How does the price money and number of participants vary over time?
    Data Source:
    https://mastercaller.com/tournaments/pdc-world-championship/
-
-   Visualization: line graph over placements and overall price money (y) / over time (x)
-   Visualization: stacked bar chart (placements on top of each other) and overall price money (y) / over time (x) (with an overlapping line chart of participants)
-   Visualization: bar chart over participant amount (y) / over time (x)
-   Visualization: line graph over placements and overall price money (y) / over time (x) with a second y-/x-axe for participants
 
 7.	How does the country a tournament is held in correlate to the success of players?
    Data Source: 
    https://de.wikipedia.org/wiki/Professional_Darts_Corporation
    https://de.wikipedia.org/wiki/PDC_World_Darts_Championship
-
-   Visualization: table of winner nationality and country of match held, absolute numbers of winners in cell
-   -> Visualization: table of winner nationality and country of match held, conditional likeliness and manually assess for correlation
 
 
 Matches
@@ -32,21 +22,13 @@ Matches
    Data Sources:
    https://app.dartsorakel.com/stats/double
    
-   Subquestion: „What are most popular double fields and what are the corresponding checkout quotes?“ generally
-   Visualization: pie chart over participant percentage, which check out scorings they "prefer"
-   Visualization: bar chart over check out percent (y) / check out scoring (x)
-
 9.	How likely is it to throw 180 points after there was another 180 points thrown?
    Data Source:
    https://www.flashscore.de/
 
-   Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), filter out situations where a 180 isn't able to be thrown
-
 10. How likely are participants to win a leg after throwing 180 points as first throw?
     Data Source:
     https://www.flashscore.de/
-
-    Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website)
 
 
 Players
@@ -55,36 +37,14 @@ Players
    Data Source:
    https://app.dartsorakel.com/stats/player
 
-   Visualizations: bar chart average / bar chart checkout percentage over the top 5 players 1995/2014 (x)
 
 6. How does age, nationality and handiness effects the rankings?
    Data Source:
    https://www.dartn.de/Dart-Profis
 
-   Visualization: bubble charts with rankings (y) age / nationality / left/right handeddness (x)
-
 15. How does the performance of individual players change over time?
     Data Sources:
     https://app.dartsorakel.com/stats/double
-
-    Visualization: line graph over top 5 check out scorings (several lines) and overall check out scoring (y) / over time (x) //
-                   line graph over top 5 check out scorings (several lines) and overall check out percentage (y) / over time (x)
-    Visualization: line graph over amount of check out scorings (y) thrown over the years (x)
-
-
-Optional:
-
-11. Is it more likely to win a match if the participants scoring or check-out quota is better than the opponents?
-    Data Source:
-    https://www.flashscore.de/
-
-   Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), BIG CALCULATIONS
-
-13. How likely is the participant to lose after throwing a 9 darter?
-    Data Source:
-    https://www.flashscore.de/
-
-    Visualization: / calculate one number and look at conditional likeliness (good for poster, maybe not for website), check how many 9 darter are actually in our data
 
 
 Data Sources:
