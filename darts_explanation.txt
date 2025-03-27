@@ -6,19 +6,21 @@ This circular board is divided into 20 numbered pizza slices, where each slice h
 - Two large single fields
 - A smaller double field (worth double the number’s value)
 - A smaller triple field (worth triple the number’s value)
+
 In the middle are two small circles known as the bullseye:
 - An outer bull with 25 points
 - An inner bullseye with 50 points (functions as a double)
 
 Match Structure:
 This varies depending on the event. The here analysed leg format entails:
-- players competing to win a set number of legs (e.g., best of 11 legs means first to 6 wins)
+- players competing to win a set number of legs (e.g., best of 11 legs means first to 6 leg wins)
 - each leg starting at 501 points, and players aiming to reduce it to exactly zero, finishing with a double, called the check out throw
 - the highest checkout (finish) being 170 (e.g., Triple 20 → Triple 20 → Bullseye)
 
 Checkout Strategy & Statistics:
-Players calculate their throws to finish efficiently. The bullseye (50 points) is the highest double field, but not always the most used to finish.
-Check out percentage:
+Players calculate their throws to finish efficiently. The bullseye (50 points) is the highest double field, but not always the most used to finish because it is the smallest one.
+
+heck out percentage:
 - the percentage of times a player successfully finishes a leg when given the opportunity
 - shows a player’s ability to close out legs under pressure
 
@@ -26,7 +28,7 @@ Highest Possible Scores:
 - A triple 20 with 60 points (highest single dart score)
 - therefore maximum with 3 darts: 180 points
 Three-dart average:
-- Mmasures a player's scoring efficiency and consistency
+- Measures a player's scoring efficiency and consistency
 - Formula: Total points scored ÷ Total darts thrown × 3
 
 Professional benchmarks:
