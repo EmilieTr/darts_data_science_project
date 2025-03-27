@@ -1,0 +1,91 @@
+## **Presentation Structure**  
+
+### **Introduction**  
+### **Popular Double Fields**  
+- *Transition:* "Darts is not just about hitting high scores; it is also about finishing efficiently. So, we had also a look at this statistical aspects of darts because that impact the player's performance."
+
+First Visualization:
+
+- "This graph shows the distribution of all throws at double fields, indicating which doubles are targeted and hit most frequently."
+
+- "As we se, D20, D16, D8 and D10 are the biggest segments."
+
+Second Visualization:
+
+- "This graph shows the distribution of how many players most frequently/prefer to target and hit each double field." 
+
+- "A player must finish a leg by hitting a double, so the choice of double is strategic. Some doubles are favored because of their positioning and ease of adjustment if a player misses."  
+
+- **D20** → One of the most popular finishing doubles due to its high position and familiarity.  
+- **D16** → Preferred because missing inside still leaves a good option (D8).  
+- **D10, D8** → Used by certain players for its straightforward path if a miss occurs.  
+
+- *Effect:* "A player's ability to finish on their preferred double efficiently can be the difference between winning and losing a match."   
+
+---
+
+### **Rankings vs. Properties**  
+- *Transition:* "Next, let’s look at the influence of different characteristics such as age, nationality, and handedness on rankings. Therefore, we chose the PDC Order of Merit as the underlaying ranking."  
+  
+First chart:
+
+- "Distribution of different age groups across ranking positions over the years."
+
+- "Most players in top ranking positions were between 30-40 or between 50-60 years old."
+
+- "Reason: Players in their 30s have gained significant experience and skill, while those in their 50s may have been in the professional circuit for a long time, showing the longevity of certain players’ careers."
+
+Second chart:
+
+- "Distribution of nationalities."
+
+- "There are many very good English players and the influence of fewer Dutch players, who have been very good for a long time."
+
+- "Generally, darts has many players from Great Britain, and many of them are highly skilled."
+
+- "Reason: The pub culture in the UK plays a big role, as darts is a popular pastime, allowing players to develop their skills from a young age in a competitive yet accessible environment."
+
+Third chart:
+
+- "Distribution of handedness."
+
+- "As expected, there are significantly more right-handed players than left-handed players."
+
+---
+
+### **Player Stats**  
+- *Transition:* "Finally, let’s break down some of the most important statistics that define a player's performance."  
+
+- "First, we see some general information about the player itself."
+
+Player focus: Rob Cross
+
+- "We are focusing on player Rob Cross today because an interesting development can be observed in his performance."
+
+Development of throws and checkout percentage for individual double fields over the years:
+
+- "The player consistently makes the most throws on D16, followed by D20, D18, and D8, which aligns with our expectations based on the double field analysis."
+
+- "Of course, this can vary from player to player, as each player has their own preferences."
+
+- "On the right, we can see that there is always a double field where the checkout percentage is above 45%, which means he can reliably count on it."
+
+Detailed analysis of throw counts and checkout percentage for a specific double field:
+
+- "Here, it is clear that the player notices when the checkout percentage of a double field is no longer as good, which leads to fewer throws on that field."
+
+- "When he starts hitting it more consistently again, the number of throws on that double increases."
+
+Development of the player's average over the years:
+
+- "The graph shows a consistently strong performance of over 96 points, except for a performance drop in 2020 due to the COVID-19 pandemic."
+
+- *Effect:* "By analyzing these stats, coaches and analysts can identify trends in a player's game, helping them improve their weaknesses and maximize their strengths."  
+
+---
+
+### **Conclusion**  
+- "Darts is a game of precision, strategy, and mental strength. Understanding these statistics allows us to see beyond just the scores and appreciate the tactical depth of the game."
+
+- "Thank you for listening. Are there any questions left? Otherwise, here is the link for our website to explore it ourselves."
+
