@@ -1,0 +1,32 @@
+Presentation: Darts
+
+Page: Homepage
+
+Welcome to our website on the topic of darts.
+This is our homepage, where you can find an introduction to the topic, a general description of the game, and explanations of important terms. 
+Tyra has already explained the most important terms to you.
+We have divided the topic into three overlapping categories. We start with the broader context, move on to questions about individual games, and finally, 
+we take a closer look at specific players. For each of these categories, we have formulated three research questions, which you can see here and navigate 
+through using our legend.
+We will not present each research question in detail but will instead give you an overview of the development and characteristics of darts.
+Over time, darts has gained increasing attention and relevance. This is clearly reflected in the growth of participant numbers and prize money.
+
+
+Page: Prize money and Participants
+
+We analyzed the development of prize money and number of participants based on the World Championship, and in both cases, we observed a significant increase. 
+The prize money is aggregated in this chart, allowing us to view the total prize pool. In the chart below, you can also see the distribution of prize money 
+across different ranking positions, which reveals that the top players in the World Championship have experienced a substantial prize money growth over the years.
+We also asked ourselves whether the increasing popularity of darts is reflected in the players' performance.
+
+
+Page: Averages
+
+To investigate this, we examined the evolution of average scores in various tournaments over the years. You can select which tournaments you want to analyze, 
+out of a selection of the major darts tournaments. Additionally, you can choose whether to display a regression line and standard deviation, either for the selected 
+tournaments only or for all tournaments combined.
+The chart currently displays the development of the "World Championship" and "World Matchplay" tournaments, as well as an average across all tournaments and a regression 
+line for all tournaments. Again, we observe an upward trend.
+In summary, darts has become increasingly popular: more people are participating, more prize money is available, and the overall skill level is rising over time. 
+
+Next, we will take a deeper dive and analyze specific characteristics of darts matches.
