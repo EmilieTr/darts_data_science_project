@@ -2,13 +2,13 @@
 
 ### **Introduction**  
 ### **Popular Double Fields**  
-- *Transition:* "Darts is not just about hitting high scores; it is also about finishing efficiently. So, we had also a look at this statistical aspects of darts because that impact the player's performance."
+- *Transition:* "Darts is not just about hitting high scores; it is also about checking out efficiently. So, we also had a look at this statistical aspect of darts because that impacts the player's performance."
 
 First Visualization:
 
 - "This graph shows the distribution of all throws at double fields, indicating which doubles are targeted and hit most frequently."
 
-- "As we se, D20, D16, D8 and D10 are the biggest segments."
+- "As we see, D20, D16, D8 and D10 are the biggest segments."
 
 Second Visualization:
 
@@ -17,10 +17,10 @@ Second Visualization:
 - "A player must finish a leg by hitting a double, so the choice of double is strategic. Some doubles are favored because of their positioning and ease of adjustment if a player misses."  
 
 - **D20** → One of the most popular finishing doubles due to its high position and familiarity.  
-- **D16** → Preferred because missing inside still leaves a good option (D8).  
+- **D16** → Preferred because missing still leaves a good option (D8).  
 - **D10, D8** → Used by certain players for its straightforward path if a miss occurs.  
 
-- *Effect:* "A player's ability to finish on their preferred double efficiently can be the difference between winning and losing a match."   
+- *Effect:* "A player's ability to finish the leg on their preferred double efficiently can be the difference between winning and losing a match."   
 
 ---
 
@@ -60,9 +60,9 @@ Third chart:
 
 Player focus: Rob Cross
 
-- "We are focusing on player Rob Cross today because an interesting development can be observed in his performance."
+- "We are focusing on the player Rob Cross today because of an interesting development that can be observed in his performance."
 
-Development of throws and checkout percentage for individual double fields over the years:
+Development of throws and checkout percentages for individual double fields over the years:
 
 - "The player consistently makes the most throws on D16, followed by D20, D18, and D8, which aligns with our expectations based on the double field analysis."
 
@@ -74,7 +74,7 @@ Detailed analysis of throw counts and checkout percentage for a specific double 
 
 - "Here, it is clear that the player notices when the checkout percentage of a double field is no longer as good, which leads to fewer throws on that field."
 
-- "When he starts hitting it more consistently again, the number of throws on that double increases."
+- "When he starts hitting said double more consistently again, the number of throws on that double increases."
 
 Development of the player's average over the years:
 
