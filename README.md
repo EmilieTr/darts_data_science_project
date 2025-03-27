@@ -32,5 +32,5 @@ This project explores the world of darts through data science, uncovering trends
 
 Hosted with [Streamlit](https://streamlit.io/), for more information see the [Streamlit Documentation](https://docs.streamlit.io/).
 
-All the tools used to develop this website are freely available. Same goes for the data extracted ffrom public websites.
+All the tools used to develop this website are freely available. Same goes for the data extracted from public websites.
 
