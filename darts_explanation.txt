@@ -22,7 +22,7 @@ Players calculate their throws to finish efficiently. The bullseye (50 points) i
 
 Check out percentage:
 - the percentage of times a player successfully finishes a leg when given the opportunity
-- shows a player’s ability to close out legs under pressure
+- shows a player’s ability to finish legs under pressure
 
 Highest Possible Scores:
 - A triple 20 with 60 points (highest single dart score)
