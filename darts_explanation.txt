@@ -20,7 +20,7 @@ This varies depending on the event. The here analysed leg format entails:
 Checkout Strategy & Statistics:
 Players calculate their throws to finish efficiently. The bullseye (50 points) is the highest double field, but not always the most used to finish because it is the smallest one.
 
-heck out percentage:
+Check out percentage:
 - the percentage of times a player successfully finishes a leg when given the opportunity
 - shows a player’s ability to close out legs under pressure
 
