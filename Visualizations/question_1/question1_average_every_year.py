@@ -17,7 +17,7 @@ def plot_average_every_year(order_of_merit_val):
         return name 
 
     # Load averages
-    file_averages = 'Data/Darts_Orakel_Stats/Averages.csv'
+    file_averages = 'Data/Darts_Orakel_Stats/player_averages.csv'
     df_averages = pd.read_csv(file_averages)
 
     # Calculate average stats for each year

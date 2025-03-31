@@ -40,7 +40,7 @@ def plot_comparison_single_team_checkout():
             return None  # Falls das Land nicht gefunden wird
 
     # CSV-Dateien einlesen
-    player_data = pd.read_csv('./Data/Darts_Orakel_Stats/Checkout Pcnt.csv')
+    player_data = pd.read_csv('./Data/Darts_Orakel_Stats/player_checkout.csv')
     country_data = pd.read_csv('./Data/Darts_Orakel_Stats/world_cup_Checkout Pcnt.csv')
 
     # DataFrames für Spieler und Länder erstellen

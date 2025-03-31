@@ -20,7 +20,7 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
 
 
     # Load checkout percentages
-    file_checkout = 'Data/Darts_Orakel_Stats/Checkout Pcnt.csv'
+    file_checkout = 'Data/Darts_Orakel_Stats/player_checkout.csv'
     df_checkout = pd.read_csv(file_checkout)
 
     # Convert Stat to float

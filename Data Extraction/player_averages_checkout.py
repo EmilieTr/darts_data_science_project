@@ -194,11 +194,11 @@ for stat in stats:
         df_combined = pd.concat(dfs, ignore_index=True)  # Reset index
 
         # Define save path
-        save_path = './Data/Darts_Orakel_Stats/' + stat + '_new.csv'
+        save_path = './Data/Darts_Orakel_Stats/player_' + stat + '.csv'
         df_combined.to_csv(save_path, index=False)  # Save the DataFrame (currently commented out)
 
 # Close the browser session
 driver.quit()
 
-# print("Data successfully extracted and saved in './Data/question1_stats.csv'.")
+# print("Data successfully extracted and saved in './Data/player_agerages_checkout.csv'.")
 

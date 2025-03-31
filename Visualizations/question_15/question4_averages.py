@@ -6,7 +6,7 @@ def plot_player_average(player_name):
     """
     Plot the average performance of a player over time."
     """
-    csv_data = "Data/Darts_Orakel_Stats/Averages.csv"
+    csv_data = "Data/Darts_Orakel_Stats/player_averages.csv"
     
     # Read the CSV into a DataFrame
     df = pd.read_csv(csv_data)
