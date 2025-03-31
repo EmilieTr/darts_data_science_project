@@ -21,7 +21,7 @@ def plot_histogram(selected_tournaments):
         return fig
     
     # Load CSV file
-    file = 'Data/question 2/question2.csv'
+    file = 'Data/tournaments_averages.csv'
     df = pd.read_csv(file)
     df.columns = df.columns.str.strip()
 

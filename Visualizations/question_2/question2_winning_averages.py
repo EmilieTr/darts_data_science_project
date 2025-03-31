@@ -58,7 +58,7 @@ def plot_winning_averages(
             extra_tournaments.append(tournament)
 
     # Load CSV file
-    file = 'Data/question 2/question2.csv'
+    file = 'Data/tournaments_averages.csv'
     df = pd.read_csv(file)
 
     # Remove leading spaces from column names

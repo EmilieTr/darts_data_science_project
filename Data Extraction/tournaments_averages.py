@@ -120,7 +120,7 @@ if headers and all_rows:
     # print(df.head())
 
     # Save the DataFrame as a CSV file (currently commented out)
-    # df.to_csv(r'./Data/question 2/question2.csv', index=False)
-    print("Data successfully extracted and saved in './Data/question2.csv'.")
+    # df.to_csv(r'./Data/tournaments_averages.csv', index=False)
+    print("Data successfully extracted and saved in './Data/tournaments_averages.csv'.")
 else:
     print("Error: No valid data found to create the DataFrame.")
