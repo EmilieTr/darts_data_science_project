@@ -10,7 +10,7 @@ def chi_squared():
     """
     # Read CSV file
     df = pd.read_csv(
-        'Visualizations/question_7/question7_table.csv', 
+        'Visualizations/question_7/host_country_nationality_table.csv', 
         index_col=0
     )
 

@@ -1,3 +1,4 @@
+import requests
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -8,20 +9,30 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-# List of major PDC darts tournaments and corresponding table numbers on Wikipedia
-majors = [
-    ("PDC_World_Darts_Championship", 1),
-    ("World_Matchplay", 2),
-    ("World_Grand_Prix_(Darts)", 1),
-    ("Las_Vegas_Desert_Classic", 1),
-    ("Masters_of_Darts", 3),
-    ("US_Open_(Darts)", 4), 
-    ("Grand_Slam_of_Darts", 2),
-    ("Players_Championship_Finals", 2),
-    ("World_Cup_of_Darts", 1),
-    ("World_Masters_(PDC)", 1),
-    ("World_Series_of_Darts_Finals", 3),
-    ("Champions_League_of_Darts", 2)
+# List of major European darts tournaments
+tournaments = [
+    "Austrian Darts Championship",
+    "Austrian Darts Open",
+    "Baltic Sea Darts Open", 
+    "Belgian Darts Championship",	
+    "Belgian Darts Open",
+    "Czech Darts Open",
+    "Danish Darts Open",
+    "Dutch Darts Championship",
+    "Dutch Darts Masters",	
+    "European Darts Grand Prix",
+    "European Darts Matchplay",
+    "European Darts Open",
+    "European Darts Trophy",
+    "Flanders Darts Trophy",
+    "German Darts Championship",
+    "German Darts Grand Prix",
+    "German Darts Masters",	
+    "German Darts Open",
+    "Gibraltar Darts Trophy",
+    "Hungarian Darts Trophy",
+    "International Darts Open",
+    "Swiss Darts Trophy"
 ]
 
 df_list = []  # List to store extracted DataFrames
@@ -78,11 +89,18 @@ def get_whole_tables(url, tables_number):
 
 # Dictionary to store winners and their nationalities
 nationalities = {}
+tables_number = 2  # Default table number to extract
 
 # Iterate through each tournament
-for tournament, tables_number in majors:
+for tournament in tournaments:
+    # Some tournaments have a different table structure
+    if tournament == "German Darts Masters":
+        tables_number = 1
+    else:
+        tables_number = 2
+    
     # Construct the Wikipedia URL for the tournament
-    url = "https://de.wikipedia.org/wiki/" + tournament
+    url = "https://de.wikipedia.org/wiki/" + tournament.replace(" ", "_")
     
     # Extract the tournament table from Wikipedia
     df = get_whole_tables(url, tables_number)
@@ -104,7 +122,7 @@ for tournament, tables_number in majors:
     # Iterate through each row to extract relevant data
     for row in rows:
         cells = row.find_elements(By.TAG_NAME, "td")
-
+        
         # Ensure the row has enough data columns
         if len(cells) >= 3:
             # Check if the second span inside the second td element has the class
@@ -118,7 +136,7 @@ for tournament, tables_number in majors:
                 sieger = cells[2]
             
             winner = sieger.text.strip()  # Extract the winner's name
-
+            
             # If winner is not already in the dictionary, fetch nationality
             if winner not in nationalities:
                 try:
@@ -126,7 +144,7 @@ for tournament, tables_number in majors:
                     winner_link = sieger.find_element(
                         By.TAG_NAME, "a"
                     ).get_attribute("href")
-                    
+
                     # Open the winner's Wikipedia page
                     driver.get(winner_link)
                     time.sleep(2)
@@ -150,8 +168,8 @@ for tournament, tables_number in majors:
     # Add nationality column to the DataFrame
     df['Nationalität'] = df['Sieger'].map(nationalities)
     
-    # Add tournament name column (replace underscores with spaces for readability)
-    df['Tournament'] = tournament.replace("_", " ")
+    # Add tournament name column
+    df['Tournament'] = tournament
     
     # Append DataFrame to the list
     df_list.append(df)
@@ -163,6 +181,6 @@ final_df = pd.concat(df_list, ignore_index=True)
 driver.quit()
 
 # Save the extracted data to a CSV file (currently commented out)
-# final_df.to_csv("./Data/question 7/question7_majors.csv", index=False, encoding="utf-8")
+# final_df.to_csv("./Data/host_country_nationality/host_country_nationality_european_tour.csv", index=False, encoding="utf-8")
 
-print("CSV file has been successfully saved!")
+# print("CSV file has been successfully saved!")

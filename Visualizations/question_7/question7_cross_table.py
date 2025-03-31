@@ -2,7 +2,7 @@ import pandas as pd
 from question7_countries_of_venues import countries_of_venues
 
 df = pd.read_csv(
-    "Visualizations/question_7/question7_countries_to_venues.csv"
+    "Visualizations/question_7/host_country_nationality_countries_to_venues.csv"
 )
 
 # Cross-tabulation of host countries and winner nationalities
@@ -18,6 +18,6 @@ print(cross_tab.to_string())
 
 # Save cross table to CSV
 cross_tab.to_csv(
-    "Visualizations/question_7/question7_table.csv",
+    "Visualizations/question_7/host_country_nationality_table.csv",
     index=True
 )

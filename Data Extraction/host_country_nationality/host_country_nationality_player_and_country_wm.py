@@ -69,7 +69,7 @@ df = pd.DataFrame(winners_and_nationalities, columns=["Winner", "Nationality"])
 
 # Save to CSV file (currently commented out)
 # df.to_csv(
-#     "./Data/question 7/question7_player_and_country_wm.csv", 
+#     "./Data/host_country_nationality/host_country_nationality_player_and_country_wm.csv", 
 #     index=False, 
 #     encoding="utf-8"
 # )

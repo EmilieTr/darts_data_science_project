@@ -8,8 +8,8 @@ def countries_of_venues():
     Saves the processed data to a new CSV file.
     """
     # Read CSV files
-    df1 = pd.read_csv("./Data/question 7/question7_majors.csv")
-    df2 = pd.read_csv("./Data/question 7/question7_european_tour.csv")
+    df1 = pd.read_csv("./Data/host_country_nationality/host_country_nationality_majors.csv")
+    df2 = pd.read_csv("./Data/host_country_nationality/host_country_nationality_european_tour.csv")
 
     df = pd.concat([df1, df2], ignore_index=True)
 
@@ -42,7 +42,7 @@ def countries_of_venues():
     time.sleep(1)
     
     df.to_csv(
-        "Visualizations/question_7/question7_countries_to_venues.csv",
+        "Visualizations/question_7/host_country_nationality_countries_to_venues.csv",
         index=True
     )
 
