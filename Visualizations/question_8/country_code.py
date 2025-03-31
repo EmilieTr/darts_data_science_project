@@ -2,7 +2,7 @@ import pycountry
 import csv
 
 # Define file path
-file_path = "Data/question 8/question8.csv"
+file_path = "Data/alpha_3_code.csv"
 
 try:
     # Create and write country codes to CSV file

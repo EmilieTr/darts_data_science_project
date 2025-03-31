@@ -15,6 +15,6 @@ merged_df = pd.concat([df1, df2]).drop_duplicates(subset=['Player', 'Year'])
 merged_df = merged_df.sort_values(by=['Year', 'Rank'], ascending=[True, True])
 
 # Das Ergebnis in einer neuen CSV-Datei speichern
-merged_df.to_csv("Data/Darts_Orakel_Stats/player_averages.csv", index=False)
+merged_df.to_csv("Data/Darts_Orakel_Stats/merged_file.csv", index=False)
 
 print("Die Vereinigung der Dateien wurde erfolgreich in 'merged_file.csv' gespeichert und aufsteigend sortiert.")

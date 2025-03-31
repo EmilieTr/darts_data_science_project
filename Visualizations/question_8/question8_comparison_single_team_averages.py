@@ -40,7 +40,7 @@ def plot_comparison_single_team_averages():
 
     # CSV-Dateien einlesen
     player_data = pd.read_csv('./Data/Darts_Orakel_Stats/player_averages.csv')
-    country_data = pd.read_csv('./Data/Darts_Orakel_Stats/world_cup_Averages.csv')
+    country_data = pd.read_csv('./Data/Darts_Orakel_Stats/world_cup_averages.csv')
 
     # DataFrames für Spieler und Länder erstellen
     players_df = country_data[country_data['Country'].notna()]  # Nur Spieler
