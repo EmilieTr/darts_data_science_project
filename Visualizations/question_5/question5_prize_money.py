@@ -16,7 +16,7 @@ def plot_prize_money():
 
 
     # Load CSV file
-    file = 'Data/question 5/question5.csv'
+    file = 'Data/prize_money_participants_wc.csv'
     df = pd.read_csv(file)
 
     # Define prize money columns

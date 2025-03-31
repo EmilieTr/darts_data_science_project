@@ -86,4 +86,4 @@ df = pd.DataFrame(data)
 # print(df.head())
 
 # saving as a csv file
-# df.to_csv("./Data/question 5/question5.csv", index=False)
+# df.to_csv("./Data/prize_money_participants_wc.csv", index=False)

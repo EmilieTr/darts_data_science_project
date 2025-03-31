@@ -12,7 +12,7 @@ def plot_participants():
     Create a line plot showing the development of participants over years."
     """
     # Load CSV file
-    file = 'Data/question 5/question5.csv'
+    file = 'Data/prize_money_participants_wc.csv'
     df = pd.read_csv(file)
 
     # Group participant data by year
