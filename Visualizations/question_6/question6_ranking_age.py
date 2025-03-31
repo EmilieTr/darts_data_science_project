@@ -141,7 +141,7 @@ def plot_ranking_age(var, variant):
             list_player.append(format_name(name))
 
         # Extracting age of players on list_player
-        file_players = 'Data/question 6/male_players.csv'
+        file_players = 'Data/player_data/male_players.csv'
         df = pd.read_csv(file_players)
         df = convert_names_to_lowercase(df)
         df_players = pd.DataFrame(columns=['Name', 'Age'])

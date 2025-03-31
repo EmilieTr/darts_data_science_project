@@ -37,7 +37,7 @@ def question15_web():
     selected_player = st.selectbox("Select a Player", players)
     
     # Retrieve player data
-    csv_file = "Data/question 6/male_players.csv"
+    csv_file = "Data/player_data/male_players.csv"
     df = pd.read_csv(csv_file)
     df.fillna("No information", inplace=True)
     

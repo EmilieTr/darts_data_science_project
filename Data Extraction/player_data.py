@@ -190,5 +190,5 @@ dferror = pd.DataFrame(error_list)
 # df_error.to_csv("./Data/players/error_male_players2.csv", index=False)
 
 # For women players
-# df.to_csv("./Data/question 6/woman_players.csv", index=False)
-# df_error.to_csv("./Data/question 6/error_woman_players.csv", index=False)
+# df.to_csv("./Data/player_data/woman_players.csv", index=False)
+# df_error.to_csv("./Data/player_data/error_woman_players.csv", index=False)

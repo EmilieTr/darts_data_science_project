@@ -118,7 +118,7 @@ def plot_ranking_nationality(var, variant):
             list_player.append(format_name(name))
         
         # Load player nationality data
-        file_players = 'Data/question 6/male_players.csv'
+        file_players = 'Data/player_data/male_players.csv'
         df = pd.read_csv(file_players)
         df = convert_names_to_lowercase(df)
         df_players = pd.DataFrame(columns=['Name', 'Nationality'])
