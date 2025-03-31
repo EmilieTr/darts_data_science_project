@@ -17,7 +17,7 @@ def plot_checkout_every_year(order_of_merit_val):
         return name 
     
     # Load checkout percentages
-    file_checkout = 'Data/Darts_Orakel_Stats/player_checkout.csv'
+    file_checkout = 'Data/darts_orakel_stats/player_checkout.csv'
     df_checkout = pd.read_csv(file_checkout)
 
     # Calculate checkout percentages for each year

@@ -194,7 +194,7 @@ for stat in stats:
         df_combined = pd.concat(dfs, ignore_index=True)  # Reset index
 
         # Define save path
-        save_path = './Data/Darts_Orakel_Stats/player_' + stat + '.csv'
+        save_path = './Data/darts_orakel_stats/player_' + stat + '.csv'
         df_combined.to_csv(save_path, index=False)  # Save the DataFrame (currently commented out)
 
 # Close the browser session

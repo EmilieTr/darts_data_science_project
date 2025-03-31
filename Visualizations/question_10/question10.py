@@ -3,7 +3,7 @@ import glob
 import os
 
 # Path to the folder containing CSV files
-folder_path = "Data/Flashcore/"
+folder_path = "Data/flashcore/"
 output_file = "Visualizations/question_10/180_stats.csv"
 
 # Find all CSV files

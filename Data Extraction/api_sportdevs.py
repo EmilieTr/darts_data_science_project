@@ -16,6 +16,6 @@ for url in urls:
     # If data contains a list of dictionaries (e.g. [{"name": "A", "value": 10}, ...])
     df = pd.DataFrame(data)
     # df = pd.concat(response, ignore_index=True)
-    df.to_csv("./Data/API_sportdevs/" + url + ".csv", index=False, encoding="utf-8")
+    df.to_csv("./Data/api_sportdevs/" + url + ".csv", index=False, encoding="utf-8")
 
 # print(response.text)

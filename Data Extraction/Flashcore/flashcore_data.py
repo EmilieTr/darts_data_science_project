@@ -130,6 +130,6 @@ for tournament, urls in data.items():
 
         # Save extracted data as a CSV file
         df.to_csv(
-            './Data/Flashcore/' + tournament.replace(" ", "_") + '.csv', 
+            './Data/flashcore/' + tournament.replace(" ", "_") + '.csv', 
             index=False
         )

@@ -38,8 +38,8 @@ def plot_comparison_single_team():
             return None  # Falls das Land nicht gefunden wird
 
     # CSV-Dateien einlesen
-    player_data = pd.read_csv('./Data/Darts_Orakel_Stats/player_checkout.csv')
-    country_data = pd.read_csv('./Data/Darts_Orakel_Stats/world_cup_checkout.csv')
+    player_data = pd.read_csv('./Data/darts_orakel_stats/player_checkout.csv')
+    country_data = pd.read_csv('./Data/darts_orakel_stats/world_cup_checkout.csv')
 
     # DataFrames für Spieler und Länder erstellen
     players_df = country_data[country_data['Country'].notna()]  # Nur Spieler

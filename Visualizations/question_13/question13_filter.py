@@ -3,7 +3,7 @@ import glob
 import os
 
 # Path to the folder with CSV files
-folder_path = "Data/Flashcore/"  # Replace with your actual folder path
+folder_path = "Data/flashcore/"  # Replace with your actual folder path
 
 # Find all CSV files in the folder
 csv_files = glob.glob(os.path.join(folder_path, "*.csv"))

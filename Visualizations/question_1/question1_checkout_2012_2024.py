@@ -32,7 +32,7 @@ def plot_checkout_2012_2024(ranking_position):
     ]
 
     # Load check out percentages
-    file_averages = 'Data/Darts_Orakel_Stats/player_checkout.csv'
+    file_averages = 'Data/darts_orakel_stats/player_checkout.csv'
     df_averages = pd.read_csv(file_averages)
 
     # Convert Stat to float

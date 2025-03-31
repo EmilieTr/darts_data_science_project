@@ -180,11 +180,11 @@ for stat in stats:
     if dfs:
         df_combined = pd.concat(dfs, ignore_index=True)
         
-        save_path = './Data/Darts_Orakel_Stats/world_cup_' + stat + '.csv'
+        save_path = './Data/darts_orakel_stats/world_cup_' + stat + '.csv'
         df_combined.to_csv(save_path, index=False)
 
 # Close the WebDriver
 driver.quit()
 
-# print("Data successfully extracted and saved in './Data/Darts_Orakel_Stats/world_cups_stat.csv'.")
+# print("Data successfully extracted and saved in './Data/darts_orakel_stats/world_cups_stat.csv'.")
 
