@@ -8,7 +8,7 @@ def plot_double_fields_player(player):
     Create a chart showing a player's throws and checkout percentage over years.
     """
     # Read CSV data
-    csv_data = "./Data/question 4/question4_doubles.csv"
+    csv_data = "./Data/doubles_checkout.csv"
     df = pd.read_csv(csv_data)
 
     # Filter for the specific player

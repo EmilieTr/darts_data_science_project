@@ -147,6 +147,6 @@ driver.quit()
 df_combined = pd.concat(dfs, ignore_index=True)  # Reset index
 
 # Save the DataFrame as a CSV file (commented out in the original code)
-# df_combined.to_csv(r'./Data/question 4/question4_doubles.csv', index=False)
+# df_combined.to_csv(r'./Data/doubles_checkout.csv', index=False)
 
 # print("Data successfully extracted and saved in './Data/question1_doubles.csv'.")

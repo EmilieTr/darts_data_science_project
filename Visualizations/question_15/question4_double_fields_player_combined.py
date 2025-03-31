@@ -7,7 +7,7 @@ def plot_double_fields_player_combined(player, double):
     Create a combined visualization of throws and checkout percentage."
     """
     # Load CSV file
-    csv_data_checkout = "./Data/question 4/question4_doubles.csv"
+    csv_data_checkout = "./Data/doubles_checkout.csv"
     df_checkout = pd.read_csv(csv_data_checkout)
 
     # Prepare data

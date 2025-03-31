@@ -8,7 +8,7 @@ def plot_distribution_double_fields():
     Create a visualization of throws and hits on double fields."
     """
     # Read CSV file
-    csv_data = "./Data/question 4/question4_doubles.csv"
+    csv_data = "./Data/doubles_checkout.csv"
     df = pd.read_csv(csv_data)
 
     # Create a new column with total throws per player
