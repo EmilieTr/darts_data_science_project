@@ -51,7 +51,6 @@ def home():
         unsafe_allow_html=True
     )
     
-    
     # Subtopics
     st.markdown(
         f'<div class="box"><b>Tournaments</b> <hr> {question_2} <br> '
