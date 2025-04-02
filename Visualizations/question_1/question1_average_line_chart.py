@@ -19,7 +19,7 @@ def plot_average_line_chart(ranking_position, list_of_years):
 
 
     # Load averages
-    file_averages = 'Data/darts_orakel_stats/player_averages.csv'
+    file_averages = 'Data/Darts_Orakel_Stats/player_averages.csv'
     df_averages = pd.read_csv(file_averages)
 
     # Convert Stat to float
