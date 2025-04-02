@@ -6,7 +6,14 @@ import time
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils import get_driver
 
-from utils_Darts_Orakel import set_date, extract_table, navigate_next_page, get_max_pages, get_stats, set_stat
+from utils_Darts_Orakel import (
+    set_date, 
+    extract_table, 
+    navigate_next_page, 
+    get_max_pages, 
+    get_stats, 
+    set_stat
+)
 
 
 def main():
@@ -19,8 +26,8 @@ def main():
 
     # Define column headers for the extracted data
     headers = ["Rank", "Player", "Country", "Stat"]
-    dfs = []  # List to store DataFrames
-    page_number = 1  # Page counter
+    dfs = []
+    page_number = 1
 
     # Extract all available statistic categories from the dropdown menu
     stats = get_stats(driver)
@@ -31,7 +38,7 @@ def main():
              2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 
              2022, 2023, 2024]
 
-    previous_stat = 'Functional doubles pcnt'  # Store the last selected statistic
+    previous_stat = 'Functional doubles pcnt'
 
     # Iterate over all statistics and years
     for stat in stats:
@@ -62,9 +69,9 @@ def main():
                 if page_rows:
                     # Convert extracted data to a DataFrame
                     df = pd.DataFrame(page_rows, columns=headers)
-                    df["Stat Category"] = stat  # Add statistic category as a column
-                    df["Year"] = year  # Add year as a column
-                    dfs.append(df)  # Store the DataFrame
+                    df["Stat Category"] = stat
+                    df["Year"] = year
+                    dfs.append(df)
                 
                 # Navigate to the next page
                 if not navigate_next_page(driver, page_number):
@@ -75,9 +82,9 @@ def main():
 
         # Combine all DataFrames into one
         if dfs:
-            df_combined = pd.concat(dfs, ignore_index=True)  # Reset index
+            df_combined = pd.concat(dfs, ignore_index=True)
             save_path = f'./Data/darts_orakel_stats/player_{stat}.csv'
-            df_combined.to_csv(save_path, index=False)  # Save the DataFrame
+            df_combined.to_csv(save_path, index=False)
 
     # Close the browser session
     driver.quit()

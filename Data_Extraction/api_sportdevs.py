@@ -17,7 +17,9 @@ def save_data_to_csv(df: pd.DataFrame, filename: str):
     df.to_csv(filename, index=False, encoding="utf-8")
 
 def main():
-    urls = ["leagues", "tournaments", "countries", "teams", "matches", "arenas", "seasons", "standings"]
+    urls = ["leagues", "tournaments", "countries", 
+            "teams", "matches", "arenas", "seasons", "standings"
+        ]
     payload = {}
     headers = {
         'Authorization': 'Bearer YZfp_fpMoE2iKvzjA4djJg'

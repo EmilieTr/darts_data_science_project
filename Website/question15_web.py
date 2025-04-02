@@ -90,7 +90,7 @@ def question15_web():
         st.write(first_graph_15)
     
     st.markdown("---")
-    double_fields = [f"D{i}" for i in range(1, 21)] + ["D25"]  # Double fields
+    double_fields = [f"D{i}" for i in range(1, 21)] + ["D25"]
     selected_double = st.selectbox(
         "Select a Double Field", 
         double_fields, 

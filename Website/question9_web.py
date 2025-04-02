@@ -19,7 +19,7 @@ def question9_web():
     st.dataframe(df)
     st.write(first_description_9)
 
-    with st.expander("Interpretaion and critical evaluation"):
+    with st.expander("Interpretation and critical evaluation"):
         st.write(first_graph_9)
 
     fig = plot_histogram("Probability (%)")

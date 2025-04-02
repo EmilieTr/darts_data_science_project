@@ -9,8 +9,10 @@ from utils import get_driver
 from utils_Darts_Orakel import extract_table, navigate_next_page
 
 
-# Main function to control the scraping process
 def main():
+    """
+    Main function.
+    """
     driver = get_driver()
 
     # URL of the events page
@@ -39,10 +41,10 @@ def main():
 
         # Try clicking the "Next" button to go to the next page
         if not navigate_next_page(driver, page_number):
-            break  # Exit the loop if the next page button is unavailable
+            break
 
-        page_number += 1  # Increase page count
-        time.sleep(2)  # Wait to ensure the new page loads properly
+        page_number += 1
+        time.sleep(2)
 
     # Close the WebDriver session
     driver.quit()

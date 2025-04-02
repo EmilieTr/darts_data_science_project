@@ -29,7 +29,9 @@ def format_name(full_name):
 
 
 def extract_name(txt):
-    """Extract name from text containing additional information."""
+    """
+    Extract name from text containing additional information.
+    """
     x = 0
     y = 0
     name_list = []
@@ -59,7 +61,9 @@ def extract_name(txt):
 
 
 def get_player_names(url):
-    """Get list of all player names from the website."""
+    """
+    Get list of all player names from the website.
+    """
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -86,7 +90,9 @@ def get_player_names(url):
 
 
 def create_url_name(lst):
-    """Format name for URL construction."""
+    """
+    Format name for URL construction.
+    """
     name = ''
     new_list = lst[:-1]
     for i in new_list:
@@ -95,22 +101,24 @@ def create_url_name(lst):
 
 
 def extract_player_info(text, pattern):
-    """Extract player information based on the provided patterns."""
+    """
+    Extract player information based on the provided patterns.
+    """
     data = {}
 
     for key, search_string in pattern.items():
         start_index = text.find(search_string)
         
         if start_index != -1:
-            start_index += len(search_string)  # Start after the search string
-            end_index = text.find("\n", start_index)  # Find the end of the line
+            start_index += len(search_string)
+            end_index = text.find("\n", start_index)
             
             if end_index == -1:
-                end_index = len(text)  # If no newline, read until the end
+                end_index = len(text)
             
             data[key] = text[start_index:end_index].strip()
         else:
-            data[key] = None  # If not found, assign None
+            data[key] = None
 
     return data
 
@@ -161,7 +169,9 @@ def main():
                         player_data = extract_player_info(text, pattern)
                         
                         # Replace "-" with None
-                        player_data = {key: (None if value == "-" else value) for key, value in player_data.items()}
+                        player_data = {key: (None if value == "-" else value) for key, 
+                                       value in player_data.items()
+                                    }
 
                         # Add player name to the data
                         player_data['Name'] = real_name
@@ -171,7 +181,7 @@ def main():
                         data_list.append(player_data)
                 else: 
                     facts = facts.find_next('h2')
-        else:  # If website is not found, add player to error list
+        else:
             error = {}
             error['player'] = name
             error['error'] = {response.status_code}

@@ -32,9 +32,9 @@ def main():
 
     # Define column headers for the extracted data
     headers = ["Rank", "Player", "Country", "Hit", "Single", "Outside", "Other", "Pcnt"]
-    dfs = []  # List to store DataFrames
-    max_pages = 6  # Maximum number of pages to navigate per selection
-    years = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]  # Define the years to be analyzed
+    dfs = []
+    max_pages = 6
+    years = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
 
     # Extract all available double types from the dropdown menu
     doubles = get_doubles(driver)
@@ -52,14 +52,17 @@ def main():
             # Select the double type from the dropdown menu
             dropdown = driver.find_element(By.XPATH, "//select[@name='doubleKey']")
             dropdown.click()
-            time.sleep(2)  # Short delay to ensure options are visible
-            doubles_option = driver.find_element(By.XPATH, f"//select[@name='doubleKey']/option[text()='{double}']")
-            doubles_option.click()  # Select the option
+            time.sleep(2)
+            doubles_option = driver.find_element(
+                By.XPATH, f"//select[@name='doubleKey']/option[text()='{double}']"
+            )
+            doubles_option.click()
 
             # Wait for the page to update with new data
             time.sleep(2)
 
-            page_number = 1  # Reset page counter for the current year-double combination
+            # Reset page counter for the current year-double combination
+            page_number = 1
 
             # Loop through pages of data
             while page_number <= max_pages:

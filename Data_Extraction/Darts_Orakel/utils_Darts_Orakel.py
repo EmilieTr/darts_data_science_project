@@ -11,7 +11,7 @@ def set_date(driver, date_field, new_date):
     date = driver.find_element(By.XPATH, f"//input[@name='{date_field}']")
     driver.execute_script("arguments[0].value = arguments[1];", date, new_date)
     driver.execute_script("arguments[0].dispatchEvent(new Event('change'));", date)
-    time.sleep(2)  # Wait for the page to update with new data
+    time.sleep(2)
     
 def get_soup(driver):
     """
@@ -67,14 +67,18 @@ def get_years(driver):
 
     return years
 
-# Function to select a year from the dropdown
+
 def select_year(driver, year):
+    """
+    Select a year  from the dropdown.
+    """
     dropdown = driver.find_element(By.XPATH, "//select[@name='year']")
-    dropdown.click()  # Open the dropdown menu
-    time.sleep(2)  # Short delay to ensure options are displayed
+    dropdown.click()
+    time.sleep(2)
     year_option = driver.find_element(By.XPATH, f"//select[@name='year']/option[text()='{year}']")
-    year_option.click()  # Select the specific year
-    time.sleep(2)  # Wait for the page to load after selection
+    year_option.click()
+    time.sleep(2)
+
     
 def get_max_pages(driver):
     """
@@ -90,8 +94,11 @@ def get_max_pages(driver):
 
     return int(max_pages)
 
-# Function to extract the available stats from the dropdown
+
 def get_stats(driver):
+    """
+    Extract the available stats from the dropdown.
+    """
     stats = []
     dropdown = driver.find_element(By.XPATH, "//select[@name='rankKey']")
     options = dropdown.find_elements(By.TAG_NAME, 'option')
@@ -100,8 +107,10 @@ def get_stats(driver):
     return stats
 
 
-# Function to select a stat from the dropdown
 def set_stat(stat, driver):
+    """
+    Select a stat from the dropdown.
+    """
     dropdown = driver.find_element(By.XPATH, "//select[@name='rankKey']")
     dropdown.click()
     time.sleep(2)

@@ -3,7 +3,9 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 def extract_prize_money(soup, value):
-    """Extract the prize money for a specific placement."""
+    """
+    Extract the prize money for a specific placement.
+    """
     prize_money_section = soup.find(
         'div', 
         {'class': 'col-span-5 font-medium'}
@@ -20,7 +22,9 @@ def extract_prize_money(soup, value):
     return None
 
 def fetch_world_championship_data(year):
-    """Fetch data for a specific year of the PDC World Championship."""
+    """
+    Fetch data for a specific year of the PDC World Championship.
+    """
     values = {"Year": str(year)}
 
     # URL of the website for the tournament year
@@ -77,6 +81,9 @@ def fetch_world_championship_data(year):
 
 
 def main():
+    """
+    Main function.
+    """
     # List for storing all data
     data = []
 
