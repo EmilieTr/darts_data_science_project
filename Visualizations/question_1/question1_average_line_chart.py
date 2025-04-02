@@ -17,7 +17,23 @@ def plot_average_line_chart(ranking_position, list_of_years):
             return f"{first_name} {surname}"
         return name
 
-
+    if not list_of_years:
+        fig = go.Figure()
+        fig.update_layout(
+        title="Development of Averages by Order of Merit Rank",
+        xaxis_title="Order of Merit Rank",
+        yaxis_title="Average",
+        xaxis=dict(tickmode='linear', dtick=1), 
+        legend_title="Year",
+        legend=dict(
+            title="Year",
+            x=1.1,
+            y=0.95,
+            traceorder="normal",
+            font=dict(size=12),
+            )
+        )
+        return fig
     # Load averages
     file_averages = 'Data/Darts_Orakel_Stats/player_averages.csv'
     df_averages = pd.read_csv(file_averages)

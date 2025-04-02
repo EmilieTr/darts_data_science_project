@@ -18,7 +18,24 @@ def plot_checkout_line_chart(ranking_position, list_of_years):
             return f"{first_name} {surname}"
         return name
 
-
+    if not list_of_years:
+        fig = go.Figure()
+        fig.update_layout(
+        title="Development of Checkout Percentages by Order of Merit Rank",
+        xaxis_title="Order of Merit Rank",
+        yaxis_title="Checkout Percentage (%)",
+        yaxis_tickformat=".0%",
+        xaxis=dict(tickmode='linear', dtick=1),  
+        legend_title="Year",
+        legend=dict(
+            title="Year",
+            x=1.1,
+            y=0.95,
+            traceorder="normal",
+            font=dict(size=12),
+            )
+        )
+        return fig
     # Load checkout percentages
     file_checkout = 'Data/Darts_Orakel_Stats/player_checkout.csv'
     df_checkout = pd.read_csv(file_checkout)
